@@ -12,17 +12,16 @@
 																<div class="row">
 																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
 																								<h1 class="top-pad-sm">
-																													Identify the right leads
+Capitalize on opportunities to convert 
 																								</h1>
 																				</div>
 																</div>
 																<div class="row justify-content-center">
 																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
 																								<p>
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																	Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
 																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.</p>
+																			The challenge at this stage is identifying those opportunities and knowing when you have the best odds of being heard.</p>
 																				</div>
 																</div>
 												</div>
@@ -36,13 +35,11 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<div class="quote top-pad-xl">"A new model is emerging on the sales landscape"</div>
-																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
-																																				</p>
-																																				<p>
-																																								In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																																				</p>
+																																				<div class="quote top-pad-xl">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
+<br>
+Steve Mordue, Microsoft Business Applications MVP https://www.linkedin.com/in/stevenmordue
+																																				</div>
+																													
 																																</div>
 																												</div>
 																								</div>
@@ -57,13 +54,11 @@
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
-																												Identifying key decision makers</h2>
+																												Understanding your buyers’ pains, challenges, goals, and needs</h2>
 																								<p class="top-pad-sm">
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																											You’ve undoubtedly heard the infamous statistic that claims most buyers are nearly 70% of the way to a buying decision before they engage a salesperson. It’s a tough sell when your customers have already researched the competition and are on the tail end of their purchase decision
 																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																								</p>
+																	
 																				</div>
 																</div>
 												</div>
@@ -81,10 +76,10 @@
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																																				Contrary to popular belief, buyers don’t want to do all the work themselves. Although it might be true that buyers aren’t likely to depend on sellers for all the information they need to make a decision, that doesn’t mean they don’t welcome your educated advice. With valuable insights around company growth, recent news articles, and trends, you’ll be in a better position to understand each customer’s current needs and mindset and where they are in the buying cycle
 																																				</p>
 																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																	Relationship selling focuses on the person, not the sale. Armed with this relevant data, you can address real customer concerns and offer recommendations and insights to begin building trust.
 																																				</p>
 																																</div>
 																												</div>
@@ -94,9 +89,16 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<div class="white-text-block">white text block</div>
-																																				<div class="mint-text-block">mint text block</div>
-																																				<div class="underline-text-block">underline text block</div>
+																																				<div class="mint-text-block">
+																																	<span style="font-size:100px;">96%</span>
+																																				</div>
+																																<div class="white-text-block">
+																													believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
+																																				</div>
+																												
+																																				<div class="underline-text-block">
+																												Heinz Marketing
+																																				</div>
 																																</div>
 																												</div>
 																								</div>
@@ -110,13 +112,11 @@
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
-																												Identifying key decision makers</h2>
+																												Knowing when your connections are most receptiv</h2>
 																								<p class="top-pad-sm">
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																									There will be times when buyers are just too focused on other objectives to listen. Bombarding them with information or requests will only serve to push them further away, weakening the relationship you’ve worked hard to build.
 																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																								</p>
+																				
 																				</div>
 																</div>
 												</div>
@@ -136,11 +136,12 @@
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																											Evaluate each customer relationship. Build a health profile from data based on transactions, customer sentiment, emails and content exchanges, and frequency and level of customer interactions from CRM, email, and social networks. Predictive analytics doesn’t just allow you to determine where new business opportunities lie. It also uncovers potential risks for each account—like reaching out during a prospect’s busiest week—so you know which contacts to reach out to, and how. With a clear picture of each sales relationship, you can proactively focus on those who need your attention and give space to those who don’t.
 																																				</p>
 																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																					Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																				</p>
+																																		
 																																</div>
 																												</div>
 																								</div>
@@ -152,16 +153,19 @@
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Ready to catapult your sales career?
 																				</h2>
 																								<p class="size-md">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																									<a href="">
+See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
+																									</a>
 																							</p>
+																					
 																</div>
 												</div>
 												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Try out Dynamics 365 for Sales</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
 								</section>
 				</div>

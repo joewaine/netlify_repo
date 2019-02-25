@@ -22,8 +22,17 @@
 																																Imagine having a relationship with each of your customers—a relationship that’s built on trust.
 																												</p>
 																												<p>
-																																If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
+																													If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line? If you could provide every new prospect with relevant, useful insights that would make them more successful, how would your sales goals change?
 																												</p>
+																												<p>
+																													A new model is emerging on the sales landscape. The entire process looks vastly different from how it looked just a few years ago. Although that’s partly because of constantly evolving tools and technologies, the greater difference is in the mindsets of buyers. Understanding that mindset and catering to it is what catapults a successful seller into rock-star seller status.
+																												</p>
+				<!-- 																								<p>
+																													While this shift brings new possibilities, every stage of the selling process is also rife with new challenges. Greater access means more noise. Countless resources make it difficult to bring real value. These are just a few of the challenges you’re most likely experiencing as a seller today. As the landscape shifts, you can stay ahead by adopting a relationship selling mindset.
+																												</p>
+																												<p>
+																													Relationship selling refers to the process of building long-term relationships with your customers—relationships that will lead to future sales. It requires rethinking the way you communicate as a seller—not just the tools used, but the way you use those tools to reach out, engage, and develop deeper connections
+																												</p> -->
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>

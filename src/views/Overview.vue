@@ -152,16 +152,19 @@
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Ready to catapult your sales career?
 																				</h2>
 																								<p class="size-md">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																									<a href="">
+See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
+																									</a>
 																							</p>
+																					
 																</div>
 												</div>
 												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Try out Dynamics 365 for Sales</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
 								</section>
 				</div>

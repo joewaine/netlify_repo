@@ -12,17 +12,18 @@
 																<div class="row">
 																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
 																								<h1 class="top-pad-sm">
-																													Identify the right leads
+Deliver relationship sales at scale
 																								</h1>
 																				</div>
 																</div>
 																<div class="row justify-content-center">
 																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
 																								<p>
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																							You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
 																								</p>
 																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.</p>
+Meaningful relationships that last are those that are continually nurtured. Nurturing a few relationships is manageable, but nurturing dozens is more time-consuming. Successfully finding and engaging with the right buyers isn’t enough. <span class="bold">Your relationships also need to be sustainable and scalable, and that presents a few core challenges.</span>
+																											</p>
 																				</div>
 																</div>
 												</div>
@@ -34,7 +35,6 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																
 																																</div>
 																												</div>
 																								</div>
@@ -43,9 +43,31 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<div class="white-text-block">white text block</div>
-																																				<div class="mint-text-block">mint text block</div>
-																																				<div class="underline-text-block">underline text block</div>
+
+																																<div class="white-text-block">
+					What contributes most to a sales organization's success according to sales leaders?
+																																				</div>
+																												
+
+<div>
+	
+graphic here
+
+<br>
+
+
+
+<ul>
+<li>sales force automation</li>
+<li>configure, price, and quote application</li>
+<li>B2B data management solutions</li>
+</ul>
+
+</div>
+
+																																				<div class="underline-text-block">
+																		Forester Consulting attribution
+																																				</div>
 																																</div>
 																												</div>
 																								</div>
@@ -59,13 +81,11 @@
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
-																												Identifying key decision makers</h2>
+																												Engaging with dozens of stakeholders across the entire sales book</h2>
 																								<p class="top-pad-sm">
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																			Engaging with large numbers of stakeholders can quickly become overwhelming, especially when you’re working with multiple companies.
 																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																								</p>
+																							
 																				</div>
 																</div>
 												</div>
@@ -79,14 +99,11 @@
 																																<div class="col-lg-10">
 																																				<h2 class="top-pad-md">
 																																								<span class="green-text">
-																																												image
+																																												Solution
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
-																																				</p>
-																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																						Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take this a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
 																																				</p>
 																																</div>
 																												</div>
@@ -95,7 +112,6 @@
 																				<div class="col-md-6 bg-art-director btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																									
 																												</div>
 																								</div>
 																				</div>
@@ -108,13 +124,11 @@
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
-																												Identifying key decision makers</h2>
+																												Keeping up with large amounts of data</h2>
 																								<p class="top-pad-sm">
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																											The more accounts you have, the harder it is to sift through the noise. CRM tools, productivity software, and social media all provide data and insights that help build these relationships. But taken alone, these tools tell only part of the story. In fact, the data gleaned from one of these sources might lead to sellers making assumptions to fill in the blanks.
 																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																								</p>
+																					
 																				</div>
 																</div>
 												</div>
@@ -134,10 +148,10 @@
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																																								Prioritize tasks and engagement opportunities to keep tabs on—and grow—your customer relationships. Machine learning and analytics can provide valuable insights and drive actionable recommendations. Gather insights from every available source to get the knowledge you need to act. Seamless CRM integration can help you more efficiently keep track of sales activity without removing the focus from those relationships
 																																				</p>
-																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																				<p><span>With automation and a guided sales process, you can easily manage complex customer relationships and scale with ease—to close more deals, faster.</span> A highly intuitive interface, productivity capabilities, robust mobile apps, and familiar tools provide a connected experience that gets you up and running quickly.
+
 																																				</p>
 																																</div>
 																												</div>
@@ -150,16 +164,19 @@
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Ready to catapult your sales career?
 																				</h2>
 																								<p class="size-md">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																									<a href="">
+See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
+																									</a>
 																							</p>
+																					
 																</div>
 												</div>
 												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Try out Dynamics 365 for Sales</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
 								</section>
 				</div>

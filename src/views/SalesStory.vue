@@ -18,11 +18,10 @@
 																</div>
 																<div class="row justify-content-center">
 																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
+																								<p>Relationship selling powered by tech</p>
 																								<p>
-																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
-																								</p>
-																								<p>
-																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.</p>
+																									Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
+																									</p>
 																				</div>
 																</div>
 												</div>
@@ -30,19 +29,22 @@
 								<section class="relative">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 bg-grass btm-pad-xxl">
+																				<div id="bg-image" class="col-md-6 bg-grass btm-pad-xxl text-center" style="text-align: center;">
+				<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px;height: 300px;margin: 0 auto;">
+
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
-																																				<div class="quote top-pad-xl">"A new model is emerging on the sales landscape"</div>
-																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
-																																				</p>
-																																				<p>
-																																								In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																																				</p>
+																																<div class="col-lg-10"><div class="mint-text-block">
+																																	
+
+Microsoft Dynamics 365 delivers $16.97 for ever dollar spent
+
+																																</div><div class="underline-text-block">
+																					Nucleus Report
+																																				</div>
+																																		
 																																</div>
 																												</div>
 																								</div>
@@ -60,20 +62,20 @@
 																																<div class="col-lg-10">
 																																				<h2 class="top-pad-xl">
 																																								<span>
-																																												Solution
+Let’s look at an example of how relationship selling drives sales.
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																																					Tomas is a sales rep for a lawn care equipment manufacturer. His customers include retailers, dealers, and lawn care service providers in the Midwest. To reach his quarterly quota, Tomas needs one more large order. Instead of spending hours searching for the right leads online, Tomas uses the advanced search tool on LinkedIn to quickly locate Jamie, a valuable lead at a lawn care company in Kansas City
 																																				</p>
 																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																					Rather than cold calling her, he receives a referral from a colleague who’s connected with Jamie. And he relies on recommendations based on predictive analytics to determine the best time and day to reach out to her.
 																																				</p>
 																																				<p>
-																																								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																																							Once Tomas connects with Jamie, he receives insight about her key needs. As he builds a trusted relationship with her, predictive intelligence lets him know where he stands with the account so he can choose the right moments to engage. And as Jamie’s trust in Tomas and his company grows, she feels comfortable introducing Tomas to the other four contacts on her company’s buying committee. He begins tracking each buyer throughout the lifecycle of the account to deliver relevant content that builds trust. As Tomas continues to add connections and build relationships, a guided sales process helps him manage all these complex relationships without losing productivity.
 																																				</p>
 																																				<p>
-																																								<span class="bold">In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus.</span> Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																						Productivity software coupled with machine learning and predictive analytics tells an entire story that helps Tomas keep his relationship data in sync and provides information that drives contextual learning and recommendations.
 																																				</p>
 
 																																</div>
@@ -94,28 +96,19 @@
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Ready to catapult your sales career?
 																				</h2>
 																								<p class="size-md">
 																									<a href="">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
 																									</a>
 																							</p>
-																								<p class="size-md">
-																									<a href="">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
-																									</a>
-																							</p>
-																								<p class="size-md">
-																									<a href="">
-																									Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
-																									</a>
-																							</p>
+																					
 																</div>
 												</div>
 												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="" class="btn dark-btn white-txt">Try out Dynamics 365 for Sales</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
+																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
 								</section>
 				</div>
