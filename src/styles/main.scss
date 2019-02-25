@@ -1,0 +1,9 @@
+// All imported SCSS partials
+
+@import "./partials/_reset";      // Normalize
+@import "./partials/_mixins";     // Custom mixins to assist in development
+@import "./partials/_grid";       // This is a modified version of the Bootstrap grid to account for MWF breakpoints and
+@import "./partials/_fonts";      // Decalaring fonts per MWF guidelines
+@import "./partials/_variables";  // Declare global variables here
+@import "./partials/_typography"; // Declaring all typography
+@import "./partials/_customization"; // Declaring all typography
