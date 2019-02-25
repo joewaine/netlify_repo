@@ -92,7 +92,15 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<div class="white-text-block">
+
+
+
+				<img src="../assets/img/stage1-stat.svg" alt="stage 1 stat">
+
+
+
+
+																										<!-- 										<div class="white-text-block">
 																																								Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
 																																				</div>
 																																				<div class="mint-text-block">
@@ -102,7 +110,7 @@
 																																								-"The state of Relationship Marketing."
 																																								<br>
 																																								Heinz Marketing
-																																				</div>
+																																				</div> -->
 																																</div>
 																												</div>
 																								</div>
@@ -154,7 +162,7 @@
 																</div>
 												</div>
 								</section>
-								<section class="grey-bg">
+								<section class="grey-bg relative">
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																				<h2 class="top-pad-lg btm-pad-sm">

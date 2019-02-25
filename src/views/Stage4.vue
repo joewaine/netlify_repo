@@ -51,17 +51,8 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 
 <div>
 	
-graphic here
+				<img src="../assets/img/stage4-stat.svg" alt="stage 4 stat">
 
-<br>
-
-
-
-<ul>
-<li>sales force automation</li>
-<li>configure, price, and quote application</li>
-<li>B2B data management solutions</li>
-</ul>
 
 </div>
 
@@ -160,7 +151,7 @@ graphic here
 																</div>
 												</div>
 								</section>
-								<section class="grey-bg">
+								<section class="grey-bg relative">
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">

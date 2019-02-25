@@ -156,7 +156,7 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
 												</div>
-												<div class="section fp-auto-height grey-bg" data-anchor="section6">
+												<div class="section fp-auto-height grey-bg relative" data-anchor="section6">
 																<div class="row justify-content-center">
 																				<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">

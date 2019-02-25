@@ -92,7 +92,7 @@ Let’s look at an example of how relationship selling drives sales.
 																</div>
 												</div>
 								</section>
-								<section class="grey-bg">
+								<section class="grey-bg relative">
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
 																								<h2 class="top-pad-lg btm-pad-sm">
