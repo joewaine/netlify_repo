@@ -71,6 +71,23 @@ p {
 
 }
 
+
+.moveToTop{
+    bottom: 30px;
+    color: $text--white;
+    cursor: pointer;
+    font-family: $segoe--semi;
+    font-weight: $semi-bold;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    position: fixed;
+    right: 30px;
+    &:hover{
+      text-decoration: underline;
+    }
+}
+
 strong {
   font-family: $segoe--semi;
   font-weight: $semi-bold;

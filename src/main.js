@@ -21,7 +21,7 @@ import SalesStory from './views/SalesStory.vue';
 
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: __dirname,
   routes: [
     { path: '/', component: Home },

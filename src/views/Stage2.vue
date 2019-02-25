@@ -170,6 +170,7 @@ See how Microsoft Dynamics 365 for Sales can launch more profitable relationship
 																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
 																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
+												<div class="moveToTop" v-on:click="scrollToTop">return to top</div>
 								</section>
 				</div>
 </template>
@@ -188,6 +189,13 @@ export default {
 																behavior: 'smooth',
 																left: 0,
 																top: document.getElementById(element).offsetTop
+												});
+								},
+								scrollToTop: function() {
+												window.scroll({
+																behavior: 'smooth',
+																left: 0,
+																top: 0
 												});
 								}
 				}

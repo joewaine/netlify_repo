@@ -1,6 +1,6 @@
 <template>
 				<div>
-								<full-page ref="fullpage" :options="options">
+								<full-page ref="fullpage" :options="{responsiveWidth: 0,responsiveHeight: 0,responsiveSlides: false}">
 												<div class="section grey-bg" data-anchor="section">
 																<HeaderModule />
 																<div class="container">
@@ -175,6 +175,15 @@
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
+
+
+
+
+
+
+
+<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
+
 												</div>
 								</full-page>
 				</div>
