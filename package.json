@@ -28,7 +28,7 @@
     "node-sass": "^4.11.0",
     "sass": "^1.16.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.6"
+    "vue-template-compiler": "^2.6.7"
   },
   "homepage": "https://github.com/joewaine/67838__GEP--Dynamics"
 }

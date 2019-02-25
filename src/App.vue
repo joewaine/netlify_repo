@@ -1,11 +1,11 @@
 <script>
 import Nav from './components/Nav.vue';
-// import HeaderModule from './components/HeaderModule.vue';
+import HeaderModule from './components/HeaderModule.vue';
 export default {
   name: 'app',
   components: {
-    Nav
-    // HeaderModule
+    Nav,
+    HeaderModule
   }
 }
 </script>
@@ -14,7 +14,7 @@ export default {
 </style>
 <template>
   <div id="app">
-  <!-- <HeaderModule /> -->
+  <HeaderModule />
   <Nav />
   </div>
 </template>
