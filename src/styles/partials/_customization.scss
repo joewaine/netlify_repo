@@ -573,10 +573,9 @@ nav.expanded {
 
     position: relative;
 .stage{
-    // position: absolute;
-
-    // left: 0;
-    // width: 100%;
+    
+-webkit-transition: top 5s; /* Safari */
+  transition: top .5s;
 
 &:first-child{
         top: 20px;
@@ -584,25 +583,132 @@ nav.expanded {
 &:nth-child(2){
         top: 40px;
 }
-
 &:nth-child(3){
         top: 60px;
 }
-
 &:nth-child(4){
         top: 80px;
 }
-
 &:nth-child(5){
         top: 100px;
 }
-
-
-
-
 }
 
 }
+
+
+
+.stage-box{
+
+
+&.phase-1{
+    .stage{
+&:first-child{
+        top: 30px;
+}
+&:nth-child(2){
+        top: 35px;
+}
+&:nth-child(3){
+        top: 40px;
+}
+&:nth-child(4){
+        top: 45px;
+}
+&:nth-child(5){
+        top: 50px;
+}
+}
+}
+
+&.phase-2{
+    .stage{
+&:first-child{
+        top: 5px;
+}
+&:nth-child(2){
+        top: 35px;
+}
+&:nth-child(3){
+        top: 40px;
+}
+&:nth-child(4){
+        top: 45px;
+}
+&:nth-child(5){
+        top: 50px;
+}
+}
+}
+
+&.phase-3{
+    .stage{
+&:first-child{
+        top: 5px;
+}
+&:nth-child(2){
+        top: 10px;
+}
+&:nth-child(3){
+        top: 40px;
+}
+&:nth-child(4){
+        top: 45px;
+}
+&:nth-child(5){
+        top: 50px;
+}
+}
+}
+
+&.phase-4{
+    .stage{
+&:first-child{
+        top: 5px;
+}
+&:nth-child(2){
+        top: 10px;
+}
+&:nth-child(3){
+        top: 15px;
+}
+&:nth-child(4){
+        top: 45px;
+}
+&:nth-child(5){
+        top: 50px;
+}
+}
+}
+
+
+
+&.phase-5{
+    .stage{
+&:first-child{
+        top: 5px;
+}
+&:nth-child(2){
+        top: 10px;
+}
+&:nth-child(3){
+        top: 15px;
+}
+&:nth-child(4){
+        top: 20px;
+}
+&:nth-child(5){
+        top: 50px;
+}
+}
+}
+
+}
+
+
+
+
+
 
 .stage-line-border{
   border-left: 1px solid #3c3c41;

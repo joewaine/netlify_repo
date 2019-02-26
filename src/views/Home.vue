@@ -212,12 +212,11 @@ export default {
 								},
 								openMe: function(index){
 
-								var list_zero;
+							var list_zero;
 							list_zero = document.querySelectorAll('.stage');
 							for (var i = 0; i < list_zero.length; ++i) {
 					   list_zero[i].classList.remove('active');
 							}
-
 								var list;
 							list = document.querySelectorAll('.stage-' + index);
 							for (var i = 0; i < list.length; ++i) {
@@ -225,6 +224,6 @@ export default {
 							}
 
 				}
-}
+					}
 }
 </script>

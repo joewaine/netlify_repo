@@ -26,11 +26,29 @@
 export default {
 					methods: {
 								activate: function(index) {
-												var stageActivate = document.querySelectorAll('.stage-' + index);
-												stageActivate.classList.toggle('active');
+									var stageBox;
+										stageBox = document.querySelectorAll('.stage-box');
+										for (var i = 0; i < stageBox.length; ++i) {
+							   
+
+stageBox[i].classList.remove('phase-1');
+stageBox[i].classList.remove('phase-2');
+stageBox[i].classList.remove('phase-3');
+stageBox[i].classList.remove('phase-4');
+stageBox[i].classList.remove('phase-5');
+
+
+
+							   stageBox[i].classList.add('phase-' + index);
+							}
+
+
 								}
 				}
 
 }
 
 </script>
+
+
+

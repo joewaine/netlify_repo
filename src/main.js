@@ -25,6 +25,11 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: '/', component: Home },
+    { path: '/section2', component: Home },
+    { path: '/section3', component: Home },
+    { path: '/section4', component: Home },
+    { path: '/section5', component: Home },
+    { path: '/section6', component: Home },
     { path: '/overview', component: Overview },
     { path: '/stage1', component: Stage1 },
     { path: '/stage2', component: Stage2 },
