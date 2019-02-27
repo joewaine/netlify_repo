@@ -84,60 +84,55 @@
 								<section>
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 bg-sweaters btm-pad-xxl">
+																				<div id="bg-image" class="col-md-6 bg-sweaters btm-pad-xxl" v-bind:style="{ 'background-image': 'url(' + image1 + ')' }">
 																				</div>
 																				<div class="col-md-6 btm-pad-xxl">
 																								<div class="container">
 																												<div class="row no-margin">
 																																<div class="col-md-6">
 																																				<ul class="left-border top-pad-xxl">
-																																								<li>
+																																								<li @mouseover="image1 = image6" data-index="1">
 																																												<div class="stage-item" v-on:click="scrollToZero">
-																																															<router-link to="/stage1">Stage 1</router-link>
+																																																<router-link to="/stage1">Stage 1</router-link>
 																																												</div>
 																																												<span class="title" v-on:click="scrollToZero">
-																																													<router-link to="/stage1">
-																																																Identify the right leads
-																																															</router-link>
-																																												</span>
-																																								</li>
-																																								<li>
-																																												<div class="stage-item" v-on:click="scrollToZero">
-																																														<router-link to="/stage2">Stage 2</router-link>
-																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
-																																													<router-link to="/stage2">
-																																																Nurture leads and build relationships
+																																																<router-link to="/stage1">
+																																																				Identify the right leads
 																																																</router-link>
 																																												</span>
 																																								</li>
-																																								<li>
+																																								<li @mouseover="image1 = image2" data-index="2">
+																																												<div class="stage-item" v-on:click="scrollToZero">
+																																																<router-link to="/stage2">Stage 2</router-link>
+																																												</div>
+																																												<span class="title" v-on:click="scrollToZero">
+																																																<router-link to="/stage2">
+																																																				Nurture leads and build relationships
+																																																</router-link>
+																																												</span>
+																																								</li>
+																																								<li @mouseover="image1 = image3" data-index="3">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage3">Stage 3</router-link>
-																															
 																																												</div>
 																																												<span class="title" v-on:click="scrollToZero">
-																																													<router-link to="/stage3">Capitalize on opportunities to convert</router-link>
-																																																
+																																																<router-link to="/stage3">Capitalize on opportunities to convert</router-link>
 																																												</span>
 																																								</li>
-																																								<li>
+																																								<li @mouseover="image1 = image4" data-index="4">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage4">Stage 4</router-link>
-																																
 																																												</div>
 																																												<span class="title" v-on:click="scrollToZero">
-																																													<router-link to="/stage4">Deliver relationship sales at scal</router-link>
-																																																
+																																																<router-link to="/stage4">Deliver relationship sales at scal</router-link>
 																																												</span>
 																																								</li>
-																																								<li>
+																																								<li @mouseover="image1 = image5" data-index="5">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																												</div>
 																																												<span class="title" v-on:click="scrollToZero">
-																																													<router-link to="/salesstory">The view's better from here</router-link>
-																																																
+																																																<router-link to="/salesstory">The view's better from here</router-link>
 																																												</span>
 																																								</li>
 																																				</ul>
@@ -151,25 +146,21 @@
 								<section class="grey-bg relative">
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-8 col-md-8">
-																								<h2 class="top-pad-lg btm-pad-sm">
-Ready to catapult your sales career?
+																				<h2 class="top-pad-lg btm-pad-sm">
+																								Ready to catapult your sales career?
 																				</h2>
-																								<p class="size-md">
-																									<a href="">
-See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
-																									</a>
-																							</p>
-																					
+																				<p class="size-md">
+																								<a href="">
+																												See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
+																								</a>
+																				</p>
 																</div>
 												</div>
 												<div class="row justify-content-center no-margin">
 																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
 																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
 												</div>
-
-
 												<div class="moveToTop" v-on:click="scrollToTop">return to top</div>
-
 								</section>
 				</div>
 </template>
@@ -178,25 +169,46 @@ import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 export default {
 				name: 'App',
+				data() {
+								return {
+												image1: "http://localhost:8080/img/iphone.2bec1daf.jpg",
+												image2: "http://localhost:8080/img/sunset.ed3eccb5.jpg",
+												image3: "http://localhost:8080/img/tablet-smiling.8091a7a0.jpg",
+												image4: "http://localhost:8080/img/crowd-2.6f456111.jpg",
+												image5: "http://localhost:8080/img/view.1144df05.jpg",
+												image6: "http://localhost:8080/img/iphone.2bec1daf.jpg",
+
+								}
+				},
+
+
 				components: {
 								HeaderModule,
 								BurgerMenu
 				},
-	   methods: {
-      scrollToZero: function() {
-											window.scrollTo(0,0);
-      },
+				methods: {
+								scrollToZero: function() {
+												window.scrollTo(0, 0);
+								},
 								scrollToTop: function() {
 												window.scroll({
 																behavior: 'smooth',
 																left: 0,
 																top: 0
 												});
+								},
+								mouseOver: function() {
+												console.log(this)
+
+
+												// let indexElem = this.getAttribute('data-index');
+
+												// Document.getElementById('bg-image').classList.remove('bg-1','bg-2','bg-3','bg-4','bg-5');
+
+												// 					Document.getElementById('bg-image').classList.add('bg-'+ indexElem);
+
 								}
-  }
+				}
 }
 
 </script>
-
-
-

@@ -1,8 +1,10 @@
 <template>
 <div style="height:0;">
-	<div class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="z-index: 10000;pointer-events: none;">
-<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
+	<div class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 stage-container">
+<div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative nostroke">
+
 	<div class="stage-box phase--1" style="">
+
 			<div class="stage stage-1">
 							<div class="stage-stroke">_</div>
 							<div class="stage-name"></div>

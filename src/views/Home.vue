@@ -44,7 +44,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																																<div class="stage-stroke mobile">_</div>
+																								<div class="section-title mobile">stage 1</div>
 																												<h2>
 																																Nurture leads and build relationships
 																												</h2>
@@ -61,7 +63,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																																<div class="stage-stroke mobile">_</div>
+																								<div class="section-title mobile">stage 2</div>
 																												<h2>
 																																Capitalize on opportunities to convert
 																												</h2>
@@ -78,7 +82,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																																<div class="stage-stroke mobile">_</div>
+																								<div class="section-title mobile">stage 3</div>
 																												<h2>
 																																Deliver relationship sales at scale
 																												</h2>
@@ -95,7 +101,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																																<div class="stage-stroke mobile">_</div>
+																								<div class="section-title mobile">stage 4</div>
 																												<h2>
 																																The view’s better from here
 																												</h2>
@@ -112,7 +120,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																							<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																															<div class="stage-stroke mobile">_</div>
+																								<div class="section-title mobile">sales story</div>
 																												<h2>
 																																The view’s better from here
 																												</h2>
@@ -163,18 +173,26 @@ export default {
 
 
 
-																	console.log(destination.index)
+																	// console.log(destination.index)
 																		
 																		let elem = document.querySelector(".fp-table.active");
 																		// let indexElem = elem.getAttribute('data-index');
 																		let indexElem = destination.index - 1;
-																		console.log(indexElem);
+																			// console.log(indexElem);
 												let stageBox;
 												stageBox = document.querySelectorAll('.stage-box');
 												for (var i = 0; i < stageBox.length; ++i) {
 																stageBox[i].classList.remove('phase--1','phase-0','phase-1','phase-2','phase-3','phase-4','phase-5','phase-6');
 
 																stageBox[i].classList.add('phase-'+ indexElem);
+
+																	console.log(indexElem);
+																if(indexElem == -1 || indexElem == 6){
+																	console.log(indexElem);
+																	document.getElementById('stage-line').classList.add('nostroke');
+																}else{
+																document.getElementById('stage-line').classList.remove('nostroke');
+																}
 												}
 
 
