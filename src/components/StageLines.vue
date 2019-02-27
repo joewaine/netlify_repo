@@ -1,5 +1,17 @@
 <template>
-	<div class="stage-box">
+<div style="height:0;">
+	<div class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="z-index: 10000;pointer-events: none;">
+<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
+	<div class="stage-box phase--1" style="">
+			<div class="stage stage-1">
+							<div class="stage-stroke">_</div>
+							<div class="stage-name"></div>
+			</div>
+			<div class="stage stage-1">
+							<div class="stage-stroke">_</div>
+							<div class="stage-name"></div>
+			</div>
+
 			<div class="stage stage-1">
 							<div class="stage-stroke">_</div>
 							<div class="stage-name"><a href="/#section2" v-on:click="activate(1)">stage 1</a></div>
@@ -21,30 +33,13 @@
 							<div class="stage-name"><a href="/#section6" v-on:click="activate(5)">sales story</a></div>
 			</div>
 	</div>
+</div>
+</div>
+</div>
+
 </template>
 <script>
 export default {
-					methods: {
-								activate: function(index) {
-									var stageBox;
-										stageBox = document.querySelectorAll('.stage-box');
-										for (var i = 0; i < stageBox.length; ++i) {
-							   
-
-stageBox[i].classList.remove('phase-1');
-stageBox[i].classList.remove('phase-2');
-stageBox[i].classList.remove('phase-3');
-stageBox[i].classList.remove('phase-4');
-stageBox[i].classList.remove('phase-5');
-
-
-
-							   stageBox[i].classList.add('phase-' + index);
-							}
-
-
-								}
-				}
 
 }
 
