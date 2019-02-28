@@ -44,7 +44,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
 																																<div class="stage-stroke mobile">_</div>
 																								<div class="section-title mobile">stage 1</div>
 																												<h2>
@@ -63,7 +63,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
 																																<div class="stage-stroke mobile">_</div>
 																								<div class="section-title mobile">stage 2</div>
 																												<h2>
@@ -82,7 +82,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
 																																<div class="stage-stroke mobile">_</div>
 																								<div class="section-title mobile">stage 3</div>
 																												<h2>
@@ -101,7 +101,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
 																																<div class="stage-stroke mobile">_</div>
 																								<div class="section-title mobile">stage 4</div>
 																												<h2>
@@ -120,7 +120,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																							<div class="col-md-9 col-sm-12 offset-sm-1 no-left-pad top-pad-200">
+																							<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
 																															<div class="stage-stroke mobile">_</div>
 																								<div class="section-title mobile">sales story</div>
 																												<h2>
