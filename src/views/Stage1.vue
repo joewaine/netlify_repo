@@ -45,7 +45,7 @@
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10 btm-pad-xxl">
 
-<img src="/img/left-arrow.eb99318e.svg" class="top-pad-2m">
+<img src="../assets/img/left-arrow.svg" class="top-pad-2m">
 
 																																				<div class="quote top-pad-sm">“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up-to-speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
 																																				</div>
@@ -106,13 +106,13 @@
 																								<div class="container">
 
 
-<img class="short-arrow-right" src="/img/short-arrow.e3beed1b.svg">
+<img class="short-arrow-right" src="../assets/img/short-arrow.svg">
 
 
 
-<img class="short-arrow-bottom-left" src="/img/short-arrow.e3beed1b.svg">
+<img class="short-arrow-bottom-left" src="../assets/img/short-arrow.svg">
 
-<img class="short-arrow-bottom-left-2" src="/img/short-arrow.e3beed1b.svg">
+<img class="short-arrow-bottom-left-2" src="../assets/img/short-arrow.svg">
 
 																												<div class="row justify-content-center no-margin">
 																																<div class="row justify-content-center no-margin">

@@ -49,7 +49,7 @@
 																				<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl bg-containers">
 																								<div class="row justify-content-end top-pad-max">
 																												<div class="col-md-10 col-sm-12 bg-white">
-																																<img class="short-arrow-right" src="/img/short-arrow.e3beed1b.svg">
+																																<img class="short-arrow-right" src="../assets/img/short-arrow.svg">
 																																<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
 																																				<div class="col-md-8 col-sm-12 bg-white">
 																																								<h3 class="dk-green">
@@ -85,7 +85,7 @@
 								<section>
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image" v-bind:style="{ 'background-image': 'url(' + image1 + ')' }">
+																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image">
 																								<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;">
 																												<rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
@@ -179,11 +179,15 @@
 								</section>
 				</div>
 </template>
-
-
-
-
-				Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+<div style="display: none;">
+				<img src="../assets/img/square/iphone-square.jpg" />
+				<img src="../assets/img/square/sunset-square.jpg" />
+				<img src="../assets/img/square/tablet-smiling-square.jpg" />
+				<img src="../assets/img/square/crowd-2-square.jpg" />
+				<img src="../assets/img/square/view-square.jpg" />
+				<img src="../assets/img/square/iphone-square.jpg" />
+</div>
+<!-- Personalizing sales relationships can lead to better opportunities—and more sales—for your business. -->
 </h2>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
@@ -192,13 +196,13 @@ export default {
 				name: 'App',
 				data() {
 								return {
-	image1: "http://localhost:8080/img/iphone-square.a83dd4e2.jpg",
-	image2: "http://localhost:8080/img/sunset-square.90240d7f.jpg",
-	image3: "http://localhost:8080/img/tablet-smiling-square.b3ecfa68.jpg",
-	image4: "http://localhost:8080/img/crowd-2-square.259197a3.jpg",
-	image5: "http://localhost:8080/img/view-square.bc130f40.jpg",
-	image6: "http://localhost:8080/img/iphone-square.a83dd4e2.jpg"
-}
+												image1: "/img/square/iphone-square.jpg",
+												image2: "/img/square/sunset-square.jpg",
+												image3: "/img/square/tablet-smiling-square.jpg",
+												image4: "/img/square/crowd-2-square.jpg",
+												image5: "/img/square/view-square.jpg",
+												image6: "/img/square/iphone-square.jpg"
+								}
 
 				},
 				components: {

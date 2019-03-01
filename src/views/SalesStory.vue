@@ -47,10 +47,9 @@
 
 
 
-
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
-																																										<img src="/img/left-arrow.eb99318e.svg" class="top-pad-2m" style="margin-left: -60px;height: 70px;">
+																																										<img src="../assets/img/left-arrow.svg" class="top-pad-2m" style="margin-left: -60px;height: 70px;">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10"><div class="mint-text-block top-pad-2m col-lg-8">
