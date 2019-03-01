@@ -29,9 +29,6 @@
 																												<p>
 																																If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line? If you could provide every new prospect with relevant, useful insights that would make them more successful, how would your sales goals change?
 																												</p>
-																												<p>
-																																A new model is emerging on the sales landscape. The entire process looks vastly different from how it looked just a few years ago. Although that’s partly because of constantly evolving tools and technologies, the greater difference is in the mindsets of buyers. Understanding that mindset and catering to it is what catapults a successful seller into rock-star seller status.
-																												</p>
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
@@ -46,10 +43,10 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
 																												<h2>
-																																Nurture leads and build relationships
+Identify the right leads
 																												</h2>
 																												<p>
-																																Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects. Not just any prospects, but those who are able to make purchase decisions for their company.
+																																Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects.
 																												</p>
 																												<router-link to="/stage1" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -65,10 +62,10 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 2</div>
 																												<h2>
-																																Capitalize on opportunities to convert
+																																Nurture leads and build relationships
 																												</h2>
 																												<p>
-																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for. Imagine what your end-of-the-month reports would look like if you could anticipate the needs of every connection and deliver real value—in the form of useful information that drives business forward—to every customer.
+																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for.
 																												</p>
 																												<router-link to="/stage2" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -84,10 +81,10 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
 																												<h2>
-																																Deliver relationship sales at scale
+Capitalize on opportunities to convert
 																												</h2>
 																												<p>
-																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
+																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have?
 																												</p>
 																												<router-link to="/stage3" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -103,10 +100,11 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
 																												<h2>
-																																The view’s better from here
+																													Deliver relationship sales at scale
+
 																												</h2>
 																												<p>
-																																Relationship selling works at every stage of the sales process—from Introduction to the section lorem ipsum dolor sit amet, consectetuer identifying key prospects to nurturing them, building relationships, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore and capitalizing on opportunities to convert them to sales. And it can magna aliquam erat volutpat. be done at scale, so there are no limits to where your sales career can take you.
+Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don't yet realize they have?
 																												</p>
 																												<router-link to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
