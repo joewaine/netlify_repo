@@ -56,6 +56,9 @@
 																																				<div class="title">
 																																								Matt Heinz President and founder of Heinz Marketing
 																																				</div>
+
+<img src="/img/left-arrow.eb99318e.svg" class="top-pad-2m">
+																																				
 																																</div>
 																												</div>
 																								</div>
@@ -98,6 +101,11 @@
 																								</div>
 																				</div>
 																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
+
+<img class="short-arrow-bottom-left" src="/img/short-arrow.e3beed1b.svg">
+
+<img class="short-arrow-bottom-left-2" src="/img/short-arrow.e3beed1b.svg">
+
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-8 offset-sm-0 top-pad-xxl">

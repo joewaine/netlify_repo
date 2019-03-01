@@ -1,6 +1,10 @@
 <template>
 				<div>
 								<StageLines />
+
+
+
+
 								<full-page ref="fullpage" :options="options">
 												<div class="section grey-bg" data-anchor="section" data-index="0">
 																<HeaderModule />

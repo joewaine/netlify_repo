@@ -41,10 +41,11 @@
 
 																				</div>
 																				<div class="col-md-6 green-bg btm-pad-xxl">
+																					<img src="/img/left-arrow.eb99318e.svg" class="top-pad-2m" style="margin-left: -60px;height: 70px;">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<div class="quote top-pad-xl">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
+																																				<div class="quote top-pad-2m">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
 																																				</div>
 																																				<div class="name">
 																																					Steve Mordue
@@ -97,6 +98,7 @@
 																								</div>
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
+																					<img class="short-arrow-bottom-left" src="/img/short-arrow.e3beed1b.svg">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-8 offset-sm-0 top-pad-xxl">

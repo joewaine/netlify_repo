@@ -45,11 +45,15 @@
 
 <img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
 
+
+
+
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																																										<img src="/img/left-arrow.eb99318e.svg" class="top-pad-2m" style="margin-left: -60px;height: 70px;">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10"><div class="mint-text-block top-pad-xxl col-lg-8">
+																																<div class="col-lg-10"><div class="mint-text-block top-pad-2m col-lg-8">
 																																	
 
 Microsoft Dynamics 365 delivers $16.97 for every dollar spent

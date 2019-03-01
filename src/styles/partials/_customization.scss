@@ -476,7 +476,9 @@ nav.expanded {
                 padding-top: .5em
 }
 
-
+.top-pad-2m{
+    padding-top: 2em;
+}
 
 .btm-pad-xxl {
                 padding-bottom: 4em
@@ -1416,9 +1418,14 @@ nav {
 
 @media (max-width: 500px) {
 
-                .col-xs-12 {
-                                width: 100% !important;
-                }
+.col-xs-12 {
+    width: 100% !important;
+}
+
+.mobile-image{
+     height: 500px;
+}
+
 
 }
 
@@ -1510,9 +1517,7 @@ ul.left-border li{
   padding-left: 0;
  }
 
- .mobile-image{
- // height: 500px;
-}
+
 
 .moveToTop {
     right: auto;
@@ -1524,5 +1529,36 @@ ul.left-border li{
 
 
 
+}
+
+
+.short-arrow-right{
+    height: 55px;
+    float: right;
+    padding-top: 20px;
+    position: absolute;
+    right: 30px;
+}
+
+
+.short-arrow-bottom-left{
+    transform: rotate(90deg);
+    bottom: 80px;
+    left: -46px;
+    height: 55px;
+    float: right;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.short-arrow-bottom-left-2{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 280px;
+    left: -46px;
+    height: 55px;
+    float: right;
+    padding-top: 20px;
+    position: absolute;
 }
 
