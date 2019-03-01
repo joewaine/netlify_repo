@@ -16,6 +16,7 @@ import Stage2 from './views/Stage2.vue';
 import Stage3 from './views/Stage3.vue';
 import Stage4 from './views/Stage4.vue';
 import SalesStory from './views/SalesStory.vue';
+import SoloPage from './views/SoloPage.vue';
 
 
 
@@ -35,7 +36,9 @@ const router = new VueRouter({
     { path: '/stage2', component: Stage2 },
     { path: '/stage3', component: Stage3 },
     { path: '/stage4', component: Stage4 },
-    { path: '/salesstory', component: SalesStory }
+    { path: '/salesstory', component: SalesStory },
+        { path: '/solopage', component: SoloPage },
+
   ]
 });
 

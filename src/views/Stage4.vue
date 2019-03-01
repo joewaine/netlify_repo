@@ -3,7 +3,7 @@
 								<HeaderModule />
 								<section class="stage-section btm-pad-xxl">
 												<div class="container">
-																<div class="row top-pad-xl">
+																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
 																								<span class="section-title">stage 4</span>
 																								<BurgerMenu />
@@ -12,18 +12,18 @@
 																<div class="row">
 																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
 																								<h1 class="top-pad-sm">
-Deliver relationship sales at scale
+																												Deliver relationship sales at scale
 																								</h1>
 																				</div>
 																</div>
 																<div class="row justify-content-center">
 																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
 																								<p>
-																							You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
+																												You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
 																								</p>
 																								<p>
-Meaningful relationships that last are those that are continually nurtured. Nurturing a few relationships is manageable, but nurturing dozens is more time-consuming. Successfully finding and engaging with the right buyers isn’t enough. <span class="bold">Your relationships also need to be sustainable and scalable, and that presents a few core challenges.</span>
-																											</p>
+																												Meaningful relationships that last are those that are continually nurtured. Nurturing a few relationships is manageable, but nurturing dozens is more time-consuming. Successfully finding and engaging with the right buyers isn’t enough. <span class="bold">Your relationships also need to be sustainable and scalable, and that presents a few core challenges.</span>
+																								</p>
 																				</div>
 																</div>
 												</div>
@@ -31,7 +31,14 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 								<section>
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 bg-two-women btm-pad-xxl">
+																				<div class="col-md-6 bg-two-women btm-pad-xxl relative mobile-image">
+																								<svg width="200" height="30%" style="position: absolute;top: 0;right: 0px;">
+																												<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="50" height="40%" style="position: absolute;top: 30%;right: 0px;">
+																												<rect width="50" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
@@ -39,25 +46,25 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad bg-bar-chart-3">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
-
-																																<div class="white-text-block">
-					What contributes most to a sales organization's success according to sales leaders?
+																																<div class="col-lg-7 offset-sm-2 top-pad-xxl btm-pad-xl">
+																																				<div class="white-text-block">
+																																								What contributes most to a sales organization's success according to sales leaders?
 																																				</div>
-																												
-
-<div>
-	
-				<img src="../assets/img/stage4-stat.svg" alt="stage 4 stat">
+																																				<div class="mint-text-block bold">
+<ul>
 
 
-</div>
+<li>sales force automation</li>
+<li>configure, price, and quote application</li>
+<li>B2B data management solutions</li>
 
+</ul>
+																																				</div>
 																																				<div class="underline-text-block">
-																		Forester Consulting attribution
+																																								Forester Consulting attribution
 																																				</div>
 																																</div>
 																												</div>
@@ -74,9 +81,8 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 																												<span class="green-text">Challenge:</span><br>
 																												Engaging with dozens of stakeholders across the entire sales book</h2>
 																								<p class="top-pad-sm">
-																			Engaging with large numbers of stakeholders can quickly become overwhelming, especially when you’re working with multiple companies.
+																												Engaging with large numbers of stakeholders can quickly become overwhelming, especially when you’re working with multiple companies.
 																								</p>
-																							
 																				</div>
 																</div>
 												</div>
@@ -94,13 +100,13 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 																																								</span>
 																																				</h2>
 																																				<p class="top-pad-lg">
-																																						Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take this a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
+																																								Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take this a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
 																																				</p>
 																																</div>
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-md-6 bg-art-director btm-pad-xxl">
+																				<div class="col-md-6 bg-art-director btm-pad-xxl mobile-image">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																												</div>
@@ -109,31 +115,37 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 																</div>
 												</div>
 								</section>
-								<section>
-												<div class="container">
+								<section class="overflowed-section-top">
+												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
 																												Keeping up with large amounts of data</h2>
 																								<p class="top-pad-sm">
-																											The more accounts you have, the harder it is to sift through the noise. CRM tools, productivity software, and social media all provide data and insights that help build these relationships. But taken alone, these tools tell only part of the story. In fact, the data gleaned from one of these sources might lead to sellers making assumptions to fill in the blanks.
+																												The more accounts you have, the harder it is to sift through the noise. CRM tools, productivity software, and social media all provide data and insights that help build these relationships. But taken alone, these tools tell only part of the story. In fact, the data gleaned from one of these sources might lead to sellers making assumptions to fill in the blanks.
 																								</p>
-																					
 																				</div>
 																</div>
 												</div>
 								</section>
-								<section>
+								<section class="overflowed-section-bottom">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 btm-pad-xxl bg-glasses">
+																				<div class="col-md-6 btm-pad-xxl bg-glasses mobile-image">
+																								<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
+																												<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
+																												<rect width="400" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
 																				</div>
 																				<div class="col-md-6 btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<h2 class="top-pad-md">
+																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
 																																								</span>
@@ -142,7 +154,6 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 																																								Prioritize tasks and engagement opportunities to keep tabs on—and grow—your customer relationships. Machine learning and analytics can provide valuable insights and drive actionable recommendations. Gather insights from every available source to get the knowledge you need to act. Seamless CRM integration can help you more efficiently keep track of sales activity without removing the focus from those relationships
 																																				</p>
 																																				<p><span>With automation and a guided sales process, you can easily manage complex customer relationships and scale with ease—to close more deals, faster.</span> A highly intuitive interface, productivity capabilities, robust mobile apps, and familiar tools provide a connected experience that gets you up and running quickly.
-
 																																				</p>
 																																</div>
 																												</div>
@@ -152,24 +163,25 @@ Meaningful relationships that last are those that are continually nurtured. Nurt
 												</div>
 								</section>
 								<section class="grey-bg relative">
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-8 col-md-8">
-																								<h2 class="top-pad-lg btm-pad-sm">
-Ready to catapult your sales career?
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-8 col-md-8 col-sm-12">
+																				<h2 class="top-pad-lg btm-pad-sm">
+																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																				</h2>
-																								<p class="size-md">
-																									<a href="">
-See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
-																									</a>
-																							</p>
-																					
+																				<p class="size-md">
+																								Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																				</p>
 																</div>
 												</div>
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Learn More</a>
+																</div>
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																</div>
 												</div>
-												<div class="moveToTop" v-on:click="scrollToTop">return to top</div>
+												<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
 								</section>
 				</div>
 </template>

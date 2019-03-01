@@ -3,7 +3,7 @@
 								<HeaderModule />
 								<section class="stage-section btm-pad-xxl">
 												<div class="container">
-																<div class="row top-pad-xl">
+																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
 																								<span class="section-title">stage 3</span>
 																								<BurgerMenu />
@@ -29,15 +29,28 @@
 								<section class="relative">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 btm-pad-xxl bg-surface">
+																				<div class="col-md-6 btm-pad-xxl bg-surface relative mobile-image">
+
+																					<svg width="80" height="30%" style="position: absolute;top: 0;right: 0px;">
+																												<rect width="80" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="0" height="40%" style="position: absolute;top: 30%;right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="200" height="30%" style="position: absolute;top: 70%;right: 0px;">
+																												<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+
 																				</div>
 																				<div class="col-md-6 green-bg btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
 																																				<div class="quote top-pad-xl">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
-																																								<br>
-																																								Steve Mordue, Microsoft Business Applications MVP https://www.linkedin.com/in/stevenmordue
+																																				</div>
+																																				<div class="name">
+																																					Steve Mordue
+																																				</div>
+																																				<div class="title">
+																																						Steve Mordue, Microsoft Business Applications MVP
 																																				</div>
 																																</div>
 																												</div>
@@ -83,25 +96,28 @@
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																				<div class="col-md-6 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
+																																<div class="col-lg-8 offset-sm-0 top-pad-xxl">
 
 
-				<img src="../assets/img/stage3-stat.svg" alt="stage 3 stat">
 
-
-																			<!-- 														
-																																				<div class="mint-text-block">
-																																								<span style="font-size:100px;">96%</span>
+																																				<div class="mint-text-block xxl-text">
+																																								96%
 																																				</div>
-																																				<div class="white-text-block">
+																																				<div class="white-text-block bold">
 																																								believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
 																																				</div>
+
 																																				<div class="underline-text-block">
-																																								Heinz Marketing
-																																				</div> -->
+	Heinz Marketing
+																																				</div>
+
+
+
+
+
 																																</div>
 																												</div>
 																								</div>
@@ -109,8 +125,13 @@
 																</div>
 												</div>
 								</section>
-								<section>
-												<div class="container">
+								<section class="overflowed-section-top">
+
+
+
+
+
+												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
@@ -123,16 +144,26 @@
 																</div>
 												</div>
 								</section>
-								<section>
+								<section class="overflowed-section-bottom">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 dk-grey-bg btm-pad-xxl">
+																				<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative mobile-image">
+
+																					<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
+																												<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
+																												<rect width="400" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+
+
 																				</div>
 																				<div class="col-md-6 btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<h2 class="top-pad-md">
+																																	<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
 																																								</span>
@@ -151,23 +182,25 @@
 												</div>
 								</section>
 								<section class="grey-bg relative">
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-8 col-md-8">
-																				<h2 class="top-pad-lg btm-pad-sm">
-																								Ready to catapult your sales career?
-																				</h2>
-																				<p class="size-md">
-																								<a href="">
-																												See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
-																								</a>
-																				</p>
+																<div class="row justify-content-center no-lr-margin">
+																				<div class="col-lg-8 col-md-8 col-sm-12">
+																								<h2 class="top-pad-lg btm-pad-sm">
+																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+																								</h2>
+																								<p class="size-md">
+																												Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																								</p>
+																				</div>
 																</div>
-												</div>
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
-												</div>
-												<div class="moveToTop" v-on:click="scrollToTop">return to top</div>
+																<div class="row justify-content-center no-lr-margin">
+																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																								<a class="btn dark-btn white-txt" href="">Learn More</a>
+																				</div>
+																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																				</div>
+																</div>
+																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
 								</section>
 				</div>
 </template>

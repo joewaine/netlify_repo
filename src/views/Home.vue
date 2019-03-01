@@ -1,6 +1,6 @@
 <template>
 				<div>
-							<StageLines />
+								<StageLines />
 								<full-page ref="fullpage" :options="options">
 												<div class="section grey-bg" data-anchor="section" data-index="0">
 																<HeaderModule />
@@ -28,25 +28,19 @@
 																												<p>
 																																A new model is emerging on the sales landscape. The entire process looks vastly different from how it looked just a few years ago. Although that’s partly because of constantly evolving tools and technologies, the greater difference is in the mindsets of buyers. Understanding that mindset and catering to it is what catapults a successful seller into rock-star seller status.
 																												</p>
-																												<!-- 																								<p>
-																													While this shift brings new possibilities, every stage of the selling process is also rife with new challenges. Greater access means more noise. Countless resources make it difficult to bring real value. These are just a few of the challenges you’re most likely experiencing as a seller today. As the landscape shifts, you can stay ahead by adopting a relationship selling mindset.
-																												</p>
-																												<p>
-																													Relationship selling refers to the process of building long-term relationships with your customers—relationships that will lead to future sales. It requires rethinking the way you communicate as a seller—not just the tools used, but the way you use those tools to reach out, engage, and develop deeper connections
-																												</p> -->
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																				<div class="bottom-fix next down-arrow" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next</div>
 																</div>
 												</div>
-												<div id="bg-image" class="section bg-iphone" data-anchor="section2" data-index="1">
+<div id="bg-image" class="section bg-iphone" data-anchor="section2" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
-																																<div class="stage-stroke mobile">_</div>
-																								<div class="section-title mobile">stage 1</div>
+																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																												<div class="stage-stroke mobile">_</div>
+																												<div class="section-title mobile">stage 1</div>
 																												<h2>
 																																Nurture leads and build relationships
 																												</h2>
@@ -64,8 +58,8 @@
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
-																																<div class="stage-stroke mobile">_</div>
-																								<div class="section-title mobile">stage 2</div>
+																												<div class="stage-stroke mobile">_</div>
+																												<div class="section-title mobile">stage 2</div>
 																												<h2>
 																																Capitalize on opportunities to convert
 																												</h2>
@@ -83,8 +77,8 @@
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
-																																<div class="stage-stroke mobile">_</div>
-																								<div class="section-title mobile">stage 3</div>
+																												<div class="stage-stroke mobile">_</div>
+																												<div class="section-title mobile">stage 3</div>
 																												<h2>
 																																Deliver relationship sales at scale
 																												</h2>
@@ -97,13 +91,13 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(4)">next</div>
 												</div>
-												<div id="bg-image" class="section bg-crowd-2" data-anchor="section5"  data-index="4">
+												<div id="bg-image" class="section bg-crowd-2" data-anchor="section5" data-index="4">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
-																																<div class="stage-stroke mobile">_</div>
-																								<div class="section-title mobile">stage 4</div>
+																												<div class="stage-stroke mobile">_</div>
+																												<div class="section-title mobile">stage 4</div>
 																												<h2>
 																																The view’s better from here
 																												</h2>
@@ -120,9 +114,9 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																							<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
-																															<div class="stage-stroke mobile">_</div>
-																								<div class="section-title mobile">sales story</div>
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
+																												<div class="stage-stroke mobile">_</div>
+																												<div class="section-title mobile">sales story</div>
 																												<h2>
 																																The view’s better from here
 																												</h2>
@@ -136,8 +130,8 @@
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
 												</div>
 												<div class="section fp-auto-height grey-bg relative" data-anchor="section6" data-index="6">
-																<div class="row justify-content-center">
-																				<div class="col-lg-8 col-md-8">
+																<div class="row justify-content-center no-lr-margin">
+																				<div class="col-lg-8 col-md-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -146,11 +140,11 @@
 																								</p>
 																				</div>
 																</div>
-																<div class="row justify-content-center">
-																				<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl">
+																<div class="row justify-content-center no-lr-margin">
+																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
@@ -173,27 +167,27 @@ export default {
 
 
 
-																	// console.log(destination.index)
-																		
-																		let elem = document.querySelector(".fp-table.active");
-																		// let indexElem = elem.getAttribute('data-index');
-																		let indexElem = destination.index - 1;
-																			// console.log(indexElem);
-												let stageBox;
-												stageBox = document.querySelectorAll('.stage-box');
-												for (var i = 0; i < stageBox.length; ++i) {
-																stageBox[i].classList.remove('phase--1','phase-0','phase-1','phase-2','phase-3','phase-4','phase-5','phase-6');
+																				// console.log(destination.index)
 
-																stageBox[i].classList.add('phase-'+ indexElem);
+																				let elem = document.querySelector(".fp-table.active");
+																				// let indexElem = elem.getAttribute('data-index');
+																				let indexElem = destination.index - 1;
+																				// console.log(indexElem);
+																				let stageBox;
+																				stageBox = document.querySelectorAll('.stage-box');
+																				for (var i = 0; i < stageBox.length; ++i) {
+																								stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
 
-																	console.log(indexElem);
-																if(indexElem == -1 || indexElem == 6){
-																	console.log(indexElem);
-																	document.getElementById('stage-line').classList.add('nostroke');
-																}else{
-																document.getElementById('stage-line').classList.remove('nostroke');
-																}
-												}
+																								stageBox[i].classList.add('phase-' + indexElem);
+
+																								console.log(indexElem);
+																								if (indexElem == -1 || indexElem == 5) {
+																												console.log(indexElem);
+																												document.getElementById('stage-line').classList.add('nostroke');
+																								} else {
+																												document.getElementById('stage-line').classList.remove('nostroke');
+																								}
+																				}
 
 
 

@@ -1,192 +1,251 @@
 // Typography declaration
 
 body {
-  font-family: $segoe;
-  font-size: 16px;
-  line-height: 22px;
-  color: $text--default;
+        font-family: $segoe;
+        font-size: 16px;
+        line-height: 22px;
+        color: $text--default;
 }
 
 h1 {
-  color: $text--dk-grey;
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
-  font-size: 3.5em;
-  line-height: 1.2em;
-  margin: 0 0 .3em 0;
-  padding: 0;
+        color: $text--dk-grey;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 3.5em;
+        line-height: 1.2em;
+        margin: 0 0 .3em 0;
+        padding: 0;
 }
 
 h2 {
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
-  font-size: 2.75em;
-  line-height: 1.2em;
-  margin: 0 0 .3em 0;
-  padding: 0;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 2.75em;
+        line-height: 1.2em;
+        margin: 0 0 .3em 0;
+        padding: 0;
 }
 
 h3 {
-  font-family: $segoe;
-  font-weight: $normal;
-  font-size: 2em;
-  line-height: 1.2em;
-  margin: 0 0 .3em 0;
-  padding: 0;
+        font-family: $segoe;
+        font-weight: $normal;
+        font-size: 2em;
+        line-height: 1.2em;
+        margin: 0 0 .3em 0;
+        padding: 0;
 }
 
 h4 {
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
-  font-size: 1.5em;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1.5em;
+        line-height: 1.2em;
+        margin: 0;
+        padding: 0;
 }
 
 p {
-  color: $text--dk-grey;
-  font-family: $segoe;
-  font-weight: $normal;
-  font-size: 1em;
-  line-height: 1.8em;
-  margin: 0 0 1.5emw 0;
-  padding: 0;
-  &:last-child {
-    margin-bottom: 0;
-  }
+        color: $text--dk-grey;
+        font-family: $segoe;
+        font-weight: $normal;
+        font-size: 1em;
+        line-height: 1.8em;
+        margin: 0 0 1.5emw 0;
+        padding: 0;
 
-  &.size-md{
-    font-family: $segoe--semi;
-    font-weight: $semi-bold;
-    font-size: 1.2em;
-    margin-bottom: .5em;
-    margin-top: .5em;
+        &:last-child {
+                margin-bottom: 0;
+        }
 
-    a{
-      color: $text--white;
-    }
+        &.size-md {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.2em;
+                margin-bottom: .5em;
+                margin-top: .5em;
 
-  }
+                a {
+                        color: $text--white;
+                }
+
+        }
 
 }
 
 
-.moveToTop{
+.moveToTop {
 
-    bottom: 36px;
-    color: $text--white;
-    cursor: pointer;
-    font-family: $segoe--semi;
-    font-weight: $semi-bold;
-    font-size: 1.2em;
-    margin-bottom: .5em;
-    margin-top: .5em;
-    position: absolute;
-    right: 50px;
-    font-size: 1em;
+        bottom: 36px;
+        color: $text--white;
+        cursor: pointer;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1.2em;
+        margin-bottom: .5em;
+        margin-top: .5em;
+        position: absolute;
+        right: 50px;
+        font-size: 1em;
 
-    &:hover{
-      text-decoration: underline;
-    }
+        &:hover {
+                text-decoration: underline;
+        }
 }
 
 strong {
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
 }
 
 a {
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
-  font-size: 1em;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1em;
 }
 
 // Custom highlight state
 ::selection {
-  background: $bg--blue; /* WebKit/Blink Browsers */
-  color: #fff;
+        background: $bg--blue;
+        /* WebKit/Blink Browsers */
+        color: #fff;
 }
+
 ::-moz-selection {
-  background: $bg--blue; /* Gecko Browsers */
-  color: #fff;
+        background: $bg--blue;
+        /* Gecko Browsers */
+        color: #fff;
 }
 
 
-a{
+a {
 
-  color: $text--dk-grey;
-  cursor: pointer;
-  text-decoration: none;
+        color: $text--dk-grey;
+        cursor: pointer;
+        text-decoration: none;
 
-&.header-sign-in{
-    position: absolute;
-    width: 100px;
-    right: 10px;
-    bottom: 6px;
-}
-
-
-  &.btn{
-    color: $text--btn-link;
-    background-color: $bg--white;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 16px;
-
-    &.dark-btn{
-        color: $text--mint;
-        background-color: $bg--dk-grey;
-        &.white-txt{
-          color: $text--white;
+        &.header-sign-in {
+                position: absolute;
+                width: 100px;
+                right: 10px;
+                bottom: 6px;
         }
-    }
-  }
+
+
+        &.btn {
+                color: $text--btn-link;
+                background-color: $bg--white;
+                display: inline-block;
+                margin-top: 10px;
+                padding: 10px 16px;
+
+                &.dark-btn {
+                        color: $text--mint;
+                        background-color: $bg--dk-grey;
+
+                        &.white-txt {
+                                color: $text--white;
+                        }
+                }
+        }
 }
 
-.text-right{
-  text-align: right;
-}
-
-
-
-.green-text{
-  color: $text--btn-link;
-}
-
-
-.quote{
-  color: $text--white;
-  font-family: $segoe--semi;
-  font-weight: $semi-bold;
-  font-size: 1.8em;
-  line-height: 1.4em;
-}
-
-.bold{
-   font-family: $segoe--semi;
-  font-weight: $semi-bold; 
+.text-right {
+        text-align: right;
 }
 
 
 
-h2{
-  color: $text--dk-grey;
+.green-text {
+        color: $text--btn-link;
+}
+
+
+.quote {
+        color: $text--white;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 2.2em;
+        line-height: 1.4em;
+        margin-bottom: .8em;
+}
+
+.name,
+.title {
+        color: $text--white;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1.6em;
+        line-height: 1.4em;
+}
+
+.title {
+        font-style: italic;
+}
+
+.bold {
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
 }
 
 
 
-.white-text-block{
-  color: $text--white;
+h2 {
+        color: $text--dk-grey;
 }
 
-.mint-text-block{
+
+
+.white-text-block {
+        color: $text--white;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1.4em;
+        padding: 15px;
+        line-height: 1.5em;
+
+
+        &.bold {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 2em;
+        }
+
+}
+
+
+
+
+
+
+.mint-text-block {
         color: $text--mint;
+        font-size: 2em;
+        line-height: 1.4em;
+        padding: 15px;
+
+        &.bold {
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+        }
+
+
+        &.xxl-text {
+                font-family: $segoe--semi;
+                font-size: 10em;
+                font-weight: $semi-bold;
+        }
+
 }
 
-.underline-text-block{
-  color: $text--white; 
-  text-decoration: underline;
+
+
+
+
+.underline-text-block {
+        color: $text--white;
+        text-decoration: underline;
+        font-size: 1.8em;
+        padding: 15px;
+        line-height: 1.2em;
 
 }
-

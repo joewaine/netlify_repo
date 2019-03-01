@@ -3,7 +3,7 @@
 								<HeaderModule />
 								<section class="stage-section btm-pad-xxl">
 												<div class="container">
-																<div class="row top-pad-xl">
+																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
 																								<span class="section-title">stage 1</span>
 																								<BurgerMenu />
@@ -31,15 +31,26 @@
 								<section class="relative">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 btm-pad-xxl bg-white-paper">
-																				</div>
-																				<div class="col-md-6 green-bg btm-pad-xxl">
+																				<div class="col-lg-5 col-md-12 btm-pad-xxl bg-white-paper relative mobile-image">
+																								<svg width="0" height="33.33%" style="position: absolute; top: 0px; right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+																								<svg width="100" height="33.33%" style="position: absolute; top: 33.33%; right: 0px;">
+																												<rect width="100" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg><svg width="200" height="33.33%" style="position: absolute; top: 66.66%; right: 0px;">
+																												<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg></div>
+																				<div class="col-lg-7 col-md-12 green-bg btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
+																																<div class="col-lg-10 btm-pad-xxl">
 																																				<div class="quote top-pad-xl">“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up-to-speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
-																																								<br>
-																																								- Jennifer Tomlinson – Global Channel Marketing Leader, Microsoft
+																																				</div>
+																																				<div class="name">
+																																								Jennifer Tomlinson
+																																				</div>
+																																				<div class="title">
+																																								Global Channel Marketing Leader, Microsoft
 																																				</div>
 																																</div>
 																												</div>
@@ -66,11 +77,11 @@
 								<section>
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 light-grey-bg btm-pad-xxl">
+																				<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																				<h2 class="top-pad-md">
+																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
 																																								</span>
@@ -88,29 +99,23 @@
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad bg-bar-chart">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
-
-
-
-				<img src="../assets/img/stage1-stat.svg" alt="stage 1 stat">
-
-
-
-
-																										<!-- 										<div class="white-text-block">
-																																								Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
+																																<div class="row justify-content-center no-margin">
+																																				<div class="col-lg-7 offset-sm-2 top-pad-xxl">
+																																								<div class="white-text-block">
+																																												Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
+																																								</div>
+																																								<div class="mint-text-block bold">
+																																												developing authentic relationships is very important to revenue generation.
+																																								</div>
+																																								<div class="underline-text-block">
+																																												-"The state of Relationship Marketing."
+																																												<br>
+																																												Heinz Marketing
+																																								</div>
 																																				</div>
-																																				<div class="mint-text-block">
-																																								developing authentic relationships is very important to revenue generation.
-																																				</div>
-																																				<div class="underline-text-block">
-																																								-"The state of Relationship Marketing."
-																																								<br>
-																																								Heinz Marketing
-																																				</div> -->
 																																</div>
 																												</div>
 																								</div>
@@ -118,8 +123,8 @@
 																</div>
 												</div>
 								</section>
-								<section>
-												<div class="container">
+								<section class="overflowed-section-top">
+												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
@@ -135,10 +140,16 @@
 																</div>
 												</div>
 								</section>
-								<section>
+								<section class="overflowed-section-bottom">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 btm-pad-xxl bg-redmond-window">
+																				<div class="col-md-6 btm-pad-xxl bg-redmond-window relative mobile-image">
+																								<svg width="66%" height="30%" style="position: absolute; top: 0px; right: 0px;">
+																												<rect width="100%" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+																								<svg width="33%" height="40%" style="position: absolute;top: 30%;right: 0px;">
+																												<rect width="100%" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
 																				</div>
 																				<div class="col-md-6 btm-pad-xxl">
 																								<div class="container">
@@ -163,23 +174,25 @@
 												</div>
 								</section>
 								<section class="grey-bg relative">
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-8 col-md-8">
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
-																								Ready to catapult your sales career?
+																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																				</h2>
 																				<p class="size-md">
-																								<a href="">
-																												See how Microsoft Dynamics 365 for Sales can launch more profitable relationships.
-																								</a>
+																								Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
 																				</p>
 																</div>
 												</div>
-												<div class="row justify-content-center no-margin">
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="See how Microsoft Dynamics 365 for Sales can launch more profitable relationships." class="btn dark-btn white-txt">Learn More</a></div>
-																<div class="col-lg-4 col-md-12 top-pad-lg btm-pad-xl"><a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" class="btn dark-btn white-txt">Try it out</a></div>
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Learn More</a>
+																</div>
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																</div>
 												</div>
-												<div class="moveToTop" v-on:click="scrollToTop">return to top</div>
+												<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
 								</section>
 				</div>
 </template>
