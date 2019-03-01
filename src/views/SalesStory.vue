@@ -129,7 +129,7 @@ Let’s look at an example of how relationship selling drives sales.
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
-																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
+												<div class="moveToTop" @click="scrollToTop">return to top</div>
 								</section>
 				</div>
 </template>

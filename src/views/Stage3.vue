@@ -136,7 +136,7 @@
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
-																												Knowing when your connections are most receptiv</h2>
+																												Knowing when your connections are most receptive</h2>
 																								<p class="top-pad-sm">
 																												There will be times when buyers are just too focused on other objectives to listen. Bombarding them with information or requests will only serve to push them further away, weakening the relationship you’ve worked hard to build.
 																								</p>
@@ -200,7 +200,7 @@
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
-																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
+												<div class="moveToTop" @click="scrollToTop">return to top</div>
 								</section>
 				</div>
 </template>

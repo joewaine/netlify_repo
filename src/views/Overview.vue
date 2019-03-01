@@ -85,14 +85,18 @@
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image" v-bind:style="{ 'background-image': 'url(' + image1 + ')' }">
-<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;"><rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect></svg>
-<svg width="0" height="25%" style="position: absolute; top: 25%; right: 0px;"><rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect></svg>
-<svg width="200" height="25%" style="position: absolute; top: 50%; right: 0px;"><rect width="200" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect></svg>
-
-<svg width="350" height="25%" style="position: absolute; top: 75%; right: 0px;"><rect width="350" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect></svg>
-
-
-
+																								<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;">
+																												<rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+																								<svg width="0" height="25%" style="position: absolute; top: 25%; right: 0px;">
+																												<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+																								<svg width="200" height="25%" style="position: absolute; top: 50%; right: 0px;">
+																												<rect width="200" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
+																								<svg width="350" height="25%" style="position: absolute; top: 75%; right: 0px;">
+																												<rect width="350" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																								</svg>
 																				</div>
 																				<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																								<div class="container li-stages">
@@ -170,10 +174,16 @@
 																				<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																</div>
 												</div>
-												<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
+												<div class="moveToTop" @click="scrollToTop">return to top</div>
 								</section>
 				</div>
 </template>
+
+
+
+
+				Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+</h2>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
@@ -181,17 +191,15 @@ export default {
 				name: 'App',
 				data() {
 								return {
-												image1: "http://localhost:8080/img/iphone.b4567e7e.jpg",
-												image2: "http://localhost:8080/img/sunset.ed3eccb5.jpg",
-												image3: "http://localhost:8080/img/tablet-smiling.8091a7a0.jpg",
-												image4: "http://localhost:8080/img/crowd-2.6f456111.jpg",
-												image5: "http://localhost:8080/img/view.1144df05.jpg",
-												image6: "http://localhost:8080/img/iphone.b4567e7e.jpg",
+	image1: "http://localhost:8080/img/iphone-square.a83dd4e2.jpg",
+	image2: "http://localhost:8080/img/sunset-square.90240d7f.jpg",
+	image3: "http://localhost:8080/img/tablet-smiling-square.b3ecfa68.jpg",
+	image4: "http://localhost:8080/img/crowd-2-square.259197a3.jpg",
+	image5: "http://localhost:8080/img/view-square.bc130f40.jpg",
+	image6: "http://localhost:8080/img/iphone-square.a83dd4e2.jpg"
+}
 
-								}
 				},
-
-
 				components: {
 								HeaderModule,
 								BurgerMenu
@@ -209,14 +217,9 @@ export default {
 								},
 								mouseOver: function() {
 												console.log(this)
-
-
 												// let indexElem = this.getAttribute('data-index');
-
 												// Document.getElementById('bg-image').classList.remove('bg-1','bg-2','bg-3','bg-4','bg-5');
-
 												// 					Document.getElementById('bg-image').classList.add('bg-'+ indexElem);
-
 								}
 				}
 }
