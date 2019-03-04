@@ -49,7 +49,6 @@
 																				<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl bg-containers">
 																								<div class="row justify-content-end top-pad-max">
 																												<div class="col-md-10 col-sm-12 bg-white">
-																																<img class="short-arrow-right" src="../assets/img/short-arrow.svg">
 																																<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
 																																				<div class="col-md-8 col-sm-12 bg-white">
 																																								<h3 class="dk-green">

@@ -57,7 +57,7 @@
 																																								Matt Heinz President and founder of Heinz Marketing
 																																				</div>
 
-<img src="../assets/img/left-arrow.svg" class="top-pad-2m">
+
 																																				
 																																</div>
 																												</div>
@@ -102,9 +102,7 @@
 																				</div>
 																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
 
-<img class="short-arrow-bottom-left" src="../assets/img/short-arrow.svg">
 
-<img class="short-arrow-bottom-left-2" src="../assets/img/short-arrow.svg">
 
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
@@ -143,7 +141,7 @@
 								<section class="overflowed-section-bottom">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 bg-sweaters btm-pad-xxl relative mobile-image">
+																				<div id="bg-image" class="col-md-6 bg-sweaters btm-pad-xxl relative hide-image-mobile">
 
 																					<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
 																												<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>

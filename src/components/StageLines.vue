@@ -6,7 +6,7 @@
 	<div class="stage-box phase--1" style="">
 
 			<div class="stage stage-1">
-							<div class="stage-stroke">_</div>
+							<div class="stage-stroke transparent">_</div>
 							<div class="stage-name"></div>
 			</div>
 			<div class="stage stage-1">

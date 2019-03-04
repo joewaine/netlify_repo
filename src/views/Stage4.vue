@@ -47,7 +47,7 @@
 																								</div>
 																				</div>
 																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad bg-bar-chart-3">
-																																										<img class="short-arrow-bottom-left" src="../assets/img/short-arrow.svg">
+
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-7 offset-sm-2 top-pad-xxl btm-pad-xl">

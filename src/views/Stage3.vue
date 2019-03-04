@@ -30,28 +30,25 @@
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-md-6 btm-pad-xxl bg-surface relative mobile-image">
-
-																					<svg width="80" height="30%" style="position: absolute;top: 0;right: 0px;">
+																								<svg width="80" height="30%" style="position: absolute;top: 0;right: 0px;">
 																												<rect width="80" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg><svg width="0" height="40%" style="position: absolute;top: 30%;right: 0px;">
 																												<rect width="0" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg><svg width="200" height="30%" style="position: absolute;top: 70%;right: 0px;">
 																												<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
-
 																				</div>
 																				<div class="col-md-6 green-bg btm-pad-xxl">
-																					<img src="../assets/img/left-arrow.svg" class="top-pad-2m" style="margin-left: -60px;height: 70px;">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
 																																				<div class="quote top-pad-2m">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
 																																				</div>
 																																				<div class="name">
-																																					Steve Mordue
+																																								Steve Mordue
 																																				</div>
 																																				<div class="title">
-																																						Steve Mordue, Microsoft Business Applications MVP
+																																								Steve Mordue, Microsoft Business Applications MVP
 																																				</div>
 																																</div>
 																												</div>
@@ -98,28 +95,18 @@
 																								</div>
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
-																					<img class="short-arrow-bottom-left" src="../assets/img/short-arrow.svg">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-8 offset-sm-0 top-pad-xxl">
-
-
-
 																																				<div class="mint-text-block xxl-text">
 																																								96%
 																																				</div>
 																																				<div class="white-text-block bold">
 																																								believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
 																																				</div>
-
 																																				<div class="underline-text-block">
-	Heinz Marketing
+																																								Heinz Marketing
 																																				</div>
-
-
-
-
-
 																																</div>
 																												</div>
 																								</div>
@@ -128,11 +115,6 @@
 												</div>
 								</section>
 								<section class="overflowed-section-top">
-
-
-
-
-
 												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
 																				<div class="col-lg-6">
@@ -149,23 +131,20 @@
 								<section class="overflowed-section-bottom">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative mobile-image">
-
-																					<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
+																				<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative hide-image-mobile">
+																								<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
 																												<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
 																												<rect width="400" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
 																												<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
-
-
 																				</div>
-																				<div class="col-md-6 btm-pad-xxl">
+																				<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
-																																	<h2 class="top-pad-lg">
+																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
 																																								</span>
@@ -184,24 +163,24 @@
 												</div>
 								</section>
 								<section class="grey-bg relative">
-																<div class="row justify-content-center no-lr-margin">
-																				<div class="col-lg-8 col-md-8 col-sm-12">
-																								<h2 class="top-pad-lg btm-pad-sm">
-																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
-																								</h2>
-																								<p class="size-md">
-																												Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
-																								</p>
-																				</div>
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-8 col-md-8 col-sm-12">
+																				<h2 class="top-pad-lg btm-pad-sm">
+																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+																				</h2>
+																				<p class="size-md">
+																								Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																				</p>
 																</div>
-																<div class="row justify-content-center no-lr-margin">
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
-																								<a class="btn dark-btn white-txt" href="">Learn More</a>
-																				</div>
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
-																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
-																				</div>
+												</div>
+												<div class="row justify-content-center no-lr-margin">
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Learn More</a>
 																</div>
+																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																</div>
+												</div>
 												<div class="moveToTop" @click="scrollToTop">return to top</div>
 								</section>
 				</div>

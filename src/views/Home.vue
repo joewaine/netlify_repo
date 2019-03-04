@@ -1,10 +1,6 @@
 <template>
 				<div>
 								<StageLines />
-
-
-
-
 								<full-page ref="fullpage" :options="options">
 												<div class="section grey-bg" data-anchor="section" data-index="0">
 																<HeaderModule />
@@ -32,10 +28,10 @@
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																				<div class="bottom-fix next down-arrow" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next</div>
+																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next</div>
 																</div>
 												</div>
-<div id="bg-image" class="section bg-iphone" data-anchor="section2" data-index="1">
+												<div id="bg-image" class="section bg-iphone" data-anchor="section2" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
@@ -43,7 +39,7 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
 																												<h2>
-Identify the right leads
+																																Identify the right leads
 																												</h2>
 																												<p>
 																																Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects.
@@ -81,7 +77,7 @@ Identify the right leads
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
 																												<h2>
-Capitalize on opportunities to convert
+																																Capitalize on opportunities to convert
 																												</h2>
 																												<p>
 																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have?
@@ -100,11 +96,10 @@ Capitalize on opportunities to convert
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
 																												<h2>
-																													Deliver relationship sales at scale
-
+																																Deliver relationship sales at scale
 																												</h2>
 																												<p>
-Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don't yet realize they have?
+																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don't yet realize they have?
 																												</p>
 																												<router-link to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -165,7 +160,11 @@ export default {
 				data() {
 								return {
 												options: {
+
+																scrollBar: true,
 																onLeave: function(origin, destination, direction) {
+
+
 
 
 
@@ -209,16 +208,43 @@ export default {
 								},
 								openMe: function(index) {
 
-												var list_zero;
-												list_zero = document.querySelectorAll('.stage');
-												for (var i = 0; i < list_zero.length; ++i) {
-																list_zero[i].classList.remove('active');
-												}
-												var list;
-												list = document.querySelectorAll('.stage-' + index);
-												for (var i = 0; i < list.length; ++i) {
-																list[i].classList.add('active');
-												}
+												// var list_zero;
+												// list_zero = document.querySelectorAll('.stage');
+												// for (var i = 0; i < list_zero.length; ++i) {
+												// 				list_zero[i].classList.remove('active');
+												// }
+												// var list;
+												// list = document.querySelectorAll('.stage-' + index);
+												// for (var i = 0; i < list.length; ++i) {
+												// 				list[i].classList.add('active');
+												// }
+
+
+												var downArrrow = document.querySelector('.down-arrow');
+												downArrrow.classList.add('paused');
+
+																				// console.log(destination.index)
+
+																				let elem = document.querySelector(".fp-table.active");
+																				// let indexElem = elem.getAttribute('data-index');
+																				let indexElem = destination.index - 1;
+																				// console.log(indexElem);
+																				let stageBox;
+																				stageBox = document.querySelectorAll('.stage-box');
+																				for (var i = 0; i < stageBox.length; ++i) {
+																								stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
+
+																								stageBox[i].classList.add('phase-' + indexElem);
+
+																								console.log(indexElem);
+																								if (indexElem == -1 || indexElem == 5) {
+																												console.log(indexElem);
+																												document.getElementById('stage-line').classList.add('nostroke');
+																								} else {
+																												document.getElementById('stage-line').classList.remove('nostroke');
+																								}
+																				}
+
 
 								}
 				}
