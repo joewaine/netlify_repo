@@ -36,9 +36,20 @@ export default {
         collapse: function(event) {
             var navbar = document.querySelector('.navbar');
             navbar.classList.remove('expanded');
-        }
-    }
 
+            var landingHeader = document.querySelectorAll('.landing-element');
+                for (var i = 0; i < landingHeader.length; ++i) {
+                    landingHeader[i].classList.add('fade-visible');
+                }
+
+            var slideRight = document.querySelectorAll('.slide-in');
+                for (var i = 0; i < slideRight.length; ++i) {
+                    slideRight[i].classList.remove('slide-in-right');
+                }
+
+        }
+
+    }
 }
 
 </script>

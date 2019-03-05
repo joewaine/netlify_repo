@@ -1725,3 +1725,43 @@ ul {
 
 
 
+
+.slide-in{
+
+
+    opacity: 1;
+    transition: opacity 2.5s, margin .5s ease;
+    -moz-transition: opacity 2.5s, margin .5s ease;
+    -webkit-transition: opacity 2.5s, margin .5s ease;
+
+
+
+&.slide-in-right{
+        opacity: 0;
+        margin-left: -100%;
+}
+
+
+}
+
+
+
+.landing-element{
+
+    opacity: 0;
+    transition: opacity 2s, transform .5s ease;
+    -moz-transition: opacity 2s, transform .5s ease;
+    -webkit-transition: opacity 2s, transform .5s ease;
+    transform: translateY(40px);
+
+    &.fade-visible{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}

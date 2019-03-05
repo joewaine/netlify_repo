@@ -6,19 +6,19 @@
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
 																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
-																												<span class="section-title">sales story</span>
+																								<span class="section-title slide-in slide-in-right">sales story</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
 																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
-																												<h1 class="top-pad-sm">
+																												<h1 class="top-pad-sm landing-element">
 																																The views better from here
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
+																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
 																												<p>Relationship selling powered by tech</p>
 																												<p>
 																																Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
@@ -102,9 +102,9 @@
 																				</div>
 																</div>
 												</div>
-									<div class="section grey-bg relative fp-auto-height" data-index="3">
+									<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="3">
 
-																<div class="row justify-content-center no-lr-margin">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-lg-8 col-md-8 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
@@ -114,7 +114,7 @@
 																								</p>
 																				</div>
 																</div>
-																<div class="row justify-content-center no-lr-margin">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
@@ -144,11 +144,18 @@ export default {
 																fitToSection: false,
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
-																								var sectionName = '.fade-opacity-' + destination.index;
-																								var opacity = document.querySelector(sectionName);
-																								if (opacity) {
-																									opacity.classList.add('fade-visible-2');
-																								}
+
+
+												var sectionName = '.fade-opacity-' + destination.index;
+												var opacity = document.querySelectorAll(sectionName);
+
+																						if (opacity) {
+												for (var i = 0; i < opacity.length; ++i) {
+																opacity[i].classList.add('fade-visible-2');
+												}
+}
+
+
 																								var sectionName2 = '.slide-in-' + destination.index;
 																								var slideLeft = document.querySelector(sectionName2);
 																								if (slideLeft) {

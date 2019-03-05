@@ -6,19 +6,19 @@
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
-																								<span class="section-title">stage 1</span>
+																								<span class="section-title slide-in slide-in-right">stage 1</span>
 																								<BurgerMenu />
 																				</div>
 																</div>
 																<div class="row">
-																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
+																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
 																								<h1 class="top-pad-sm">
 																												Identify the right leads
 																								</h1>
 																				</div>
 																</div>
 																<div class="row justify-content-center">
-																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
+																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
 																								<p>
 																												Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects. Not just any prospects, but those who are able to make purchase decisions for their company.
 																								</p>
@@ -190,8 +190,8 @@
 								</div>		
 
 
-								<div class="section fp-auto-height grey-bg relative"  data-index="6">
-												<div class="row justify-content-center no-lr-margin">
+								<div class="section fp-auto-height grey-bg relative overflow-hidden"  data-index="6">
+												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
 																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
@@ -201,7 +201,7 @@
 																				</p>
 																</div>
 												</div>
-												<div class="row justify-content-center no-lr-margin">
+												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																				<a class="btn dark-btn white-txt" href="">Learn More</a>
 																</div>
@@ -237,8 +237,12 @@ export default {
 												onLeave: function(origin, destination, direction) {
 												if(destination.index){
 												var sectionName = '.fade-opacity-' + destination.index;
-												var opacity = document.querySelector(sectionName);
-												opacity.classList.add('fade-visible-2');
+												var opacity = document.querySelectorAll(sectionName);
+												if (opacity) {
+												for (var i = 0; i < opacity.length; ++i) {
+																opacity[i].classList.add('fade-visible-2');
+												}
+												}
 												var sectionName2 = '.slide-in-' + destination.index;
 												var slideLeft = document.querySelector(sectionName2);
 												if(slideLeft){
@@ -249,8 +253,6 @@ export default {
 										}
 								}
 				},
-
-
 				name: 'App',
 				components: {
 					HeaderModule,

@@ -14,7 +14,7 @@
 																				</div>
 																				<div class="row justify-content-center">
 																								<div class="col-lg-5 col-md-12 top-pad-lg">
-																												<h3>
+																												<h3 class="">
 																																Use relationship selling to connect with customers and accelerate sales
 																												</h3>
 																								</div>
@@ -127,7 +127,7 @@
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
 												</div>
 												<div class="section fp-auto-height grey-bg relative" data-index="6">
-																<div class="row justify-content-center no-lr-margin">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-lg-8 col-md-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
@@ -137,7 +137,7 @@
 																								</p>
 																				</div>
 																</div>
-																<div class="row justify-content-center no-lr-margin">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
@@ -160,17 +160,23 @@ export default {
 				data() {
 								return {
 												options: {
-fadingEffect:true,
+															fadingEffect:true,
 																scrollBar: true,
 																onLeave: function(origin, destination, direction) {
 
 
-if(destination.index && destination.index != 6){
+if(destination.index){
 
 
 				var sectionName = '.fade-opacity-' + destination.index;
-				var opacity = document.querySelector(sectionName);
-				opacity.classList.add('fade-visible');
+				var opacity = document.querySelectorAll(sectionName);
+
+												for (var i = 0; i < opacity.length; ++i) {
+
+																opacity[i].classList.add('fade-visible');
+
+													
+												}
 
 }
 
@@ -201,6 +207,7 @@ if(destination.index && destination.index != 6){
 												}
 								}
 				},
+
 				components: {
 								VueFullPage,
 								HeaderModule,
@@ -225,10 +232,8 @@ if(destination.index && destination.index != 6){
 												// }
 
 
-												var downArrrow = document.querySelector('.down-arrow');
+												var downArrrow = document.querySelectorAll('.down-arrow');
 												downArrrow.classList.add('paused');
-
-
 
 
 												// console.log(destination.index)
@@ -252,7 +257,6 @@ if(destination.index && destination.index != 6){
 																				document.getElementById('stage-line').classList.remove('nostroke');
 																}
 												}
-
 
 								}
 				}

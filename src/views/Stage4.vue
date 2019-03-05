@@ -6,18 +6,18 @@
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
-																								<span class="section-title">stage 4</span>
+																								<span class="section-title slide-in slide-in-right">stage 4</span>
 																								<BurgerMenu />
 																				</div>
 																</div>
 																<div class="row">
-																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
+																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
 																								<h1 class="top-pad-sm">
 																												Deliver relationship sales at scale
 																								</h1>
 																				</div>
 																</div>
-																<div class="row justify-content-center">
+																<div class="row justify-content-center slide-in-0 slide-in-left landing-element">
 																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
 																								<p>
 																												You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
@@ -169,8 +169,8 @@
 																</div>
 												</div>
 							</div>
-							<div class="section grey-bg relative fp-auto-height" data-index="6">	
-												<div class="row justify-content-center no-lr-margin">
+							<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="6">	
+												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
 																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
@@ -180,7 +180,7 @@
 																				</p>
 																</div>
 												</div>
-												<div class="row justify-content-center no-lr-margin">
+												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
 																				<a class="btn dark-btn white-txt" href="">Learn More</a>
 																</div>
@@ -205,16 +205,13 @@ export default {
 																fitToSection: false,
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
-																								var sectionName = '.fade-opacity-' + destination.index;
-
-
-									
-																								var opacity = document.querySelector(sectionName);
-									
-															if(opacity){
-																								opacity.classList.add('fade-visible-2');
-																								}
-
+												var sectionName = '.fade-opacity-' + destination.index;
+												var opacity = document.querySelectorAll(sectionName);
+												if (opacity) {
+												for (var i = 0; i < opacity.length; ++i) {
+																opacity[i].classList.add('fade-visible-2');
+												}
+												}
 
 																								var sectionName2 = '.slide-in-' + destination.index;
 																								var slideLeft = document.querySelector(sectionName2);
