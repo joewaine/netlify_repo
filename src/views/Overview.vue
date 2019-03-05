@@ -1,7 +1,8 @@
 <template>
 				<div>
-								<HeaderModule />
-								<section class="stage-section btm-pad-xxl">
+								<full-page ref="fullpage" :options="options">
+								<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
+																	<HeaderModule />
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
@@ -27,13 +28,13 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section>
+								</div>
+								<div class="section fp-auto-height" data-index="1">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl">
 																								<div class="container">
-																												<div class="row justify-content-center no-margin">
+																												<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-1">
 																																<div class="col-lg-10">
 																																				<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																				<p class="top-pad-lg">
@@ -50,7 +51,7 @@
 																								<div class="row justify-content-end top-pad-max">
 																												<div class="col-md-10 col-sm-12 bg-white">
 																																<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
-																																				<div class="col-md-8 col-sm-12 bg-white">
+																																				<div class="col-md-8 col-sm-12 bg-white slide-in-1 slide-in-left">
 																																								<h3 class="dk-green">
 																																												Companies that use relationship selling consistenly experience:
 																																								</h3>
@@ -80,8 +81,9 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section>
+								</div>
+									<div class="section stage-section fp-auto-height" data-index="2">
+
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image">
@@ -101,13 +103,13 @@
 																				<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																								<div class="container li-stages">
 																												<div class="row no-margin">
-																																<div class="col-md-6">
+																																<div class="col-md-6  fadeInAnimation fade-opacity-2">
 																																				<ul class="left-border top-pad-xxl">
 																																								<li @mouseover="image1 = image6" data-index="1">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage1">Stage 1</router-link>
 																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
+																																												<span class="title-2" v-on:click="scrollToZero">
 																																																<router-link to="/stage1">
 																																																				Identify the right leads
 																																																</router-link>
@@ -117,7 +119,7 @@
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage2">Stage 2</router-link>
 																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
+																																												<span class="title-2" v-on:click="scrollToZero">
 																																																<router-link to="/stage2">
 																																																				Nurture leads and build relationships
 																																																</router-link>
@@ -127,7 +129,7 @@
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage3">Stage 3</router-link>
 																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
+																																												<span class="title-2" v-on:click="scrollToZero">
 																																																<router-link to="/stage3">Capitalize on opportunities to convert</router-link>
 																																												</span>
 																																								</li>
@@ -135,7 +137,7 @@
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage4">Stage 4</router-link>
 																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
+																																												<span class="title-2" v-on:click="scrollToZero">
 																																																<router-link to="/stage4">Deliver relationship sales at scale</router-link>
 																																												</span>
 																																								</li>
@@ -143,7 +145,7 @@
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																												</div>
-																																												<span class="title" v-on:click="scrollToZero">
+																																												<span class="title-2" v-on:click="scrollToZero">
 																																																<router-link to="/salesstory">The view's better from here</router-link>
 																																												</span>
 																																								</li>
@@ -154,8 +156,8 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="grey-bg relative">
+								</div>
+									<div class="section grey-bg relative fp-auto-height" data-index="3">
 												<div class="row justify-content-center no-lr-margin">
 																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
@@ -175,7 +177,10 @@
 																</div>
 												</div>
 												<div class="moveToTop" @click="scrollToTop">return to top</div>
-								</section>
+								</div>
+
+
+							</full-page>
 				</div>
 </template>
 <div style="display: none;">
@@ -191,19 +196,44 @@
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
+import VueFullPage from 'vue-fullpage.js';
+
+
 export default {
-				name: 'App',
+
+
 				data() {
 								return {
+										options: {
+												autoScrolling: false,
+												scrollBar: false,
+												fitToSection: false,
+												onLeave: function(origin, destination, direction) {
+												if(destination.index){
+												var sectionName = '.fade-opacity-' + destination.index;
+												var opacity = document.querySelector(sectionName);
+												opacity.classList.add('fade-visible-2');
+												var sectionName2 = '.slide-in-' + destination.index;
+												var slideLeft = document.querySelector(sectionName2);
+												if(slideLeft){
+												slideLeft.classList.remove('slide-in-left');
+												}
+												}
+												}
+										},
+
 												image1: "/img/square/iphone-square.jpg",
 												image2: "/img/square/sunset-square.jpg",
 												image3: "/img/square/tablet-smiling-square.jpg",
 												image4: "/img/square/crowd-2-square.jpg",
 												image5: "/img/square/view-square.jpg",
 												image6: "/img/square/iphone-square.jpg"
-								}
 
+								}
 				},
+
+				name: 'App',
+
 				components: {
 								HeaderModule,
 								BurgerMenu

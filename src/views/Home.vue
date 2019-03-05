@@ -2,23 +2,23 @@
 				<div>
 								<StageLines />
 								<full-page ref="fullpage" :options="options">
-												<div class="section grey-bg" data-anchor="section" data-index="0">
+												<div class="section green-bg fp-auto-height" style="height: 800px" data-index="0">
 																<HeaderModule />
-																<div class="container">
+																<div class="container" style="height: 80vh;">
 																				<div class="row justify-content-center">
-																								<div class="col-lg-8 col-md-12">
+																								<div class="col-lg-10 col-md-12">
 																												<h1 class="top-pad-lg">
 																																The savvy sales leader’s guide to building profitable relationships
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-lg-4 col-md-12 top-pad-lg">
+																								<div class="col-lg-5 col-md-12 top-pad-lg">
 																												<h3>
 																																Use relationship selling to connect with customers and accelerate sales
 																												</h3>
 																								</div>
-																								<div class="col-lg-4 col-md-12 top-pad-lg">
+																								<div class="col-lg-5 col-md-12 top-pad-lg">
 																												<p>
 																																Imagine having a relationship with each of your customers—a relationship that’s built on trust.
 																												</p>
@@ -31,11 +31,11 @@
 																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next</div>
 																</div>
 												</div>
-												<div id="bg-image" class="section bg-iphone" data-anchor="section2" data-index="1">
+												<div id="bg-image" class="section bg-iphone" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-1">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
 																												<h2>
@@ -50,11 +50,11 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(2)">next</div>
 												</div>
-												<div id="bg-image" class="section bg-sunset" data-anchor="section3" data-index="2">
+												<div id="bg-image" class="section bg-sunset" data-index="2">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-2">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 2</div>
 																												<h2>
@@ -69,11 +69,11 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(3)">next</div>
 												</div>
-												<div id="bg-image" class="section bg-tablet-smiling" data-anchor="section4" data-index="3">
+												<div id="bg-image" class="section bg-tablet-smiling" data-index="3">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-3">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
 																												<h2>
@@ -88,11 +88,11 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(4)">next</div>
 												</div>
-												<div id="bg-image" class="section bg-crowd-2" data-anchor="section5" data-index="4">
+												<div id="bg-image" class="section bg-crowd-2" data-index="4">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-4">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
 																												<h2>
@@ -107,11 +107,11 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(5)">next</div>
 												</div>
-												<div id="bg-image" class="section bg-view" data-anchor="section5" data-index="5">
+												<div id="bg-image" class="section bg-view" data-index="5">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-5">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">sales story</div>
 																												<h2>
@@ -126,7 +126,7 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
 												</div>
-												<div class="section fp-auto-height grey-bg relative" data-anchor="section6" data-index="6">
+												<div class="section fp-auto-height grey-bg relative" data-index="6">
 																<div class="row justify-content-center no-lr-margin">
 																				<div class="col-lg-8 col-md-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
@@ -160,15 +160,20 @@ export default {
 				data() {
 								return {
 												options: {
-
+fadingEffect:true,
 																scrollBar: true,
 																onLeave: function(origin, destination, direction) {
 
 
+if(destination.index && destination.index != 6){
 
 
+				var sectionName = '.fade-opacity-' + destination.index;
+				var opacity = document.querySelector(sectionName);
+				opacity.classList.add('fade-visible');
 
-																				// console.log(destination.index)
+}
+
 
 																				let elem = document.querySelector(".fp-table.active");
 																				// let indexElem = elem.getAttribute('data-index');
@@ -183,7 +188,7 @@ export default {
 
 																								console.log(indexElem);
 																								if (indexElem == -1 || indexElem == 5) {
-																												console.log(indexElem);
+
 																												document.getElementById('stage-line').classList.add('nostroke');
 																								} else {
 																												document.getElementById('stage-line').classList.remove('nostroke');
@@ -223,27 +228,30 @@ export default {
 												var downArrrow = document.querySelector('.down-arrow');
 												downArrrow.classList.add('paused');
 
-																				// console.log(destination.index)
 
-																				let elem = document.querySelector(".fp-table.active");
-																				// let indexElem = elem.getAttribute('data-index');
-																				let indexElem = destination.index - 1;
-																				// console.log(indexElem);
-																				let stageBox;
-																				stageBox = document.querySelectorAll('.stage-box');
-																				for (var i = 0; i < stageBox.length; ++i) {
-																								stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
 
-																								stageBox[i].classList.add('phase-' + indexElem);
 
-																								console.log(indexElem);
-																								if (indexElem == -1 || indexElem == 5) {
-																												console.log(indexElem);
-																												document.getElementById('stage-line').classList.add('nostroke');
-																								} else {
-																												document.getElementById('stage-line').classList.remove('nostroke');
-																								}
-																				}
+												// console.log(destination.index)
+
+												let elem = document.querySelector(".fp-table.active");
+												// let indexElem = elem.getAttribute('data-index');
+												let indexElem = destination.index - 1;
+												// console.log(indexElem);
+												let stageBox;
+												stageBox = document.querySelectorAll('.stage-box');
+												for (var i = 0; i < stageBox.length; ++i) {
+																stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
+
+																stageBox[i].classList.add('phase-' + indexElem);
+
+																console.log(indexElem);
+																if (indexElem == -1 || indexElem == 5) {
+																				console.log(indexElem);
+																				document.getElementById('stage-line').classList.add('nostroke');
+																} else {
+																				document.getElementById('stage-line').classList.remove('nostroke');
+																}
+												}
 
 
 								}

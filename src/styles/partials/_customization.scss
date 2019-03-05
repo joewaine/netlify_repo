@@ -10,37 +10,53 @@
 }
 
 @-webkit-keyframes bounce {
-
-                0%,
-                100% {
-                                -webkit-transform: translateY(0);
-                }
-
-                50% {
-                                -webkit-transform: translateY(-10px);
-                }
-
-
+                0%,100% {-webkit-transform: translateY(0);}
+                50% { -webkit-transform: translateY(-10px);}
 }
 
 @keyframes bounce {
-
-                0%,
-                100% {
-                                transform: translateY(0);
-                }
-
-                50% {
-                                transform: translateY(-10px);
-                }
-
-
-
+                0%,100% {transform: translateY(0);}
+                50% { transform: translateY(-10px);}
 }
 
+.fadeInAnimation {
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+}
+
+@-webkit-keyframes fade-visible {
+    0%{opacity: 0; }
+    50% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@keyframes fade-visible {
+    0%{opacity: 0; }
+    50% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+
+@-webkit-keyframes fade-visible-2 {
+    0%{opacity: 0; }
+    50% { opacity: 1; }
+    100% {opacity: 1; }
+}
+
+@keyframes fade-visible-2 {
+    0%{opacity: 0; }
+    50% { opacity: 1; }
+    100% {opacity: 1; }
+}
+
+
 .bounce {
-                -webkit-animation-name: bounce;
-                animation-name: bounce;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 
@@ -1333,8 +1349,6 @@ ul {
                 background: $bg--light-grey;
 
 
-                padding: 10px;
-
                 span {
                                 color: $text--dk-grey;
                 }
@@ -1342,19 +1356,18 @@ ul {
 }
 
 .show-hide.dark {
-                text-align: center;
+                text-align: left;
                 width: 100%;
-                background: $text--dk-grey;
-                padding: 10px;
-                transition: background .25s ease;
 
                 span {
-                 color: $text--white;
-                }
+                transition: background .25s ease;
+                 color: $text--btn-link;
 
                &:hover{
-                 background: rgba(51,51,51,.5);
-              }
+                    color: $text--dk-grey;
+                  }
+
+            }
 
 }
 
@@ -1653,3 +1666,62 @@ ul {
                 padding-top: 20px;
                 position: absolute;
 }
+
+
+
+.fade-opacity,
+.fade-opacity-1,
+.fade-opacity-2,
+.fade-opacity-3,
+.fade-opacity-4,
+.fade-opacity-5,
+.fade-opacity-6{
+    opacity: 0;
+      transition: opacity 3s, transform .5s ease;
+      -moz-transition: opacity 3s, transform .25s ease;
+      -webkit-transition: opacity 3s, transform .5s ease;
+
+
+
+    transform: translateY(40px);
+
+
+
+&.fade-visible{
+               -webkit-animation-name: fade-visible;
+                animation-name: fade-visible;
+                transform: translateY(0px);
+
+}
+
+&.fade-visible-2{
+               -webkit-animation-name: fade-visible-2;
+                animation-name: fade-visible-2;
+                transform: translateY(0px);
+
+}
+
+
+}
+
+
+.slide-in,
+.slide-in-1,
+.slide-in-2,
+.slide-in-3,
+.slide-in-4,
+.slide-in-5,
+.slide-in-6{
+
+        transition: margin .5s ease;
+        -webkit-transition: margin .5s ease;
+
+&.slide-in-left{
+        margin-left: 200%;
+}
+
+
+}
+
+
+

@@ -1,7 +1,8 @@
 <template>
 				<div>
-								<HeaderModule />
-								<section class="stage-section btm-pad-xxl">
+					<full-page ref="fullpage" :options="options">
+											<div class="section stage-section btm-pad-xxl fp-auto-height"  data-index="0">
+											<HeaderModule />
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
@@ -25,8 +26,8 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="relative">
+								</div>
+								<div class="section relative fp-auto-height"  data-index="1">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-md-6 btm-pad-xxl bg-surface relative mobile-image">
@@ -39,7 +40,8 @@
 																								</svg>
 																				</div>
 																				<div class="col-md-6 green-bg btm-pad-xxl">
-																								<div class="container">
+																								<div class="container fadeInAnimation fade-opacity-1">
+
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10">
 																																				<div class="quote top-pad-2m">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
@@ -57,11 +59,12 @@
 																</div>
 												</div>
 												<div class="bottom-fix next down-arrow" v-on:click="scrollToNext('nextSection')">next</div>
-								</section>
-								<section id="nextSection" class="light-grey-bg">
+								</div>
+								<div id="nextSection" class="section light-grey-bg fp-auto-height"  data-index="2">
 												<div class="container">
-																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
-																				<div class="col-lg-6">
+																<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
+
+																		<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
 																												Understanding your buyers’ pains, challenges, goals, and needs</h2>
@@ -71,13 +74,13 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section>
+								</div>
+								<div class="section fp-auto-height"  data-index="3">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-md-6 light-grey-bg btm-pad-xxl">
 																								<div class="container">
-																												<div class="row justify-content-center no-margin">
+																												<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
 																																<div class="col-lg-10">
 																																				<h2 class="top-pad-md">
 																																								<span class="green-text">
@@ -96,7 +99,7 @@
 																				</div>
 																				<div class="col-md-6 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
 																								<div class="container">
-																												<div class="row justify-content-center no-margin">
+																												<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
 																																<div class="col-lg-8 offset-sm-0 top-pad-xxl">
 																																				<div class="mint-text-block xxl-text">
 																																								96%
@@ -113,10 +116,10 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="overflowed-section-top">
+								</div>
+								<div class="section overflowed-section-top fp-auto-height"  data-index="4">
 												<div class="container overflowed-section-top-container">
-																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
+																<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
@@ -127,8 +130,8 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="overflowed-section-bottom">
+								</div>
+									<div class="section overflowed-section-bottom fp-auto-height" data-index="5">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative hide-image-mobile">
@@ -142,7 +145,7 @@
 																				</div>
 																				<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																								<div class="container">
-																												<div class="row justify-content-center no-margin">
+																												<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-5">
 																																<div class="col-lg-10">
 																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
@@ -161,8 +164,9 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="grey-bg relative">
+								</div>
+
+																	<div class="section grey-bg relative fp-auto-height"  data-index="6">
 												<div class="row justify-content-center no-lr-margin">
 																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
@@ -182,13 +186,40 @@
 																</div>
 												</div>
 												<div class="moveToTop" @click="scrollToTop">return to top</div>
-								</section>
+							
+							</div>
+						</full-page>				
 				</div>
 </template>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
+import VueFullPage from 'vue-fullpage.js';
 export default {
+				data() {
+								return {
+												options: {
+																autoScrolling: false,
+																scrollBar: false,
+																fitToSection: false,
+																onLeave: function(origin, destination, direction) {
+																				if (destination.index) {
+																								var sectionName = '.fade-opacity-' + destination.index;
+																								var opacity = document.querySelector(sectionName);
+	if (opacity) {
+																								opacity.classList.add('fade-visible-2');
+																								}
+
+																								var sectionName2 = '.slide-in-' + destination.index;
+																								var slideLeft = document.querySelector(sectionName2);
+																								if (slideLeft) {
+																												slideLeft.classList.remove('slide-in-left');
+																								}
+																				}
+																}
+												}
+								}
+				},
 				name: 'App',
 				components: {
 								HeaderModule,

@@ -22,7 +22,7 @@ import SoloPage from './views/SoloPage.vue';
 
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: __dirname,
   routes: [
     { path: '/', component: Home },

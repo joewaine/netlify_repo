@@ -1,33 +1,4 @@
-.animated {
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-@-webkit-keyframes bounce {
-  0%, 100% {
-    -webkit-transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-5px);
-  }
-}
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-}
+
 
 
 // Typography declaration
@@ -213,6 +184,16 @@ a {
 .title {
         font-style: italic;
 }
+
+
+.title-2 {
+        color: $text--white;
+        font-family: $segoe--semi;
+        font-weight: $semi-bold;
+        font-size: 1.6em;
+        line-height: 1.4em;
+}
+
 
 .bold {
         font-family: $segoe--semi;

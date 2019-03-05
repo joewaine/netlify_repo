@@ -1,7 +1,8 @@
 <template>
 				<div>
-								<HeaderModule />
-								<section class="stage-section btm-pad-xxl">
+								<full-page ref="fullpage" :options="options">
+								<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
+																									<HeaderModule />
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
 																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
@@ -27,8 +28,8 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="relative">
+								</div>
+						<div class="section fp-auto-height"  data-index="1">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-lg-5 col-md-12 btm-pad-xxl bg-white-paper relative mobile-image">
@@ -42,10 +43,9 @@
 																								</svg></div>
 																				<div class="col-lg-7 col-md-12 green-bg btm-pad-xxl">
 																								<div class="container">
+
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10 btm-pad-xxl">
-
-
+																																<div class="col-lg-10 btm-pad-xxl top-pad-xxl fadeInAnimation fade-opacity-1">
 
 																																				<div class="quote top-pad-sm">“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up-to-speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
 																																				</div>
@@ -62,10 +62,11 @@
 																</div>
 												</div>
 												<div class="bottom-fix next down-arrow" v-on:click="scrollToNext('nextSection')">next</div>
-								</section>
-								<section id="nextSection" class="light-grey-bg">
+								</div>
+
+								<div id="nextSection" class="section fp-auto-height light-grey-bg"  data-index="2">
 												<div class="container">
-																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
+																<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
 																				<div class="col-lg-6">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
@@ -76,14 +77,16 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section>
+								</div>
+
+								<div class="section fp-auto-height"  data-index="3">
+
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
+																																<div class="col-lg-10 fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
@@ -110,7 +113,7 @@
 
 																												<div class="row justify-content-center no-margin">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-7 offset-sm-2 top-pad-xxl">
+																																				<div class="col-lg-7 offset-sm-2 top-pad-xxl slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
 																																												Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
 																																								</div>
@@ -129,11 +132,16 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="overflowed-section-top">
+								</div>
+
+
+
+		<div class="section fp-auto-height overflowed-section-top"  data-index="4">
+
+	
 												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
-																				<div class="col-lg-6">
+																				<div class="col-lg-6 fadeInAnimation fade-opacity-4">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
 																												Connecting with credibility</h2>
@@ -146,8 +154,8 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="overflowed-section-bottom">
+								</div>
+		<div class="section fp-auto-height overflowed-section-bottom"  data-index="5">
 												<div class="container no-pad">
 																<div class="row no-margin">
 																				<div class="col-md-6 btm-pad-xxl bg-redmond-window relative mobile-image">
@@ -161,7 +169,7 @@
 																				<div class="col-md-6 btm-pad-xxl">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10">
+																																<div class="col-lg-10 fadeInAnimation fade-opacity-5">
 																																				<h2 class="top-pad-md">
 																																								<span class="green-text">
 																																												Solution
@@ -179,8 +187,10 @@
 																				</div>
 																</div>
 												</div>
-								</section>
-								<section class="grey-bg relative">
+								</div>		
+
+
+								<div class="section fp-auto-height grey-bg relative"  data-index="6">
 												<div class="row justify-content-center no-lr-margin">
 																<div class="col-lg-8 col-md-8 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
@@ -200,17 +210,52 @@
 																</div>
 												</div>
 												<div class="moveToTop" @click="scrollToTop">return to top</div>
-								</section>
+
+								</div>
+
+
+
+
+				</full-page>
 				</div>
 </template>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
+import VueFullPage from 'vue-fullpage.js';
+
+
 export default {
+
+
+				data() {
+								return {
+										options: {
+												autoScrolling: false,
+												scrollBar: false,
+												fitToSection: false,
+												onLeave: function(origin, destination, direction) {
+												if(destination.index){
+												var sectionName = '.fade-opacity-' + destination.index;
+												var opacity = document.querySelector(sectionName);
+												opacity.classList.add('fade-visible-2');
+												var sectionName2 = '.slide-in-' + destination.index;
+												var slideLeft = document.querySelector(sectionName2);
+												if(slideLeft){
+												slideLeft.classList.remove('slide-in-left');
+												}
+												}
+												}
+										}
+								}
+				},
+
+
 				name: 'App',
 				components: {
-								HeaderModule,
-								BurgerMenu
+					HeaderModule,
+					BurgerMenu,
+					VueFullPage
 				},
 				methods: {
 								scrollToNext: function(element) {
