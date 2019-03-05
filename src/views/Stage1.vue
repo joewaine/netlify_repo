@@ -61,7 +61,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="bottom-fix next down-arrow" v-on:click="scrollToNext('nextSection')">next</div>
+												<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
 								</div>
 
 								<div id="nextSection" class="section fp-auto-height light-grey-bg"  data-index="2">
@@ -252,29 +252,10 @@ export default {
 
 												var chartBar = document.querySelectorAll('.chart__bar');
 												if (chartBar) {
-
 													for (var i = 0; i < chartBar.length; ++i) {
 																chartBar[i].classList.add('running');
 												}
-
 												}
-
-
-
-
-
-
-
-
-
-
-												var chartBar = '.chart-animate-' + destination.index;
-												var chartAnimate = document.querySelector(chartBar);
-												if(chartAnimate){
-												chartAnimate.classList.add('running');
-												}
-
-
 
 												var sectionName = '.fade-opacity-' + destination.index;
 												var opacity = document.querySelectorAll(sectionName);

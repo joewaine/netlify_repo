@@ -61,7 +61,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow" v-on:click="scrollToNext('nextSection')">next</div>
+																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
 												</div>
 												<div class="section light-grey-bg fp-auto-height" id="nextSection"  data-index="2">
 																<div class="container">
@@ -238,7 +238,7 @@ export default {
 												}
 												}
 
-																					
+
 																									var sectionName = '.fade-opacity-' + destination.index;
 																									var opacity = document.querySelectorAll(sectionName);
 																									if (opacity) {
@@ -268,6 +268,10 @@ export default {
 																left: 0,
 																top: document.getElementById(element).offsetTop
 												});
+
+												var downArrrow = document.querySelectorAll('.down-arrow');
+												downArrrow.classList.add('paused');
+												
 								},
 								scrollToTop: function() {
 												window.scroll({

@@ -59,7 +59,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="bottom-fix next down-arrow" v-on:click="scrollToNext('nextSection')">next</div>
+												<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
 												</div>
 												<div id="nextSection" class="section fp-auto-height" data-index="2">
 																<div class="container no-pad">
@@ -187,6 +187,10 @@ export default {
 																left: 0,
 																top: document.getElementById(element).offsetTop
 												});
+
+												var downArrrow = document.querySelector('.down-arrow');
+												downArrrow.classList.add('paused');
+
 								},
 								scrollToTop: function() {
 												window.scroll({
