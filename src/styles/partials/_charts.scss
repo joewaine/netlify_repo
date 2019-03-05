@@ -1,0 +1,166 @@
+//Setup
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+
+@mixin stagger-anim-delay($i, $initial-delay, $stagger-delay) {
+  @while $i > 0 {
+    &:nth-of-type(#{$i}) {
+      animation-delay: $initial-delay + $stagger-delay * $i;
+    }
+    $i: $i - 1;
+  }
+}
+
+
+.skills {
+    width: 180px;
+    height: 390px;
+    margin: auto;
+    position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-right: 3px solid white;
+
+
+
+
+    .dash {
+    				background-color: white;
+    				position: absolute;
+    				top: 5%;
+    				right: 0;
+    				width: 10px;
+    				height: 3px;
+    				color: transparent;
+
+    				&:nth-child(1) {
+    								top: 25%;
+    				}
+
+    				&:nth-child(2) {
+    								top: 45%;
+    				}
+
+    				&:nth-child(3) {
+    								top: 65%;
+    				}
+
+    				&:nth-child(4) {
+    								top: 85%;
+
+    				}
+
+
+    }
+
+}
+
+.chart {
+  margin: 30px 0 0;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.chart__title {
+  display: block;
+  margin: 0 0 10px;
+
+  font-weight: bold;
+
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in ease forwards;
+
+  .chart--dev & {}
+  .chart--prod & {
+    animation-delay: 3.3s;
+  }
+  .chart--design & {
+    animation-delay: 4.5s;
+  }
+
+
+
+
+
+
+}
+
+.chart--horiz {
+  overflow: hidden;
+}
+
+.chart__bar {
+  $border-rad: 0;
+  width: 30px;
+  margin-bottom: 10px;
+
+  border-top-right-radius: $border-rad;
+  border-bottom-right-radius: $border-rad;
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in ease forwards;
+
+  .chart--dev & {
+    @include stagger-anim-delay(11, 0.5s, 0.2s);
+  }
+  .chart--prod & {
+    @include stagger-anim-delay(2, 3.8s, 0.2s);
+  }
+  .chart--design & {
+    @include stagger-anim-delay(3, 5s, 0.2s);
+  }
+
+
+
+  display: inline-block;
+    margin-right: 16px;
+
+
+&:first-child{
+	background-color: #FEF000;
+
+}
+
+&:nth-child(2){
+	background-color: #008272;
+}
+
+
+
+animation-play-state: paused;
+
+&.running{
+	animation-play-state: running;
+}
+
+
+
+
+
+
+
+
+}
+
+.chart__label {
+  padding-left: 10px;
+  line-height: 30px;
+  color: white;
+}
+
+//Keyframes
+@keyframes anim-lightspeed-in {
+  0% {
+    transform: translateY(200%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

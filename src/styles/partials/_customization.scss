@@ -1765,3 +1765,28 @@ ul {
 .overflow-hidden{
     overflow: hidden;
 }
+
+
+
+.image-bg-transition{
+  margin: 0;
+
+
+  background: url(assets/img/sweaters.jpg) no-repeat center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+  background-blend-mode: darken;
+  // blend mode optional at this stage; will be used more in the next demo.
+  transition: .5s;
+  -webkit-transition: .5s;
+}
+
+
+
+
+

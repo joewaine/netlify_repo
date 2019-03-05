@@ -220,28 +220,11 @@ if(destination.index){
 								},
 								openMe: function(index) {
 
-												// var list_zero;
-												// list_zero = document.querySelectorAll('.stage');
-												// for (var i = 0; i < list_zero.length; ++i) {
-												// 				list_zero[i].classList.remove('active');
-												// }
-												// var list;
-												// list = document.querySelectorAll('.stage-' + index);
-												// for (var i = 0; i < list.length; ++i) {
-												// 				list[i].classList.add('active');
-												// }
-
-
 												var downArrrow = document.querySelectorAll('.down-arrow');
 												downArrrow.classList.add('paused');
 
-
-												// console.log(destination.index)
-
 												let elem = document.querySelector(".fp-table.active");
-												// let indexElem = elem.getAttribute('data-index');
 												let indexElem = destination.index - 1;
-												// console.log(indexElem);
 												let stageBox;
 												stageBox = document.querySelectorAll('.stage-box');
 												for (var i = 0; i < stageBox.length; ++i) {

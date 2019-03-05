@@ -97,7 +97,26 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl bg-bar-chart-2">
+																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl">
+
+
+
+																				<div class="skills">
+																				<div class="dash">_</div>
+																				<div class="dash">_</div>
+																				<div class="dash">_</div>
+																				<div class="dash">_</div>
+																				<div class="dash">_</div>
+																				    <div class="charts">
+																				    <div class="chart chart--dev">
+																				      <ul class="chart--horiz">
+																				        <li class="chart__bar" style="height: 360px;"></li>
+																				        <li class="chart__bar" style="height: 380px;"></li>
+																				      </ul>
+																				    </div>
+																				  </div>
+																				</div>
+
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																			<div class="col-lg-8 offset-sm-0 top-pad-xxl slide-in-3 slide-in-left">
@@ -210,6 +229,16 @@ export default {
 																fitToSection: false,
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
+
+
+												var chartBar = document.querySelectorAll('.chart__bar');
+												if (chartBar) {
+													for (var i = 0; i < chartBar.length; ++i) {
+																chartBar[i].classList.add('running');
+												}
+												}
+
+																					
 																									var sectionName = '.fade-opacity-' + destination.index;
 																									var opacity = document.querySelectorAll(sectionName);
 																									if (opacity) {

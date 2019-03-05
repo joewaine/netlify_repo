@@ -86,7 +86,7 @@
 
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image">
+																				<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image image-bg-transition">
 																								<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;">
 																												<rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
@@ -105,7 +105,7 @@
 																												<div class="row no-margin">
 																																<div class="col-md-6  fadeInAnimation fade-opacity-2">
 																																				<ul class="left-border top-pad-xxl">
-																																								<li @mouseover="image1 = image6" data-index="1">
+																																								<li @mouseover="backgroundChange(0)" data-index="1">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage1">Stage 1</router-link>
 																																												</div>
@@ -115,7 +115,7 @@
 																																																</router-link>
 																																												</span>
 																																								</li>
-																																								<li @mouseover="image1 = image2" data-index="2">
+																																								<li @mouseover="backgroundChange(1)" data-index="2">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage2">Stage 2</router-link>
 																																												</div>
@@ -125,7 +125,7 @@
 																																																</router-link>
 																																												</span>
 																																								</li>
-																																								<li @mouseover="image1 = image3" data-index="3">
+																																								<li @mouseover="backgroundChange(2)" data-index="3">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage3">Stage 3</router-link>
 																																												</div>
@@ -133,7 +133,7 @@
 																																																<router-link to="/stage3">Capitalize on opportunities to convert</router-link>
 																																												</span>
 																																								</li>
-																																								<li @mouseover="image1 = image4" data-index="4">
+																																								<li @mouseover="backgroundChange(3)" data-index="4">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/stage4">Stage 4</router-link>
 																																												</div>
@@ -141,7 +141,7 @@
 																																																<router-link to="/stage4">Deliver relationship sales at scale</router-link>
 																																												</span>
 																																								</li>
-																																								<li @mouseover="image1 = image5" data-index="5">
+																																								<li @mouseover="backgroundChange(4)" data-index="5">
 																																												<div class="stage-item" v-on:click="scrollToZero">
 																																																<router-link to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																												</div>
@@ -260,12 +260,30 @@ console.log(sectionName);
 																top: 0
 												});
 								},
-								mouseOver: function() {
-												console.log(this)
-												// let indexElem = this.getAttribute('data-index');
-												// Document.getElementById('bg-image').classList.remove('bg-1','bg-2','bg-3','bg-4','bg-5');
-												// 					Document.getElementById('bg-image').classList.add('bg-'+ indexElem);
-								}
+
+// before
+
+backgroundChange: function(indexNumber) {
+
+
+
+
+
+
+var bgImageArray = ["https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-lonely.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-uluwatu.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-carezza-lake.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-batu-bolong-temple.jpg", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-carezza-lake.jpg"];
+
+
+
+
+
+			document.querySelector('.image-bg-transition').style.background = "url(" + bgImageArray[indexNumber] + ") no-repeat center center";
+			document.querySelector('.image-bg-transition').style.backgroundSize ="cover";
+
+	
+
+
+}
+								// end
 				}
 }
 
