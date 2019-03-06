@@ -105,7 +105,7 @@
 																												</div>
 																								</div>
 																				</div>
-																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad">
+																				<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad overflow-x-hidden">
 
 																				<div class="skills">
 																				<div class="dash">_</div>
@@ -205,7 +205,7 @@
 
 								<div class="section fp-auto-height grey-bg relative overflow-hidden"  data-index="6">
 												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																<div class="col-lg-8 col-md-8 col-sm-12">
+																<div class="col-lg-8 col-md-10 col-sm-12">
 																				<h2 class="top-pad-lg btm-pad-sm">
 																								Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																				</h2>
@@ -215,10 +215,10 @@
 																</div>
 												</div>
 												<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																				<a class="btn dark-btn white-txt" href="">Learn More</a>
 																</div>
-																<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																				<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																</div>
 												</div>

@@ -33,9 +33,9 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-1">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 col-md-12 no-pad-mobile">
 																																								<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																								<p class="top-pad-lg">
 																																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
@@ -49,8 +49,8 @@
 																								</div>
 																								<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl bg-containers">
 																												<div class="row justify-content-end top-pad-max">
-																																<div class="col-md-10 col-sm-12 bg-white">
-																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
+																																<div class="col-md-10 col-sm-12 bg-white overflow-x-hidden no-pad-mobile">
+																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl no-pad-mobile">
 																																								<div class="col-md-8 col-sm-12 bg-white slide-in-1 slide-in-left">
 																																												<h3 class="dk-green">
 																																																Companies that use relationship selling consistenly experience:
@@ -109,7 +109,7 @@
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																												<div class="container li-stages">
 																																<div class="row no-margin">
-																																				<div class="col-md-8 fadeInAnimation fade-opacity-2">
+																																				<div class="col-md-8 no-pad-mobile fadeInAnimation fade-opacity-2">
 																																								<ul class="left-border top-pad-xxl">
 																																												<li @mouseover="backgroundChange(0)" data-index="1">
 																																																<div class="stage-item" v-on:click="scrollToZero">
@@ -165,7 +165,7 @@
 												</div>
 												<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="3">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
-																				<div class="col-lg-8 col-md-8 col-sm-12">
+																				<div class="col-lg-8 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -175,10 +175,10 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>

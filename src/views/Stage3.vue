@@ -22,7 +22,9 @@
 																												<p>
 																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
 																												</p>
-																												The challenge at this stage is identifying those opportunities and knowing when you have the best odds of being heard.</p>
+																												<p>
+																																The challenge at this stage is identifying those opportunities and knowing when you have the best odds of being heard.
+																															</p>
 																								</div>
 																				</div>
 																</div>
@@ -42,7 +44,7 @@
 																								<div class="col-md-6 green-bg btm-pad-xxl">
 																												<div class="container fadeInAnimation fade-opacity-1">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<div class="quote top-pad-2m">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
 																																								</div>
 																																								<div class="name">
@@ -77,9 +79,9 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-md-6 light-grey-bg btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<h2 class="top-pad-md">
 																																												<span class="green-text">
 																																																Solution
@@ -95,7 +97,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																								<div class="col-md-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="skills">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
@@ -157,9 +159,9 @@
 																												</svg>
 																								</div>
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-5">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<h2 class="top-pad-lg">
 																																												<span class="green-text">
 																																																Solution
@@ -180,7 +182,7 @@
 												</div>
 												<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-8 col-md-8 col-sm-12">
+																				<div class="col-lg-8 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -190,10 +192,10 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
@@ -214,22 +216,22 @@ export default {
 																scrollBar: false,
 																fitToSection: false,
 
-																afterLoad: function(origin, destination, direction){
+																afterLoad: function(origin, destination, direction) {
 
-												var landingHeader = document.querySelectorAll('.landing-element');
-												if(landingHeader){
-													for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-											}
-												var slideRight = document.querySelectorAll('.slide-in');
-												if(slideRight){
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
-												}
-											}
-										},
-																
+																				var landingHeader = document.querySelectorAll('.landing-element');
+																				if (landingHeader) {
+																								for (var i = 0; i < landingHeader.length; ++i) {
+																												landingHeader[i].classList.add('fade-visible');
+																								}
+																				}
+																				var slideRight = document.querySelectorAll('.slide-in');
+																				if (slideRight) {
+																								for (var i = 0; i < slideRight.length; ++i) {
+																												slideRight[i].classList.remove('slide-in-right');
+																								}
+																				}
+																},
+
 																onLeave: function(origin, destination, direction) {
 
 

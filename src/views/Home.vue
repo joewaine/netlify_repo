@@ -19,10 +19,10 @@
 																												</h3>
 																								</div>
 																								<div class="col-lg-5 col-md-12 top-pad-lg landing-element">
-																												<p>
+																												<p class="hide-mobile">
 																																Imagine having a relationship with each of your customers—a relationship that’s built on trust.
 																												</p>
-																												<p>
+																												<p class="hide-mobile">
 																																If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line? If you could provide every new prospect with relevant, useful insights that would make them more successful, how would your sales goals change?
 																												</p>
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
@@ -35,7 +35,7 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-sm-9 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-1">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-1">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
 																												<h2>
@@ -128,7 +128,7 @@
 												</div>
 												<div class="section fp-auto-height grey-bg relative" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-8 col-md-12">
+																				<div class="col-lg-8 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -138,10 +138,12 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				
+
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>

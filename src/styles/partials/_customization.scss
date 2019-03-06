@@ -1,3 +1,7 @@
+body {
+                overflow-x: hidden !important;
+}
+
 .animated {
                 -webkit-animation-duration: 2s;
                 animation-duration: 2s;
@@ -325,7 +329,7 @@ nav.expanded {
                 // background-size: cover;
 
 
-background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
+                background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
 
 }
 
@@ -1566,6 +1570,16 @@ ul {
 
                 nav {
                                 top: 146px;
+                                padding-top: 30px;
+                                padding-bottom: 30px;
+
+                                a{
+                                    color: #30EFD0;
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                    font-size: .9em;
+                                    line-height: 2.5em;
+                                }
                 }
 }
 
@@ -1828,6 +1842,9 @@ ul {
                 overflow: hidden;
 }
 
+.overflow-x-hidden {
+                overflow-x: hidden;
+}
 
 
 .image-bg-transition {
@@ -1836,7 +1853,7 @@ ul {
 
                 background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
 
-  
+
 
 
                 background-blend-mode: darken;

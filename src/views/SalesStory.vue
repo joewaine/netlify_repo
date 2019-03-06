@@ -43,7 +43,7 @@
 																								</svg>
 																								<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
 																				</div>
-																				<div class="col-md-6 dk-grey-bg btm-pad-xxl">
+																				<div class="col-md-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10 slide-in-1 slide-in-left">
@@ -65,9 +65,9 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-7 col-md-12 light-grey-bg btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-2">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<h2 class="top-pad-xl">
 																																												<span>
 																																																Let’s look at an example of how relationship selling drives sales.
@@ -105,7 +105,8 @@
 									<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="3">
 
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
-																				<div class="col-lg-8 col-md-8 col-sm-12">
+																				<div class="col-lg-8 col-md-10 col-sm-12">
+
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -115,10 +116,10 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-6 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
