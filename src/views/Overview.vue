@@ -98,21 +98,13 @@
 																												<svg width="350" height="25%" style="position: absolute; top: 75%; right: 0px;">
 																																<rect width="350" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
-
-
-
-
-
-<div style="display:none">
-				<img class="imgsrc-0" src="../assets/img/square/iphone-square.jpg" />
-				<img class="imgsrc-1" src="../assets/img/square/sunset-square.jpg" />
-				<img class="imgsrc-2" src="../assets/img/square/tablet-smiling-square.jpg" />
-				<img class="imgsrc-3" src="../assets/img/square/crowd-2-square.jpg" />
-				<img class="imgsrc-4" src="../assets/img/square/view-square.jpg" />
-
-</div>
-
-
+																												<div style="display:none">
+																																<img class="imgsrc-0" src="../assets/img/square/iphone-square.jpg" />
+																																<img class="imgsrc-1" src="../assets/img/square/sunset-square.jpg" />
+																																<img class="imgsrc-2" src="../assets/img/square/tablet-smiling-square.jpg" />
+																																<img class="imgsrc-3" src="../assets/img/square/crowd-2-square.jpg" />
+																																<img class="imgsrc-4" src="../assets/img/square/view-square.jpg" />
+																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																												<div class="container li-stages">
@@ -121,46 +113,46 @@
 																																								<ul class="left-border top-pad-xxl">
 																																												<li @mouseover="backgroundChange(0)" data-index="1">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link to="/stage1">Stage 1</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage1">Stage 1</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link to="/stage1">
+																																																				<router-link @click.native="landingFadeIn" to="/stage1">
 																																																								Identify the right leads
 																																																				</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(1)" data-index="2">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link to="/stage2">Stage 2</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage2">Stage 2</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link to="/stage2">
+																																																				<router-link @click.native="landingFadeIn" to="/stage2">
 																																																								Nurture leads and build relationships
 																																																				</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(2)" data-index="3">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link to="/stage3">Stage 3</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage3">Stage 3</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link to="/stage3">Capitalize on opportunities to convert</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage3">Capitalize on opportunities to convert</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(3)" data-index="4">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link to="/stage4">Stage 4</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage4">Stage 4</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link to="/stage4">Deliver relationship sales at scale</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/stage4">Deliver relationship sales at scale</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(4)" data-index="5">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link to="/salesstory">The view's better from here</router-link>
+																																																				<router-link @click.native="landingFadeIn" to="/salesstory">The view's better from here</router-link>
 																																																</span>
 																																												</li>
 																																								</ul>
@@ -269,15 +261,29 @@ export default {
 
 								backgroundChange: function(indexNumber) {
 												var bgImageArray = [
-															document.querySelector(".imgsrc-0").getAttribute("src"),
-															document.querySelector(".imgsrc-1").getAttribute("src"),
-															document.querySelector(".imgsrc-2").getAttribute("src"),
-															document.querySelector(".imgsrc-3").getAttribute("src"),
-															document.querySelector(".imgsrc-4").getAttribute("src")
+																document.querySelector(".imgsrc-0").getAttribute("src"),
+																document.querySelector(".imgsrc-1").getAttribute("src"),
+																document.querySelector(".imgsrc-2").getAttribute("src"),
+																document.querySelector(".imgsrc-3").getAttribute("src"),
+																document.querySelector(".imgsrc-4").getAttribute("src")
 												];
 
 												document.querySelector('.image-bg-transition').style.background = "url(" + bgImageArray[indexNumber] + ") no-repeat center center";
 												document.querySelector('.image-bg-transition').style.backgroundSize = "cover";
+
+
+								},
+								landingFadeIn: function() {
+
+												var landingHeader = document.querySelectorAll('.landing-element');
+												for (var i = 0; i < landingHeader.length; ++i) {
+																landingHeader[i].classList.add('fade-visible');
+												}
+
+												var slideRight = document.querySelectorAll('.slide-in');
+												for (var i = 0; i < slideRight.length; ++i) {
+																slideRight[i].classList.remove('slide-in-right');
+												}
 
 
 								}

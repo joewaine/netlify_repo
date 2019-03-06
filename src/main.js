@@ -22,7 +22,7 @@ import SoloPage from './views/SoloPage.vue';
 
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: __dirname,
   routes: [
     { path: '/', component: Home },
@@ -44,5 +44,27 @@ const router = new VueRouter({
 
 new Vue({
   router,
+
+  mounted:function(){
+
+                        var landingHeader = document.querySelectorAll('.landing-element');
+                        for (var i = 0; i < landingHeader.length; ++i) {
+                                landingHeader[i].classList.add('fade-visible');
+                        }
+
+                        var slideRight = document.querySelectorAll('.slide-in');
+                        for (var i = 0; i < slideRight.length; ++i) {
+                                slideRight[i].classList.remove('slide-in-right');
+                        }
+
+
+
+  },
+
   render: h => h(App)
 }).$mount('#app');
+
+
+
+
+
