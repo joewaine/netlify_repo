@@ -16,10 +16,6 @@ import Stage2 from './views/Stage2.vue';
 import Stage3 from './views/Stage3.vue';
 import Stage4 from './views/Stage4.vue';
 import SalesStory from './views/SalesStory.vue';
-import SoloPage from './views/SoloPage.vue';
-
-
-
 
 const router = new VueRouter({
   mode: 'hash',
@@ -36,31 +32,13 @@ const router = new VueRouter({
     { path: '/stage2', component: Stage2 },
     { path: '/stage3', component: Stage3 },
     { path: '/stage4', component: Stage4 },
-    { path: '/salesstory', component: SalesStory },
-        { path: '/solopage', component: SoloPage },
+    { path: '/salesstory', component: SalesStory }
 
   ]
 });
 
 new Vue({
   router,
-
-  mounted:function(){
-
-                        var landingHeader = document.querySelectorAll('.landing-element');
-                        for (var i = 0; i < landingHeader.length; ++i) {
-                                landingHeader[i].classList.add('fade-visible');
-                        }
-
-                        var slideRight = document.querySelectorAll('.slide-in');
-                        for (var i = 0; i < slideRight.length; ++i) {
-                                slideRight[i].classList.remove('slide-in-right');
-                        }
-
-
-
-  },
-
   render: h => h(App)
 }).$mount('#app');
 

@@ -85,7 +85,7 @@
 												<div class="section stage-section fp-auto-height" data-index="2">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile mobile-image image-bg-transition">
+																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters-square btm-pad-xxl relative hide-image-mobile mobile-image image-bg-transition">
 																												<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;">
 																																<rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
@@ -99,7 +99,7 @@
 																																<rect width="350" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																												<div style="display:none">
-																																<img class="imgsrc-0" src="../assets/img/square/iphone-square.jpg" />
+																																<img class="imgsrc-0" src="../assets/img/square/sweaters-square.jpg" />
 																																<img class="imgsrc-1" src="../assets/img/square/sunset-square.jpg" />
 																																<img class="imgsrc-2" src="../assets/img/square/tablet-smiling-square.jpg" />
 																																<img class="imgsrc-3" src="../assets/img/square/crowd-2-square.jpg" />
@@ -109,7 +109,7 @@
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																												<div class="container li-stages">
 																																<div class="row no-margin">
-																																				<div class="col-md-6  fadeInAnimation fade-opacity-2">
+																																				<div class="col-md-8 fadeInAnimation fade-opacity-2">
 																																								<ul class="left-border top-pad-xxl">
 																																												<li @mouseover="backgroundChange(0)" data-index="1">
 																																																<div class="stage-item" v-on:click="scrollToZero">
@@ -212,7 +212,22 @@ export default {
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
-																onLeave: function(origin, destination, direction) {
+																afterLoad: function(origin, destination, direction){
+
+												var landingHeader = document.querySelectorAll('.landing-element');
+												if(landingHeader){
+													for (var i = 0; i < landingHeader.length; ++i) {
+																landingHeader[i].classList.add('fade-visible');
+												}
+											}
+												var slideRight = document.querySelectorAll('.slide-in');
+												if(slideRight){
+												for (var i = 0; i < slideRight.length; ++i) {
+																slideRight[i].classList.remove('slide-in-right');
+												}
+											}
+										},
+																										onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);

@@ -10,13 +10,27 @@
 }
 
 @-webkit-keyframes bounce {
-                0%,100% {-webkit-transform: translateY(0);}
-                50% { -webkit-transform: translateY(-10px);}
+
+                0%,
+                100% {
+                                -webkit-transform: translateY(0);
+                }
+
+                50% {
+                                -webkit-transform: translateY(-10px);
+                }
 }
 
 @keyframes bounce {
-                0%,100% {transform: translateY(0);}
-                50% { transform: translateY(-10px);}
+
+                0%,
+                100% {
+                                transform: translateY(0);
+                }
+
+                50% {
+                                transform: translateY(-10px);
+                }
 }
 
 .fadeInAnimation {
@@ -29,40 +43,72 @@
 }
 
 @-webkit-keyframes fade-visible {
-    0%{opacity: 0; }
-    50% { opacity: 0; }
-    100% {opacity: 1; }
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 0;
+                }
+
+                100% {
+                                opacity: 1;
+                }
 }
 
 @keyframes fade-visible {
-    0%{opacity: 0; }
-    50% { opacity: 0; }
-    100% {opacity: 1; }
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 0;
+                }
+
+                100% {
+                                opacity: 1;
+                }
 }
 
 
 @-webkit-keyframes fade-visible-2 {
-    0%{opacity: 0; }
-    50% { opacity: 1; }
-    100% {opacity: 1; }
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
 }
 
 @keyframes fade-visible-2 {
-    0%{opacity: 0; }
-    50% { opacity: 1; }
-    100% {opacity: 1; }
+                0% {
+                                opacity: 0;
+                }
+
+                50% {
+                                opacity: 1;
+                }
+
+                100% {
+                                opacity: 1;
+                }
 }
 
 
 .bounce {
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
+                -webkit-animation-name: bounce;
+                animation-name: bounce;
 }
 
 
-.paused{
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+.paused {
+                -webkit-animation-play-state: paused;
+                animation-play-state: paused;
 }
 
 
@@ -270,6 +316,20 @@ nav.expanded {
                 background-size: cover;
 }
 
+
+.bg-sweaters-square {
+                // background: url(assets/img/square/sweaters-square.jpg) no-repeat center center;
+                // -webkit-background-size: cover;
+                // -moz-background-size: cover;
+                // -o-background-size: cover;
+                // background-size: cover;
+
+
+background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
+
+}
+
+
 .bg-two-women {
                 background: url(assets/img/two-women.jpg) no-repeat center center;
                 -webkit-background-size: cover;
@@ -438,16 +498,13 @@ nav.expanded {
                                 float: left;
                                 margin-right: 10px;
                                 transition: width 0.5s ease
-
-
-                             
                 }
 
 
 
-               .stage-stroke.transparent{
-                                 background: transparent;
-                                }
+                .stage-stroke.transparent {
+                                background: transparent;
+                }
 
                 &.active {
                                 .stage-stroke {
@@ -682,6 +739,11 @@ ul {
                                                 .stage-item {
                                                                 font-size: .8em;
                                                                 line-height: 2.2em;
+
+                                                                a {
+                                                                                font-size: 1.2em;
+                                                                }
+
                                                 }
 
                                                 .title {
@@ -1360,14 +1422,14 @@ ul {
                 width: 100%;
 
                 span {
-                transition: background .25s ease;
-                 color: $text--btn-link;
+                                transition: background .25s ease;
+                                color: $text--btn-link;
 
-               &:hover{
-                    color: $text--dk-grey;
-                  }
+                                &:hover {
+                                                color: $text--dk-grey;
+                                }
 
-            }
+                }
 
 }
 
@@ -1675,31 +1737,31 @@ ul {
 .fade-opacity-3,
 .fade-opacity-4,
 .fade-opacity-5,
-.fade-opacity-6{
-    opacity: 0;
-      transition: opacity 3s, transform .5s ease;
-      -moz-transition: opacity 3s, transform .25s ease;
-      -webkit-transition: opacity 3s, transform .5s ease;
+.fade-opacity-6 {
+                opacity: 0;
+                transition: opacity 3s, transform .5s ease;
+                -moz-transition: opacity 3s, transform .25s ease;
+                -webkit-transition: opacity 3s, transform .5s ease;
 
 
 
-    transform: translateY(40px);
+                transform: translateY(40px);
 
 
 
-&.fade-visible{
-               -webkit-animation-name: fade-visible;
-                animation-name: fade-visible;
-                transform: translateY(0px);
+                &.fade-visible {
+                                -webkit-animation-name: fade-visible;
+                                animation-name: fade-visible;
+                                transform: translateY(0px);
 
-}
+                }
 
-&.fade-visible-2{
-               -webkit-animation-name: fade-visible-2;
-                animation-name: fade-visible-2;
-                transform: translateY(0px);
+                &.fade-visible-2 {
+                                -webkit-animation-name: fade-visible-2;
+                                animation-name: fade-visible-2;
+                                transform: translateY(0px);
 
-}
+                }
 
 
 }
@@ -1711,82 +1773,74 @@ ul {
 .slide-in-3,
 .slide-in-4,
 .slide-in-5,
-.slide-in-6{
+.slide-in-6 {
 
-        transition: margin .5s ease;
-        -webkit-transition: margin .5s ease;
+                transition: margin .5s ease;
+                -webkit-transition: margin .5s ease;
 
-&.slide-in-left{
-        margin-left: 200%;
-}
-
-
-}
-
-
-
-
-.slide-in{
-
-
-    opacity: 1;
-    transition: opacity 2.5s, margin .5s ease;
-    -moz-transition: opacity 2.5s, margin .5s ease;
-    -webkit-transition: opacity 2.5s, margin .5s ease;
-
-
-
-&.slide-in-right{
-        opacity: 0;
-        margin-left: -100%;
-}
+                &.slide-in-left {
+                                margin-left: 200%;
+                }
 
 
 }
 
 
 
-.landing-element{
 
-    opacity: 0;
-    transition: opacity 2s, transform .5s ease;
-    -moz-transition: opacity 2s, transform .5s ease;
-    -webkit-transition: opacity 2s, transform .5s ease;
-    transform: translateY(40px);
+.slide-in {
 
-    &.fade-visible{
-        opacity: 1;
-        transform: translateY(0px);
 
-    }
-
-}
-
-.overflow-hidden{
-    overflow: hidden;
-}
+                opacity: 1;
+                transition: opacity 2.5s, margin .5s ease;
+                -moz-transition: opacity 2.5s, margin .5s ease;
+                -webkit-transition: opacity 2.5s, margin .5s ease;
 
 
 
-.image-bg-transition{
-  margin: 0;
+                &.slide-in-right {
+                                opacity: 0;
+                                margin-left: -100%;
+                }
 
 
-  background: url(assets/img/sweaters.jpg) no-repeat center center;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
-  background-blend-mode: darken;
-  // blend mode optional at this stage; will be used more in the next demo.
-  transition: .25s;
-  -webkit-transition: .25s;
 }
 
 
 
+.landing-element {
+
+                opacity: 0;
+                transition: opacity 2s, transform .5s ease;
+                -moz-transition: opacity 2s, transform .5s ease;
+                -webkit-transition: opacity 2s, transform .5s ease;
+                transform: translateY(40px);
+
+                &.fade-visible {
+                                opacity: 1;
+                                transform: translateY(0px);
+
+                }
+
+}
+
+.overflow-hidden {
+                overflow: hidden;
+}
 
 
+
+.image-bg-transition {
+                margin: 0;
+
+
+                background: url(assets/img/square/sweaters-square.jpg) center center / cover no-repeat;
+
+  
+
+
+                background-blend-mode: darken;
+                // blend mode optional at this stage; will be used more in the next demo.
+                transition: .25s;
+                -webkit-transition: .25s;
+}

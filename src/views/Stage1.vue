@@ -247,6 +247,23 @@ export default {
 												autoScrolling: false,
 												scrollBar: false,
 												fitToSection: false,
+
+																afterLoad: function(origin, destination, direction){
+
+												var landingHeader = document.querySelectorAll('.landing-element');
+												if(landingHeader){
+													for (var i = 0; i < landingHeader.length; ++i) {
+																landingHeader[i].classList.add('fade-visible');
+												}
+											}
+												var slideRight = document.querySelectorAll('.slide-in');
+												if(slideRight){
+												for (var i = 0; i < slideRight.length; ++i) {
+																slideRight[i].classList.remove('slide-in-right');
+												}
+											}
+										},
+												
 												onLeave: function(origin, destination, direction) {
 												if(destination.index){
 
