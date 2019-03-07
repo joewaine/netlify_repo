@@ -1,5 +1,11 @@
 <template>
 		<div class="menu" v-on:click="burger">menu</div>
+
+
+
+
+
+		
  </template>
 <script>
 export default {

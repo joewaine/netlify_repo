@@ -141,12 +141,36 @@ a {
                 margin-top: 10px;
                 padding: 10px 25px;
 
+
+                transition: color .5s ease, background-color .5s ease;
+                -webkit-transition: color .5s ease, background-color .5s ease;
+
+                &:hover{
+
+                color:  $text--mint;
+                background-color: $bg--dk-grey;
+
+                }
+
                 &.dark-btn {
                         color: $text--mint;
                         background-color: $bg--dk-grey;
 
+
+                                    &:hover{
+                                color: $text--white;
+                        background-color: $bg--dk-grey;
+
+                                   
+
+                                    }
+
                         &.white-txt {
                                 color: $text--white;
+
+                                    &:hover{
+                                                                color: $text--mint;
+                                    }
                         }
                 }
         }
