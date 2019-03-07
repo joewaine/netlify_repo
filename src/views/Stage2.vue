@@ -77,7 +77,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section fp-auto-height"  data-index="3">
+												<div class="section fp-auto-height" data-index="3">
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
@@ -192,7 +192,11 @@
 												</div>
 												<div class="section grey-bg relative fp-auto-height overflow-hidden"  data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-8 col-md-10 col-sm-12">
+																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+
+
+
+																					
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -202,14 +206,14 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>
-																<div class="moveToTop" @click="scrollToTop">return to top</div>
+																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top</div>
 												</div>
 								</full-page>
 				</div>
@@ -248,12 +252,18 @@ export default {
 																				if (destination.index) {
 
 
-												var chartBar = document.querySelectorAll('.chart__bar-2');
-												if (chartBar) {
-													for (var i = 0; i < chartBar.length; ++i) {
-																chartBar[i].classList.add('running-2');
-												}
-												}
+
+
+
+																								if (destination.index == 3) {
+																												var chartBar2 = document.querySelectorAll('.chart__bar-2');
+																												if (chartBar2) {
+																																for (var i = 0; i < chartBar2.length; ++i) {
+																																				chartBar2[i].classList.add('running-2');
+																																}
+																												}
+																								}
+
 
 
 																									var sectionName = '.fade-opacity-' + destination.index;

@@ -137,6 +137,7 @@ a {
         &.btn {
                 color: $text--btn-link;
                 background-color: $bg--white;
+                border: 2px solid $bg--white;;
                 display: inline-block;
                 margin-top: 10px;
                 padding: 10px 25px;
@@ -147,8 +148,8 @@ a {
 
                 &:hover{
 
-                color:  $text--mint;
-                background-color: $bg--dk-grey;
+
+                background-color: rgba(255,255,255,.5);
 
                 }
 
@@ -157,9 +158,11 @@ a {
                         background-color: $bg--dk-grey;
 
 
+                        border: 2px solid #3c3c41;
+
                                     &:hover{
-                                color: $text--white;
-                        background-color: $bg--dk-grey;
+      color: #fff;
+                background-color: rgba(65,65,65,.75);
 
                                    
 
