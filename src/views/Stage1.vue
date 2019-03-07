@@ -5,20 +5,20 @@
 																									<HeaderModule />
 												<div class="container">
 																<div class="row top-pad-xl stage-header">
-																				<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																								<span class="section-title slide-in slide-in-right">stage 1</span>
 																								<BurgerMenu />
 																				</div>
 																</div>
 																<div class="row">
-																				<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																								<h1 class="top-pad-sm">
 																												Identify the right leads
 																								</h1>
 																				</div>
 																</div>
-																<div class="row justify-content-center">
-																				<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
+																				<div class="row justify-content-center">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																								<p>
 																												Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects. Not just any prospects, but those who are able to make purchase decisions for their company.
 																								</p>
@@ -171,7 +171,7 @@
 		<div class="section fp-auto-height overflowed-section-bottom"  data-index="5">
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-md-6 btm-pad-xxl bg-redmond-window relative mobile-image">
+																				<div class="col-lg-6 col-md-12 btm-pad-xxl bg-redmond-window relative mobile-image">
 																								<svg width="66%" height="30%" style="position: absolute; top: 0px; right: 0px;">
 																												<rect width="100%" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
@@ -179,7 +179,7 @@
 																												<rect width="100%" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg>
 																				</div>
-																				<div class="col-md-6 btm-pad-xxl">
+																				<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																								<div class="container no-pad-mobile">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10 no-pad-mobile fadeInAnimation fade-opacity-5">

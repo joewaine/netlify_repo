@@ -5,20 +5,20 @@
 																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																												<span class="section-title slide-in slide-in-right">overview</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm landing-element">
 																																Use relationship selling to connect
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
 																																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
 																												</p>
@@ -31,8 +31,8 @@
 												</div>
 												<div class="section fp-auto-height" data-index="1">
 																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-6 col-md-12 grey-bg btm-pad-xxl">
+																				<div class="row justify-content-center no-margin grey-bg">
+																								<div class="col-lg-6 col-md-10 grey-bg btm-pad-xxl grey-bg btm-pad-xxl">
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-1">
 																																				<div class="col-lg-10 col-md-12 no-pad-mobile">
@@ -51,10 +51,12 @@
 																												<div class="row justify-content-end top-pad-max">
 																																<div class="col-md-10 col-sm-12 bg-white overflow-x-hidden no-pad-mobile">
 																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl no-pad-mobile">
-																																								<div class="col-md-8 col-sm-12 bg-white slide-in-1 slide-in-left">
+																																								<div class="col-md-8 col-sm-12 offset-md-1 offset-sm-1 bg-white slide-in-1 slide-in-left">
 																																												<h3 class="dk-green">
 																																																Companies that use relationship selling consistenly experience:
 																																												</h3>
+
+
 																																												<ul class="secondary-list">
 																																																<li>
 																																																				<div class="circle">18%
@@ -108,7 +110,7 @@
 																								</div>
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl li-stages">
 																												<div class="container li-stages">
-																																<div class="row no-margin">
+																																<div class="row no-margin justify-content-center">
 																																				<div class="col-md-8 no-pad-mobile fadeInAnimation fade-opacity-2">
 																																								<ul class="left-border top-pad-xxl">
 																																												<li @mouseover="backgroundChange(0)" data-index="1">

@@ -5,20 +5,20 @@
 																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																								<span class="section-title slide-in slide-in-right">stage 2</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm">
 																																Nurture leads and build relationships
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
 																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for. Imagine what your end-of-the-month reports would look like if you could anticipate the needs of every connection and deliver real value—in the form of useful information that drives business forward—to every customer.
 																												</p>
@@ -32,7 +32,7 @@
 												<div class="section relative fp-auto-height"  data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 btm-pad-xxl bg-small-table relative mobile-image">
+																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-small-table relative mobile-image">
 																												<svg width="360" height="30%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="360" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
@@ -43,7 +43,7 @@
 																																<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																								</div>
-																								<div class="col-md-6 green-bg btm-pad-lg">
+																								<div class="col-lg-6 col-md-12 green-bg btm-pad-lg">
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
@@ -66,7 +66,7 @@
 												<div class="section light-grey-bg fp-auto-height" id="nextSection"  data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Capturing buyers’ attention</h2>
@@ -97,7 +97,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
 
 
 
@@ -139,7 +139,7 @@
 												<div class="section overflowed-section-top fp-auto-height"  data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Keeping up with roles, marching orders, and objectives that are always in flux</h2>
@@ -153,7 +153,7 @@
 												<div class="section overflowed-section-bottom fp-auto-height"  data-index="5">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div id="bg-image" class="col-md-6 bg-sweaters btm-pad-xxl relative hide-image-mobile">
+																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile">
 																												<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
@@ -162,7 +162,7 @@
 																																<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																								</div>
-																								<div class="col-md-6 btm-pad-xxl">
+																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																												<div class="container no-pad-mobile">
 
 

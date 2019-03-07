@@ -5,20 +5,20 @@
 																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																												<span class="section-title slide-in slide-in-right">stage 3</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm">
 																																Capitalize on opportunities to convert
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
 																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
 																												</p>
@@ -139,7 +139,7 @@
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
 																																				<div class="col-lg-8 top-pad-xxl">
 																																								<div class="mint-text-block xxl-text">
-																																												<div id="value" style="display: inline-block;width: 180px;">96</div>%
+																																												<div id="value" style="display: inline-block;width: 180px;">96%</div>
 																																								</div>
 																																								<div class="white-text-block bold">
 																																												believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
@@ -279,7 +279,7 @@ export default {
 																																var obj = document.getElementById(id);
 																																var timer = setInterval(function() {
 																																				current += increment;
-																																				obj.innerHTML = current;
+																																				obj.innerHTML = current + '%';
 																																				if (current == end) {
 																																								clearInterval(timer);
 																																				}

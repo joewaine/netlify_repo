@@ -5,20 +5,20 @@
 																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																												<span class="section-title slide-in slide-in-right">stage 4</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0 landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm">
 																																Deliver relationship sales at scale
 																												</h1>
 																								</div>
 																				</div>
-																				<div class="row justify-content-center slide-in-0 slide-in-left landing-element">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl">
+																				<div class="row justify-content-center">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
 																																You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
 																												</p>
@@ -89,7 +89,7 @@
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl	fadeInAnimation fade-opacity-2">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Engaging with dozens of stakeholders across the entire sales book</h2>
@@ -103,7 +103,7 @@
 												<div class="section fp-auto-height" data-index="3">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 light-grey-bg btm-pad-xxl">
+																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
 																																				<div class="col-lg-10 no-pad-mobile">
@@ -119,7 +119,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-md-6 bg-art-director btm-pad-xxl mobile-image">
+																								<div class="col-lg-6 col-md-12 bg-art-director btm-pad-xxl mobile-image">
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																</div>
@@ -131,7 +131,7 @@
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Keeping up with large amounts of data</h2>
@@ -145,7 +145,7 @@
 												<div class="section overflowed-section-bottom fp-auto-height" data-index="5">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 btm-pad-xxl bg-glasses mobile-image">
+																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-glasses mobile-image">
 																												<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
@@ -154,7 +154,7 @@
 																																<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																								</div>
-																								<div class="col-md-6 btm-pad-xxl">
+																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin  fadeInAnimation fade-opacity-5 no-pad-mobile">
 																																				<div class="col-lg-10 no-pad-mobile">

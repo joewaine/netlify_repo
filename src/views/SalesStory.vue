@@ -5,20 +5,20 @@
 																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
+																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
 																												<span class="section-title slide-in slide-in-right">sales story</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
 																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-12 offset-lg-1 offset-md-0">
+																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm landing-element">
 																																The views better from here
 																												</h1>
 																								</div>
 																				</div>
 																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-12 top-pad-xl landing-element">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>Relationship selling powered by tech</p>
 																												<p>
 																																Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
@@ -30,7 +30,7 @@
 												<div class="section container no-pad fp-auto-height" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div id="bg-image" class="col-md-6 col-sm-12 bg-grass btm-pad-xxl text-center" style="text-align: center;">
+																								<div id="bg-image" class="col-lg-6 col-md-12 bg-grass btm-pad-xxl text-center" style="text-align: center;">
 																												<svg width="200" height="33.33%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="10" height="33.33%" style="position: absolute;top: 33.33%;right: 0px;">
@@ -40,7 +40,7 @@
 																												</svg>
 																												<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
 																								</div>
-																								<div class="col-md-6 col-sm-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 slide-in-1 slide-in-left">
