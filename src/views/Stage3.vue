@@ -24,7 +24,7 @@
 																												</p>
 																												<p>
 																																The challenge at this stage is identifying those opportunities and knowing when you have the best odds of being heard.
-																															</p>
+																												</p>
 																								</div>
 																				</div>
 																</div>
@@ -32,7 +32,7 @@
 												<div class="section relative fp-auto-height" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 btm-pad-xxl bg-surface relative mobile-image">
+																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-surface relative mobile-image">
 																												<svg width="80" height="30%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="80" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="6" height="40%" style="position: absolute;top: 30%;right: 0px;">
@@ -41,17 +41,18 @@
 																																<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																								</div>
-																								<div class="col-md-6 green-bg btm-pad-xxl">
-																												<div class="container fadeInAnimation fade-opacity-1">
+
+																								<div class="col-lg-6 col-md-12 green-bg btm-pad-xxl">
+																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 no-pad-mobile">
-																																								<div class="quote top-pad-2m">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
+																																				<div class="col-lg-10 btm-pad-max top-pad-xxl no-pad-mobile fadeInAnimation fade-opacity-1">
+																																								<div class="quote top-pad-sm">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
 																																								</div>
 																																								<div class="name">
 																																												Steve Mordue
 																																								</div>
 																																								<div class="title">
-																																												Steve Mordue, Microsoft Business Applications MVP
+																																												Microsoft Business Applications MVP
 																																								</div>
 																																				</div>
 																																</div>
@@ -64,7 +65,7 @@
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10 col-sm-12">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Understanding your buyers’ pains, challenges, goals, and needs</h2>
@@ -78,7 +79,7 @@
 												<div class="section fp-auto-height" data-index="3">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 light-grey-bg btm-pad-xxl">
+																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
 																																				<div class="col-lg-10 no-pad-mobile">
@@ -97,7 +98,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-md-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="skills">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
@@ -115,7 +116,7 @@
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
-																																				<div class="col-lg-8 offset-sm-0 top-pad-xxl">
+																																				<div class="col-lg-8 top-pad-xxl">
 																																								<div class="mint-text-block xxl-text">
 																																												<div id="value" style="display: inline-block;width: 180px;">96</div>%
 																																								</div>
@@ -135,7 +136,7 @@
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
-																								<div class="col-lg-6">
+																								<div class="col-lg-6 col-md-10 col-sm-12">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
 																																Knowing when your connections are most receptive</h2>

@@ -42,10 +42,10 @@
 																												<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																								</svg></div>
 																				<div class="col-lg-7 col-md-12 green-bg btm-pad-xxl">
-																								<div class="container">
+																								<div class="container no-pad-mobile">
 
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10 btm-pad-xxl top-pad-xxl fadeInAnimation fade-opacity-1">
+																																<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
 
 																																				<div class="quote top-pad-sm">“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up-to-speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
 																																				</div>
@@ -65,9 +65,9 @@
 								</div>
 
 								<div id="nextSection" class="section fp-auto-height light-grey-bg"  data-index="2">
-												<div class="container">
+												<div class="container pad-15-mobile">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
-																				<div class="col-lg-6">
+																				<div class="col-lg-6 col-md-10 col-sm-12">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
 																												Identifying key decision makers</h2>
@@ -83,8 +83,8 @@
 
 												<div class="container no-pad">
 																<div class="row no-margin">
-																				<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
-																								<div class="container">
+																				<div class="col-lg-6 col-md-12 no-pad-mobile light-grey-bg btm-pad-xxl">
+																								<div class="container no-pad">
 																												<div class="row justify-content-center no-margin">
 																																<div class="col-lg-10 fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">
@@ -92,7 +92,7 @@
 																																												Solution
 																																								</span>
 																																				</h2>
-																																				<p class="top-pad-lg">
+																																				<p class="top-pad-sm">
 																																								Imagine being able to connect with every member of a company’s buying committee, prioritize your efforts and act on valuable insights to target prospects who make the most sense, and then take advantage of your existing connections to reach out to new leads and create a list to focus on those that matter most.
 																																				</p>
 																																				<p>
@@ -126,7 +126,7 @@
 																								<div class="container">
 																												<div class="row justify-content-center no-margin">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-7 offset-sm-2 top-pad-xxl slide-in-3 slide-in-left">
+																																				<div class="col-lg-8 top-pad-xxl btm-pad-xl slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
 																																												Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
 																																								</div>
@@ -154,7 +154,7 @@
 	
 												<div class="container overflowed-section-top-container">
 																<div class="row justify-content-center top-pad-lg btm-pad-xxl">
-																				<div class="col-lg-6 fadeInAnimation fade-opacity-4">
+																				<div class="col-lg-6 col-md-10 col-sm-12 fadeInAnimation fade-opacity-4">
 																								<h2 class="top-pad-md">
 																												<span class="green-text">Challenge:</span><br>
 																												Connecting with credibility</h2>
@@ -180,9 +180,9 @@
 																								</svg>
 																				</div>
 																				<div class="col-md-6 btm-pad-xxl">
-																								<div class="container">
+																								<div class="container no-pad-mobile">
 																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10 fadeInAnimation fade-opacity-5">
+																																<div class="col-lg-10 no-pad-mobile fadeInAnimation fade-opacity-5">
 																																				<h2 class="top-pad-md">
 																																								<span class="green-text">
 																																												Solution

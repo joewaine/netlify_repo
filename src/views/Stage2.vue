@@ -44,16 +44,16 @@
 																												</svg>
 																								</div>
 																								<div class="col-md-6 green-bg btm-pad-lg">
-																												<div class="container fadeInAnimation fade-opacity-1">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 btm-pad-xxl">
-																																								<div class="quote top-pad-xl">"If you could give your salespeople 33% more active selling time, what impact would that have on your business"
+																																				<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+																																								<div class="quote top-pad-sm">"If you could give your salespeople 33% more active selling time, what impact would that have on your business"
 																																								</div>
 																																								<div class="name">
 																																												Matt Heinz
 																																								</div>
 																																								<div class="title">
-																																												Matt Heinz President and founder of Heinz Marketing
+																																								President and founder of Heinz Marketing
 																																								</div>
 																																				</div>
 																																</div>
@@ -81,16 +81,16 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
 
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<h2 class="top-pad-md">
 																																												<span class="green-text">
 																																																Solution
 																																												</span>
 																																								</h2>
-																																								<p class="top-pad-lg">
+																																								<p class="top-pad-sm">
 																																												Fostering meaningful connections is the key to relationship selling. But it’s not enough to use the latest technology. You need to take advantage of that technology to capture data before you engage with a customer or prospect at a deeply personalized level, whether that’s by phone, by email, or in person. Powerful analytics let you discover your prospects’ pain points and deliver sound solutions that will build trust. Tap into your customers’ social platforms and pay attention to the topics they discuss, the issues they tackle, and the industry insights they share. Customer interaction data surfaces timely, relevant insights that move relationships forward.
 																																								</p>
 																																				</div>
@@ -119,7 +119,7 @@
 
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																			<div class="col-lg-8 offset-sm-0 top-pad-xxl slide-in-3 slide-in-left">
+																																			<div class="col-lg-8 top-pad-xxl slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
 																																												Changing buyer behaviors and attitudes create increased pressure for sales reps to deliver fast, relevant, and personalized information. 72% of sales leaders agreed that
 																																								</div>
@@ -163,18 +163,18 @@
 																												</svg>
 																								</div>
 																								<div class="col-md-6 btm-pad-xxl">
-																												<div class="container">
+																												<div class="container no-pad-mobile">
 
 
 
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-5">
-																																				<div class="col-lg-10">
+																																				<div class="col-lg-10 no-pad-mobile">
 																																								<h2 class="top-pad-">
 																																												<span class="green-text">
 																																																Solution
 																																												</span>
 																																								</h2>
-																																								<p class="top-pad-lg">
+																																								<p class="top-pad-sm">
 																																												Staying on top of changes among your connections can provide opportunities for new connections, deeper engagements, and greater sales. Machine learning and real-time alerts provide insights into what your connections are up to—and the best next actions to take on each of those insights at every relationship-building opportunity.
 																																								</p>
 																																								<p>

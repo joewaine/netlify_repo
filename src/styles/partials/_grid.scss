@@ -439,8 +439,8 @@ $enable-grid-classes: true !default;
 .container {
   @include make-container();
   @include make-container-max-widths();
-  padding-left: 5%;
-  padding-right: 5%;
+  // padding-left: 5%;
+  // padding-right: 5%;
 }
 
 .container-fluid {

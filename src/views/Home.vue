@@ -199,9 +199,9 @@ export default {
 
 
 																				let elem = document.querySelector(".fp-table.active");
-																				// let indexElem = elem.getAttribute('data-index');
+									
 																				let indexElem = destination.index - 1;
-																				// console.log(indexElem);
+					
 																				let stageBox;
 																				stageBox = document.querySelectorAll('.stage-box');
 																				for (var i = 0; i < stageBox.length; ++i) {
@@ -209,7 +209,6 @@ export default {
 
 																								stageBox[i].classList.add('phase-' + indexElem);
 
-																								console.log(indexElem);
 																								if (indexElem == -1 || indexElem == 5) {
 
 																												document.getElementById('stage-line').classList.add('nostroke');

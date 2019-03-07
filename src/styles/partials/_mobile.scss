@@ -1,34 +1,98 @@
 
 
-@media (max-width: 992px) {
 
-.top-pad-xl,
-.top-pad-lg {
-    padding-top: 1em;
+@media (max-width: 1080px) {
+	.overflowed-section-top-container{
+		height: auto;
+	}
 }
 
 
+@media (max-width: 992px) {
+
+
+
+.top-pad-xxl{
+	padding-top: 2em;
+}
+
+.top-pad-xl{
+    padding-top: 2em;
+}
+
+
+// .btm-pad-xxl {
+//     padding-bottom: 2em;
+// }
 
 h3{
 	font-size: 1.4em;
 }
 
+
+.quote {
+    font-size: 1.4em;
+}
+
+.name, .title {
+    font-size: 1.2em;
+}
+
+.top-pad-md {
+    padding-top: 1em;
 }
 
 
-
-
-@media (max-width: 640px) {
-
-	.hide-mobile{
-		display: none;
-	}
-
-
+.skills{
+	display: none;
+}
 
 .no-pad-mobile{
 	padding-left: 0;
 	padding-right: 0;
 }
+}
+
+
+@media (max-width: 768px) {
+    svg {
+            display: none;
+	    }
 
 }
+
+
+@media (max-width: 640px) {
+
+.hide-mobile{
+	display: none;
+}
+
+
+
+.full-width-no-mar-mobile{
+	width: 100%;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.pad-15-mobile{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.overflowed-section-top-container {
+    height: auto;
+}
+
+.down-arrow{
+    width: 30px;
+    margin-left: -15px;
+}
+
+}
+
+
+

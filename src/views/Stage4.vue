@@ -32,7 +32,7 @@
 												<div class="section fp-auto-height" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div class="col-md-6 bg-two-women btm-pad-xxl relative mobile-image">
+																								<div class="col-lg-6 col-md-12 bg-two-women btm-pad-xxl relative mobile-image">
 																												<svg width="200" height="30%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="50" height="40%" style="position: absolute;top: 30%;right: 0px;">
@@ -65,7 +65,7 @@
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-7 offset-sm-2 top-pad-xxl btm-pad-xl slide-in-1 slide-in-left">
+																																				<div class="col-lg-8 top-pad-xl btm-pad-xl slide-in-1 slide-in-left">
 																																								<div class="white-text-block">
 																																												What contributes most to a sales organization's success according to sales leaders?
 																																								</div>

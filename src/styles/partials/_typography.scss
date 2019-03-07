@@ -139,7 +139,7 @@ a {
                 background-color: $bg--white;
                 display: inline-block;
                 margin-top: 10px;
-                padding: 10px 16px;
+                padding: 10px 25px;
 
                 &.dark-btn {
                         color: $text--mint;
@@ -239,6 +239,11 @@ h2 {
         &.bold {
                 font-family: $segoe--semi;
                 font-weight: $semi-bold;
+
+
+                ul{
+                        padding-left: 0;
+                }
         }
 
 

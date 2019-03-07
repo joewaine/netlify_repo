@@ -232,9 +232,6 @@ export default {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 
-
-																								console.log(sectionName);
-
 																								for (var i = 0; i < opacity.length; ++i) {
 																												opacity[i].classList.add('fade-visible-2');
 																								}

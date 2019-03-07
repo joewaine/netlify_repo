@@ -2,11 +2,11 @@
 				<div>
 								<full-page ref="fullpage" :options="options">
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-														<HeaderModule />
+																<HeaderModule />
 																<div class="container">
 																				<div class="row top-pad-xl stage-header">
 																								<div class="col-xl-10 col-lg-12 col-md-12 offset-lg-0 offset-md-0 offset-xl-1 relative">
-																								<span class="section-title slide-in slide-in-right">sales story</span>
+																												<span class="section-title slide-in slide-in-right">sales story</span>
 																												<BurgerMenu />
 																								</div>
 																				</div>
@@ -27,39 +27,36 @@
 																				</div>
 																</div>
 												</div>
-
-
-									<div class="section container no-pad fp-auto-height" data-index="1">
-	
-												<div class="container no-pad">
-																<div class="row no-margin">
-																				<div id="bg-image" class="col-md-6 bg-grass btm-pad-xxl text-center" style="text-align: center;">
-																								<svg width="200" height="33.33%" style="position: absolute;top: 0;right: 0px;">
-																												<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																								</svg><svg width="10" height="33.33%" style="position: absolute;top: 33.33%;right: 0px;">
-																												<rect width="10" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																								</svg><svg width="80" height="33.33%" style="position: absolute;top: 66.66%;right: 0px;">
-																												<rect width="80" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																								</svg>
-																								<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
-																				</div>
-																				<div class="col-md-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
-																								<div class="container">
-																												<div class="row justify-content-center no-margin">
-																																<div class="col-lg-10 slide-in-1 slide-in-left">
-																																				<div class="mint-text-block top-pad-2m col-lg-8">
-																																								Microsoft Dynamics 365 delivers $16.97 for every dollar spent
-																																				</div>
-																																				<div class="underline-text-block">
-																																								Nucleus Report
+												<div class="section container no-pad fp-auto-height" data-index="1">
+																<div class="container no-pad">
+																				<div class="row no-margin">
+																								<div id="bg-image" class="col-md-6 col-sm-12 bg-grass btm-pad-xxl text-center" style="text-align: center;">
+																												<svg width="200" height="33.33%" style="position: absolute;top: 0;right: 0px;">
+																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																												</svg><svg width="10" height="33.33%" style="position: absolute;top: 33.33%;right: 0px;">
+																																<rect width="10" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																												</svg><svg width="80" height="33.33%" style="position: absolute;top: 66.66%;right: 0px;">
+																																<rect width="80" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
+																												</svg>
+																												<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
+																								</div>
+																								<div class="col-md-6 col-sm-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																												<div class="container">
+																																<div class="row justify-content-center no-margin">
+																																				<div class="col-lg-10 slide-in-1 slide-in-left">
+																																								<div class="mint-text-block top-pad-xl col-lg-8">
+																																												Microsoft Dynamics 365 delivers $16.97 for every dollar spent
+																																								</div>
+																																								<div class="underline-text-block">
+																																												Nucleus Report
+																																								</div>
 																																				</div>
 																																</div>
 																												</div>
 																								</div>
 																				</div>
 																</div>
-												</div>
-												<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
+																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
 												</div>
 												<div id="nextSection" class="section fp-auto-height" data-index="2">
 																<div class="container no-pad">
@@ -68,7 +65,7 @@
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-2">
 																																				<div class="col-lg-10 no-pad-mobile">
-																																								<h2 class="top-pad-xl">
+																																								<h2 class="top-pad-lg">
 																																												<span>
 																																																Let’s look at an example of how relationship selling drives sales.
 																																												</span>
@@ -102,11 +99,9 @@
 																				</div>
 																</div>
 												</div>
-									<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="3">
-
+												<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="3">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-lg-8 col-md-10 col-sm-12">
-
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -144,35 +139,35 @@ export default {
 																scrollBar: false,
 																fitToSection: false,
 
-																afterLoad: function(origin, destination, direction){
+																afterLoad: function(origin, destination, direction) {
 
-												var landingHeader = document.querySelectorAll('.landing-element');
-												if(landingHeader){
-													for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-											}
-												var slideRight = document.querySelectorAll('.slide-in');
-												if(slideRight){
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
-												}
-											}
-										},
+																				var landingHeader = document.querySelectorAll('.landing-element');
+																				if (landingHeader) {
+																								for (var i = 0; i < landingHeader.length; ++i) {
+																												landingHeader[i].classList.add('fade-visible');
+																								}
+																				}
+																				var slideRight = document.querySelectorAll('.slide-in');
+																				if (slideRight) {
+																								for (var i = 0; i < slideRight.length; ++i) {
+																												slideRight[i].classList.remove('slide-in-right');
+																								}
+																				}
+																},
 
-																
+
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
 
 
-												var sectionName = '.fade-opacity-' + destination.index;
-												var opacity = document.querySelectorAll(sectionName);
+																								var sectionName = '.fade-opacity-' + destination.index;
+																								var opacity = document.querySelectorAll(sectionName);
 
-																						if (opacity) {
-												for (var i = 0; i < opacity.length; ++i) {
-																opacity[i].classList.add('fade-visible-2');
-												}
-}
+																								if (opacity) {
+																												for (var i = 0; i < opacity.length; ++i) {
+																																opacity[i].classList.add('fade-visible-2');
+																												}
+																								}
 
 
 																								var sectionName2 = '.slide-in-' + destination.index;
