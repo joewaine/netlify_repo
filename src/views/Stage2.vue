@@ -101,17 +101,17 @@
 
 
 
-																				<div class="skills">
-																				<div class="dash">_</div>
-																				<div class="dash">_</div>
-																				<div class="dash">_</div>
-																				<div class="dash">_</div>
-																				<div class="dash">_</div>
-																				    <div class="charts">
-																				    <div class="chart chart--dev">
-																				      <ul class="chart--horiz">
-																				        <li class="chart__bar" style="height: 360px;"></li>
-																				        <li class="chart__bar" style="height: 380px;"></li>
+																				<div class="skills-2">
+																				<div class="dash-2">_</div>
+																				<div class="dash-2">_</div>
+																				<div class="dash-2">_</div>
+																				<div class="dash-2">_</div>
+																				<div class="dash-2">_</div>
+																				    <div class="charts-2">
+																				    <div class="chart-2 chart--dev-2">
+																				      <ul class="chart--horiz-2">
+																				        <!-- <li class="chart__bar-2" style="height: 360px;"></li> -->
+																				        <li class="chart__bar-2" style="height: 460px;"></li>
 																				      </ul>
 																				    </div>
 																				  </div>
@@ -248,10 +248,10 @@ export default {
 																				if (destination.index) {
 
 
-												var chartBar = document.querySelectorAll('.chart__bar');
+												var chartBar = document.querySelectorAll('.chart__bar-2');
 												if (chartBar) {
 													for (var i = 0; i < chartBar.length; ++i) {
-																chartBar[i].classList.add('running');
+																chartBar[i].classList.add('running-2');
 												}
 												}
 

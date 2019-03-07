@@ -99,20 +99,41 @@
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
-																												<div class="skills">
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="charts">
-																																				<div class="chart chart--dev">
-																																								<ul class="chart--horiz">
-																																												<li class="chart__bar" style="height: 360px;"></li>
-																																												<li class="chart__bar" style="height: 380px;"></li>
+																												<div class="skills-3">
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+																																<div class="dash-3">_</div>
+
+
+<!-- 																																<div class="charts-3">
+																																				<div class="chart-3 chart--dev-3">
+																																								<ul class="chart--horiz-3">
+																																												<li class="chart__bar-3" style="height: 360px;"></li>
+																																												<li class="chart__bar-3" style="height: 380px;"></li>
 																																								</ul>
 																																				</div>
-																																</div>
+																																</div> -->
+
+
+<div class="circles">
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+<div class="circle-2 suppressed">.</div>
+</div>
+
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
@@ -239,10 +260,12 @@ export default {
 
 																				if (destination.index) {
 
-																								var chartBar = document.querySelectorAll('.chart__bar');
-																								if (chartBar) {
-																												for (var i = 0; i < chartBar.length; ++i) {
-																																chartBar[i].classList.add('running');
+																					console.log(123)
+
+																								var circles = document.querySelectorAll('.circle-2');
+																								if (circles) {
+																												for (var i = 0; i < circles.length; ++i) {
+																																circles[i].classList.remove('suppressed');
 																												}
 																								}
 

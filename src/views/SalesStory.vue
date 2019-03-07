@@ -70,7 +70,7 @@
 																																																Let’s look at an example of how relationship selling drives sales.
 																																												</span>
 																																								</h2>
-																																								<p class="top-pad-lg">
+																																								<p class="top-pad-xl">
 																																												Tomas is a sales rep for a lawn care equipment manufacturer. His customers include retailers, dealers, and lawn care service providers in the Midwest. To reach his quarterly quota, Tomas needs one more large order. Instead of spending hours searching for the right leads online, Tomas uses the advanced search tool on LinkedIn to quickly locate Jamie, a valuable lead at a lawn care company in Kansas City
 																																								</p>
 																																								<p>

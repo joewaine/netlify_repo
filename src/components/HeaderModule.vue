@@ -1,13 +1,20 @@
 <template>
 <header>
         <div class="container">
-                <div class="row">
-                	<div class="col-lg-6">
+
+
+
+
+
+                <div class="row justify-content-center">
+                	<div class="col-lg-10">
 					<img class="header-logo" src="../assets/microsoft-logo.png" alt="Microsoft" />
+
+
+                                <a class="header-sign-in text-right" href="">Sign In</a>
+
 					</div>
-                	<div class="col-lg-6 text-right">
-                		<a class="header-sign-in" href="">Sign In</a>
-	                </div>
+         
                 </div>
         </div>
 </header>

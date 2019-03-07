@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //Setup
 @import url(https://fonts.googleapis.com/css?family=Open+Sans); 
 
@@ -10,6 +16,8 @@
   }
 }
 
+
+// chart 1
 
 .skills {
     width: 140px;
@@ -28,26 +36,26 @@
     .dash {
     				background-color: white;
     				position: absolute;
-    				top: 5%;
+    				top: 0%;
     				right: 0;
     				width: 10px;
     				height: 3px;
     				color: transparent;
 
     				&:nth-child(1) {
-    								top: 25%;
+    								top: 20%;
     				}
 
     				&:nth-child(2) {
-    								top: 45%;
+    								top: 40%;
     				}
 
     				&:nth-child(3) {
-    								top: 65%;
+    								top: 60%;
     				}
 
     				&:nth-child(4) {
-    								top: 85%;
+    								top: 80%;
 
     				}
 
@@ -138,13 +146,6 @@ animation-play-state: paused;
 	animation-play-state: running;
 }
 
-
-
-
-
-
-
-
 }
 
 .chart__label {
@@ -164,4 +165,544 @@ animation-play-state: paused;
     opacity: 1;
   }
 }
+
+
+// chart 1
+
+
+
+
+
+// chart 2
+
+.skills-2 {
+    width: 30px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+    position: absolute;
+    left: 60px;
+    bottom: -5px;
+    overflow: hidden;
+    border-right: 0px solid white;
+
+
+
+    .dash-2 {
+            background-color: #3c3c41;
+            position: absolute;
+            // top: 5%;
+            right: 0;
+            width: 100%;
+            height: 10px;
+            color: transparent;
+            z-index: 10;
+
+
+
+
+
+            &:nth-child(1) {
+                    top: 25%;
+            }
+
+            &:nth-child(2) {
+                    top: 45%;
+            }
+
+            &:nth-child(3) {
+                    top: 65%;
+            }
+
+            &:nth-child(4) {
+                    top: 85%;
+
+            }
+
+
+    }
+
+}
+
+.chart-2 {
+  margin: 30px 0 0;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.chart__title-2 {
+  display: block;
+  margin: 0 0 10px;
+
+  font-weight: bold;
+
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in-2 ease forwards;
+
+  .chart--dev-2 & {}
+  .chart--prod-2 & {
+    animation-delay: 3.3s;
+  }
+  .chart--design-2 & {
+    animation-delay: 4.5s;
+  }
+
+
+
+
+
+
+}
+
+.chart--horiz-2 {
+  overflow: hidden;
+  padding-left: 0;
+  background: #fff;
+}
+
+.chart__bar-2 {
+  $border-rad: 0;
+  width: 30px;
+  margin-bottom: 10px;
+
+  border-top-right-radius: $border-rad;
+  border-bottom-right-radius: $border-rad;
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in ease forwards;
+
+  .chart--dev & {
+    @include stagger-anim-delay(11, 0.5s, 0.2s);
+  }
+  .chart--prod & {
+    @include stagger-anim-delay(2, 3.8s, 0.2s);
+  }
+  .chart--design & {
+    @include stagger-anim-delay(3, 5s, 0.2s);
+  }
+
+
+
+  display: inline-block;
+    margin-right: 16px;
+
+
+&:first-child{
+  background-color: #FEF000;
+
+}
+
+&:nth-child(2){
+  background-color: #008272;
+}
+
+
+
+animation-play-state: paused;
+
+&.running-2{
+  animation-play-state: running;
+}
+
+}
+
+.chart__label-2 {
+  padding-left: 10px;
+  line-height: 30px;
+  color: white;
+}
+
+//Keyframes
+@keyframes anim-lightspeed-in-2 {
+  0% {
+    transform: translateY(200%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+// chart 2
+
+
+
+
+
+// chart 3
+.skills-3 {
+    width: 140px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-right: 2px solid white;
+
+
+
+
+    .dash-3 {
+            background-color: white;
+            position: absolute;
+            top: 0%;
+            right: 0;
+            width: 10px;
+            height: 2px;
+            color: transparent;
+
+            &:nth-child(1) {
+                    top: 10%;
+            }
+
+            &:nth-child(2) {
+                    top: 20%;
+            }
+
+            &:nth-child(3) {
+                    top: 30%;
+            }
+
+            &:nth-child(4) {
+                    top: 40%;
+
+            }
+
+
+            &:nth-child(5) {
+                    top: 50%;
+
+            }
+
+            &:nth-child(6) {
+                    top: 60%;
+
+            }
+
+            &:nth-child(7) {
+                    top: 70%;
+
+            }
+
+            &:nth-child(8) {
+                    top: 80%;
+
+            }
+
+            &:nth-child(9) {
+                    top: 90%;
+
+            }
+
+
+
+    }
+
+}
+
+.chart-3 {
+  margin: 30px 0 0;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.chart__title-3 {
+  display: block;
+  margin: 0 0 10px;
+
+  font-weight: bold;
+
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in ease forwards;
+
+  .chart--dev-3 & {}
+  .chart--prod-3 & {
+    animation-delay: 3.3s;
+  }
+  .chart--design-3 & {
+    animation-delay: 4.5s;
+  }
+
+
+
+
+
+
+}
+
+.chart--horiz-3 {
+  overflow: hidden;
+  padding-left: 30px;
+}
+
+.chart__bar-3 {
+  $border-rad: 0;
+  width: 30px;
+  margin-bottom: 10px;
+
+  border-top-right-radius: $border-rad;
+  border-bottom-right-radius: $border-rad;
+  opacity: 0;
+
+  animation: 1s anim-lightspeed-in ease forwards;
+
+  .chart--dev-3 & {
+    @include stagger-anim-delay(11, 0.5s, 0.2s);
+  }
+  .chart--prod-3 & {
+    @include stagger-anim-delay(2, 3.8s, 0.2s);
+  }
+  .chart--design-3 & {
+    @include stagger-anim-delay(3, 5s, 0.2s);
+  }
+
+
+
+  display: inline-block;
+    margin-right: 16px;
+
+
+&:first-child{
+  background-color: #FEF000;
+
+}
+
+&:nth-child(2){
+  background-color: #008272;
+}
+
+
+
+animation-play-state: paused;
+
+&.running-3{
+  animation-play-state: running;
+}
+
+}
+
+.chart__label-3 {
+  padding-left: 10px;
+  line-height: 30px;
+  color: white;
+}
+
+//Keyframes
+@keyframes anim-lightspeed-in {
+  0% {
+    transform: translateY(200%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.circle-2{
+
+    background-color: #FEF000;
+    color: transparent;
+    position: absolute;
+    left: 50%;
+
+    -webkit-transition: width 1s ease, height 1s ease, border-radius 1s ease, margin 1s ease;
+    transition: width 1s ease, height 1s ease, border-radius 1s ease, margin 1s ease;
+
+    &:nth-child(1){
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    margin-left: -17px;
+    top: 0px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+
+
+    }
+
+    }
+
+
+    &:nth-child(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: -15px;
+    top: 64px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(3){
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    margin-left: -13px;
+    top: 124px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(4){
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    margin-left: -11px;
+    top: 180px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(5){
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    margin-left: -9px;
+    top: 232px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(6){
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin-left: -7px;
+    top: 280px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(7){
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: -5px;
+    top: 324px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(8){
+    width: 6px;
+    height: 6px;
+    border-radius:3px;
+    margin-left: -3px;
+    top: 364px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(9){
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    margin-left: -1px;
+    top: 400px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+    &:nth-child(10){
+    width: 1px;
+    height: 1px;
+    border-radius: 0px;
+    margin-left: -.5px;
+    top: 432px;
+
+    &.suppressed{
+      width: 0;
+      height: 0;
+      border-radius: 0px;
+      margin-left: 0;
+
+    }
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+// chart 3
+
 

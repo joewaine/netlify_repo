@@ -1,6 +1,55 @@
 <template>
 				<div>
-								<StageLines />
+								<!-- <StageLines /> -->
+								<!-- stagelines -->
+								<div style="height:0;">
+<div id="stage-line-container" class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 stage-container">
+																<div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative nostroke">
+																				<div class="stage-box phase--1" style="">
+																								<div class="stage stage-1">
+																												<div class="stage-stroke transparent">_</div>
+																												<div class="stage-name"></div>
+																								</div>
+																								<div class="stage stage-1">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name"></div>
+																								</div>
+																								<div class="stage stage-1">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name">
+																																<a @click="$refs.fullpage.api.moveTo(2)">stage 1</a>
+																																<!-- <span @click="$refs.fullpage.api.moveSectionDown()">next section</span> -->
+																												</div>
+																								</div>
+																								<div class="stage stage-2">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name">
+																																<a @click="$refs.fullpage.api.moveTo(3)">stage 2</a>
+																												</div>
+																								</div>
+																								<div class="stage stage-3">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name">
+																																<a @click="$refs.fullpage.api.moveTo(4)">stage 3</a>
+																												</div>
+																								</div>
+																								<div class="stage stage-4">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name">
+																																<a @click="$refs.fullpage.api.moveTo(5)">stage 4</a>
+																												</div>
+																								</div>
+																								<div class="stage stage-5">
+																												<div class="stage-stroke">_</div>
+																												<div class="stage-name">
+																																<a @click="$refs.fullpage.api.moveTo(6)">sales story</a>
+																												</div>
+																								</div>
+																				</div>
+																</div>
+												</div>
+								</div>
+								<!-- stagelines -->
 								<full-page ref="fullpage" :options="options">
 												<div class="section green-bg fp-auto-height" style="height: 800px" data-index="0">
 																<HeaderModule />
@@ -138,8 +187,6 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				
-
 																				<div class="col-lg-4 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
@@ -154,7 +201,7 @@
 </template>
 <script>
 import HeaderModule from '../components/HeaderModule';
-import StageLines from '../components/StageLines.vue';
+// import StageLines from '../components/StageLines.vue';
 // import FullPage from 'FullPage';
 import VueFullPage from 'vue-fullpage.js'
 
@@ -164,25 +211,27 @@ export default {
 												options: {
 																fadingEffect: true,
 																scrollBar: true,
-																afterLoad: function(origin, destination, direction){
+																afterLoad: function(origin, destination, direction) {
 
-												var landingHeader = document.querySelectorAll('.landing-element');
-												if(landingHeader){
-													for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-											}
-												var slideRight = document.querySelectorAll('.slide-in');
-												if(slideRight){
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
-												}
-											}
-										},
+																				var landingHeader = document.querySelectorAll('.landing-element');
+																				if (landingHeader) {
+																								for (var i = 0; i < landingHeader.length; ++i) {
+																												landingHeader[i].classList.add('fade-visible');
+																								}
+																				}
+																				var slideRight = document.querySelectorAll('.slide-in');
+																				if (slideRight) {
+																								for (var i = 0; i < slideRight.length; ++i) {
+																												slideRight[i].classList.remove('slide-in-right');
+																								}
+																				}
+																},
 																onLeave: function(origin, destination, direction) {
 
 
 																				if (destination.index) {
+
+
 
 
 																								var sectionName = '.fade-opacity-' + destination.index;
@@ -191,17 +240,23 @@ export default {
 																								for (var i = 0; i < opacity.length; ++i) {
 
 																												opacity[i].classList.add('fade-visible');
-
-
 																								}
+
+
+																								document.getElementById('stage-line-container').style.pointerEvents = 'auto';
+
+																				} else {
+
+																								document.getElementById('stage-line-container').style.pointerEvents = 'none';
+
 
 																				}
 
 
 																				let elem = document.querySelector(".fp-table.active");
-									
+
 																				let indexElem = destination.index - 1;
-					
+
 																				let stageBox;
 																				stageBox = document.querySelectorAll('.stage-box');
 																				for (var i = 0; i < stageBox.length; ++i) {
@@ -225,8 +280,8 @@ export default {
 				},
 				components: {
 								VueFullPage,
-								HeaderModule,
-								StageLines
+								HeaderModule
+								// StageLines
 				},
 				methods: {
 								burger: function(event) {
