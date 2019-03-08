@@ -36,11 +36,11 @@
 
 
 
-<div class="rect-bar-3 one">.</div>
+<div class="rect-bar-1 one">.</div>
 
-<div class="rect-bar-3 two">.</div>
+<div class="rect-bar-1 two">.</div>
 
-<div class="rect-bar-3 three">.</div>
+<div class="rect-bar-1 three">.</div>
 
 
 
@@ -66,8 +66,11 @@
 																												</div>
 																								</div>
 																				</div>
+
+
+
 																</div>
-																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
+																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveTo(3);">next
 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>

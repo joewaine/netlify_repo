@@ -1,18 +1,22 @@
 
 .rect-bar-10 {
-				width: 6%;
+				width: 100px;
 				background: #30EFD0;
 				color: transparent;
 				bottom: 0;
-				right: 10%;
+				right: 100px;
 				position: absolute;
+
 
    -webkit-transition: all 1s ease;
    transition:         all 1s ease; 
+-webkit-transition-delay: .5s;
+transition-delay: .5s;
+
 			height: 0;
 
 			&.one {
-			height: 50px;
+			height: 0;
 								&.expanded-33 {
 											 height: 10%;
 								}
@@ -20,8 +24,8 @@
 
 				&.two {
 
-								height: 50px;
-									right: 14%;
+								height: 0;
+						right: 200px;
 								&.expanded-10 {
 											 height: 20%;
 								}
@@ -29,7 +33,7 @@
 
 				&.three {
 								height: 0;
-									right: 18%;
+						right: 300px;
 								&.expanded-50 {
 											 height: 30%;
 								}
@@ -38,7 +42,7 @@
 
 				&.four {
 								height: 0;
-									right: 22%;
+						right: 400px;
 								&.expanded-50 {
 											 height: 10%;
 								}
