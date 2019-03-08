@@ -111,7 +111,7 @@
 																																																				<div class="circle" style="opacity: 0;">
 																																																								.
 																																																				</div>
-																																																				<span style="text-decoration: underline;font-size: 1.2em">—Nucleus Report</span>
+																																																				<span style="text-decoration: underline;font-size: 1em">—Nucleus Report</span>
 																																																</li>
 																																												</ul>
 																																								</div>

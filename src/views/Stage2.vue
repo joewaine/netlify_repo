@@ -12,7 +12,7 @@
 																				</div>
 																				<div class="row">
 																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
-																												<h1 class="top-pad-sm">
+																												<h1 class="top-pad-sm landing-element">
 																																Nurture leads and build relationships
 																												</h1>
 																								</div>
