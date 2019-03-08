@@ -29,7 +29,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section fp-auto-height" data-index="1">
+												<div class="section fp-auto-height bar-panel" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-5 col-md-12 btm-pad-xxl bg-white-paper relative mobile-image">
@@ -100,8 +100,16 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad overflow-hidden">
-																												<div class="skills">
+
+
+											
+
+
+																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
+
+
+
+														<div class="skills">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
@@ -116,26 +124,34 @@
 																																				</div>
 																																</div>
 																												</div>
+
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="row justify-content-center no-margin">
-																																								<div class="col-lg-8 top-pad-xxl btm-pad-xl slide-in-3 slide-in-left">
-																																												<div class="white-text-block">
-																																																Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
-																																												</div>
-																																												<div class="mint-text-block bold">
-																																																developing authentic relationships is very important to revenue generation.
-																																												</div>
-																																												<div class="underline-text-block">
-																																																-"The state of Relationship Marketing."
+																																			<div class="col-lg-8 top-pad-xxl slide-in-3 slide-in-left">
+																																								<div class="white-text-block">
+																																															Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
+																																								</div>
+																																								<div class="mint-text-block">
+																																										developing authentic relationships is very important to revenue generation.
+																																											
+																																								</div>
+																																								<div class="underline-text-block">
+																																										-"The state of Relationship Marketing."
 																																																<br>
 																																																Heinz Marketing
-																																												</div>
 																																								</div>
 																																				</div>
 																																</div>
 																												</div>
 																								</div>
+
+
+
+
+
+
+
+
 																				</div>
 																</div>
 												</div>
@@ -156,7 +172,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
+												<div class="section fp-auto-height overflowed-section-bottom bar-panel" data-index="5">
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-redmond-window relative mobile-image">
@@ -189,14 +205,9 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section fp-auto-height grey-bg relative overflow-hidden" data-index="6">
+												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
-
-
-
-
-
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -206,10 +217,10 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>

@@ -1,5 +1,8 @@
 
+.btm-pad-footer{
 
+    padding-bottom: 80px;
+}
 
 @media (max-width: 1080px) {
 	.overflowed-section-top-container{
@@ -60,13 +63,27 @@ h3{
     font-size: 5em;
 }
 
+
+
+.top-pad-list{
+    padding-top: 4em;
+}
+
+
 }
 
 
 @media (max-width: 768px) {
-    // svg {
-    //         display: none;
-	   //  }
+
+
+.title-2{
+   font-size: 1.2em;
+}
+   .bar-panel svg {
+            display: none;
+	    }
+
+
 
 }
 
@@ -100,6 +117,15 @@ h3{
     width: 30px;
     margin-left: -15px;
 }
+
+
+.stage-box {
+    height: 50px;
+
+}
+
+
+
 
 }
 

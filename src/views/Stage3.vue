@@ -29,7 +29,7 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section relative fp-auto-height" data-index="1">
+												<div class="section relative fp-auto-height bar-panel" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-surface relative mobile-image">
@@ -202,14 +202,9 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section grey-bg relative fp-auto-height overflow-hidden" data-index="6">
+												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
-
-
-
-
-
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -219,10 +214,10 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
 																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
 																				</div>
 																</div>

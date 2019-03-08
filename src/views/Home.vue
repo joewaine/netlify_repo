@@ -173,7 +173,7 @@
 																</div>
 																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
 												</div>
-												<div class="section fp-auto-height grey-bg relative" data-index="6">
+												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
@@ -185,7 +185,7 @@
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xl">
+																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
