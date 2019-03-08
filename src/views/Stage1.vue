@@ -61,7 +61,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next
+																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>

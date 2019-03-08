@@ -41,7 +41,6 @@
 																																<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
 																								</div>
-
 																								<div class="col-lg-6 col-md-12 green-bg btm-pad-xxl">
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
@@ -60,9 +59,14 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
+																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																								<g id="Layer_2" data-name="Layer 2">
+																												<g id="content">
+																																<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																												</g>
+																								</g>
+																				</svg>
 																</div>
 												</div>
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
@@ -73,7 +77,7 @@
 																																<span class="green-text">Challenge:</span><br>
 																																Understanding your buyers’ pains, challenges, goals, and needs</h2>
 																												<p class="top-pad-sm">
-																						You’ve undoubtedly heard the infamous statistic that claims most buyers are nearly 70 percent of the way to a buying decision before they engage a salesperson. It’s a tough sell when your customers have already researched the competition and are on the tail end of their purchase decision.
+																																You’ve undoubtedly heard the infamous statistic that claims most buyers are nearly 70 percent of the way to a buying decision before they engage a salesperson. It’s a tough sell when your customers have already researched the competition and are on the tail end of their purchase decision.
 																												</p>
 																								</div>
 																				</div>
@@ -112,31 +116,18 @@
 																																<div class="dash-3">_</div>
 																																<div class="dash-3">_</div>
 																																<div class="dash-3">_</div>
-
-
-<!-- 																																<div class="charts-3">
-																																				<div class="chart-3 chart--dev-3">
-																																								<ul class="chart--horiz-3">
-																																												<li class="chart__bar-3" style="height: 360px;"></li>
-																																												<li class="chart__bar-3" style="height: 380px;"></li>
-																																								</ul>
-																																				</div>
-																																</div> -->
-
-
-<div class="circles">
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-<div class="circle-2 suppressed">.</div>
-</div>
-
+																																<div class="circles">
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																				<div class="circle-2 suppressed">.</div>
+																																</div>
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
@@ -145,12 +136,10 @@
 																																												<div id="value" style="display: inline-block;width: 180px;">96%</div>
 																																								</div>
 																																								<div class="white-text-block bold">
-
-believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
-
+																																												believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
 																																								</div>
 																																								<div class="underline-text-block">
-																																											Heinz Marketing
+																																												Heinz Marketing
 																																								</div>
 																																				</div>
 																																</div>
@@ -200,10 +189,10 @@ believe their relationship with a target account’s stakeholder or champion pla
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																								</p>
-																							<p>
-																																									<span class="bold">Next:
-																																									<router-link to="/stage4"><span style="text-decoration: underline;">Stage 4</span></router-link>
-																																									</span>
+																																								<p>
+																																												<span class="bold">Next:
+																																																<router-link to="/stage4"><span style="text-decoration: underline;">Stage 4</span></router-link>
+																																												</span>
 																																								</p>
 																																				</div>
 																																</div>
@@ -216,12 +205,10 @@ believe their relationship with a target account’s stakeholder or champion pla
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
-Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-
-<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
-
+																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
@@ -236,10 +223,10 @@ Personalizing sales relationships can lead to better opportunities—and more sa
 																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
-			<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
+																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
 		C-8.08,16.39-15.57,9.57-15.98,0.75z M8.57,0.99L7.16-0.43L0.7,6.03L0.74-9.85l-2.01,0l0.01,15.9l-6.4-6.4l-1.41,1.41l8.78,8.78
 		L8.57,0.99z" />
-		<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
+																												<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
 																								</symbol>
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
@@ -288,12 +275,12 @@ export default {
 
 
 
-																								var circles = document.querySelectorAll('.circle-2');
-																								if (circles) {
-																												for (var i = 0; i < circles.length; ++i) {
-																																circles[i].classList.remove('suppressed');
+																												var circles = document.querySelectorAll('.circle-2');
+																												if (circles) {
+																																for (var i = 0; i < circles.length; ++i) {
+																																				circles[i].classList.remove('suppressed');
+																																}
 																												}
-																								}
 
 																								}
 

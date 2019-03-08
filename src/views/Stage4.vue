@@ -48,18 +48,15 @@
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl no-bottom-pad overflow-hidden">
-
-																				<div class="skills-4">
-
-																				    <div class="charts-4">
-																				    <div class="chart-4 chart--dev-4">
-																				      <ul class="chart--horiz-4">
-																				        <!-- <li class="chart__bar-2" style="height: 360px;"></li> -->
-																				        <li class="chart__bar-4" style="height: 460px;"></li>
-																				      </ul>
-																				    </div>
-																				  </div>
-																				</div>
+																												<div class="skills-4">
+																																<div class="charts-4">
+																																				<div class="chart-4 chart--dev-4">
+																																								<ul class="chart--horiz-4">
+																																												<li class="chart__bar-4" style="height: 460px;"></li>
+																																								</ul>
+																																				</div>
+																																</div>
+																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-8 top-pad-xl btm-pad-xl slide-in-1 slide-in-left">
@@ -69,22 +66,18 @@
 																																								<div class="mint-text-block bold">
 																																												<ul>
 																																																<li style="text-indent: -43px;">
-
-<span style="width: 20px;height: 20px;background:#FEF000;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																 sales force automation</li>
+																																																				<span style="width: 20px;height: 20px;background:#FEF000;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																				sales force automation</li>
 																																																<li style="text-indent: -43px;">
-
-<span style="width: 20px;height: 20px;background: #30efd0;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																configure, price, and quote application</li>
+																																																				<span style="width: 20px;height: 20px;background: #30efd0;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																				configure, price, and quote application</li>
 																																																<li style="text-indent: -43px;">
-
-
-<span style="width: 20px;height: 20px;background: #ebebeb;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																B2B data management solutions</li>
+																																																				<span style="width: 20px;height: 20px;background: #ebebeb;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																				B2B data management solutions</li>
 																																												</ul>
 																																								</div>
 																																								<div class="underline-text-block">
-																																										The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
+																																												The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
 																																								</div>
 																																				</div>
 																																</div>
@@ -120,7 +113,7 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-lg">
-																																									Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take it a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
+																																												Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take it a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
 																																								</p>
 																																				</div>
 																																</div>
@@ -175,12 +168,10 @@
 																																								</p>
 																																								<p><span>With automation and a guided sales process, you can easily manage complex customer relationships and scale with ease—to close more deals, faster.</span> A highly intuitive interface, productivity capabilities, robust mobile apps, and familiar tools provide a connected experience that gets you up and running quickly.
 																																								</p>
-
-
-																																																															<p>
-																																									<span class="bold">Next:
-																																									<router-link to="/salesstory"><span style="text-decoration: underline;">Sales Story</span></router-link>
-																																									</span>
+																																								<p>
+																																												<span class="bold">Next:
+																																																<router-link to="/salesstory"><span style="text-decoration: underline;">Sales Story</span></router-link>
+																																												</span>
 																																								</p>
 																																				</div>
 																																</div>
@@ -193,12 +184,10 @@
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
-Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-
-<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
-
+																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
@@ -213,10 +202,10 @@ Personalizing sales relationships can lead to better opportunities—and more sa
 																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
-			<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
+																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
 		C-8.08,16.39-15.57,9.57-15.98,0.75z M8.57,0.99L7.16-0.43L0.7,6.03L0.74-9.85l-2.01,0l0.01,15.9l-6.4-6.4l-1.41,1.41l8.78,8.78
 		L8.57,0.99z" />
-		<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
+																												<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
 																								</symbol>
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
@@ -236,22 +225,22 @@ export default {
 																scrollBar: false,
 																fitToSection: false,
 
-																afterLoad: function(origin, destination, direction){
+																afterLoad: function(origin, destination, direction) {
 
-												var landingHeader = document.querySelectorAll('.landing-element');
-												if(landingHeader){
-													for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-											}
-												var slideRight = document.querySelectorAll('.slide-in');
-												if(slideRight){
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
-												}
-											}
-										},
-																
+																				var landingHeader = document.querySelectorAll('.landing-element');
+																				if (landingHeader) {
+																								for (var i = 0; i < landingHeader.length; ++i) {
+																												landingHeader[i].classList.add('fade-visible');
+																								}
+																				}
+																				var slideRight = document.querySelectorAll('.slide-in');
+																				if (slideRight) {
+																								for (var i = 0; i < slideRight.length; ++i) {
+																												slideRight[i].classList.remove('slide-in-right');
+																								}
+																				}
+																},
+
 																onLeave: function(origin, destination, direction) {
 
 

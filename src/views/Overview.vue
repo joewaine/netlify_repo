@@ -20,11 +20,10 @@
 																				<div class="row justify-content-center">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
-																			If you could provide every new prospect with relevant, 
-useful insights that would make them more successful, 
-how would your sales goals change? 
+																																If you could provide every new prospect with relevant,
+																																useful insights that would make them more successful,
+																																how would your sales goals change?
 																												</p>
-																										
 																								</div>
 																				</div>
 																</div>
@@ -38,46 +37,44 @@ how would your sales goals change?
 																																				<div class="col-lg-10 col-md-12 no-pad-mobile">
 																																								<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																								<p class="top-pad-lg">
-																									The 
-entire process looks vastly different from how it looked 
-just a few years ago. Although that’s partly because of 
-constantly evolving tools and technologies, the greater 
-difference is in the mindset of buyers. Understanding that 
-mindset and catering to it is what catapults a successful 
-seller into rockstar seller status.
+																																												The
+																																												entire process looks vastly different from how it looked
+																																												just a few years ago. Although that’s partly because of
+																																												constantly evolving tools and technologies, the greater
+																																												difference is in the mindset of buyers. Understanding that
+																																												mindset and catering to it is what catapults a successful
+																																												seller into rockstar seller status.
 																																								</p>
 																																								<p>
-																																				While this shift brings new possibilities, every stage of the 
-selling process is also rife with new challenges. Greater 
-access means more noise. Countless resources make it 
-difficult to bring real value. These are just a few of the 
-challenges you’re most likely experiencing as a seller 
-today. As the landscape shifts, you can stay ahead by 
-adopting a relationship selling mindset. 
+																																												While this shift brings new possibilities, every stage of the
+																																												selling process is also rife with new challenges. Greater
+																																												access means more noise. Countless resources make it
+																																												difficult to bring real value. These are just a few of the
+																																												challenges you’re most likely experiencing as a seller
+																																												today. As the landscape shifts, you can stay ahead by
+																																												adopting a relationship selling mindset.
 																																								</p>
 																																								<p>
-																																									<span class="bold">Relationship selling</span> refers to the process of building 
-long-term relationships with your customers— 
-relationships that will lead to future sales. It requires 
-rethinking the way you communicate as a seller—not just 
-what tools you use, but also how you use them to reach 
-out, engage, and develop deeper connections. 
-																																								</p>
-
-																																								<p>
-																																									
-																																									You’re no stranger to the idea that loyalty is key in 
-selling. Establishing that loyalty requires building strong 
-relationships throughout the customer lifecycle. 
-This e-book is your guide to navigating the challenges at 
-each stage of the sales process. You’ll discover how to use 
-modern tools and techniques to find the right prospects, 
-build trust and value for stronger relationships, and 
-identify opportunities to meet—and even exceed—your 
-sales goals. 
+																																												<span class="bold">Relationship selling</span> refers to the process of building
+																																												long-term relationships with your customers—
+																																												relationships that will lead to future sales. It requires
+																																												rethinking the way you communicate as a seller—not just
+																																												what tools you use, but also how you use them to reach
+																																												out, engage, and develop deeper connections.
 																																								</p>
 																																								<p>
-																																									Let’s get started. 
+																																												You’re no stranger to the idea that loyalty is key in
+																																												selling. Establishing that loyalty requires building strong
+																																												relationships throughout the customer lifecycle.
+																																												This e-book is your guide to navigating the challenges at
+																																												each stage of the sales process. You’ll discover how to use
+																																												modern tools and techniques to find the right prospects,
+																																												build trust and value for stronger relationships, and
+																																												identify opportunities to meet—and even exceed—your
+																																												sales goals.
+																																								</p>
+																																								<p>
+																																												Let’s get started.
 																																								</p>
 																																				</div>
 																																</div>
@@ -111,10 +108,10 @@ sales goals.
 																																																				year-over-year sales
 																																																</li>
 																																																<li>
-																																																									<div class="circle" style="opacity: 0;">
-																																																		.
+																																																				<div class="circle" style="opacity: 0;">
+																																																								.
 																																																				</div>
-																																																	<span style="text-decoration: underline;font-size: 1.2em">—Nucleus Report</span>
+																																																				<span style="text-decoration: underline;font-size: 1.2em">—Nucleus Report</span>
 																																																</li>
 																																												</ul>
 																																								</div>
@@ -248,7 +245,6 @@ sales goals.
 				<img src="../assets/img/square/view-square.jpg" />
 				<img src="../assets/img/square/iphone-square.jpg" />
 </div>
-<!-- Personalizing sales relationships can lead to better opportunities—and more sales—for your business. -->
 </h2>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
