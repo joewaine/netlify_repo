@@ -47,7 +47,7 @@
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
-																																								<div class="quote top-pad-sm">"If you could give your salespeople 33% more active selling time, what impact would that have on your business"
+																																								<div class="quote top-pad-sm">“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
 																																								</div>
 																																								<div class="name">
 																																												Matt Heinz
@@ -146,9 +146,9 @@
 																								<div class="col-lg-6 col-md-10">
 																												<h2 class="top-pad-md">
 																																<span class="green-text">Challenge:</span><br>
-																																Keeping up with roles, marching orders, and objectives that are always in flux</h2>
+																																Keeping pace</h2>
 																												<p class="top-pad-sm">
-																																Keeping pace is difficult, especially when you have a large roster of contacts
+																																Keeping up with roles, marching orders, and objectives that are always in flux is difficult, especially when you have a large roster of contacts.
 																												</p>
 																								</div>
 																				</div>
@@ -179,13 +179,18 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-sm">
-																																												Staying on top of changes among your connections can provide opportunities for new connections, deeper engagements, and greater sales. Machine learning and real-time alerts provide insights into what your connections are up to—and the best next actions to take on each of those insights at every relationship-building opportunity.
+																					Staying on top of changes among your contacts can provide opportunities for new connections, deeper engagements, and greater sales. Machine learning and real-time alerts provide insights into what your connections are up to—and the best next actions to take on each of those insights at every relationship-building opportunity.
 																																								</p>
 																																								<p>
-																																												There are dozens of small actions that open doors. When a contact has left a company, you have a chance to touch base and wish them luck or ask about their new position. When you receive a response to a connection request or email, your reply keeps the lines of communication open. When you hear about an upcoming industry event or networking opportunity, you can reach out to those nearby.
+																																											There are dozens of small actions that open doors. When a contact has left a company, you have a chance to touch base and wish them luck or ask about their new position. When you receive a response to a connection request or email, your reply keeps the lines of communication open. When you hear about an upcoming industry event or networking opportunity, you can reach out to those nearby.
 																																								</p>
 																																								<p>
-																																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business. Learn more <a href="https://dynamics.microsoft.com/en-us/sales/demo/">here</a>, or connect with a representative when you’re ready to <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales">try out</a> Dynamics 365 for Sales.
+																																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business. Learn more <a href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">here</a>, or connect with a representative when you’re ready to <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">try out</a> Dynamics 365 for Sales.
+																																								</p>
+																																								<p>
+																																									<span class="bold">Next:
+																																									<router-link to="/stage3"><span style="text-decoration: underline;">Stage 3</span></router-link>
+																																									</span>
 																																								</p>
 																																				</div>
 																																</div>

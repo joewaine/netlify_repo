@@ -169,10 +169,10 @@
 																																<span class="green-text">Challenge:</span><br>
 																																Connecting with credibility</h2>
 																												<p class="top-pad-sm">
-																																Targeting the right prospects used to mean making countless cold calls, and repeating the same sales pitch over and over. Today, buyers have higher expectations, and you have better tools that can target new audiences and shorten the sales cycle.
+																			Targeting the right prospects used to mean making countless cold calls and repeating the same sales pitch over and over. Today, buyers have higher expectations, and you have better tools that can target new audiences and shorten the sales cycle.
 																												</p>
 																												<p>
-																																Cold calling has flatlined, but reaching out in other ways—social platforms or email—is still a chilly way to attempt to make a connection. A warm referral is four times more likely to result in a sale than a cold call.1
+																			Cold calling has flatlined, but reaching out in other ways—social platforms or email—is still a chilly attempt to make a connection. A warm referral is four times more likely to result in a sale than a cold call. But turning cold calls into warm conversations is a tough proposition.
 																												</p>
 																								</div>
 																				</div>
@@ -199,10 +199,15 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-lg">
-																																												Take advantage of existing relationships to increase the likelihood of getting a response from new leads. Broaden your reach by tapping into your company’s network and your colleagues’ relationships for warm introductions. Once you’ve begun building a relationship with a new account, use that connection to find others within the same company. Search for similar connections at other accounts to continue growing your network.
+																																					Take advantage of existing relationships to increase the likelihood of getting a response from new leads. Broaden your reach by tapping into your company’s network and your colleagues’ relationships for warm introductions. Once you’ve begun building a relationship with a new account, use that connection to find others within the same company. Search for similar connections at other accounts to continue growing your network
 																																								</p>
 																																								<p>
-																																												When you locate the right leads, you’re halfway to your goal. Your next step is to use modern tools to make deeper connections, draw insights from data, and communicate seamlessly across any device to grow your customer relationships over time.
+																																					When you locate the right leads, you’re halfway to your goal. Your next step is to use modern tools to make deeper connections, draw insights from data, and communicate seamlessly across any device to grow your customer relationships over time.
+																																								</p>
+																																								<p>
+																																									<span class="bold">Next:
+																																									<router-link to="/stage2"><span style="text-decoration: underline;">Stage 2</span></router-link>
+																																									</span>
 																																								</p>
 																																				</div>
 																																</div>

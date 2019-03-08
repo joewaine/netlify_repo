@@ -46,7 +46,7 @@
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 btm-pad-max top-pad-xxl no-pad-mobile fadeInAnimation fade-opacity-1">
-																																								<div class="quote top-pad-sm">"Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf."
+																																								<div class="quote top-pad-sm">“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
 																																								</div>
 																																								<div class="name">
 																																												Steve Mordue
@@ -73,7 +73,7 @@
 																																<span class="green-text">Challenge:</span><br>
 																																Understanding your buyers’ pains, challenges, goals, and needs</h2>
 																												<p class="top-pad-sm">
-																																You’ve undoubtedly heard the infamous statistic that claims most buyers are nearly 70% of the way to a buying decision before they engage a salesperson. It’s a tough sell when your customers have already researched the competition and are on the tail end of their purchase decision
+																						You’ve undoubtedly heard the infamous statistic that claims most buyers are nearly 70 percent of the way to a buying decision before they engage a salesperson. It’s a tough sell when your customers have already researched the competition and are on the tail end of their purchase decision.
 																												</p>
 																								</div>
 																				</div>
@@ -148,7 +148,7 @@
 																																												believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
 																																								</div>
 																																								<div class="underline-text-block">
-																																												Heinz Marketing
+																																												—”The Power of Relationship Selling,” Heinz Marketing and Microsoft
 																																								</div>
 																																				</div>
 																																</div>
@@ -197,6 +197,11 @@
 																																								</p>
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
+																																								</p>
+																																																																															<p>
+																																									<span class="bold">Next:
+																																									<router-link to="/stage4"><span style="text-decoration: underline;">Stage 4</span></router-link>
+																																									</span>
 																																								</p>
 																																				</div>
 																																</div>

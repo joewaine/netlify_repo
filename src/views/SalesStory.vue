@@ -13,7 +13,7 @@
 																				<div class="row">
 																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
 																												<h1 class="top-pad-sm landing-element">
-																																The views better from here
+																																The view's better from here
 																												</h1>
 																								</div>
 																				</div>

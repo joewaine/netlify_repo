@@ -68,13 +68,23 @@
 																																								</div>
 																																								<div class="mint-text-block bold">
 																																												<ul>
-																																																<li>sales force automation</li>
-																																																<li>configure, price, and quote application</li>
-																																																<li>B2B data management solutions</li>
+																																																<li style="text-indent: -43px;">
+
+<span style="width: 20px;height: 20px;background:#FEF000;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																 sales force automation</li>
+																																																<li style="text-indent: -43px;">
+
+<span style="width: 20px;height: 20px;background: #30efd0;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																configure, price, and quote application</li>
+																																																<li style="text-indent: -43px;">
+
+
+<span style="width: 20px;height: 20px;background: #ebebeb;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
+																																																B2B data management solutions</li>
 																																												</ul>
 																																								</div>
 																																								<div class="underline-text-block">
-																																												Forester Consulting attribution
+																																										The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
 																																								</div>
 																																				</div>
 																																</div>
@@ -110,7 +120,7 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-lg">
-																																												Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take this a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
+																																									Create and organize personalized content to share with your customers so that you’re ready to engage when they are. Imagine having data at your fingertips that tells you when someone interacts with your content—and when it’s shared with other key decision makers—to provide new leads to add to your book. With predictive intelligence and machine learning, this is possible. And you can take it a step further and track your customers’ interests and activities to better anticipate the content that’s most useful to them. Ramping up for exponential growth involves using tools and techniques that make it possible to nurture every single sales relationship.
 																																								</p>
 																																				</div>
 																																</div>
@@ -164,6 +174,13 @@
 																																												Prioritize tasks and engagement opportunities to keep tabs on—and grow—your customer relationships. Machine learning and analytics can provide valuable insights and drive actionable recommendations. Gather insights from every available source to get the knowledge you need to act. Seamless CRM integration can help you more efficiently keep track of sales activity without removing the focus from those relationships
 																																								</p>
 																																								<p><span>With automation and a guided sales process, you can easily manage complex customer relationships and scale with ease—to close more deals, faster.</span> A highly intuitive interface, productivity capabilities, robust mobile apps, and familiar tools provide a connected experience that gets you up and running quickly.
+																																								</p>
+
+
+																																																															<p>
+																																									<span class="bold">Next:
+																																									<router-link to="/salesstory"><span style="text-decoration: underline;">Sales Story</span></router-link>
+																																									</span>
 																																								</p>
 																																				</div>
 																																</div>
