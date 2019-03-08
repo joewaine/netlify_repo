@@ -145,10 +145,12 @@
 																																												<div id="value" style="display: inline-block;width: 180px;">96%</div>
 																																								</div>
 																																								<div class="white-text-block bold">
-																																												believe their relationship with a target account's stakeholder or champion played a major role in the outcome of a sale.
+
+believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
+
 																																								</div>
 																																								<div class="underline-text-block">
-																																												—”The Power of Relationship Selling,” Heinz Marketing and Microsoft
+																																											Heinz Marketing
 																																								</div>
 																																				</div>
 																																</div>
@@ -198,7 +200,7 @@
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																								</p>
-																																																																															<p>
+																							<p>
 																																									<span class="bold">Next:
 																																									<router-link to="/stage4"><span style="text-decoration: underline;">Stage 4</span></router-link>
 																																									</span>

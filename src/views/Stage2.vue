@@ -125,13 +125,13 @@
 																																<div class="row justify-content-center no-margin">
 																																			<div class="col-lg-8 top-pad-xxl slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
-																																												Changing buyer behaviors and attitudes create increased pressure for sales reps to deliver fast, relevant, and personalized information. 72% of sales leaders agreed that
+																																						Changing buyer behaviors and attitudes create increased pressure for sales reps to deliver fast, relevant, and personalized information. 72% of sales leaders agreed that
 																																								</div>
 																																								<div class="mint-text-block">
-																																												buyers are more likely to dismiss a seller if they don't receive value in their first interaction.
+																										buyers are more likely to dismiss a seller if they don’t receive value in their first interaction.
 																																								</div>
 																																								<div class="underline-text-block">
-																																												-The Future of B2B is Built on Predictive Tools
+																																												-The Future of B2B Is Built On Predictive Tools
 																																								</div>
 																																				</div>
 																																</div>
