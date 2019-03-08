@@ -492,7 +492,7 @@ nav.expanded {
     display: inherit;
     height: 30px;
 
-cursor: pointer;
+    cursor: pointer;
 
 
 
@@ -667,17 +667,16 @@ cursor: pointer;
 }
 
 .menu {
-    background: url(assets/menu-icon.svg) no-repeat;
     color: transparent;
     cursor: pointer;
     float: right;
     font-size: 0;
-    width: 40px;
+    width: 22px;
 
     transition: opacity .5s ease;
     -webkit-transition: opacity .5s ease;
 
-    &:hover{
+    &:hover {
         opacity: .5;
     }
 }
@@ -977,7 +976,9 @@ ul {
 
                 top: 80px;
 
-                 .stage-name {display: none;}
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(5) {
@@ -988,7 +989,9 @@ ul {
 
                 top: 100px;
 
-                 .stage-name {display: none;}
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(6) {
@@ -998,7 +1001,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 120px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(7) {
@@ -1009,7 +1015,9 @@ ul {
 
                 top: 140px;
 
-                 .stage-name {display: none;}
+                .stage-name {
+                    display: none;
+                }
             }
         }
     }
@@ -1079,7 +1087,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 50px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(6) {
@@ -1090,7 +1101,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 70px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(7) {
@@ -1101,7 +1115,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 90px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
         }
     }
@@ -1174,7 +1191,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 20px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
 
             &:nth-child(7) {
@@ -1184,7 +1204,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 40px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
         }
     }
@@ -1267,7 +1290,10 @@ ul {
                 transition: top .25s ease;
 
                 top: 40px;
-                 .stage-name {display: none;}
+
+                .stage-name {
+                    display: none;
+                }
             }
         }
     }
@@ -1649,30 +1675,30 @@ ul {
             -webkit-transition: color .5s ease;
             transition: color .5s ease;
 
-             &:hover{
+            &:hover {
 
                 color: $text--white;
 
 
-             }
+            }
         }
 
 
 
-li a{
+        li a {
 
-                -webkit-transition: color .5s ease;
+            -webkit-transition: color .5s ease;
             transition: color .5s ease;
 
-             &:hover{
+            &:hover {
 
                 color: $text--white;
 
 
-             }
+            }
 
+        }
     }
-}
 }
 
 
@@ -1775,17 +1801,6 @@ li a{
     }
 
 
-
-    .moveToTop {
-        right: auto;
-        position: inherit;
-        margin-left: 18px;
-        margin-top: 45px;
-        height: 60px;
-    }
-
-
-
     .hide-image-mobile {
         display: none;
     }
@@ -1794,7 +1809,13 @@ li a{
         height: 500px;
     }
 
+    .moveToTop {
 
+        bottom: 10px;
+
+        right: 10px;
+
+    }
 
     .content h2 {
         margin-bottom: 0em;
@@ -1959,3 +1980,63 @@ li a{
     pointer-events: none;
 
 }
+
+
+.moveToTop {
+    width: 50px;
+    height: 50px;
+    color: transparent;
+    font-size: 0;
+
+
+    svg {
+
+
+        transition: fill .5s ease;
+        -webkit-transition: fill .5s ease;
+
+
+
+
+.st0 {
+    fill: rgba(255, 255, 255, 1);
+
+}
+
+.st1 {
+    fill: #008273;
+
+}
+
+        &:hover {
+
+.st0 {
+fill: $bg--light-grey;
+}
+
+
+
+        
+        }
+
+
+
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+                .cls-1 {
+                    fill: #333132;
+                }
+
+

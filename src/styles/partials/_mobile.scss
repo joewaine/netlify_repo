@@ -45,7 +45,8 @@ h3{
 
 .skills,
 .skills-2,
-.skills-3{
+.skills-3,
+.skills-4{
 	display: none;
 }
 
@@ -63,9 +64,9 @@ h3{
 
 
 @media (max-width: 768px) {
-    svg {
-            display: none;
-	    }
+    // svg {
+    //         display: none;
+	   //  }
 
 }
 
