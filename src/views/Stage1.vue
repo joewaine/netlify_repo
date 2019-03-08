@@ -45,7 +45,9 @@
 																												<div class="container no-pad-mobile">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
-																																								<div class="quote top-pad-sm">“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up-to-speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
+																																								<div class="quote top-pad-sm">
+“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
+
 																																								</div>
 																																								<div class="name">
 																																												Jennifer Tomlinson
@@ -213,10 +215,12 @@
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+
+<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+
 																								</p>
 																				</div>
 																</div>
@@ -225,7 +229,7 @@
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																								<a class="btn dark-btn white-txt" href="">Try it out</a>
 																				</div>
 																</div>
 																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top

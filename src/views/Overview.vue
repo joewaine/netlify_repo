@@ -20,11 +20,11 @@
 																				<div class="row justify-content-center">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
 																												<p>
-																																Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																			If you could provide every new prospect with relevant, 
+useful insights that would make them more successful, 
+how would your sales goals change? 
 																												</p>
-																												<p>
-																																In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
-																												</p>
+																										
 																								</div>
 																				</div>
 																</div>
@@ -38,10 +38,46 @@
 																																				<div class="col-lg-10 col-md-12 no-pad-mobile">
 																																								<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																								<p class="top-pad-lg">
-																																												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor rutrum pulvinar. Sed cursus, mauris ut mollis rutrum, nibh odio efficitur turpis, nec tincidunt leo neque sagittis ipsum. Aliquam placerat dictum sollicitudin. Morbi consectetur quis nulla eu varius. Duis congue tempor tempor. Quisque interdum, odio dignissim tincidunt tincidunt, urna sapien blandit magna, id volutpat metus est vel eros.
+																									The 
+entire process looks vastly different from how it looked 
+just a few years ago. Although that’s partly because of 
+constantly evolving tools and technologies, the greater 
+difference is in the mindset of buyers. Understanding that 
+mindset and catering to it is what catapults a successful 
+seller into rockstar seller status.
 																																								</p>
 																																								<p>
-																																												In viverra quis justo eu aliquet. Proin scelerisque sit amet quam ut luctus. Pellentesque eu lorem elit. Fusce gravida sem eu imperdiet sagittis. Suspendisse potenti. Curabitur urna libero, interdum nec sem non, efficitur eleifend nisl. Phasellus nec pulvinar metus. Etiam laoreet semper efficitur.
+																																				While this shift brings new possibilities, every stage of the 
+selling process is also rife with new challenges. Greater 
+access means more noise. Countless resources make it 
+difficult to bring real value. These are just a few of the 
+challenges you’re most likely experiencing as a seller 
+today. As the landscape shifts, you can stay ahead by 
+adopting a relationship selling mindset. 
+																																								</p>
+																																								<p>
+																																									<span class="bold">Relationship selling</span> refers to the process of building 
+long-term relationships with your customers— 
+relationships that will lead to future sales. It requires 
+rethinking the way you communicate as a seller—not just 
+what tools you use, but also how you use them to reach 
+out, engage, and develop deeper connections. 
+																																								</p>
+
+																																								<p>
+																																									
+																																									You’re no stranger to the idea that loyalty is key in 
+selling. Establishing that loyalty requires building strong 
+relationships throughout the customer lifecycle. 
+This e-book is your guide to navigating the challenges at 
+each stage of the sales process. You’ll discover how to use 
+modern tools and techniques to find the right prospects, 
+build trust and value for stronger relationships, and 
+identify opportunities to meet—and even exceed—your 
+sales goals. 
+																																								</p>
+																																								<p>
+																																									Let’s get started. 
 																																								</p>
 																																				</div>
 																																</div>
@@ -55,25 +91,30 @@
 																																												<h3 class="dk-green">
 																																																Companies that use relationship selling consistenly experience:
 																																												</h3>
-
-
 																																												<ul class="secondary-list">
 																																																<li>
-																																																				<div class="circle">18%
+																																																				<div class="circle">12-15%
 																																																				</div>
-																																																				more volume
+																																																				Increased productivity
 																																																</li>
 																																																<li>
 																																																				<div class="circle">
-																																																								28%
+																																																								30%
 																																																				</div>
-																																																				faster pipeline fill
+																																																				Improved win rates
 																																																</li>
 																																																<li>
 																																																				<div class="circle">
-																																																								15%
+																																																								87%
 																																																				</div>
-																																																				better conversion rates
+																																																				Improved
+																																																				year-over-year sales
+																																																</li>
+																																																<li>
+																																																									<div class="circle" style="opacity: 0;">
+																																																		.
+																																																				</div>
+																																																	<span style="text-decoration: underline;font-size: 1.2em">—Nucleus Report</span>
 																																																</li>
 																																												</ul>
 																																								</div>
@@ -172,7 +213,7 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
@@ -181,16 +222,16 @@
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																								<a class="btn dark-btn white-txt" href="">Try it out</a>
 																				</div>
 																</div>
 																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
-			<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
+																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
 		C-8.08,16.39-15.57,9.57-15.98,0.75z M8.57,0.99L7.16-0.43L0.7,6.03L0.74-9.85l-2.01,0l0.01,15.9l-6.4-6.4l-1.41,1.41l8.78,8.78
 		L8.57,0.99z" />
-		<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
+																												<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
 																								</symbol>
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
@@ -224,22 +265,22 @@ export default {
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
-																afterLoad: function(origin, destination, direction){
+																afterLoad: function(origin, destination, direction) {
 
-												var landingHeader = document.querySelectorAll('.landing-element');
-												if(landingHeader){
-													for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-											}
-												var slideRight = document.querySelectorAll('.slide-in');
-												if(slideRight){
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
-												}
-											}
-										},
-																										onLeave: function(origin, destination, direction) {
+																				var landingHeader = document.querySelectorAll('.landing-element');
+																				if (landingHeader) {
+																								for (var i = 0; i < landingHeader.length; ++i) {
+																												landingHeader[i].classList.add('fade-visible');
+																								}
+																				}
+																				var slideRight = document.querySelectorAll('.slide-in');
+																				if (slideRight) {
+																								for (var i = 0; i < slideRight.length; ++i) {
+																												slideRight[i].classList.remove('slide-in-right');
+																								}
+																				}
+																},
+																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);

@@ -653,14 +653,16 @@ nav.expanded {
 
 
 .down-arrow {
-    background: url(assets/down-arrow.svg) no-repeat;
+    // background: url(assets/down-arrow.svg) no-repeat;
+    background-color: transparent;
     color: transparent;
     cursor: pointer;
     font-size: 0;
     width: 40px;
 
     &.dark {
-        background: url(assets/down-arrow-dark.svg) no-repeat;
+        // background: url(assets/down-arrow-dark.svg) no-repeat;
+        background-color: transparent;
     }
 
 
@@ -807,15 +809,18 @@ ul {
 
 
         .circle {
-            background: $bg--dk-grey;
-            border-radius: 30px;
-            color: $text--mint;
-            display: inline-block;
-            height: 60px;
-            width: 60px;
-            text-align: center;
-            padding-top: 18px;
-            margin-right: 10px;
+                background: $bg--dk-grey;
+                border-radius: 35px;
+                color: $text--mint;
+                display: inline-block;
+                height: 70px;
+                width: 70px;
+                text-align: center;
+                padding-top: 24px;
+                margin-right: 10px;
+                font-size: 18px;
+                padding-left: 2px;
+
         }
     }
 }

@@ -67,10 +67,17 @@
 																																Use relationship selling to connect with customers and accelerate sales
 																												</h3>
 																												<p class="hide-mobile">
-																																Imagine having a relationship with each of your customers—a relationship that’s built on trust.
+Imagine having 
+a relationship 
+built on trust with 
+each of your customers. 
 																												</p>
 																												<p class="hide-mobile">
-																																If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line? If you could provide every new prospect with relevant, useful insights that would make them more successful, how would your sales goals change?
+				If every one of your connections 
+turned to you for help in solving 
+their greatest challenges at every 
+stage of the sales journey, what 
+would that do to your bottom line? 
 																												</p>
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
@@ -94,7 +101,11 @@
 																																Identify the right leads
 																												</h2>
 																												<p>
-																																Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects.
+						Identifying and creating natural ways to foster 
+and maintain professional relationships leads 
+to deeper connections, long-term loyalty, and 
+trust—and that trust translates to healthy sales. 
+
 																												</p>
 																												<router-link to="/stage1" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -116,7 +127,12 @@
 																																Nurture leads and build relationships
 																												</h2>
 																												<p>
-																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for.
+Working on a relationship is a continuous 
+cycle. It’s not enough to connect with the 
+ideal leads; those prospects must be wooed. 
+In sales, that means providing the value your 
+educated buyers are looking for.
+
 																												</p>
 																												<router-link to="/stage2" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -139,7 +155,10 @@
 																																Capitalize on opportunities to convert
 																												</h2>
 																												<p>
-																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have?
+							Customers come to you because they have 
+problems. You solve those problems. But 
+what if you could anticipate and solve the 
+problems they don’t yet realize they have? 
 																												</p>
 																												<router-link to="/stage3" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -162,7 +181,9 @@
 																																Deliver relationship sales at scale
 																												</h2>
 																												<p>
-																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don't yet realize they have?
+				You have prospect data. 
+Lots of it. And you’re collecting 
+it every second of every day.
 																												</p>
 																												<router-link to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
@@ -200,10 +221,12 @@
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																								<h2 class="top-pad-lg btm-pad-sm">
-																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
+Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												Learn more here, or connect with a representative when you're ready to try out Dynamics 365 for Sales.
+
+<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+
 																								</p>
 																				</div>
 																</div>
@@ -212,7 +235,7 @@
 																								<a class="btn dark-btn white-txt" href="">Learn More</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="">Try out Dynamics 365 for Sales</a>
+																								<a class="btn dark-btn white-txt" href="">Try it out</a>
 																				</div>
 																</div>
 																<div class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
