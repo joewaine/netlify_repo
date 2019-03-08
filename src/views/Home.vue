@@ -75,7 +75,12 @@
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next</div>
+																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+
+
+																				</div>
 																</div>
 												</div>
 												<div id="bg-image" class="section bg-iphone" data-index="1">
@@ -95,7 +100,10 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(2)">next</div>
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(2)">next
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div id="bg-image" class="section bg-sunset" data-index="2">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
@@ -114,7 +122,11 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(3)">next</div>
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(3)">next
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div id="bg-image" class="section bg-tablet-smiling" data-index="3">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
@@ -133,7 +145,11 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(4)">next</div>
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(4)">next
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div id="bg-image" class="section bg-crowd-2" data-index="4">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
@@ -152,7 +168,11 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(5)">next</div>
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(5)">next
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div id="bg-image" class="section bg-view" data-index="5">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
@@ -171,7 +191,10 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next</div>
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">

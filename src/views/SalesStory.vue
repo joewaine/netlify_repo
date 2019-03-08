@@ -30,7 +30,7 @@
 												<div class="section container no-pad fp-auto-height bar-panel" data-index="1">
 																<div class="container no-pad">
 																				<div class="row no-margin">
-																								<div id="bg-image" class="col-lg-6 col-md-12 bg-grass btm-pad-xxl text-center" style="text-align: center;">
+																								<div id="bg-image" class="col-lg-6 col-md-12 green-bg btm-pad-xxl text-center" style="text-align: center;">
 																												<svg width="200" height="33.33%" style="position: absolute;top: 0;right: 0px;">
 																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg><svg width="10" height="33.33%" style="position: absolute;top: 33.33%;right: 0px;">
@@ -38,7 +38,9 @@
 																												</svg><svg width="80" height="33.33%" style="position: absolute;top: 66.66%;right: 0px;">
 																																<rect width="80" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
 																												</svg>
-																												<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin: 60px auto 0;">
+
+
+									<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin:60px 100px 0px auto;">
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="container">
@@ -56,7 +58,10 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next</div>
+																<div class="bottom-fix next down-arrow animated bounce" v-on:click="scrollToNext('nextSection')">next
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
+																</div>
 												</div>
 												<div id="nextSection" class="section fp-auto-height" data-index="2">
 																<div class="container no-pad">
