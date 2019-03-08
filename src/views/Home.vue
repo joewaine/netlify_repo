@@ -87,6 +87,19 @@
 																												</g>
 																								</svg>
 																				</div>
+
+
+
+<div class="rect-bar-10 one">.</div>
+
+<div class="rect-bar-10 two">.</div>
+
+<div class="rect-bar-10 three">.</div>
+
+<div class="rect-bar-10 four">.</div>
+
+
+
 																</div>
 												</div>
 												<div id="bg-image" class="section bg-iphone" data-index="1">
@@ -290,6 +303,37 @@ export default {
 																												slideRight[i].classList.remove('slide-in-right');
 																								}
 																				}
+
+
+
+																								// if (destination.index == 1) {
+
+																				let slideIn = document.querySelector('.rect-bar-10.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-10.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-10.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																					let slideIn4 = document.querySelector('.rect-bar-10.four');
+																					if (slideIn4) {
+																						slideIn4.classList.add('expanded-50');
+																					}
+
+																						
+
+
+
+
+
 																},
 																onLeave: function(origin, destination, direction) {
 

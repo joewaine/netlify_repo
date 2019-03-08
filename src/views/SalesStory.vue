@@ -31,13 +31,14 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div id="bg-image" class="col-lg-6 col-md-12 green-bg btm-pad-xxl text-center" style="text-align: center;">
-																												<svg width="200" height="33.33%" style="position: absolute;top: 0;right: 0px;">
-																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="10" height="33.33%" style="position: absolute;top: 33.33%;right: 0px;">
-																																<rect width="10" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="80" height="33.33%" style="position: absolute;top: 66.66%;right: 0px;">
-																																<rect width="80" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+																			
+
+
+<div class="rect-bar-6 one">.</div>
+
+<div class="rect-bar-6 two">.</div>
+
+<div class="rect-bar-6 three">.</div>
 
 
 									<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin:60px 100px 0px auto;">
@@ -175,6 +176,27 @@ export default {
 
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
+
+
+
+																								if (destination.index == 1) {
+
+																				let slideIn = document.querySelector('.rect-bar-6.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-6.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-6.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						}
 
 
 																								var sectionName = '.fade-opacity-' + destination.index;

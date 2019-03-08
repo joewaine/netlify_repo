@@ -33,13 +33,11 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-surface relative mobile-image">
-																												<svg width="80" height="30%" style="position: absolute;top: 0;right: 0px;">
-																																<rect width="80" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="6" height="40%" style="position: absolute;top: 30%;right: 0px;">
-																																<rect width="6" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="200" height="30%" style="position: absolute;top: 70%;right: 0px;">
-																																<rect width="200" height="100%" style="fill: rgb(0, 130, 115); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+<div class="rect-bar-1 one">.</div>
+
+<div class="rect-bar-1 two">.</div>
+
+<div class="rect-bar-1 three">.</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 green-bg btm-pad-xxl">
 																												<div class="container">
@@ -166,13 +164,12 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative hide-image-mobile">
-																												<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
-																																<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
-																																<rect width="400" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
-																																<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+<div class="rect-bar-5 one">.</div>
+
+<div class="rect-bar-5 two">.</div>
+
+<div class="rect-bar-5 three">.</div>
+
 																								</div>
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																												<div class="container no-pad-mobile">
@@ -268,6 +265,45 @@ export default {
 
 
 																				if (destination.index) {
+
+																								if (destination.index == 1) {
+
+																				let slideIn = document.querySelector('.rect-bar-1.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-1.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-1.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						}
+
+																								if (destination.index == 4) {
+
+																				let slideIn = document.querySelector('.rect-bar-5.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-5.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-5.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						}
+																					
 
 
 

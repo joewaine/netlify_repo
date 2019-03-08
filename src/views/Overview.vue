@@ -126,18 +126,18 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters-square btm-pad-xxl relative hide-image-mobile mobile-image image-bg-transition">
-																												<svg width="250" height="25%" style="position: absolute; top: 0px; right: 0px;">
-																																<rect width="250" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
-																												<svg width="0" height="25%" style="position: absolute; top: 25%; right: 0px;">
-																																<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
-																												<svg width="200" height="25%" style="position: absolute; top: 50%; right: 0px;">
-																																<rect width="200" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
-																												<svg width="350" height="25%" style="position: absolute; top: 75%; right: 0px;">
-																																<rect width="350" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+																											
+
+<div class="rect-bar-2 one">.</div>
+
+<div class="rect-bar-2 two">.</div>
+
+<div class="rect-bar-2 three">.</div>
+
+<div class="rect-bar-2 four">.</div>
+
+
+
 																												<div style="display:none">
 																																<img class="imgsrc-0" src="../assets/img/square/sweaters-square.jpg" />
 																																<img class="imgsrc-1" src="../assets/img/square/sunset-square.jpg" />
@@ -292,6 +292,35 @@ export default {
 																												slideLeft.classList.remove('slide-in-left');
 																								}
 																				}
+
+
+																								if (destination.index == 2) {
+
+																				let slideIn = document.querySelector('.rect-bar-2.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-2.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-2.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						let slideIn4 = document.querySelector('.rect-bar-2.four');
+																					if (slideIn4) {
+																						slideIn4.classList.add('expanded-50');
+																					}
+
+																						}
+
+
+
+
 																}
 												},
 								}

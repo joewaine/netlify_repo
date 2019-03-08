@@ -33,13 +33,16 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 bg-two-women btm-pad-xxl relative mobile-image">
-																												<svg width="200" height="30%" style="position: absolute;top: 0;right: 0px;">
-																																<rect width="200" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="50" height="40%" style="position: absolute;top: 30%;right: 0px;">
-																																<rect width="50" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
-																																<rect width="0" height="100%" style="fill: rgb(60,60,65); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+																												
+
+<div class="rect-bar-3 one">.</div>
+
+<div class="rect-bar-3 two">.</div>
+
+<div class="rect-bar-3 three">.</div>
+
+
+
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10">
@@ -146,13 +149,9 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-glasses mobile-image">
-																												<svg width="600" height="20%" style="position: absolute;top: 0;right: 0px;">
-																																<rect width="600" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="400" height="20%" style="position: absolute;top: 20%;right: 0px;">
-																																<rect width="400" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg><svg width="0" height="30%" style="position: absolute;top: 70%;right: 0px;">
-																																<rect width="0" height="100%" style="fill: rgb(255, 255, 255); stroke-width: 0; stroke: rgb(0, 0, 0);"></rect>
-																												</svg>
+																											<div class="rect-bar-5 one">.</div>
+																											<div class="rect-bar-5 two">.</div>
+																											<div class="rect-bar-5 three">.</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
 																												<div class="container no-pad-mobile">
@@ -248,6 +247,50 @@ export default {
 
 
 																				if (destination.index) {
+
+
+
+
+																								if (destination.index == 1) {
+
+																				let slideIn = document.querySelector('.rect-bar-3.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-3.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-3.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						}
+
+
+																								if (destination.index == 4) {
+
+																				let slideIn = document.querySelector('.rect-bar-5.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-33');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-5.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-10');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-5.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-50');
+																					}
+
+																						}
+
+
 
 																								if (destination.index == 1) {
 																												var chartBar2 = document.querySelectorAll('.chart__bar-4');
