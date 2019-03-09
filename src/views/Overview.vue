@@ -126,23 +126,15 @@
 																<div class="container no-pad">
 																				<div class="row no-margin">
 																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters-square btm-pad-xxl relative hide-image-mobile mobile-image image-bg-transition">
-																											
-
-<div class="rect-bar-2 one">.</div>
-
-<div class="rect-bar-2 two">.</div>
-
-<div class="rect-bar-2 three">.</div>
-
-<div class="rect-bar-2 four">.</div>
-
-
-
+																												<div class="rect-bar-2 one">.</div>
+																												<div class="rect-bar-2 two">.</div>
+																												<div class="rect-bar-2 three">.</div>
+																												<div class="rect-bar-2 four">.</div>
 																												<div style="display:none">
-																																<img class="imgsrc-0" src="../assets/img/square/sweaters-square.jpg" />
-																																<img class="imgsrc-1" src="../assets/img/square/sunset-square.jpg" />
-																																<img class="imgsrc-2" src="../assets/img/square/tablet-smiling-square.jpg" />
-																																<img class="imgsrc-3" src="../assets/img/square/crowd-2-square.jpg" />
+																																<img class="imgsrc-0" src="../assets/img/square/redmond-window-square.jpg" />
+																																<img class="imgsrc-1" src="../assets/img/square/sweaters-square.jpg" />
+																																<img class="imgsrc-2" src="../assets/img/square/two-women-square.jpg" />
+																																<img class="imgsrc-3" src="../assets/img/square/glasses-square.jpg" />
 																																<img class="imgsrc-4" src="../assets/img/square/view-square.jpg" />
 																												</div>
 																								</div>
@@ -294,29 +286,29 @@ export default {
 																				}
 
 
-																								if (destination.index == 2) {
+																				if (destination.index == 2) {
 
-																				let slideIn = document.querySelector('.rect-bar-2.one');
-																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
-																					}
+																								let slideIn = document.querySelector('.rect-bar-2.one');
+																								if (slideIn) {
+																												slideIn.classList.add('expanded-33');
+																								}
 
-																				let slideIn2 = document.querySelector('.rect-bar-2.two');
-																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
-																					}
+																								let slideIn2 = document.querySelector('.rect-bar-2.two');
+																								if (slideIn2) {
+																												slideIn2.classList.add('expanded-10');
+																								}
 
-																					let slideIn3 = document.querySelector('.rect-bar-2.three');
-																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
-																					}
+																								let slideIn3 = document.querySelector('.rect-bar-2.three');
+																								if (slideIn3) {
+																												slideIn3.classList.add('expanded-50');
+																								}
 
-																						let slideIn4 = document.querySelector('.rect-bar-2.four');
-																					if (slideIn4) {
-																						slideIn4.classList.add('expanded-50');
-																					}
+																								let slideIn4 = document.querySelector('.rect-bar-2.four');
+																								if (slideIn4) {
+																												slideIn4.classList.add('expanded-50');
+																								}
 
-																						}
+																				}
 
 
 

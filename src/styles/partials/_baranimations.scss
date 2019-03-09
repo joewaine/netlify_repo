@@ -1,6 +1,6 @@
 
 .rect-bar-10 {
-				width: 100px;
+				width: 150px;
 				background: #30EFD0;
 				color: transparent;
 				bottom: 0;
@@ -8,8 +8,8 @@
 				position: absolute;
 
 
-   -webkit-transition: all 1s ease;
-   transition:         all 1s ease; 
+   -webkit-transition: height 1s ease;
+   transition:         height 1s ease; 
 -webkit-transition-delay: .5s;
 transition-delay: .5s;
 
@@ -25,7 +25,7 @@ transition-delay: .5s;
 				&.two {
 
 								height: 0;
-						right: 200px;
+						right: 250px;
 								&.expanded-10 {
 											 height: 20%;
 								}
@@ -33,7 +33,7 @@ transition-delay: .5s;
 
 				&.three {
 								height: 0;
-						right: 300px;
+						right: 400px;
 								&.expanded-50 {
 											 height: 30%;
 								}
@@ -42,7 +42,7 @@ transition-delay: .5s;
 
 				&.four {
 								height: 0;
-						right: 400px;
+						right: 550px;
 								&.expanded-50 {
 											 height: 10%;
 								}
@@ -95,15 +95,15 @@ transition-delay: .5s;
 
 
 .rect-bar-3 {
-				height: 33.33%;
-				background: #3c3c41;
-				color: transparent;
-				top: 0;
-				right: 0;
-				position: absolute;
+			height: 33.33%;
+			background: #3c3c41;
+			color: transparent;
+			top: 0;
+			right: 0;
+			position: absolute;
 
-   -webkit-transition: all 1s ease;
-   transition:         all 1s ease; 
+			-webkit-transition: all 1s ease;
+			transition:         all 1s ease; 
 			width: 0;
 
 			&.one {
@@ -192,13 +192,23 @@ transition-delay: .5s;
 
    -webkit-transition: all 1s ease;
    transition:         all 1s ease; 
-			width: 0;
+			width: 10px;
 
 			&.one {
 
 								&.expanded-33 {
-												width: 33%;
+												width: 25%;
 								}
+
+
+					&.expanded-stage21{
+									width: 20%;
+					}	
+
+
+										&.expanded-11{
+									width: 10%;
+					}											
 				}
 
 				&.two {
@@ -206,13 +216,32 @@ transition-delay: .5s;
 								&.expanded-10 {
 												width: 10%;
 								}
+
+								&.expanded-stage22{
+										width: 30%;
+								}
+
+													&.expanded-12{
+									width: 20%;
+					}	
 				}
 
 				&.three {
 									top: 66.66%;
 								&.expanded-50 {
-												width: 50%;
+												width: 25%;
 								}
+
+
+
+								&.expanded-stage23{
+										width: 10%;
+								}
+
+
+													&.expanded-13{
+									width: 30%;
+					}	
 				}
 }
 

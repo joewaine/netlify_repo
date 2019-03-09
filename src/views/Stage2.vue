@@ -101,16 +101,17 @@
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
-																												<div class="skills-2">
-																																<div class="dash-2">_</div>
-																																<div class="dash-2">_</div>
-																																<div class="dash-2">_</div>
-																																<div class="dash-2">_</div>
-																																<div class="dash-2">_</div>
-																																<div class="charts-2">
-																																				<div class="chart-2 chart--dev-2">
-																																								<ul class="chart--horiz-2">
-																																												<li class="chart__bar-2" style="height: 460px;"></li>
+														<div class="skills-100">
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="charts">
+																																				<div class="chart chart--dev">
+																																								<ul class="chart--horiz">
+																																												<li class="chart__bar" style="height: 360px;"></li>
+																																												<!-- <li class="chart__bar" style="height: 380px;"></li> -->
 																																								</ul>
 																																				</div>
 																																</div>
@@ -261,17 +262,17 @@ export default {
 
 																				let slideIn = document.querySelector('.rect-bar-1.one');
 																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
+																						slideIn.classList.add('expanded-stage21');
 																					}
 
 																				let slideIn2 = document.querySelector('.rect-bar-1.two');
 																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
+																						slideIn2.classList.add('expanded-stage22');
 																					}
 
 																					let slideIn3 = document.querySelector('.rect-bar-1.three');
 																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
+																						slideIn3.classList.add('expanded-stage23');
 																					}
 
 																						}
@@ -299,10 +300,10 @@ export default {
 
 
 																								if (destination.index == 3) {
-																												var chartBar2 = document.querySelectorAll('.chart__bar-2');
+																												var chartBar2 = document.querySelectorAll('.chart__bar');
 																												if (chartBar2) {
 																																for (var i = 0; i < chartBar2.length; ++i) {
-																																				chartBar2[i].classList.add('running-2');
+																																				chartBar2[i].classList.add('running');
 																																}
 																												}
 																								}

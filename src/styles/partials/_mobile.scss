@@ -8,6 +8,50 @@
 	.overflowed-section-top-container{
 		height: auto;
 	}
+
+
+.rect-bar-10 {
+
+				right: 40px;
+
+
+
+
+			&.one {
+			height: 0;
+								&.expanded-33 {
+											 height: 10%;
+								}
+				}
+
+				&.two {
+
+								height: 0;
+						right: 190px;
+								&.expanded-10 {
+											 height: 20%;
+								}
+				}
+
+				&.three {
+								height: 0;
+						right: 340px;
+								&.expanded-50 {
+											 height: 25%;
+								}
+				}
+
+
+				&.four {
+								height: 0;
+						right: 490px;
+								&.expanded-50 {
+											 height: 10%;
+								}
+				}
+
+			}
+
 }
 
 

@@ -309,17 +309,17 @@ export default {
 
 																				let slideIn = document.querySelector('.rect-bar-1.one');
 																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
+																						slideIn.classList.add('expanded-11');
 																					}
 
 																				let slideIn2 = document.querySelector('.rect-bar-1.two');
 																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
+																						slideIn2.classList.add('expanded-12');
 																					}
 
 																					let slideIn3 = document.querySelector('.rect-bar-1.three');
 																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
+																						slideIn3.classList.add('expanded-13');
 																					}
 
 																						}

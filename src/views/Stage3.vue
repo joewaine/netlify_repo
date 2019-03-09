@@ -104,7 +104,7 @@
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
-																												<div class="skills-3">
+<!-- 																												<div class="skills-3">
 																																<div class="dash-3">_</div>
 																																<div class="dash-3">_</div>
 																																<div class="dash-3">_</div>
@@ -126,7 +126,26 @@
 																																				<div class="circle-2 suppressed">.</div>
 																																				<div class="circle-2 suppressed">.</div>
 																																</div>
+																												</div> -->
+
+
+														<div class="skills-100">
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="charts">
+																																				<div class="chart chart--dev">
+																																								<ul class="chart--horiz">
+																																												<li class="chart__bar" style="height: 360px;"></li>
+																																												<!-- <li class="chart__bar" style="height: 380px;"></li> -->
+																																								</ul>
+																																				</div>
+																																</div>
 																												</div>
+
+
 																												<div class="container">
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
 																																				<div class="col-lg-8 top-pad-xxl">
@@ -307,18 +326,31 @@ export default {
 
 
 
+																								// if (destination.index == 3) {
+
+
+
+																								// 				var circles = document.querySelectorAll('.circle-2');
+																								// 				if (circles) {
+																								// 								for (var i = 0; i < circles.length; ++i) {
+																								// 												circles[i].classList.remove('suppressed');
+																								// 								}
+																								// 				}
+
+																								// }
+
+
+
+
 																								if (destination.index == 3) {
-
-
-
-																												var circles = document.querySelectorAll('.circle-2');
-																												if (circles) {
-																																for (var i = 0; i < circles.length; ++i) {
-																																				circles[i].classList.remove('suppressed');
+																												var chartBar2 = document.querySelectorAll('.chart__bar');
+																												if (chartBar2) {
+																																for (var i = 0; i < chartBar2.length; ++i) {
+																																				chartBar2[i].classList.add('running');
 																																}
 																												}
-
 																								}
+																								
 
 																								if (destination.index == 3) {
 																												function animateValue(id, start, end, duration) {
