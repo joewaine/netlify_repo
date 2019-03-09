@@ -146,7 +146,7 @@ transition-delay: .5s;
 
    -webkit-transition: all 1s ease;
    transition:         all 1s ease; 
-			width: 20px;
+			width: 100%;
 
 			&.one {
 
@@ -227,10 +227,10 @@ transition-delay: .5s;
 
    -webkit-transition: all 1s ease;
    transition:         all 1s ease; 
-			height: 0;
+			height: 100%;
 
 			&.one {
-			height: 50px;
+height: 100%;
 								&.expanded-33 {
 											 height: 40%;
 								}
@@ -238,7 +238,7 @@ transition-delay: .5s;
 
 				&.two {
 
-								height: 50px;
+height: 100%;
 									right: 33.33%;
 								&.expanded-10 {
 											 height: 20%;
@@ -246,7 +246,7 @@ transition-delay: .5s;
 				}
 
 				&.three {
-								height: 0;
+height: 100%;
 									right: 66.66%;
 								&.expanded-50 {
 											 height: 0px;
