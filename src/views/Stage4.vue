@@ -106,9 +106,7 @@
 																				</div>
 																</div>
 												</div>
-												<!-- next section -->
-												<!-- next section -->
-												<!-- next section -->
+
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center">
 																				<div class="row light-grey-bg">
@@ -132,9 +130,6 @@
 																				</div>
 																</section>
 												</div>
-												<!-- next section -->
-												<!-- next section -->
-												<!-- next section -->
 
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
@@ -152,8 +147,6 @@
 												</div>
 
 
-
-<!-- bottom -->
 
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
