@@ -1,24 +1,43 @@
 <template>
 				<div>
 								<full-page ref="fullpage" :options="options">
+
+
+
+<!-- next -->
+
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																<HeaderModule />
-																<div class="container">
-																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
-																												<span class="section-title slide-in slide-in-right">stage 3</span>
-																												<BurgerMenu />
+																<!-- 																<HeaderModule /> -->
+																<section class="justify-content-center top-pad-xl">
+																				<div class="row" style="">
+																								<div class="col-xl-5 col-6 offset-xl-1">
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																				<span class="section-title slide-in slide-in-right">stage 3</span>
+																																</div>
+																												</div>
+																								</div>
+																								<div class="col-xl-6 col-6">
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																				<BurgerMenu />
+																																</div>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
-																												<h1 class="top-pad-sm landing-element">
-																																Capitalize on opportunities to convert
-																												</h1>
+																</section>
+																<section class="justify-content-center">
+																				<div class="row" style="">
+																								<div class="col-xl-4 offset-xl-2">
+																												<div class="container justify-content-end">
+																																<h1 class="top-pad-sm landing-element landing-element">
+																																				Capitalize on opportunities to convert
+																																</h1>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
+																				<div class="row justify-content-center no-lr-margin">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
 																												<p>
 																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
 																												</p>
@@ -27,46 +46,57 @@
 																												</p>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
-												<div class="section relative fp-auto-height bar-panel" data-index="1">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-surface relative mobile-image">
-<div class="rect-bar-1 one">.</div>
 
-<div class="rect-bar-1 two">.</div>
 
-<div class="rect-bar-1 three">.</div>
+<!-- next -->
+
+
+<!-- next squares -->
+
+
+												<div class="section fp-auto-height" data-index="1">
+																<section class="justify-content-center">
+																				<div class="row">
+																								<div class="col-xl-5 bg-surface btm-pad-xxl text-center mobile-image">
+																												<div class="rect-bar-1 one">.</div>
+																												<div class="rect-bar-1 two">.</div>
+																												<div class="rect-bar-1 three">.</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 green-bg btm-pad-xxl">
-																												<div class="container">
-																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 btm-pad-max top-pad-xxl no-pad-mobile fadeInAnimation fade-opacity-1">
-																																								<div class="quote top-pad-sm">“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
-																																								</div>
-																																								<div class="name">
-																																												Steve Mordue
-																																								</div>
-																																								<div class="title">
-																																												Microsoft Business Applications MVP
-																																								</div>
-																																				</div>
+																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+																																<div class="quote top-pad-sm">
+															“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
+																																</div>
+																																<div class="name">
+																																	Steve Mordue
+																																</div>
+																																<div class="title">
+																																				Microsoft Business Applications MVP
 																																</div>
 																												</div>
 																								</div>
 																				</div>
-																</div>
-																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
+																</section>
+																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
+																				next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
-																																<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon>
 																												</g>
 																								</g>
-																				</svg>
-																</div>
+																				</svg></div>
 												</div>
+
+
+
+<!-- next squares -->
+
+
+
+
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
@@ -81,52 +111,35 @@
 																				</div>
 																</div>
 												</div>
+
+
+
+<!-- next section -->
+
+<!-- stage 3 -->
+
 												<div class="section fp-auto-height" data-index="3">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
-																																				<div class="col-lg-10 no-pad-mobile">
-																																								<h2 class="top-pad-md">
-																																												<span class="green-text">
-																																																Solution
-																																												</span>
-																																								</h2>
+																<section class="justify-content-center light-grey-bg">
+																				<div class="row light-grey-bg">
+																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
+																												<div class="container justify-content-center btm-pad-lg">
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-3">
+																																				<h2 class="top-pad-lg">
+																																								<span class="green-text">
+																																												Solution
+																																								</span>
+																																				</h2>
 																																								<p class="top-pad-lg">
 																																												Contrary to popular belief, buyers don’t want to do all the work themselves. Although it might be true that buyers aren’t likely to depend on sellers for all the information they need to make a decision, that doesn’t mean they don’t welcome your educated advice. With valuable insights around company growth, recent news articles, and trends, you’ll be in a better position to understand each customer’s current needs and mindset and where they are in the buying cycle
 																																								</p>
 																																								<p>
 																																												Relationship selling focuses on the person, not the sale. Armed with this relevant data, you can address real customer concerns and offer recommendations and insights to begin building trust.
 																																								</p>
-																																				</div>
 																																</div>
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
-<!-- 																												<div class="skills-3">
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="dash-3">_</div>
-																																<div class="circles">
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																				<div class="circle-2 suppressed">.</div>
-																																</div>
-																												</div> -->
+
 
 
 														<div class="skills-100">
@@ -163,8 +176,16 @@
 																												</div>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
+
+
+<!-- stage 3 -->
+
+<!-- next section -->
+
+
+
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
@@ -179,21 +200,23 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section overflowed-section-bottom fp-auto-height" data-index="5">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div id="bg-image" class="col-md-6 dk-grey-bg bg-sweaters btm-pad-xxl relative hide-image-mobile">
-<div class="rect-bar-5 one">.</div>
 
-<div class="rect-bar-5 two">.</div>
 
-<div class="rect-bar-5 three">.</div>
+<!-- stage five -->
 
+
+												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
+																<section class="justify-content-center">
+																				<div class="row">
+																								<div class="col-xl-6 bg-sweaters mobile-image">
+																												<div class="rect-bar-5 one">.</div>
+																												<div class="rect-bar-5 two">.</div>
+																												<div class="rect-bar-5 three">.</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-5">
-																																				<div class="col-lg-10 no-pad-mobile">
+																								<div class="col-xl-6 offset-xl-0 no-pad">
+																												<div class="container top-pad-xxl btm-pad-xxl">
+																																<div class="row justify-content-center no-margin">
+																																				<div class="col-lg-10 fadeInAnimation fade-opacity-5">
 																																								<h2 class="top-pad-lg">
 																																												<span class="green-text">
 																																																Solution
@@ -215,8 +238,10 @@
 																												</div>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
+
+<!-- stage five -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">

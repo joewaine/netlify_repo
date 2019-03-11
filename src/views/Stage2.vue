@@ -1,25 +1,41 @@
 <template>
 				<div>
 								<full-page ref="fullpage" :options="options">
+
+
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																<HeaderModule />
-																<div class="container">
-																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
-																												<span class="section-title slide-in slide-in-right">stage 2</span>
-																												<BurgerMenu />
+																<!-- 																<HeaderModule /> -->
+																<section class="justify-content-center top-pad-xl">
+																				<div class="row" style="">
+																								<div class="col-xl-5 col-6 offset-xl-1">
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																				<span class="section-title slide-in slide-in-right">stage 2</span>
+																																</div>
+																												</div>
+																								</div>
+																								<div class="col-xl-6 col-6">
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																				<BurgerMenu />
+																																</div>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
-																												<h1 class="top-pad-sm landing-element">
-																																Nurture leads and build relationships
-																												</h1>
+																</section>
+																<section class="justify-content-center">
+																				<div class="row" style="">
+																								<div class="col-xl-4 offset-xl-2">
+																												<div class="container justify-content-end">
+																																<h1 class="top-pad-sm landing-element landing-element">
+																																				Nurture leads and build relationships
+																																</h1>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
-																												<p>
+																				<div class="row justify-content-center no-lr-margin">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
+																														<p>
 																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for. Imagine what your end-of-the-month reports would look like if you could anticipate the needs of every connection and deliver real value—in the form of useful information that drives business forward—to every customer.
 																												</p>
 																												<p>
@@ -27,46 +43,55 @@
 																												</p>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
-												<div class="section relative fp-auto-height bar-panel" data-index="1">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-6 col-md-12 btm-pad-xxl bg-small-table relative mobile-image">
-<div class="rect-bar-1 one">.</div>
 
-<div class="rect-bar-1 two">.</div>
 
-<div class="rect-bar-1 three">.</div>
+
+
+<!-- next sect -->
+
+
+												<div class="section fp-auto-height" data-index="1">
+																<section class="justify-content-center">
+																				<div class="row">
+																								<div class="col-xl-5 bg-small-table btm-pad-xxl text-center mobile-image">
+																												<div class="rect-bar-1 one">.</div>
+																												<div class="rect-bar-1 two">.</div>
+																												<div class="rect-bar-1 three">.</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 green-bg btm-pad-lg">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
-																																								<div class="quote top-pad-sm">“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
-																																								</div>
-																																								<div class="name">
-																																												Matt Heinz
-																																								</div>
-																																								<div class="title">
-																																												President and founder of Heinz Marketing
-																																								</div>
-																																				</div>
+																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+																																<div class="quote top-pad-sm">
+																												“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
+																																</div>
+																																<div class="name">
+																																				Matt Heinz
+																																</div>
+																																<div class="title">
+																																				President and founder of Heinz Marketing
 																																</div>
 																												</div>
 																								</div>
 																				</div>
-																</div>
-																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
+																</section>
+																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
+																				next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
-																																<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon>
 																												</g>
 																								</g>
-																				</svg>
-																</div>
+																				</svg></div>
 												</div>
+
+
+
+<!-- next sect -->
+
+
+	
 												<div class="section light-grey-bg fp-auto-height" id="nextSection" data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
@@ -81,26 +106,30 @@
 																				</div>
 																</div>
 												</div>
+
+
+
+<!-- stage 3 -->
+
 												<div class="section fp-auto-height" data-index="3">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-6 col-md-12 light-grey-bg btm-pad-xxl">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-3">
-																																				<div class="col-lg-10 no-pad-mobile">
-																																								<h2 class="top-pad-md">
-																																												<span class="green-text">
-																																																Solution
-																																												</span>
-																																								</h2>
-																																								<p class="top-pad-sm">
-																																												Fostering meaningful connections is the key to relationship selling. But it’s not enough to use the latest technology. You need to take advantage of that technology to capture data before you engage with a customer or prospect at a deeply personalized level, whether that’s by phone, by email, or in person. Powerful analytics let you discover your prospects’ pain points and deliver sound solutions that will build trust. Tap into your customers’ social platforms and pay attention to the topics they discuss, the issues they tackle, and the industry insights they share. Customer interaction data surfaces timely, relevant insights that move relationships forward.
-																																								</p>
-																																				</div>
+																<section class="justify-content-center light-grey-bg">
+																				<div class="row light-grey-bg">
+																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
+																												<div class="container justify-content-center btm-pad-lg">
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-3">
+																																				<h2 class="top-pad-lg">
+																																								<span class="green-text">
+																																												Solution
+																																								</span>
+																																				</h2>
+																																				<p class="top-pad-sm">
+																												Fostering meaningful connections is the key to relationship selling. But it’s not enough to use the latest technology. You need to take advantage of that technology to capture data before you engage with a customer or prospect at a deeply personalized level, whether that’s by phone, by email, or in person. Powerful analytics let you discover your prospects’ pain points and deliver sound solutions that will build trust. Tap into your customers’ social platforms and pay attention to the topics they discuss, the issues they tackle, and the industry insights they share. Customer interaction data surfaces timely, relevant insights that move relationships forward.
+																																				</p>
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
+																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg overflow-hidden">
+																												<div class="row justify-content-end top-pad-xxl btm-pad-max no-lr-margin">
 														<div class="skills-100">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
@@ -118,7 +147,7 @@
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-8 top-pad-xxl slide-in-3 slide-in-left">
+																																				<div class="col-lg-8 slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
 																																												Changing buyer behaviors and attitudes create increased pressure for sales reps to deliver fast, relevant, and personalized information. 72% of sales leaders agreed that
 																																								</div>
@@ -131,10 +160,19 @@
 																																				</div>
 																																</div>
 																												</div>
+																												</div>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
+
+
+<!-- stage 3 -->
+
+
+
+
+
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
@@ -149,32 +187,34 @@
 																				</div>
 																</div>
 												</div>
-												<div class="section overflowed-section-bottom fp-auto-height" data-index="5">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div id="bg-image" class="col-lg-6 col-md-12 bg-sweaters btm-pad-xxl relative hide-image-mobile">
-<div class="rect-bar-5 one">.</div>
 
-<div class="rect-bar-5 two">.</div>
 
-<div class="rect-bar-5 three">.</div>
+
+<!-- next -->
+
+												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
+																<section class="justify-content-center">
+																				<div class="row">
+																								<div class="col-xl-6 bg-sweaters mobile-image">
+																												<div class="rect-bar-5 one">.</div>
+																												<div class="rect-bar-5 two">.</div>
+																												<div class="rect-bar-5 three">.</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 btm-pad-xxl">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-5">
-																																				<div class="col-lg-10 no-pad-mobile">
-																																								<h2 class="top-pad-">
-																																												<span class="green-text">
+																								<div class="col-xl-6 offset-xl-0 no-pad">
+																												<div class="container top-pad-xxl btm-pad-xxl">
+																																<div class="row justify-content-center no-margin">
+																																				<div class="col-lg-10 fadeInAnimation fade-opacity-5">
+																																								<h2 class="top-pad-md"><span class="green-text">
 																																																Solution
-																																												</span>
-																																								</h2>
-																																								<p class="top-pad-sm">
-																																												Staying on top of changes among your contacts can provide opportunities for new connections, deeper engagements, and greater sales. Machine learning and real-time alerts provide insights into what your connections are up to—and the best next actions to take on each of those insights at every relationship-building opportunity.
+																																												</span></h2>
+																																								<p class="top-pad-lg">
+																																											Staying on top of changes among your contacts can provide opportunities for new connections, deeper engagements, and greater sales. Machine learning and real-time alerts provide insights into what your connections are up to—and the best next actions to take on each of those insights at every relationship-building opportunity.
 																																								</p>
 																																								<p>
-																																												There are dozens of small actions that open doors. When a contact has left a company, you have a chance to touch base and wish them luck or ask about their new position. When you receive a response to a connection request or email, your reply keeps the lines of communication open. When you hear about an upcoming industry event or networking opportunity, you can reach out to those nearby.
+																																																															There are dozens of small actions that open doors. When a contact has left a company, you have a chance to touch base and wish them luck or ask about their new position. When you receive a response to a connection request or email, your reply keeps the lines of communication open. When you hear about an upcoming industry event or networking opportunity, you can reach out to those nearby.
 																																								</p>
-																																								<p>
+
+																																									<p>
 																																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business. Learn more <a href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">here</a>, or connect with a representative when you’re ready to <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">try out</a> Dynamics 365 for Sales.
 																																								</p>
 																																								<p>
@@ -182,13 +222,16 @@
 																																																<router-link to="/stage3"><span style="text-decoration: underline;">Stage 3</span></router-link>
 																																												</span>
 																																								</p>
+
 																																				</div>
 																																</div>
 																												</div>
 																								</div>
 																				</div>
-																</div>
+																</section>
 												</div>
+
+
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">

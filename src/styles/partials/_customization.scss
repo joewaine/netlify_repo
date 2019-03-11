@@ -1983,6 +1983,19 @@ ul {
         margin-top: 0;
     }
 
+
+
+}
+
+
+
+@media (max-width: 1080px) {
+
+
+        .mobile-image {
+        height: 500px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -2011,9 +2024,7 @@ ul {
         display: none;
     }
 
-    .mobile-image {
-        height: 500px;
-    }
+
 
     .moveToTop {
 

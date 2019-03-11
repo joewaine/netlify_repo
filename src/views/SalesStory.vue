@@ -1,37 +1,66 @@
 <template>
 				<div>
 								<full-page ref="fullpage" :options="options">
+
+
+
+
+
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																<HeaderModule />
-																<div class="container">
-																				<div class="row top-pad-xl stage-header">
-																								<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-xl-1 relative">
+																<!-- 																<HeaderModule /> -->
+																<section class="justify-content-center top-pad-xl">
+																				<div class="row" style="">
+																								<div class="col-xl-5 col-6 offset-xl-1">
+
+
+
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
 																												<span class="section-title slide-in slide-in-right">sales story</span>
-																												<BurgerMenu />
+																																</div>
+																												</div>
+																								</div>
+																								<div class="col-xl-6 col-6">
+																												<div class="container justify-content-end">
+																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																				<BurgerMenu />
+																																</div>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row">
-																								<div class="col-xl-5 col-lg-10 col-md-10 offset-lg-1 offset-md-1 offset-md-0">
-																												<h1 class="top-pad-sm landing-element">
-																																The view's better from here
-																												</h1>
+																</section>
+																<section class="justify-content-center">
+																				<div class="row" style="">
+																								<div class="col-xl-4 offset-xl-2">
+																												<div class="container justify-content-end">
+																																<h1 class="top-pad-sm landing-element landing-element">
+																															The view's better from here
+																																</h1>
+																												</div>
 																								</div>
 																				</div>
-																				<div class="row justify-content-center">
-																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-xl landing-element">
+																				<div class="row justify-content-center no-lr-margin">
+																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
 																												<p>Relationship selling powered by tech</p>
 																												<p>
 																																Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
 																												</p>
 																								</div>
 																				</div>
-																</div>
+																</section>
+
 												</div>
-												<div class="section container no-pad fp-auto-height bar-panel" data-index="1">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div id="bg-image" class="col-lg-6 col-md-12 green-bg btm-pad-xxl text-center" style="text-align: center;">
-																			
+
+
+
+
+<!-- new here -->
+
+
+												<div class="section fp-auto-height" data-index="1">
+																<section class="justify-content-center">
+																				<div class="row grey-bg">
+																								<div class="col-xl-6 green-bg btm-pad-xxl text-center">
 
 
 <div class="rect-bar-6 one">.</div>
@@ -41,10 +70,15 @@
 <div class="rect-bar-6 three">.</div>
 
 
-									<img src="../assets/img/1-to-17.svg" alt="1-17" style="width: 300px; height: 300px; margin:60px 100px 0px auto;">
+									<img src="../assets/img/1-to-17.svg" alt="1-17" style="height: 300px;width: 50%;margin: 60px 100px 0px auto;" />
+    
+
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-x-hidden">
-																												<div class="container">
+
+
+<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+
+																		<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 slide-in-1 slide-in-left">
 																																								<div class="mint-text-block top-pad-xl col-lg-8">
@@ -56,26 +90,47 @@
 																																				</div>
 																																</div>
 																												</div>
-																								</div>
-																				</div>
-																</div>
-																<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8"/></g></g></svg>
-																</div>
-												</div>
-												<div id="nextSection" class="section fp-auto-height" data-index="2">
-																<div class="container no-pad">
-																				<div class="row no-margin">
-																								<div class="col-lg-7 col-md-12 light-grey-bg btm-pad-xxl">
-																												<div class="container no-pad-mobile">
-																																<div class="row justify-content-center no-margin fadeInAnimation fade-opacity-2">
-																																				<div class="col-lg-10 no-pad-mobile">
-																																								<h2 class="top-pad-lg">
-																																												<span>
-																																																Let’s look at an example of how relationship selling drives sales.
-																																												</span>
-																																								</h2>
+
+
+</div>
+																							</div>
+
+
+
+
+																							</section>
+
+
+<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
+	next
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8"><g id="Layer_2" data-name="Layer 2"><g id="content"><polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon></g></g></svg></div>
+
+																		</div>
+
+
+<!-- new here -->
+
+
+<!-- new versoin here -->
+
+
+												<div class="section fp-auto-height" data-index="1">
+																<section class="justify-content-center">
+																				<div class="row light-grey-bg">
+																								<div class="col-xl-6 offset-xl-1 offset-lg-1 light-grey-bg">
+
+<div class="container justify-content-center"><div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-1 fade-visible-2"><h2 class="top-pad-lg">
+
+
+							Let’s look at an example of how relationship selling drives sales.
+
+
+
+
+</h2>
+
 																																								<p class="top-pad-xl">
 																																												Tomas is a sales rep for a lawn care equipment manufacturer. His customers include retailers, dealers, and lawn care service providers in the Midwest. To reach his quarterly quota, Tomas needs one more large order. Instead of spending hours searching for the right leads online, Tomas uses the advanced search tool on LinkedIn to quickly locate Jamie, a valuable lead at a lawn care company in Kansas City
 																																								</p>
@@ -92,19 +147,29 @@
 																																												<span class="show">read more +</span>
 																																												<span class="hide">read less -</span>
 																																								</span>
-																																				</div>
-																																</div>
-																												</div>
+
+
+
+
+																																			</div></div>
+
 																								</div>
-																								<div class="col-lg-5 col-md-12 bg-silhouette btm-pad-xxl mobile-image">
-																												<div class="container">
-																																<div class="row justify-content-center no-margin">
-																																</div>
-																												</div>
+																								<div class="col-xl-5 btm-pad-xxl bg-silhouette text-center mobile-image">
 																								</div>
+
+
 																				</div>
-																</div>
-												</div>
+
+																			</section>
+</div>
+
+
+
+
+
+<!-- new versoin here -->
+
+
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
