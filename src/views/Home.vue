@@ -280,7 +280,7 @@ export default {
 												options: {
 																fadingEffect: true,
 																scrollBar: true,
-																afterLoad: function(origin, destination, direction) {
+																afterLoad: function(origin, destination) {
 
 																				// LANDING ELEMENTS
 
@@ -292,8 +292,8 @@ export default {
 																				}
 																				var slideRight = document.querySelectorAll('.slide-in');
 																				if (slideRight) {
-																								for (var i = 0; i < slideRight.length; ++i) {
-																												slideRight[i].classList.remove('slide-in-right');
+																								for (var i6 = 0; i6 < slideRight.length; ++i6) {
+																												slideRight[i6].classList.remove('slide-in-right');
 																								}
 																				}
 
@@ -323,20 +323,13 @@ export default {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 
-																								for (var i = 0; i < opacity.length; ++i) {
+																								for (var i7 = 0; i7 < opacity.length; ++i7) {
 
-																												opacity[i].classList.add('fade-visible');
+																												opacity[i7].classList.add('fade-visible');
 																								}
-
-
-
-
 																				}
 
-
-
 																				if (destination.index) {
-
 
 																								if (destination.index == 6) {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'none';
@@ -344,58 +337,30 @@ export default {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'auto';
 																								}
 
-
 																				} else {
 
 																								document.getElementById('stage-line-container').style.pointerEvents = 'none';
 
-
 																				}
-
-																				let indexElem = destination.index - 1;
-
-																				let stageBox;
-																				stageBox = document.querySelectorAll('.stage-box');
-																				for (var i = 0; i < stageBox.length; ++i) {
-
-
-
-																				}
-
 
 
 																				let stageName = document.querySelector('.stage-name-' + destination.index);
 
 
 																				if (stageName) {
-
-
-
-																								// stageName.style.display = 'inline-block';
 																								stageName.style.opacity = 1;
-
 																				}
 
-
-
-
-
-
 																},
-																onLeave: function(origin, destination, direction) {
-
-
-
-																				let elem = document.querySelector(".fp-table.active");
+																onLeave: function(origin, destination) {
 
 																				let indexElem2 = destination.index - 1;
 																				let stageBox = document.querySelectorAll('.stage-box');
 
-																				for (var i = 0; i < stageBox.length; ++i) {
+																				for (var i11 = 0; i11 < stageBox.length; ++i11) {
 
 
-
-																								stageBox[i].classList.value = 'stage-box phase-' + indexElem2;
+																								stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
 
 																								if (indexElem2 == -1 || indexElem2 == 5) {
 
@@ -408,9 +373,9 @@ export default {
 																				}
 																				let stageName;
 																				stageName = document.querySelectorAll('.stage-name');
-																				for (var i = 0; i < stageName.length; ++i) {
+																				for (var i12 = 0; i12 < stageName.length; ++i12) {
 
-																								stageName[i].style.opacity = 0;
+																								stageName[i12].style.opacity = 0;
 
 
 																				}
@@ -426,31 +391,16 @@ export default {
 
 				},
 				methods: {
-								burger: function(event) {
+								burger: function() {
 												var navbar = document.querySelector('.navbar');
 												navbar.classList.toggle('expanded');
 								},
-								openMe: function(index) {
+								openMe: function() {
 
 												var downArrrow = document.querySelectorAll('.down-arrow');
 												downArrrow.classList.add('paused');
 
-												let elem = document.querySelector(".fp-table.active");
-												let indexElem = destination.index - 1;
-												let stageBox;
-												stageBox = document.querySelectorAll('.stage-box');
-												for (var i = 0; i < stageBox.length; ++i) {
 
-																stageBox[i].classList = 'stage-box phase-' + indexElem;
-
-																console.log(indexElem);
-																if (indexElem == -1 || indexElem == 5) {
-																				console.log(indexElem);
-																				document.getElementById('stage-line').classList.add('nostroke');
-																} else {
-																				document.getElementById('stage-line').classList.remove('nostroke');
-																}
-												}
 
 								},
 								landingFadeIn: function() {
