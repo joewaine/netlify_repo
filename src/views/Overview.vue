@@ -278,7 +278,6 @@
 				<img src="../assets/img/square/view-square.jpg" />
 				<img src="../assets/img/square/iphone-square.jpg" />
 </div>
-</h2>
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
@@ -294,7 +293,7 @@ export default {
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
-																afterLoad: function(origin, destination, direction) {
+																afterLoad: function(origin, destination) {
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
@@ -304,8 +303,8 @@ export default {
 																				}
 																				var slideRight = document.querySelectorAll('.slide-in');
 																				if (slideRight) {
-																								for (var i = 0; i < slideRight.length; ++i) {
-																												slideRight[i].classList.remove('slide-in-right');
+																								for (var i2 = 0; i2 < slideRight.length; ++i2) {
+																												slideRight[i2].classList.remove('slide-in-right');
 																								}
 																				}
 
@@ -315,8 +314,8 @@ export default {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 
-																								for (var i = 0; i < opacity.length; ++i) {
-																												opacity[i].classList.add('fade-visible-2');
+																								for (var i3 = 0; i3 < opacity.length; ++i3) {
+																												opacity[i3].classList.add('fade-visible-2');
 																								}
 
 
@@ -367,7 +366,8 @@ export default {
 
 				components: {
 								HeaderModule,
-								BurgerMenu
+								BurgerMenu,
+								VueFullPage
 				},
 				methods: {
 								scrollToZero: function() {
@@ -405,8 +405,8 @@ export default {
 												}
 
 												var slideRight = document.querySelectorAll('.slide-in');
-												for (var i = 0; i < slideRight.length; ++i) {
-																slideRight[i].classList.remove('slide-in-right');
+												for (var i2 = 0; i2 < slideRight.length; ++i2) {
+																slideRight[i2].classList.remove('slide-in-right');
 												}
 
 
