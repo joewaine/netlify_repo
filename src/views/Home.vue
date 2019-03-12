@@ -393,7 +393,9 @@ export default {
 
 																				for (var i = 0; i < stageBox.length; ++i) {
 
-																								stageBox[i].classList = 'stage-box phase-' + indexElem2;
+
+
+																								stageBox[i].classList.value = 'stage-box phase-' + indexElem2;
 
 																								if (indexElem2 == -1 || indexElem2 == 5) {
 

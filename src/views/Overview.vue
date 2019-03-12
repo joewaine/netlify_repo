@@ -4,8 +4,8 @@
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
 																<!-- 																<HeaderModule /> -->
 																<section class="justify-content-center top-pad-xl">
-																				<div class="row" style="">
-																								<div class="col-xl-5 col-6 offset-xl-1">
+																				<div class="row no-lr-margin">
+																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
 
 
 
@@ -15,7 +15,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-xl-6 col-6">
+																								<div class="col-xl-6 col-6 no-lr-pad">
 																												<div class="container justify-content-end">
 																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<BurgerMenu />
@@ -25,8 +25,8 @@
 																				</div>
 																</section>
 																<section class="justify-content-center">
-																				<div class="row" style="">
-																								<div class="col-xl-4 offset-xl-2">
+																				<div class="row no-lr-margin" style="">
+																								<div class="col-xl-4 offset-xl-2 no-lr-pad">
 																												<div class="container justify-content-end">
 																																<h1 class="top-pad-sm landing-element landing-element">
 																																				Use relationship selling to connect
@@ -48,7 +48,7 @@
 												</div>
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row grey-bg">
+																				<div class="row grey-bg no-lr-margin">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
 
 																												<div class="container justify-content-center">
@@ -147,7 +147,7 @@
 	
 
 																<section class="justify-content-center">
-																				<div class="row">
+																				<div class="row no-lr-margin">
 																								<div class="col-xl-6 no-pad bg-sweaters-square image-bg-transition hide-image-mobile">
 
 
