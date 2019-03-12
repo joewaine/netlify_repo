@@ -157,13 +157,15 @@
 																												<div class="rect-bar-2 four">.</div>
 
 
-																												<div style="display:none">
-																																<img class="imgsrc-0" src="../assets/img/square/redmond-window-square.jpg" />
-																																<img class="imgsrc-1" src="../assets/img/square/sweaters-square.jpg" />
-																																<img class="imgsrc-2" src="../assets/img/square/two-women-square.jpg" />
-																																<img class="imgsrc-3" src="../assets/img/square/glasses-square.jpg" />
-																																<img class="imgsrc-4" src="../assets/img/square/view-square.jpg" />
-																												</div>
+
+<div class="background-slide slide-1" style="opacity:0">image</div>
+<div class="background-slide slide-2" style="opacity:0">image</div>
+<div class="background-slide slide-3" style="opacity:0">image</div>
+<div class="background-slide slide-4" style="opacity:0">image</div>
+<div class="background-slide slide-5" style="opacity:0">image</div>
+
+
+
 
 
 																								</div>
@@ -174,7 +176,7 @@
 																																<div class="row no-margin justify-content-center">
 																																				<div class="col-md-8 no-pad-mobile fadeInAnimation fade-opacity-2">
 																																								<ul class="left-border top-pad-xxl top-pad-list btm-pad-xl">
-																																												<li @mouseover="backgroundChange(0)" data-index="1">
+																																												<li @mouseover="backgroundChange(1)" data-index="1">
 																																																<div class="stage-item" v-on:click="scrollToZero">
 																																																				<router-link @click.native="landingFadeIn" to="/stage1">Stage 1</router-link>
 																																																</div>
@@ -184,7 +186,7 @@
 																																																				</router-link>
 																																																</span>
 																																												</li>
-																																												<li @mouseover="backgroundChange(1)" data-index="2">
+																																												<li @mouseover="backgroundChange(2)" data-index="2">
 																																																<div class="stage-item" v-on:click="scrollToZero">
 																																																				<router-link @click.native="landingFadeIn" to="/stage2">Stage 2</router-link>
 																																																</div>
@@ -194,7 +196,7 @@
 																																																				</router-link>
 																																																</span>
 																																												</li>
-																																												<li @mouseover="backgroundChange(2)" data-index="3">
+																																												<li @mouseover="backgroundChange(3)" data-index="3">
 																																																<div class="stage-item" v-on:click="scrollToZero">
 																																																				<router-link @click.native="landingFadeIn" to="/stage3">Stage 3</router-link>
 																																																</div>
@@ -202,7 +204,7 @@
 																																																				<router-link @click.native="landingFadeIn" to="/stage3">Capitalize on opportunities to convert</router-link>
 																																																</span>
 																																												</li>
-																																												<li @mouseover="backgroundChange(3)" data-index="4">
+																																												<li @mouseover="backgroundChange(4)" data-index="4">
 																																																<div class="stage-item" v-on:click="scrollToZero">
 																																																				<router-link @click.native="landingFadeIn" to="/stage4">Stage 4</router-link>
 																																																</div>
@@ -210,7 +212,7 @@
 																																																				<router-link @click.native="landingFadeIn" to="/stage4">Deliver relationship sales at scale</router-link>
 																																																</span>
 																																												</li>
-																																												<li @mouseover="backgroundChange(4)" data-index="5">
+																																												<li @mouseover="backgroundChange(5)" data-index="5">
 																																																<div class="stage-item" v-on:click="scrollToZero">
 																																																				<router-link @click.native="landingFadeIn" to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																																</div>
@@ -379,20 +381,17 @@ export default {
 												});
 								},
 
-								// before
-
 								backgroundChange: function(indexNumber) {
-												var bgImageArray = [
-																document.querySelector(".imgsrc-0").getAttribute("src"),
-																document.querySelector(".imgsrc-1").getAttribute("src"),
-																document.querySelector(".imgsrc-2").getAttribute("src"),
-																document.querySelector(".imgsrc-3").getAttribute("src"),
-																document.querySelector(".imgsrc-4").getAttribute("src")
-												];
 
-												document.querySelector('.image-bg-transition').style.background = "url(" + bgImageArray[indexNumber] + ") no-repeat center center";
-												document.querySelector('.image-bg-transition').style.backgroundSize = "cover";
 
+
+									document.querySelector('.background-slide.slide-1').style.opacity = 0;
+									document.querySelector('.background-slide.slide-2').style.opacity = 0;
+									document.querySelector('.background-slide.slide-3').style.opacity = 0;
+									document.querySelector('.background-slide.slide-4').style.opacity = 0;
+									document.querySelector('.background-slide.slide-5').style.opacity = 0;
+
+									document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
 
 								},
 								landingFadeIn: function() {

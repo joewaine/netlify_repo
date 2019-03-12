@@ -2273,6 +2273,54 @@ ul {
 
 
 
+.background-slide{
+    position: absolute;
+}
 
 
+.slide-1{
+        background: url(assets/img/square/redmond-window-square.jpg) no-repeat center center;
+        width: 100%;height:100%;color: transparent;
+            background-size: cover;
+
+            transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+}
+
+.slide-2{
+        background: url(assets/img/square/sweaters-square.jpg) no-repeat center center;
+        width: 100%;height:100%;color: transparent;
+            background-size: cover;
+
+            transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+}
+
+.slide-3{
+        background: url(assets/img/square/two-women-square.jpg) no-repeat center center;
+        width: 100%;height:100%;color: transparent;
+            background-size: cover;
+
+            transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+}
+
+.slide-4{
+        background: url(assets/img/square/glasses-square.jpg) no-repeat center center;
+        width: 100%;height:100%;color: transparent;
+            background-size: cover;
+
+            transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+}
+
+.slide-5{
+        background: url(assets/img/square/view-square.jpg) no-repeat center center;
+        width: 100%;height:100%;color: transparent;
+            background-size: cover;
+
+            transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+
+}
 
