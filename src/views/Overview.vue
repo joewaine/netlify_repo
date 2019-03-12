@@ -308,7 +308,7 @@ export default {
 																onLeave: function(origin, destination, direction) {
 
 
-																				console.log(destination.index);
+																				// console.log(destination.index);
 
 																				if (destination.index) {
 																								var sectionName = '.fade-opacity-' + destination.index;

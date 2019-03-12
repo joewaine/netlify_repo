@@ -130,6 +130,28 @@ h3{
 
 
 
+
+.mint-text-block {
+        color: $text--mint;
+        font-size: 2em;
+        line-height: 1.4em;
+        padding-right: 0;
+
+        &.bold {
+
+
+
+                ul{
+                        padding-left: 20px;
+
+
+
+
+                        
+                }
+        }
+}
+
 }
 
 

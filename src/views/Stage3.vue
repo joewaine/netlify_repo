@@ -148,7 +148,23 @@
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
-																																<div class="charts">
+
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+
+
+
+<div  class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+
+
+<!-- 
+<div  class="chart__bar" style="width: 30px;height: 100%;background-color: rgb(254, 240, 0);margin-top: 140px;position: absolute;color: transparent;left: 30px;">.</div> -->
+
+
+																																<div class="charts" style="display: none;">
 																																				<div class="chart chart--dev">
 																																								<ul class="chart--horiz">
 																																												<li class="chart__bar" style="height: 360px;"></li>

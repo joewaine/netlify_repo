@@ -54,7 +54,12 @@
 																								</div>
 																								<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="skills-4">
-																																<div class="charts-4">
+
+
+
+<div  class="chart__bar-4 bar-chart-gradient" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+
+																																<div class="charts-4" style="display: none;">
 																																				<div class="chart-4 chart--dev-4">
 																																								<ul class="chart--horiz-4">
 																																												<li class="chart__bar-4" style="height: 460px;"></li>

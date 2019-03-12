@@ -124,7 +124,24 @@
 																																				<div class="dash">_</div>
 																																				<div class="dash">_</div>
 																																				<div class="dash">_</div>
-																																				<div class="charts">
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+
+
+
+<div  class="chart__bar" style="width: 30px;height: 80%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+
+<div  class="chart__bar" style="width: 30px;height: 90%;background-color: rgb(0, 130, 114);margin-bottom: 0;position: absolute;color: transparent;left: 76px;bottom: 0;">.</div>
+
+																																				<div class="charts" style="display: none;">
+
+
+
+
+
 																																								<div class="chart chart--dev">
 																																												<ul class="chart--horiz">
 																																																<li class="chart__bar" style="height: 360px;"></li>
@@ -271,14 +288,7 @@ export default {
 																				}
 
 
-
-
-
-
-
-
 																},
-
 																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
 
