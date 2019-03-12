@@ -14,31 +14,31 @@
 																								</div>
 																								<div class="stage stage-1" @click="$refs.fullpage.api.moveTo(2)">
 																												<div class="stage-stroke">_</div>
-																												<div class="stage-name">
+																												<div class="stage-name stage-name-1">
 																																<a>stage 1</a>
 																												</div>
 																								</div>
 																								<div class="stage stage-2" @click="$refs.fullpage.api.moveTo(3)">
 																												<div class="stage-stroke">_</div>
-																												<div class="stage-name">
+																												<div class="stage-name stage-name-2">
 																																<a>stage 2</a>
 																												</div>
 																								</div>
 																								<div class="stage stage-3" @click="$refs.fullpage.api.moveTo(4)">
 																												<div class="stage-stroke">_</div>
-																												<div class="stage-name">
+																												<div class="stage-name stage-name-3">
 																																<a>stage 3</a>
 																												</div>
 																								</div>
 																								<div class="stage stage-4" @click="$refs.fullpage.api.moveTo(5)">
 																												<div class="stage-stroke">_</div>
-																												<div class="stage-name">
+																												<div class="stage-name stage-name-4">
 																																<a>stage 4</a>
 																												</div>
 																								</div>
 																								<div class="stage stage-5" @click="$refs.fullpage.api.moveTo(6)">
 																												<div class="stage-stroke">_</div>
-																												<div class="stage-name">
+																												<div class="stage-name stage-name-5">
 																																<a>sales story</a>
 																												</div>
 																								</div>
@@ -373,6 +373,17 @@ export default {
 
 
 
+																						let stageName = document.querySelector('.stage-name-' + destination.index);
+
+
+if(stageName){
+
+
+										
+														// stageName.style.display = 'inline-block';
+														stageName.style.opacity = 1;
+
+}
 
 
 
@@ -404,7 +415,14 @@ export default {
 
 
 																				}
+																															let stageName;
+																															stageName = document.querySelectorAll('.stage-name');
+																															for (var i = 0; i < stageName.length; ++i) {
 
+																															stageName[i].style.opacity = 0;
+
+
+																				}
 
 
 																}
