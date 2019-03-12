@@ -175,11 +175,7 @@
 																																								</p>
 																																								<p><span>With automation and a guided sales process, you can easily manage complex customer relationships and scale with ease—to close more deals, faster.</span> A highly intuitive interface, productivity capabilities, robust mobile apps, and familiar tools provide a connected experience that gets you up and running quickly.
 																																								</p>
-																																								<p>
-																																												<span class="bold">Next:
-																																																<router-link to="/salesstory"><span style="text-decoration: underline;">Sales Story</span></router-link>
-																																												</span>
-																																								</p>
+																																								<p><span class="bold">Next:	<router-link to="/salesstory" class=""><span style="text-decoration: underline;">Sales Story</span></router-link></span></p>
 																																				</div>
 																																</div>
 																												</div>

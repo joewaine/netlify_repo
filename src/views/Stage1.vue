@@ -212,8 +212,7 @@
 																																								<p>
 																																												When you locate the right leads, you’re halfway to your goal. Your next step is to use modern tools to make deeper connections, draw insights from data, and communicate seamlessly across any device to grow your customer relationships over time.
 																																								</p>
-																																								<p><span class="bold">Next:
-																																																<a href="#/stage2" class=""><span style="text-decoration: underline;">Stage 2</span></a></span></p>
+																																								<p><span class="bold">Next:	<router-link to="/stage2" class=""><span style="text-decoration: underline;">Stage 2</span></router-link></span></p>
 																																				</div>
 																																</div>
 																												</div>

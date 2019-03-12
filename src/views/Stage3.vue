@@ -1,11 +1,7 @@
 <template>
 				<div>
 								<full-page ref="fullpage" :options="options">
-
-
-
-<!-- next -->
-
+												<!-- next -->
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
 																<!-- 																<HeaderModule /> -->
 																<section class="justify-content-center top-pad-xl">
@@ -48,14 +44,8 @@
 																				</div>
 																</section>
 												</div>
-
-
-<!-- next -->
-
-
-<!-- next squares -->
-
-
+												<!-- next -->
+												<!-- next squares -->
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
 																				<div class="row">
@@ -67,10 +57,10 @@
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
 																																<div class="quote top-pad-sm">
-															“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
+																																				“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
 																																</div>
 																																<div class="name">
-																																	Steve Mordue
+																																				Steve Mordue
 																																</div>
 																																<div class="title">
 																																				Microsoft Business Applications MVP
@@ -89,14 +79,7 @@
 																								</g>
 																				</svg></div>
 												</div>
-
-
-
-<!-- next squares -->
-
-
-
-
+												<!-- next squares -->
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
 																<div class="container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-2">
@@ -111,13 +94,8 @@
 																				</div>
 																</div>
 												</div>
-
-
-
-<!-- next section -->
-
-<!-- stage 3 -->
-
+												<!-- next section -->
+												<!-- stage 3 -->
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center light-grey-bg">
 																				<div class="row light-grey-bg">
@@ -129,41 +107,30 @@
 																																												Solution
 																																								</span>
 																																				</h2>
-																																								<p class="top-pad-lg">
-																																												Contrary to popular belief, buyers don’t want to do all the work themselves. Although it might be true that buyers aren’t likely to depend on sellers for all the information they need to make a decision, that doesn’t mean they don’t welcome your educated advice. With valuable insights around company growth, recent news articles, and trends, you’ll be in a better position to understand each customer’s current needs and mindset and where they are in the buying cycle
-																																								</p>
-																																								<p>
-																																												Relationship selling focuses on the person, not the sale. Armed with this relevant data, you can address real customer concerns and offer recommendations and insights to begin building trust.
-																																								</p>
+																																				<p class="top-pad-lg">
+																																								Contrary to popular belief, buyers don’t want to do all the work themselves. Although it might be true that buyers aren’t likely to depend on sellers for all the information they need to make a decision, that doesn’t mean they don’t welcome your educated advice. With valuable insights around company growth, recent news articles, and trends, you’ll be in a better position to understand each customer’s current needs and mindset and where they are in the buying cycle
+																																				</p>
+																																				<p>
+																																								Relationship selling focuses on the person, not the sale. Armed with this relevant data, you can address real customer concerns and offer recommendations and insights to begin building trust.
+																																				</p>
 																																</div>
 																												</div>
 																								</div>
 																								<div class="col-lg-6 col-md-12 dk-grey-bg btm-pad-xxl overflow-hidden">
-
-
-
-														<div class="skills-100">
+																												<div class="skills-100">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
-
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
-
-
-
-<div  class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
-
-
-<!-- 
+																																<div class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+																																<!-- 
 <div  class="chart__bar" style="width: 30px;height: 100%;background-color: rgb(254, 240, 0);margin-top: 140px;position: absolute;color: transparent;left: 30px;">.</div> -->
-
-
 																																<div class="charts" style="display: none;">
 																																				<div class="chart chart--dev">
 																																								<ul class="chart--horiz">
@@ -173,8 +140,6 @@
 																																				</div>
 																																</div>
 																												</div>
-
-
 																												<div class="container">
 																																<div class="row justify-content-center no-margin slide-in-3 slide-in-left">
 																																				<div class="col-lg-8 top-pad-xxl">
@@ -194,14 +159,8 @@
 																				</div>
 																</section>
 												</div>
-
-
-<!-- stage 3 -->
-
-<!-- next section -->
-
-
-
+												<!-- stage 3 -->
+												<!-- next section -->
 												<div class="section overflowed-section-top fp-auto-height" data-index="4">
 																<div class="container overflowed-section-top-container">
 																				<div class="row justify-content-center top-pad-lg btm-pad-xxl fadeInAnimation fade-opacity-4">
@@ -216,11 +175,7 @@
 																				</div>
 																</div>
 												</div>
-
-
-<!-- stage five -->
-
-
+												<!-- stage five -->
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
 																				<div class="row">
@@ -244,11 +199,7 @@
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																								</p>
-																																								<p>
-																																												<span class="bold">Next:
-																																																<router-link to="/stage4"><span style="text-decoration: underline;">Stage 4</span></router-link>
-																																												</span>
-																																								</p>
+																																								<p><span class="bold">Next:	<router-link to="/stage4" class=""><span style="text-decoration: underline;">Stage 4</span></router-link></span></p>
 																																				</div>
 																																</div>
 																												</div>
@@ -256,8 +207,7 @@
 																				</div>
 																</section>
 												</div>
-
-<!-- stage five -->
+												<!-- stage five -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
@@ -323,42 +273,42 @@ export default {
 
 																								if (destination.index == 1) {
 
-																				let slideIn = document.querySelector('.rect-bar-1.one');
-																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
-																					}
+																												let slideIn = document.querySelector('.rect-bar-1.one');
+																												if (slideIn) {
+																																slideIn.classList.add('expanded-33');
+																												}
 
-																				let slideIn2 = document.querySelector('.rect-bar-1.two');
-																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
-																					}
+																												let slideIn2 = document.querySelector('.rect-bar-1.two');
+																												if (slideIn2) {
+																																slideIn2.classList.add('expanded-10');
+																												}
 
-																					let slideIn3 = document.querySelector('.rect-bar-1.three');
-																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
-																					}
+																												let slideIn3 = document.querySelector('.rect-bar-1.three');
+																												if (slideIn3) {
+																																slideIn3.classList.add('expanded-50');
+																												}
 
-																						}
+																								}
 
 																								if (destination.index == 4) {
 
-																				let slideIn = document.querySelector('.rect-bar-5.one');
-																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
-																					}
+																												let slideIn = document.querySelector('.rect-bar-5.one');
+																												if (slideIn) {
+																																slideIn.classList.add('expanded-33');
+																												}
 
-																				let slideIn2 = document.querySelector('.rect-bar-5.two');
-																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
-																					}
+																												let slideIn2 = document.querySelector('.rect-bar-5.two');
+																												if (slideIn2) {
+																																slideIn2.classList.add('expanded-10');
+																												}
 
-																					let slideIn3 = document.querySelector('.rect-bar-5.three');
-																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
-																					}
+																												let slideIn3 = document.querySelector('.rect-bar-5.three');
+																												if (slideIn3) {
+																																slideIn3.classList.add('expanded-50');
+																												}
 
-																						}
-																					
+																								}
+
 
 
 
@@ -372,7 +322,7 @@ export default {
 																																}
 																												}
 																								}
-																								
+
 
 																								if (destination.index == 3) {
 																												function animateValue(id, start, end, duration) {
@@ -408,7 +358,7 @@ export default {
 																				}
 
 
-																				
+
 																}
 												}
 								}

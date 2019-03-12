@@ -233,11 +233,7 @@
 																																									<p>
 																																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business. Learn more <a href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">here</a>, or connect with a representative when you’re ready to <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">try out</a> Dynamics 365 for Sales.
 																																								</p>
-																																								<p>
-																																												<span class="bold">Next:
-																																																<router-link to="/stage3"><span style="text-decoration: underline;">Stage 3</span></router-link>
-																																												</span>
-																																								</p>
+																																								<p><span class="bold">Next:	<router-link to="/stage3" class=""><span style="text-decoration: underline;">Stage 3</span></router-link></span></p>
 
 																																				</div>
 																																</div>
