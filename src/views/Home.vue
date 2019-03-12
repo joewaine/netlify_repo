@@ -87,19 +87,10 @@
 																												</g>
 																								</svg>
 																				</div>
-
-
-
-<div class="rect-bar-10 one">.</div>
-
-<div class="rect-bar-10 two">.</div>
-
-<div class="rect-bar-10 three">.</div>
-
-<div class="rect-bar-10 four">.</div>
-
-
-
+																				<div class="rect-bar-10 one">.</div>
+																				<div class="rect-bar-10 two">.</div>
+																				<div class="rect-bar-10 three">.</div>
+																				<div class="rect-bar-10 four">.</div>
 																</div>
 												</div>
 												<div id="bg-image" class="section bg-iphone" data-index="1">
@@ -291,7 +282,7 @@ export default {
 																scrollBar: true,
 																afterLoad: function(origin, destination, direction) {
 
-// LANDING ELEMENTS
+																				// LANDING ELEMENTS
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
@@ -307,24 +298,24 @@ export default {
 																				}
 
 																				let slideIn = document.querySelector('.rect-bar-10.one');
-																					if (slideIn) {
-																						slideIn.classList.add('expanded-33');
-																					}
+																				if (slideIn) {
+																								slideIn.classList.add('expanded-33');
+																				}
 
 																				let slideIn2 = document.querySelector('.rect-bar-10.two');
-																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-10');
-																					}
+																				if (slideIn2) {
+																								slideIn2.classList.add('expanded-10');
+																				}
 
-																					let slideIn3 = document.querySelector('.rect-bar-10.three');
-																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-50');
-																					}
+																				let slideIn3 = document.querySelector('.rect-bar-10.three');
+																				if (slideIn3) {
+																								slideIn3.classList.add('expanded-50');
+																				}
 
-																					let slideIn4 = document.querySelector('.rect-bar-10.four');
-																					if (slideIn4) {
-																						slideIn4.classList.add('expanded-50');
-																					}
+																				let slideIn4 = document.querySelector('.rect-bar-10.four');
+																				if (slideIn4) {
+																								slideIn4.classList.add('expanded-50');
+																				}
 
 
 																				if (destination.index) {
@@ -337,7 +328,7 @@ export default {
 																												opacity[i].classList.add('fade-visible');
 																								}
 
-												
+
 
 
 																				}
@@ -346,8 +337,8 @@ export default {
 
 																				if (destination.index) {
 
-				
-																							if (destination.index == 6) {
+
+																								if (destination.index == 6) {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'none';
 																								} else {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'auto';
@@ -366,24 +357,24 @@ export default {
 																				let stageBox;
 																				stageBox = document.querySelectorAll('.stage-box');
 																				for (var i = 0; i < stageBox.length; ++i) {
-				
+
 
 
 																				}
 
 
 
-																						let stageName = document.querySelector('.stage-name-' + destination.index);
+																				let stageName = document.querySelector('.stage-name-' + destination.index);
 
 
-if(stageName){
+																				if (stageName) {
 
 
-										
-														// stageName.style.display = 'inline-block';
-														stageName.style.opacity = 1;
 
-}
+																								// stageName.style.display = 'inline-block';
+																								stageName.style.opacity = 1;
+
+																				}
 
 
 
@@ -395,13 +386,11 @@ if(stageName){
 
 
 
-
-
 																				let elem = document.querySelector(".fp-table.active");
 
 																				let indexElem2 = destination.index - 1;
-																			 let	stageBox = document.querySelectorAll('.stage-box');
-							
+																				let stageBox = document.querySelectorAll('.stage-box');
+
 																				for (var i = 0; i < stageBox.length; ++i) {
 
 																								stageBox[i].classList = 'stage-box phase-' + indexElem2;
@@ -415,11 +404,11 @@ if(stageName){
 
 
 																				}
-																															let stageName;
-																															stageName = document.querySelectorAll('.stage-name');
-																															for (var i = 0; i < stageName.length; ++i) {
+																				let stageName;
+																				stageName = document.querySelectorAll('.stage-name');
+																				for (var i = 0; i < stageName.length; ++i) {
 
-																															stageName[i].style.opacity = 0;
+																								stageName[i].style.opacity = 0;
 
 
 																				}
