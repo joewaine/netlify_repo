@@ -291,6 +291,8 @@ export default {
 																scrollBar: true,
 																afterLoad: function(origin, destination, direction) {
 
+// LANDING ELEMENTS
+
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
 																								for (var i = 0; i < landingHeader.length; ++i) {
@@ -303,10 +305,6 @@ export default {
 																												slideRight[i].classList.remove('slide-in-right');
 																								}
 																				}
-
-
-
-																								// if (destination.index == 1) {
 
 																				let slideIn = document.querySelector('.rect-bar-10.one');
 																					if (slideIn) {
@@ -328,20 +326,8 @@ export default {
 																						slideIn4.classList.add('expanded-50');
 																					}
 
-																						
-
-
-
-
-
-																},
-																onLeave: function(origin, destination, direction) {
-
 
 																				if (destination.index) {
-
-
-
 
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
@@ -351,14 +337,24 @@ export default {
 																												opacity[i].classList.add('fade-visible');
 																								}
 
-																								if (destination.index == 6) {
+												
+
+
+																				}
+
+
+// LANDING ELEMENTS
+
+// LINES
+
+																				if (destination.index) {
+
+				
+																							if (destination.index == 6) {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'none';
 																								} else {
 																												document.getElementById('stage-line-container').style.pointerEvents = 'auto';
 																								}
-
-
-
 
 
 																				} else {
@@ -368,24 +364,57 @@ export default {
 
 																				}
 
-
-																				let elem = document.querySelector(".fp-table.active");
-
 																				let indexElem = destination.index - 1;
 
 																				let stageBox;
 																				stageBox = document.querySelectorAll('.stage-box');
 																				for (var i = 0; i < stageBox.length; ++i) {
-																								stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
+				
 
-																								stageBox[i].classList.add('phase-' + indexElem);
 
-																								if (indexElem == -1 || indexElem == 5) {
+																				}
+
+
+
+
+
+																				for (var i = 0; i < stageBox.length; ++i) {
+stageBox[i].classList.remove('phase-name--1', 'phase-name-0', 'phase-name-1', 'phase-name-2', 'phase-name-3', 'phase-name-4', 'phase-name-5', 'phase-name-6');
+																								stageBox[i].classList.add('phase-name-' + indexElem);
+
+
+
+																				}
+
+
+
+
+																},
+																onLeave: function(origin, destination, direction) {
+
+
+
+
+
+																				let elem = document.querySelector(".fp-table.active");
+
+																				let indexElem2 = destination.index - 1;
+																			 let	stageBox = document.querySelectorAll('.stage-box');
+							
+																				for (var i = 0; i < stageBox.length; ++i) {
+															stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
+
+																								stageBox[i].classList.add('phase-' + indexElem2);
+
+
+																								if (indexElem2 == -1 || indexElem2 == 5) {
 
 																												document.getElementById('stage-line').classList.add('nostroke');
 																								} else {
 																												document.getElementById('stage-line').classList.remove('nostroke');
 																								}
+
+
 																				}
 
 

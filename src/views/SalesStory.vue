@@ -175,10 +175,8 @@ export default {
 																												slideRight[i].classList.remove('slide-in-right');
 																								}
 																				}
-																},
 
 
-																onLeave: function(origin, destination, direction) {
 																				if (destination.index) {
 
 
@@ -219,6 +217,8 @@ export default {
 																												slideLeft.classList.remove('slide-in-left');
 																								}
 																				}
+
+																				
 																}
 												},
 

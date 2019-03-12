@@ -304,9 +304,6 @@ export default {
 																												slideRight[i].classList.remove('slide-in-right');
 																								}
 																				}
-																},
-																onLeave: function(origin, destination, direction) {
-
 
 																				// console.log(destination.index);
 

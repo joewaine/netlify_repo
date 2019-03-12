@@ -318,11 +318,6 @@ export default {
 																												slideRight[i].classList.remove('slide-in-right');
 																								}
 																				}
-																},
-
-																onLeave: function(origin, destination, direction) {
-
-
 
 																				if (destination.index) {
 
@@ -365,20 +360,6 @@ export default {
 																						}
 																					
 
-
-
-																								// if (destination.index == 3) {
-
-
-
-																								// 				var circles = document.querySelectorAll('.circle-2');
-																								// 				if (circles) {
-																								// 								for (var i = 0; i < circles.length; ++i) {
-																								// 												circles[i].classList.remove('suppressed');
-																								// 								}
-																								// 				}
-
-																								// }
 
 
 
@@ -425,6 +406,9 @@ export default {
 																												slideLeft.classList.remove('slide-in-left');
 																								}
 																				}
+
+
+																				
 																}
 												}
 								}
