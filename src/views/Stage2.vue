@@ -9,14 +9,14 @@
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<span class="section-title slide-in slide-in-right">stage 2</span>
 																																</div>
 																												</div>
 																								</div>
 																								<div class="col-xl-6 col-6 no-lr-pad">
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<BurgerMenu />
 																																</div>
 																												</div>
@@ -116,7 +116,7 @@
 																				<div class="row light-grey-bg">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
 																												<div class="container justify-content-center btm-pad-lg">
-																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-3">
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution

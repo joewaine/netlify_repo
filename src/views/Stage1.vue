@@ -7,14 +7,14 @@
 																<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<span class="section-title slide-in slide-in-right">stage 1</span>
 																																</div>
 																												</div>
 																								</div>
 																								<div class="col-xl-6 col-6 no-lr-pad">
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<BurgerMenu />
 																																</div>
 																												</div>
@@ -46,13 +46,13 @@
 												<!-- new here -->
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row">
-																								<div class="col-xl-5 bg-white-paper btm-pad-xxl text-center mobile-image">
+																				<div class="row no-lr-margin">
+																								<div class="col-xl-5 bg-white-paper btm-pad-xxl text-center mobile-image no-lr-pad">
 																												<div class="rect-bar-1 one">.</div>
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
 																								</div>
-																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden no-lr-pad">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
 																																<div class="quote top-pad-sm">
 																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
@@ -95,10 +95,10 @@
 												<!-- new section -->
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center light-grey-bg">
-																				<div class="row light-grey-bg">
-																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
+																				<div class="row light-grey-bg no-lr-margin">
+																								<div class="col-xl-5 offset-xl-1 offset-lg-1 no-lr-pad">
 																												<div class="container justify-content-center btm-pad-lg">
-																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-3">
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">
 																																								<span class="green-text">
 																																												Solution
@@ -116,7 +116,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg">
+																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg no-lr-pad">
 																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin">
 																																<div class="skills">
 																																				<div class="dash">_</div>
@@ -193,16 +193,16 @@
 												<!-- new here -->
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
-																				<div class="row">
-																								<div class="col-xl-6 bg-redmond-window mobile-image">
+																				<div class="row no-lr-margin">
+																								<div class="col-xl-6 bg-redmond-window mobile-image no-lr-pad">
 																												<div class="rect-bar-5 one">.</div>
 																												<div class="rect-bar-5 two">.</div>
 																												<div class="rect-bar-5 three">.</div>
 																								</div>
-																								<div class="col-xl-6 offset-xl-0 no-pad">
+																								<div class="col-xl-6 offset-xl-0 no-pad no-lr-pad">
 																												<div class="container top-pad-xxl btm-pad-xxl">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 fadeInAnimation fade-opacity-5">
+																																				<div class="col-lg-10 no-lr-pad fadeInAnimation fade-opacity-5">
 																																								<h2 class="top-pad-md"><span class="green-text">
 																																																Solution
 																																												</span></h2>

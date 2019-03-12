@@ -10,14 +10,14 @@
 
 
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<span class="section-title slide-in slide-in-right">overview</span>
 																																</div>
 																												</div>
 																								</div>
 																								<div class="col-xl-6 col-6 no-lr-pad">
 																												<div class="container justify-content-end">
-																																<div class="col-lg-10 col-md-12 no-pad-mobile btm-pad-xxl fadeInAnimation fade-opacity-0">
+																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<BurgerMenu />
 																																</div>
 																												</div>
@@ -51,8 +51,8 @@
 																				<div class="row grey-bg no-lr-margin">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
 
-																												<div class="container justify-content-center">
-																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl fadeInAnimation fade-opacity-1">
+																												<div class="container justify-content-center no-lr-pad">
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-1">
 																																				<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																				<p class="top-pad-lg">
 																																								The
@@ -100,7 +100,7 @@
 																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin">
 																																<div class="col-md-10 col-sm-12 bg-white overflow-x-hidden no-pad-mobile">
 																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
-																																								<div class="col-md-12 col-sm-12 offset-md-1 offset-sm-1 bg-white slide-in-1 slide-in-left">
+																																								<div class="col-md-12 col-sm-12 offset-md-1 offset-sm-1 bg-white no-lr-pad slide-in-1 slide-in-left">
 																																												<h3 class="dk-green">
 																																																Companies that use relationship selling consistenly experience:
 																																												</h3>
