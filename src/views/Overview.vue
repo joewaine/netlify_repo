@@ -157,8 +157,6 @@
 																												<div class="rect-bar-2 four">.</div>
 
 
-												<img class="imgsrc-0" src="../assets/img/square/redmond-window-square.jpg" style="width: 100%;height: 100%;"/>
-
 																												<div style="display:none">
 																																<img class="imgsrc-0" src="../assets/img/square/redmond-window-square.jpg" />
 																																<img class="imgsrc-1" src="../assets/img/square/sweaters-square.jpg" />
