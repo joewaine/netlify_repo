@@ -343,9 +343,6 @@ export default {
 																				}
 
 
-// LANDING ELEMENTS
-
-// LINES
 
 																				if (destination.index) {
 
@@ -378,13 +375,6 @@ export default {
 
 
 
-																				for (var i = 0; i < stageBox.length; ++i) {
-stageBox[i].classList.remove('phase-name--1', 'phase-name-0', 'phase-name-1', 'phase-name-2', 'phase-name-3', 'phase-name-4', 'phase-name-5', 'phase-name-6');
-																								stageBox[i].classList.add('phase-name-' + indexElem);
-
-
-
-																				}
 
 
 
@@ -402,10 +392,8 @@ stageBox[i].classList.remove('phase-name--1', 'phase-name-0', 'phase-name-1', 'p
 																			 let	stageBox = document.querySelectorAll('.stage-box');
 							
 																				for (var i = 0; i < stageBox.length; ++i) {
-															stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
 
-																								stageBox[i].classList.add('phase-' + indexElem2);
-
+																								stageBox[i].classList = 'stage-box phase-' + indexElem2;
 
 																								if (indexElem2 == -1 || indexElem2 == 5) {
 
@@ -443,9 +431,8 @@ stageBox[i].classList.remove('phase-name--1', 'phase-name-0', 'phase-name-1', 'p
 												let stageBox;
 												stageBox = document.querySelectorAll('.stage-box');
 												for (var i = 0; i < stageBox.length; ++i) {
-																stageBox[i].classList.remove('phase--1', 'phase-0', 'phase-1', 'phase-2', 'phase-3', 'phase-4', 'phase-5', 'phase-6');
 
-																stageBox[i].classList.add('phase-' + indexElem);
+																stageBox[i].classList = 'stage-box phase-' + indexElem;
 
 																console.log(indexElem);
 																if (indexElem == -1 || indexElem == 5) {
