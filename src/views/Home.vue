@@ -235,6 +235,7 @@
 																								</g>
 																				</svg>
 																</div>
+																<!-- <div style="height: 400px;width: 100%;background:pink">hell</div> -->
 												</div>
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
@@ -273,6 +274,8 @@
 <script>
 import HeaderModule from '../components/HeaderModule';
 import VueFullPage from 'vue-fullpage.js'
+import '../fullpage.fadingEffect.min' // Optional. When using fullpage extensions
+
 
 export default {
 				data() {
@@ -281,7 +284,73 @@ export default {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: true,
 																scrollBar: true,
-																afterLoad: function(origin, destination) {
+																afterLoad: this.afterLoad,
+															onLeave: this.onLeave
+												}
+								}
+				},
+				components: {
+								VueFullPage,
+								HeaderModule
+
+				},
+				methods: {
+								burger: function() {
+												var navbar = document.querySelector('.navbar');
+												navbar.classList.toggle('expanded');
+								},
+								openMe: function() {
+
+												var downArrrow = document.querySelector('.down-arrow');
+												downArrrow.classList.add('paused');
+
+
+
+								},
+								landingFadeIn: function() {
+
+								},
+
+
+
+																onLeave: function(origin, destination,direction) {
+
+
+
+																				let indexElem2 = destination.index - 1;
+																				let stageBox = document.querySelectorAll('.stage-box');
+
+																				for (var i11 = 0; i11 < stageBox.length; ++i11) {
+
+
+																								stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
+
+																								if (indexElem2 == -1 || indexElem2 == 5) {
+
+																												document.getElementById('stage-line').classList.add('nostroke');
+																								} else {
+																												document.getElementById('stage-line').classList.remove('nostroke');
+																								}
+
+
+																				}
+																				let stageName;
+																				stageName = document.querySelectorAll('.stage-name');
+																				for (var i12 = 0; i12 < stageName.length; ++i12) {
+
+																								stageName[i12].style.opacity = 0;
+
+
+																				}
+
+												// if (destination.index == 5 && direction == 'up') {
+												// 									this.$refs.fullpage.api.fadingEffect.turnOn();
+
+												// }
+
+																},
+
+																																afterLoad: function(origin, destination,direction) {
 
 																				// LANDING ELEMENTS
 
@@ -352,61 +421,43 @@ export default {
 																								stageName.style.opacity = 1;
 																				}
 
-																},
-																onLeave: function(origin, destination) {
-
-																				let indexElem2 = destination.index - 1;
-																				let stageBox = document.querySelectorAll('.stage-box');
-
-																				for (var i11 = 0; i11 < stageBox.length; ++i11) {
+															
+												if (destination.index == 5 && direction == 'down') {
+																					// this.$refs.fullpage.api.fadingEffect.turnOff();
 
 
-																								stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
 
-																								if (indexElem2 == -1 || indexElem2 == 5) {
-
-																												document.getElementById('stage-line').classList.add('nostroke');
-																								} else {
-																												document.getElementById('stage-line').classList.remove('nostroke');
-																								}
+																					fullpage_api.fadingEffect.turnOff();
 
 
-																				}
-																				let stageName;
-																				stageName = document.querySelectorAll('.stage-name');
-																				for (var i12 = 0; i12 < stageName.length; ++i12) {
+												console.log(origin)
 
-																								stageName[i12].style.opacity = 0;
+												}
 
 
-																				}
+
+																								// if (destination.index == 5 && direction == 'up') {
+																			
+																					// 					if(origin.index == 6){
+																					// 							// this.$refs.fullpage.api.fadingEffect.turnOn();
+
+
+																					// 							fullpage_api.fadingEffect.turnOn();
+																					// }
+
+												// }
+
+
+
+
+
+
+
 
 
 																}
-												}
-								}
-				},
-				components: {
-								VueFullPage,
-								HeaderModule
-
-				},
-				methods: {
-								burger: function() {
-												var navbar = document.querySelector('.navbar');
-												navbar.classList.toggle('expanded');
-								},
-								openMe: function() {
-
-												var downArrrow = document.querySelector('.down-arrow');
-												downArrrow.classList.add('paused');
 
 
-
-								},
-								landingFadeIn: function() {
-
-								}
 
 				}
 

@@ -291,6 +291,7 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
+																fadingEffect: false,
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
