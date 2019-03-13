@@ -262,8 +262,8 @@
 																</div>
 												</div>
 												<div class="section grey-bg relative btm-pad-footer" data-index="6">
-																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6 top-pad-max">
-																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 top-pad-max">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6 footer-fade-pad">
+																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 footer-fade-pad">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
@@ -347,31 +347,11 @@ export default {
 
 																onLeave: function(origin, destination, direction) {
 
-
-																				// let indexElem2 = destination.index - 1;
-																				// let stageBox = document.querySelectorAll('.stage-box');
-
-																				// for (var i11 = 0; i11 < stageBox.length; ++i11) {
-
-
-																				// 				stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
-
-																				// 				if (indexElem2 == -1 || indexElem2 == 5) {
-
-																				// 								document.getElementById('stage-line').classList.add('nostroke');
-																				// 				} else {
-																				// 								document.getElementById('stage-line').classList.remove('nostroke');
-																				// 				}
-
-
-																				// }
-		
 																					this._data.count = destination.index - 1
 																				console.log(this._data.count)
 
 																},
-
-																																afterLoad: function(origin, destination,direction) {
+																afterLoad: function(origin, destination,direction) {
 
 
 																				// LANDING ELEMENTS

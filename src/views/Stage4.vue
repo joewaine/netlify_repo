@@ -52,7 +52,7 @@
 																												<div class="rect-bar-3 two">.</div>
 																												<div class="rect-bar-3 three">.</div>
 																								</div>
-																								<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-hidden">
 																												<div class="skills-4">
 
 
