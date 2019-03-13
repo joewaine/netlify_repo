@@ -1845,7 +1845,7 @@ ul {
     opacity: 1;
     -webkit-transition: opacity .25s ease-in;
     transition: opacity .25s ease-in;
-
+height: 0;
     &.nostroke, &.stroke--1 {
         opacity: 0;
         display: none;
