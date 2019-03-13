@@ -284,6 +284,7 @@ import BurgerMenu from '../components/BurgerMenu.vue';
 import VueFullPage from 'vue-fullpage.js';
 
 
+
 export default {
 
 
@@ -296,6 +297,9 @@ export default {
 																scrollBar: false,
 																fitToSection: false,
 																afterLoad: function(origin, destination) {
+
+
+
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
