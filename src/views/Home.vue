@@ -72,9 +72,9 @@
 												</div>
 								</div>
 								<full-page ref="fullpage" :options="options">
-												<div class="section green-bg fp-auto-height" style="height: 800px" data-index="0">
+												<div class="section bg-iphone" data-index="0">
 																<HeaderModule />
-																<div class="container" style="height: 80vh;">
+																<div class="container green-bg relative" style="height: 80vh;">
 																				<div class="row justify-content-center">
 																								<div class="col-lg-10 col-md-12">
 																												<h1 class="top-pad-lg landing-element">
@@ -102,7 +102,7 @@
 																												</p>
 																	<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
-																				</div>
+																			
 																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
 																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																												<g id="Layer_2" data-name="Layer 2">
@@ -112,10 +112,14 @@
 																												</g>
 																								</svg>
 																				</div>
+	</div>
 																				<div class="rect-bar-10 one">.</div>
 																				<div class="rect-bar-10 two">.</div>
 																				<div class="rect-bar-10 three">.</div>
 																				<div class="rect-bar-10 four">.</div>
+
+	
+
 																</div>
 												</div>
 												<div id="bg-image" class="section bg-iphone" data-index="1">
@@ -311,7 +315,7 @@ export default {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: true,
-																fadingEffectKey: '6845824C-56BA4D0A-9C99A47F-8D429C9A',
+																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																scrollBar: true,
 																autoScrolling:true,
 																afterLoad: this.afterLoad,
@@ -345,9 +349,9 @@ export default {
 
 
 
-																onLeave: function(origin, destination, direction) {
+																onLeave: function(origin, destination) {
 
-																					this._data.count = destination.index - 1
+																				this._data.count = destination.index - 1
 																				console.log(this._data.count)
 
 																},
