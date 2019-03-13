@@ -282,7 +282,8 @@
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import VueFullPage from 'vue-fullpage.js';
-
+import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
+import '../polyfill';
 
 
 export default {
@@ -292,11 +293,69 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: false,
+																fadingEffect: true,
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
+																afterLoad: this.afterLoad
+												},
+								}
+				},
+
+
+
+
+				name: 'App',
+
+				components: {
+								HeaderModule,
+								BurgerMenu,
+								VueFullPage
+				},
+				methods: {
+								scrollToZero: function() {
+												window.scrollTo(0, 0);
+								},
+								scrollToTop: function() {
+												window.scroll({
+																behavior: 'smooth',
+																left: 0,
+																top: 0
+												});
+								},
+
+								backgroundChange: function(indexNumber) {
+
+
+
+									document.querySelector('.background-slide.slide-1').style.opacity = 0;
+									document.querySelector('.background-slide.slide-2').style.opacity = 0;
+									document.querySelector('.background-slide.slide-3').style.opacity = 0;
+									document.querySelector('.background-slide.slide-4').style.opacity = 0;
+									document.querySelector('.background-slide.slide-5').style.opacity = 0;
+
+									document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
+
+								},
+								landingFadeIn: function() {
+
+												var landingHeader = document.querySelectorAll('.landing-element');
+												for (var i = 0; i < landingHeader.length; ++i) {
+																landingHeader[i].classList.add('fade-visible');
+												}
+
+												var slideRight = document.querySelectorAll('.slide-in');
+												for (var i2 = 0; i2 < slideRight.length; ++i2) {
+																slideRight[i2].classList.remove('slide-in-right');
+												}
+
+
+								},
 																afterLoad: function(origin, destination) {
+
+
+																fullpage_api.fadingEffect.turnOff();
+
 
 
 
@@ -361,60 +420,6 @@ export default {
 
 
 																}
-												},
-								}
-				},
-
-
-
-
-				name: 'App',
-
-				components: {
-								HeaderModule,
-								BurgerMenu,
-								VueFullPage
-				},
-				methods: {
-								scrollToZero: function() {
-												window.scrollTo(0, 0);
-								},
-								scrollToTop: function() {
-												window.scroll({
-																behavior: 'smooth',
-																left: 0,
-																top: 0
-												});
-								},
-
-								backgroundChange: function(indexNumber) {
-
-
-
-									document.querySelector('.background-slide.slide-1').style.opacity = 0;
-									document.querySelector('.background-slide.slide-2').style.opacity = 0;
-									document.querySelector('.background-slide.slide-3').style.opacity = 0;
-									document.querySelector('.background-slide.slide-4').style.opacity = 0;
-									document.querySelector('.background-slide.slide-5').style.opacity = 0;
-
-									document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
-
-								},
-								landingFadeIn: function() {
-
-												var landingHeader = document.querySelectorAll('.landing-element');
-												for (var i = 0; i < landingHeader.length; ++i) {
-																landingHeader[i].classList.add('fade-visible');
-												}
-
-												var slideRight = document.querySelectorAll('.slide-in');
-												for (var i2 = 0; i2 < slideRight.length; ++i2) {
-																slideRight[i2].classList.remove('slide-in-right');
-												}
-
-
-								}
-								// end
 				}
 }
 

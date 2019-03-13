@@ -1846,8 +1846,9 @@ ul {
     -webkit-transition: opacity .25s ease-in;
     transition: opacity .25s ease-in;
 
-    &.nostroke {
+    &.nostroke, &.stroke--1 {
         opacity: 0;
+        display: none;
     }
 }
 

@@ -225,17 +225,26 @@
 <script>
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
+import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
+import '../polyfill';
+
+
+
 export default {
 				data() {
 								return {
 												options: {
 
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
+																fadingEffect: true,
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
 
 																afterLoad: function(origin, destination, direction) {
+
+
+																	fullpage_api.fadingEffect.turnOff();
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {

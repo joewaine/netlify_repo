@@ -2,8 +2,33 @@
 				<div>
 								<div style="height:0;">
 												<div id="stage-line-container" class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 stage-container">
-																<div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative nostroke">
-																				<div class="stage-box phase--1" style="">
+																<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
+
+
+
+																		<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
+
+																		<div id="stage-line" v-bind:class="'container offset-md-1 stage-line stage-line-border no-pad relative stroke-'+count">
+
+
+
+
+
+								
+
+
+
+
+
+
+																<!-- <div class="stage-box phase--1" style=""> -->
+				
+
+
+
+ <!-- v-bind:class="{ active }" -->
+
+																	<div v-bind:class="'stage-box phase-'+count">
 																								<div class="stage stage-1">
 																												<div class="stage-stroke transparent">_</div>
 																												<div class="stage-name"></div>
@@ -75,7 +100,7 @@
 																																stage of the sales journey, what
 																																would that do to your bottom line?
 																												</p>
-																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
+																	<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
@@ -272,15 +297,16 @@
 </template>
 <script>
 import HeaderModule from '../components/HeaderModule';
-import VueFullPage from 'vue-fullpage.js'
-import '../fullpage.fadingEffect.min' // Optional. When using fullpage extensions
-import '../polyfill'
+import VueFullPage from 'vue-fullpage.js';
+import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
+import '../polyfill';
 
 
 
 
 export default {
 				data() {
+
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
@@ -289,9 +315,11 @@ export default {
 																autoScrolling:true,
 																afterLoad: this.afterLoad,
 															onLeave: this.onLeave
-												}
+												},
+												count: -1
 								}
-				},
+
+			},
 				components: {
 								VueFullPage,
 								HeaderModule
@@ -319,37 +347,26 @@ export default {
 																onLeave: function(origin, destination, direction) {
 
 
-																				let indexElem2 = destination.index - 1;
-																				let stageBox = document.querySelectorAll('.stage-box');
+																				// let indexElem2 = destination.index - 1;
+																				// let stageBox = document.querySelectorAll('.stage-box');
 
-																				for (var i11 = 0; i11 < stageBox.length; ++i11) {
-
-
-																								stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
-
-																								if (indexElem2 == -1 || indexElem2 == 5) {
-
-																												document.getElementById('stage-line').classList.add('nostroke');
-																								} else {
-																												document.getElementById('stage-line').classList.remove('nostroke');
-																								}
+																				// for (var i11 = 0; i11 < stageBox.length; ++i11) {
 
 
-																				}
-																				let stageName;
-																				stageName = document.querySelectorAll('.stage-name');
-																				for (var i12 = 0; i12 < stageName.length; ++i12) {
+																				// 				stageBox[i11].classList.value = 'stage-box phase-' + indexElem2;
 
-																								stageName[i12].style.opacity = 0;
+																				// 				if (indexElem2 == -1 || indexElem2 == 5) {
 
-
-																				}
-
+																				// 								document.getElementById('stage-line').classList.add('nostroke');
+																				// 				} else {
+																				// 								document.getElementById('stage-line').classList.remove('nostroke');
+																				// 				}
 
 
-
-
-
+																				// }
+		
+																					this._data.count = destination.index - 1
+																				console.log(this._data.count)
 
 																},
 
@@ -424,19 +441,6 @@ export default {
 																				if (stageName) {
 																								stageName.style.opacity = 1;
 																				}
-
-
-
-// if(destination && direction){
-
-// 									if (destination.index == 5 && direction == 'down') {
-
-// 																					fullpage_api.fadingEffect.turnOff();
-
-
-// 												}
-
-// }
 
 
 
