@@ -46,7 +46,7 @@
 												<!-- replacement section -->
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row grey-bg">
+																				<div class="row grey-bg no-lr-margin">
 																								<div class="col-xl-6 btm-pad-xxl text-center bg-two-women mobile-image">
 																												<div class="rect-bar-3 one">.</div>
 																												<div class="rect-bar-3 two">.</div>
@@ -114,7 +114,7 @@
 
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center">
-																				<div class="row light-grey-bg">
+																				<div class="row light-grey-bg no-lr-margin">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1 light-grey-bg">
 																												<div class="container justify-content-center">
 																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-3">
@@ -155,8 +155,8 @@
 
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
-																				<div class="row">
-																		<div class="col-lg-6 col-md-12 btm-pad-xxl bg-glasses mobile-image">
+																				<div class="row no-lr-margin">
+																		<div class="col-lg-6 col-md-12 no-lr-pad btm-pad-xxl bg-glasses mobile-image">
 																												<div class="rect-bar-5 one">.</div>
 																												<div class="rect-bar-5 two">.</div>
 																												<div class="rect-bar-5 three">.</div>
@@ -164,7 +164,7 @@
 																								<div class="col-xl-6 offset-xl-0 no-pad">
 																												<div class="container top-pad-xxl btm-pad-xxl">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 fadeInAnimation fade-opacity-5">
+																																				<div class="col-lg-10 no-lr-pad fadeInAnimation fade-opacity-5">
 																																								<h2 class="top-pad-lg">
 																																												<span class="green-text">
 																																																Solution
@@ -229,6 +229,8 @@ export default {
 				data() {
 								return {
 												options: {
+
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,

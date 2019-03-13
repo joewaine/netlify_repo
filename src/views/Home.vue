@@ -78,7 +78,7 @@
 																												<router-link to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(1)">next
+																				<div class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
 																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																												<g id="Layer_2" data-name="Layer 2">
 																																<g id="content">
@@ -112,7 +112,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(2)">next
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -142,7 +142,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(3)">next
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -171,7 +171,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(4)">next
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -199,7 +199,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(5)">next
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -226,7 +226,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe(6)">next
+																<div class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -278,6 +278,7 @@ export default {
 				data() {
 								return {
 												options: {
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: true,
 																scrollBar: true,
 																afterLoad: function(origin, destination) {
@@ -397,7 +398,7 @@ export default {
 								},
 								openMe: function() {
 
-												var downArrrow = document.querySelectorAll('.down-arrow');
+												var downArrrow = document.querySelector('.down-arrow');
 												downArrrow.classList.add('paused');
 
 

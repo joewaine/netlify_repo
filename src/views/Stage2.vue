@@ -54,7 +54,7 @@
 
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row">
+																				<div class="row no-lr-margin">
 																								<div class="col-xl-5 bg-small-table btm-pad-xxl text-center mobile-image">
 																												<div class="rect-bar-1 one">.</div>
 																												<div class="rect-bar-1 two">.</div>
@@ -113,8 +113,8 @@
 
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center light-grey-bg">
-																				<div class="row light-grey-bg">
-																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
+																				<div class="row light-grey-bg no-lr-margin">
+																								<div class="col-xl-5 offset-xl-1 no-lr-pad offset-lg-1">
 																												<div class="container justify-content-center btm-pad-lg">
 																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">
@@ -210,7 +210,7 @@
 
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
-																				<div class="row">
+																				<div class="row no-lr-margin">
 																								<div class="col-xl-6 bg-sweaters mobile-image">
 																												<div class="rect-bar-5 one">.</div>
 																												<div class="rect-bar-5 two">.</div>
@@ -219,7 +219,7 @@
 																								<div class="col-xl-6 offset-xl-0 no-pad">
 																												<div class="container top-pad-xxl btm-pad-xxl">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-10 fadeInAnimation fade-opacity-5">
+																																				<div class="col-lg-10 no-lr-pad fadeInAnimation fade-opacity-5">
 																																								<h2 class="top-pad-md"><span class="green-text">
 																																																Solution
 																																												</span></h2>
@@ -288,6 +288,7 @@ export default {
 				data() {
 								return {
 												options: {
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,

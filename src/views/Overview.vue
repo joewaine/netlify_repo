@@ -102,7 +102,7 @@
 																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
 																																								<div class="col-md-12 col-sm-12 offset-md-1 offset-sm-1 bg-white no-lr-pad slide-in-1 slide-in-left">
 																																												<h3 class="dk-green">
-																																																Companies that use relationship selling consistenly experience:
+																																																Companies that use relationship selling consistently experience:
 																																												</h3>
 																																												<ul class="secondary-list">
 																																																<li>
@@ -290,6 +290,7 @@ export default {
 				data() {
 								return {
 												options: {
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,

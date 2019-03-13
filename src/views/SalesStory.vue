@@ -4,11 +4,8 @@
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
 																<!-- 																<HeaderModule /> -->
 																<section class="justify-content-center top-pad-xl">
-
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
-
-	
 																												<div class="container justify-content-end">
 																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<span class="section-title slide-in slide-in-right">sales story</span>
@@ -47,14 +44,14 @@
 												<!-- new here -->
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row grey-bg">
-																								<div class="col-xl-6 green-bg btm-pad-xxl text-center">
+																				<div class="row grey-bg no-lr-margin">
+																								<div class="col-xl-6 no-lr-pad green-bg btm-pad-xxl text-center">
 																												<div class="rect-bar-6 one">.</div>
 																												<div class="rect-bar-6 two">.</div>
 																												<div class="rect-bar-6 three">.</div>
 																												<img src="../assets/img/1-to-17.svg" alt="1-17" style="height: 300px;width: 50%;margin: 60px 100px 0px auto;" />
 																								</div>
-																								<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-x-hidden">
+																								<div class="col-xl-6 dk-grey-bg no-lr-pad btm-pad-xxl overflow-x-hidden">
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 slide-in-1 slide-in-left">
@@ -82,8 +79,8 @@
 												</div>
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row light-grey-bg">
-																								<div class="col-xl-6 offset-xl-1 offset-lg-1 light-grey-bg">
+																				<div class="row light-grey-bg no-lr-margin">
+																								<div class="col-xl-6 offset-xl-1 offset-lg-1 no-lr-pad light-grey-bg">
 																												<div class="container justify-content-center">
 																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-1">
 																																				<h2 class="top-pad-lg">
@@ -121,7 +118,8 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="
+																												https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
@@ -160,6 +158,7 @@ export default {
 				data() {
 								return {
 												options: {
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
@@ -221,7 +220,7 @@ export default {
 																								}
 																				}
 
-																				
+
 																}
 												},
 
