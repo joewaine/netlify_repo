@@ -295,6 +295,7 @@ export default {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: true,
+																fadingEffectKey: '6845824C-56BA4D0A-9C99A47F-8D429C9A',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
