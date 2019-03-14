@@ -307,13 +307,13 @@ export default {
 
 								return {
 												options: {
-																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
-																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
-																scrollBar: true,
-																autoScrolling:true,
-																afterLoad: this.afterLoad,
-															onLeave: this.onLeave
+														licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
+														fadingEffect: false,
+														fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
+														scrollBar: true,
+														autoScrolling:true,
+														afterLoad: this.afterLoad,
+														onLeave: this.onLeave
 												},
 												count: -1
 								}
@@ -341,7 +341,6 @@ export default {
 																onLeave: function(origin, destination) {
 
 																				this._data.count = destination.index - 1;
-
 
 																},
 																afterLoad: function(origin, destination) {
