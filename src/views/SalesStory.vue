@@ -209,8 +209,7 @@
 import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import VueFullPage from 'vue-fullpage.js';
-import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
-import '../polyfill';
+import '../fullpage.fadingEffect.min';
 
 
 export default {
@@ -225,8 +224,7 @@ export default {
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
-
-																afterLoad: function(origin, destination, direction) {
+																afterLoad: function(origin, destination) {
 
 
 																fullpage_api.fadingEffect.turnOff();
@@ -240,8 +238,8 @@ export default {
 																				}
 																				var slideRight = document.querySelectorAll('.slide-in');
 																				if (slideRight) {
-																								for (var i = 0; i < slideRight.length; ++i) {
-																												slideRight[i].classList.remove('slide-in-right');
+																								for (var k = 0; k < slideRight.length; ++k) {
+																												slideRight[k].classList.remove('slide-in-right');
 																								}
 																				}
 
@@ -253,6 +251,9 @@ export default {
 																								if (destination.index == 1) {
 
 
+																	if (destination.index == 1) {
+
+
 																				var popbox = document.querySelectorAll('.box');
 
 																								if (popbox) {
@@ -262,6 +263,7 @@ export default {
 																														}
 																								}
 
+}
 
 
 																												let slideIn = document.querySelector('.rect-bar-6.one');
@@ -286,8 +288,8 @@ export default {
 																								var opacity = document.querySelectorAll(sectionName);
 
 																								if (opacity) {
-																												for (var i = 0; i < opacity.length; ++i) {
-																																opacity[i].classList.add('fade-visible-2');
+																												for (var xi = 0; xi < opacity.length; ++xi) {
+																																opacity[xi].classList.add('fade-visible-2');
 																												}
 																								}
 
@@ -316,7 +318,8 @@ export default {
 				name: 'App',
 				components: {
 								HeaderModule,
-								BurgerMenu
+								BurgerMenu,
+								VueFullPage
 				},
 				methods: {
 								scrollToNext: function(element) {

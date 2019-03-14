@@ -160,7 +160,7 @@ nav.expanded {
 
                 h2 {
                                 color: $text--grey;
-                                margin-bottom: 2em;
+                                margin-bottom: 1em;
                 }
 
 }
@@ -2647,7 +2647,7 @@ svg.svg-pop {
                                                 background-color: transparent;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .3s ease-out forwards;
+                                                      animation: fade-seq .05s forwards;
                                                 }
 
 
@@ -2662,7 +2662,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .2s ease-out forwards;
+                                                                    animation: fade-seq .1s forwards;
                                                 }
 
                                 }
@@ -2676,7 +2676,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .1s ease-out forwards;
+                                                                   animation: fade-seq .15s forwards;
                                                 }
 
                                 }
@@ -2689,7 +2689,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s 0s ease-out forwards;
+                                                   animation: fade-seq 3.6s forwards;
                                                 }
 
                                 }
@@ -2703,7 +2703,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .1s ease-out forwards;
+                                                                animation: fade-seq .2s forwards;
                                                 }
 
                                 }
@@ -2717,7 +2717,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s 0.1s ease-out forwards;
+                                                           animation: fade-seq .25s forwards;
                                                 }
 
                                 }
@@ -2729,7 +2729,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .15s ease-out forwards;
+                                                                   animation: fade-seq 3.2s forwards;
                                                 }
 
 
@@ -2743,7 +2743,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .2s ease-out forwards;
+                                     animation: fade-seq 3.4s forwards;
                                                 }
 
 
@@ -2762,7 +2762,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .25s ease-out forwards;
+                                                                animation: fade-seq 2.6s forwards;
                                                 }
 
                                 }
@@ -2774,7 +2774,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .3s ease-out forwards;
+                                                      animation: fade-seq 2.8s forwards;
                                                 }
 
                                 }
@@ -2787,7 +2787,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .35s ease-out forwards;
+                                                          animation: fade-seq 3s forwards;
                                                 }
 
                                 }
@@ -2807,7 +2807,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .4s ease-out forwards;
+                                        animation: fade-seq 2s forwards;
                                                 }
 
 
@@ -2822,7 +2822,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .45s ease-out forwards;
+                                                                       animation: fade-seq 2.2s forwards;
                                                 }
 
                                 }
@@ -2834,7 +2834,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .5s ease-out forwards;
+                                                                   animation: fade-seq 2.4s forwards;
                                                 }
 
 
@@ -2859,7 +2859,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .55s ease-out forwards;
+                                                                  animation: fade-seq 1.4s forwards;
                                                 }
 
 
@@ -2872,7 +2872,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .6s ease-out forwards;
+                                                                  animation: fade-seq 1.6s forwards;
                                                 }
 
 
@@ -2888,7 +2888,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .65s ease-out forwards;
+                                                       animation: fade-seq 1.8s forwards;
                                                 }
 
 
@@ -2915,7 +2915,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .7s ease-out forwards;
+                                                                animation: fade-seq .8s forwards;
                                                 }
 
                                 }
@@ -2926,7 +2926,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .75s ease-out forwards;
+                                           animation: fade-seq 1s forwards;
                                                 }
 
                                 }
@@ -2940,7 +2940,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .8s ease-out forwards;
+                                                  animation: fade-seq 1.2s forwards;
                                                 }
 
 
@@ -2953,7 +2953,7 @@ svg.svg-pop {
                                                 background-color: white;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .85s ease-out forwards;
+                                                  animation: fade-seq 0s forwards;
                                                 }
 
 
@@ -2965,7 +2965,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .9s ease-out forwards;
+                                                      animation: fade-seq .2s forwards;
                                                 }
 
 
@@ -2979,7 +2979,7 @@ svg.svg-pop {
 
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s .95s ease-out forwards;
+                                                                animation: fade-seq .4s forwards;
                                                 }
 
 
@@ -2991,7 +2991,7 @@ svg.svg-pop {
                                                 background-color: #fef000;
 
                                                 &.visible-box {
-                                                                animation: fade-in-item 1s 1s ease-out forwards;
+                                                                animation: fade-seq .6s forwards;
                                                 }
 
 
@@ -3036,4 +3036,33 @@ svg.svg-pop {
                                 display: block;
                                 opacity: 1;
                 }
+}
+
+
+
+
+
+// fade border-image: none;
+
+.box.visible-box{
+        opacity: 0;
+        animation: fade-seq .5s forwards;
+}
+
+
+
+@keyframes fade-seq{
+
+
+0%{
+        opacity: 0;
+}
+
+50%{
+        opacity: 1;
+}
+
+100%{
+        opacity: 1;
+}
 }
