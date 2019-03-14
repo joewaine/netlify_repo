@@ -421,7 +421,7 @@ export default {
 
 
 																				if (stageName) {
-																								stageName.style.opacity = 1;
+																								// stageName.style.opacity = 1;
 																				}
 
 
