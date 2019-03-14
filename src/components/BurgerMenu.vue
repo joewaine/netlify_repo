@@ -1,5 +1,5 @@
 <template>
-				<div class="menu" v-on:click="burger">menu
+				<a class="menu" v-on:click="burger">menu
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 39.93" width="22" height="22">
 												<defs>
 												</defs>
@@ -12,7 +12,7 @@
 																</g>
 												</g>
 								</svg>
-				</div>
+				</a>
 </template>
 <script>
 export default {
