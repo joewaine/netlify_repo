@@ -300,6 +300,7 @@
 				</div>
 </template>
 <script>
+import VueFullPage from 'vue-fullpage.js';
 import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
 
 
@@ -321,9 +322,9 @@ export default {
 								}
 
 			},
-				// components: {
-
-				// },
+				components: {
+VueFullPage
+				},
 				methods: {
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
