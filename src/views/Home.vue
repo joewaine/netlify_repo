@@ -300,11 +300,7 @@
 				</div>
 </template>
 <script>
-import HeaderModule from '../components/HeaderModule';
-import VueFullPage from 'vue-fullpage.js';
 import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
-import '../polyfill';
-
 
 
 
@@ -325,11 +321,9 @@ export default {
 								}
 
 			},
-				components: {
-								VueFullPage,
-								HeaderModule
+				// components: {
 
-				},
+				// },
 				methods: {
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
@@ -351,8 +345,8 @@ export default {
 
 																onLeave: function(origin, destination) {
 
-																				this._data.count = destination.index - 1
-																				console.log(this._data.count)
+																				this._data.count = destination.index - 1;
+
 
 																},
 																afterLoad: function(origin, destination) {

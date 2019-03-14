@@ -17,7 +17,7 @@
 <script>
 export default {
 				methods: {
-								burger: function(event) {
+								burger: function() {
 												var navbar = document.querySelector('.navbar');
 												navbar.classList.toggle('expanded');
 								}

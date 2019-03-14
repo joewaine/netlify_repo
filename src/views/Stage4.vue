@@ -223,7 +223,7 @@
 				</div>
 </template>
 <script>
-import HeaderModule from '../components/HeaderModule.vue';
+// import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
 
@@ -241,7 +241,7 @@ export default {
 																scrollBar: false,
 																fitToSection: false,
 
-																afterLoad: function(origin, destination, direction) {
+																afterLoad: function(origin, destination) {
 
 
 																	fullpage_api.fadingEffect.turnOff();
@@ -254,8 +254,8 @@ export default {
 																				}
 																				var slideRight = document.querySelectorAll('.slide-in');
 																				if (slideRight) {
-																								for (var i = 0; i < slideRight.length; ++i) {
-																												slideRight[i].classList.remove('slide-in-right');
+																								for (var ixx = 0; ixx < slideRight.length; ++ixx) {
+																												slideRight[ixx].classList.remove('slide-in-right');
 																								}
 																				}
 
@@ -310,8 +310,8 @@ export default {
 																								if (destination.index == 1) {
 																												var chartBar2 = document.querySelectorAll('.chart__bar-4');
 																												if (chartBar2) {
-																																for (var i = 0; i < chartBar2.length; ++i) {
-																																				chartBar2[i].classList.add('running-4');
+																																for (var ijj = 0; ijj < chartBar2.length; ++ijj) {
+																																				chartBar2[ijj].classList.add('running-4');
 																																}
 																												}
 																								}
@@ -319,8 +319,8 @@ export default {
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 																								if (opacity) {
-																												for (var i = 0; i < opacity.length; ++i) {
-																																opacity[i].classList.add('fade-visible-2');
+																												for (var iyy = 0; iyy < opacity.length; ++iyy) {
+																																opacity[iyy].classList.add('fade-visible-2');
 																												}
 																								}
 
@@ -338,7 +338,7 @@ export default {
 				},
 				name: 'App',
 				components: {
-								HeaderModule,
+								// HeaderModule,
 								BurgerMenu
 				},
 				methods: {

@@ -206,7 +206,7 @@
 				</div>
 </template>
 <script>
-import HeaderModule from '../components/HeaderModule.vue';
+// import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min';
 
@@ -316,7 +316,7 @@ export default {
 
 				name: 'App',
 				components: {
-								HeaderModule,
+								// HeaderModule,
 								BurgerMenu
 				},
 				methods: {

@@ -279,7 +279,7 @@
 				<img src="../assets/img/square/iphone-square.jpg" />
 </div>
 <script>
-import HeaderModule from '../components/HeaderModule.vue';
+// import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
 
@@ -307,7 +307,7 @@ export default {
 				name: 'App',
 
 				components: {
-								HeaderModule,
+								// HeaderModule,
 								BurgerMenu
 				},
 				methods: {
@@ -351,8 +351,7 @@ export default {
 								},
 																afterLoad: function(origin, destination) {
 
-
-																fullpage_api.fadingEffect.turnOff();
+											fullpage_api.fadingEffect.turnOff();
 
 
 
