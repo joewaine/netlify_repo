@@ -280,7 +280,7 @@
 </template>
 <script>
 import BurgerMenu from '../components/BurgerMenu.vue';
-
+import '../fullpage.fadingEffect.min'
 
 
 
@@ -291,15 +291,17 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: false,
+																fadingEffect: true,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
-																scrollBar: false,
+																scrollBar: true,
 																fitToSection: false,
-
-																afterLoad: function(origin, destination) {
+																afterRender(){
 
 																	fullpage_api.fadingEffect.turnOff();
+
+																},
+																afterLoad: function(origin, destination) {
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {

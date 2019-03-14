@@ -207,7 +207,7 @@
 </template>
 <script>
 import BurgerMenu from '../components/BurgerMenu.vue';
-
+import '../fullpage.fadingEffect.min'
 
 
 export default {
@@ -217,16 +217,19 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: false,
+																fadingEffect: true,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
-																scrollBar: false,
+																scrollBar: true,
 																fitToSection: false,
+																afterRender(){
+
+																	fullpage_api.fadingEffect.turnOff();
+
+
+
+																},
 																afterLoad: function(origin, destination) {
-
-
-																fullpage_api.fadingEffect.turnOff();
-
 
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
@@ -301,14 +304,7 @@ export default {
 
 
 																}
-												},
-
-												image1: "/img/square/iphone-square.jpg",
-												image2: "/img/square/sunset-square.jpg",
-												image3: "/img/square/tablet-smiling-square.jpg",
-												image4: "/img/square/crowd-2-square.jpg",
-												image5: "/img/square/view-square.jpg",
-												image6: "/img/square/iphone-square.jpg"
+												}
 
 								}
 				},

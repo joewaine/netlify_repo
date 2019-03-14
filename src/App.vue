@@ -1,17 +1,11 @@
 <script>
-import Nav from './components/Nav.vue';
-// import HeaderModule from './components/HeaderModule.vue';
-
-import 'fullpage.js/vendors/scrolloverflow'; // Optional. When using scrollOverflow:true
-import './fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
-import VueFullPage from 'vue-fullpage.js'
+import Nav from './components/Nav.vue'
 
 
 export default {
   name: 'app',
   components: {
     Nav
-    // HeaderModule
   }
 }
 </script>
@@ -20,7 +14,6 @@ export default {
 </style>
 <template>
   <div id="app">
-  <!-- <HeaderModule /> -->
   <Nav />
   </div>
 </template>
