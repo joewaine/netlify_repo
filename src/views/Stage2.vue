@@ -75,7 +75,7 @@
 																								</div>
 																				</div>
 																</section>
-																<a class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
 																				next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
@@ -233,7 +233,7 @@
 																																									<p>
 																																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business. Learn more <a href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">here</a>, or connect with a representative when you’re ready to <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">try out</a> Dynamics 365 for Sales.
 																																								</p>
-																																								<p><span class="bold">Next:	<router-link to="/stage3" class=""><span style="text-decoration: underline;">Stage 3</span></router-link></span></p>
+																																								<p><span class="bold">Next:	<router-link id="url:stage-3-page" to="/stage3" class=""><span style="text-decoration: underline;">Stage 3</span></router-link></span></p>
 
 																																				</div>
 																																</div>
@@ -243,7 +243,6 @@
 																</section>
 												</div>
 
-
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
@@ -251,19 +250,19 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:contact-representative" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
-																								<a class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
+																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
+																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
 																				</div>
 																</div>
-																<a class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
+																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
 																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98

@@ -37,31 +37,31 @@
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name"></div>
 																								</a>
-																								<a class="stage stage-1" @click="$refs.fullpage.api.moveTo(2)">
+																								<a id="navigation:in-page-scroll-to-section-1" class="stage stage-1" @click="$refs.fullpage.api.moveTo(2)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-1">
 																																<span>stage 1</span>
 																												</div>
 																								</a>
-																								<a class="stage stage-2" @click="$refs.fullpage.api.moveTo(3)">
+																								<a id="navigation:in-page-scroll-to-section-2" class="stage stage-2" @click="$refs.fullpage.api.moveTo(3)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-2">
 																																<span>stage 2</span>
 																												</div>
 																								</a>
-																								<a class="stage stage-3" @click="$refs.fullpage.api.moveTo(4)">
+																								<a id="navigation:in-page-scroll-to-section-3" class="stage stage-3" @click="$refs.fullpage.api.moveTo(4)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-3">
 																																<span>stage 3</span>
 																												</div>
 																								</a>
-																								<a class="stage stage-4" @click="$refs.fullpage.api.moveTo(5)">
+																								<a id="navigation:in-page-scroll-to-section-4" class="stage stage-4" @click="$refs.fullpage.api.moveTo(5)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-4">
 																																<span>stage 4</span>
 																												</div>
 																								</a>
-																								<a class="stage stage-5" @click="$refs.fullpage.api.moveTo(6)">
+																								<a id="navigation:in-page-scroll-to-section-5" class="stage stage-5" @click="$refs.fullpage.api.moveTo(6)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-5">
 																																<span>sales story</span>
@@ -100,10 +100,10 @@
 																																stage of the sales journey, what
 																																would that do to your bottom line?
 																												</p>
-																	<router-link to="/overview" class="btn">LEARN MORE</router-link>
+																	<router-link id="url:overview-page" to="/overview" class="btn">LEARN MORE</router-link>
 																								</div>
 																			
-																				<a class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
+																				<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
 																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																												<g id="Layer_2" data-name="Layer 2">
 																																<g id="content">
@@ -137,11 +137,11 @@
 																																to deeper connections, long-term loyalty, and
 																																trust—and that trust translates to healthy sales.
 																												</p>
-																												<router-link to="/stage1" class="btn dark-btn">LEARN MORE</router-link>
+																												<router-link id="url:stage-1-page" to="/stage1" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																</div>
-																<a class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -167,11 +167,11 @@
 																																In sales, that means providing the value your
 																																educated buyers are looking for.
 																												</p>
-																												<router-link to="/stage2" class="btn dark-btn">LEARN MORE</router-link>
+																												<router-link id="url:stage-2-page" to="/stage2" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																</div>
-																<a class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -196,11 +196,11 @@
 																																what if you could anticipate and solve the
 																																problems they don’t yet realize they have?
 																												</p>
-																												<router-link to="/stage3" class="btn dark-btn">LEARN MORE</router-link>
+																												<router-link id="url:stage-3-page" to="/stage3" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																</div>
-																<a class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -224,11 +224,11 @@
 																																Lots of it. And you’re collecting
 																																it every second of every day.
 																												</p>
-																												<router-link to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
+																												<router-link id="url:stage-4-page" to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																</div>
-																<a class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -251,11 +251,11 @@
 																												<p>
 																																Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
 																												</p>
-																												<router-link to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
+																												<router-link id="url:sales-story-page" to="/salesstory" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
 																</div>
-																<a class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
@@ -272,19 +272,19 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:contact-representative" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
-																								<a class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
+																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
+																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
 																				</div>
 																</div>
-																<a class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
+																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
 																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
@@ -296,7 +296,7 @@
 																				</svg>
 																</a>
 												</div>
-								</full-page>
+								</full-page> 
 				</div>
 </template>
 <script>

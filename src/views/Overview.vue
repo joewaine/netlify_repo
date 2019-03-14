@@ -156,46 +156,46 @@
 																																								<ul class="left-border top-pad-xxl top-pad-list btm-pad-xl">
 																																												<li @mouseover="backgroundChange(1)" data-index="1">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage1">Stage 1</router-link>
+																																																				<router-link id="url:stage-1-page" @click.native="landingFadeIn" to="/stage1">Stage 1</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage1">
+																																																				<router-link id="url:stage-1-page" @click.native="landingFadeIn" to="/stage1">
 																																																								Identify the right leads
 																																																				</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(2)" data-index="2">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage2">Stage 2</router-link>
+																																																				<router-link id="url:stage-2-page" @click.native="landingFadeIn" to="/stage2">Stage 2</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage2">
+																																																				<router-link id="url:stage-2-page" @click.native="landingFadeIn" to="/stage2">
 																																																								Nurture leads and build relationships
 																																																				</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(3)" data-index="3">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage3">Stage 3</router-link>
+																																																				<router-link id="url:stage-3-page" @click.native="landingFadeIn" to="/stage3">Stage 3</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage3">Capitalize on opportunities to convert</router-link>
+																																																				<router-link id="url:stage-3-page" @click.native="landingFadeIn" to="/stage3">Capitalize on opportunities to convert</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(4)" data-index="4">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage4">Stage 4</router-link>
+																																																				<router-link id="url:stage-4-page" @click.native="landingFadeIn" to="/stage4">Stage 4</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/stage4">Deliver relationship sales at scale</router-link>
+																																																				<router-link id="url:stage-4-page" @click.native="landingFadeIn" to="/stage4">Deliver relationship sales at scale</router-link>
 																																																</span>
 																																												</li>
 																																												<li @mouseover="backgroundChange(5)" data-index="5">
 																																																<div class="stage-item" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
+																																																				<router-link id="url:sales-story-page" @click.native="landingFadeIn" to="/salesstory" v-on:click="scrollToZero">Sales Story</router-link>
 																																																</div>
 																																																<span class="title-2" v-on:click="scrollToZero">
-																																																				<router-link @click.native="landingFadeIn" to="/salesstory">The view's better from here</router-link>
+																																																				<router-link id="url:sales-story-page" @click.native="landingFadeIn" to="/salesstory">The view's better from here</router-link>
 																																																</span>
 																																												</li>
 																																								</ul>
@@ -207,6 +207,7 @@
 																</section>
 												</div>
 												<!-- new versoin -->
+
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
@@ -214,19 +215,19 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												<a href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
+																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:contact-representative" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">contact a representative</a> to try out Dynamics 365 for Sales.
 																								</p>
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
-																								<a class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
+																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
+																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Try it out</a>
 																				</div>
 																</div>
-																<a class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
+																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
 																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98

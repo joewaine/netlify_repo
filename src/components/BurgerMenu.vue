@@ -1,5 +1,5 @@
 <template>
-				<a class="menu" v-on:click="burger">menu
+				<a id="interactive-cta:collapse-expand-menu" class="menu" v-on:click="burger">menu
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 39.93" width="22" height="22">
 												<defs>
 												</defs>
@@ -25,3 +25,6 @@ export default {
 }
 
 </script>
+
+
+
