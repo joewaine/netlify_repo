@@ -116,7 +116,7 @@
 																				<div class="rect-bar-10 one">.</div>
 																				<div class="rect-bar-10 two">.</div>
 																				<div class="rect-bar-10 three">.</div>
-																				<div class="rect-bar-10 four">.</div>
+																				<!-- <div class="rect-bar-10 four">.</div> -->
 
 	
 
@@ -355,7 +355,7 @@ export default {
 																				console.log(this._data.count)
 
 																},
-																afterLoad: function(origin, destination,direction) {
+																afterLoad: function(origin, destination) {
 
 
 																				// LANDING ELEMENTS
@@ -375,23 +375,20 @@ export default {
 
 																				let slideIn = document.querySelector('.rect-bar-10.one');
 																				if (slideIn) {
-																								slideIn.classList.add('expanded-33');
+																								slideIn.classList.add('expanded-10');
 																				}
 
 																				let slideIn2 = document.querySelector('.rect-bar-10.two');
 																				if (slideIn2) {
-																								slideIn2.classList.add('expanded-10');
+																								slideIn2.classList.add('expanded-50');
 																				}
 
 																				let slideIn3 = document.querySelector('.rect-bar-10.three');
 																				if (slideIn3) {
-																								slideIn3.classList.add('expanded-50');
+																								slideIn3.classList.add('expanded-33');
 																				}
 
-																				let slideIn4 = document.querySelector('.rect-bar-10.four');
-																				if (slideIn4) {
-																								slideIn4.classList.add('expanded-50');
-																				}
+
 
 
 																				if (destination.index) {

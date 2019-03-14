@@ -45,18 +45,77 @@
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
 																				<div class="row grey-bg no-lr-margin">
-																								<div class="col-xl-6 no-lr-pad green-bg btm-pad-xxl text-center">
+																								<div class="col-xl-6 no-lr-pad green-bg btm-pad-xxl text-center relative popbox-container">
 																												<div class="rect-bar-6 one">.</div>
 																												<div class="rect-bar-6 two">.</div>
 																												<div class="rect-bar-6 three">.</div>
-																												<img src="../assets/img/1-to-17.svg" alt="1-17" style="height: 300px;width: 50%;margin: 60px 100px 0px auto;" />
+																												<!-- <img src="../assets/img/1-to-17.svg" alt="1-17" style="height: 300px;width: 50%;margin: 60px 100px 0px auto;" /> -->
+																						
+
+
+
+
+
+
+<div class="popbox">
+	<div class="relative wh100-percent">
+		
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+<div class="box">.</div>
+
+
+
+
+
+	</div>
+
+
+
+</div>
+
+
+
+
+
 																								</div>
 																								<div class="col-xl-6 dk-grey-bg no-lr-pad btm-pad-xxl overflow-x-hidden">
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 slide-in-1 slide-in-left">
 																																								<div class="mint-text-block top-pad-xl col-lg-8">
-																																												Microsoft Dynamics 365 delivers $16.97 for every dollar spent
+																																												Microsoft Dynamics 365 delivers <span class="yellow-text">$16.97</span> for every dollar spent
 																																								</div>
 																																								<div class="underline-text-block">
 																																												Nucleus Report
@@ -162,7 +221,7 @@ export default {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: true,
-																fadingEffectKey: '6845824C-56BA4D0A-9C99A47F-8D429C9A',
+																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
 																scrollBar: false,
 																fitToSection: false,
@@ -192,6 +251,18 @@ export default {
 
 
 																								if (destination.index == 1) {
+
+
+																				var popbox = document.querySelectorAll('.box');
+
+																								if (popbox) {
+
+																									for (var j = 0; j < popbox.length; ++j) {
+																															popbox[j].classList.add('visible-box');
+																														}
+																								}
+
+
 
 																												let slideIn = document.querySelector('.rect-bar-6.one');
 																												if (slideIn) {

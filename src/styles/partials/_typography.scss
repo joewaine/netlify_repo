@@ -38,6 +38,10 @@ h3 {
         padding: 0;
 }
 
+h3.dk-green {
+    font-size: 1.8em;
+}
+
 h4 {
         font-family: $segoe--semi;
         font-weight: $semi-bold;
@@ -297,4 +301,9 @@ h2 {
 
 .text-center{
     text-align: center;
+}
+
+
+.yellow-text{
+   color: $text--yellow;
 }

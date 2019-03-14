@@ -3,7 +3,7 @@
 				background: #30EFD0;
 				color: transparent;
 				bottom: 0;
-				right: 100px;
+				right: 120px;
 				position: absolute;
 
 
@@ -17,34 +17,65 @@
 				&.one {
 								height: 0;
 
-								&.expanded-33 {
-												height: 10%;
+								&.expanded-10 {
+												height: 11%;
+								}
+
+
+								&.expanded-50 {
+												height: 18%;
+								}
+
+
+					             &.expanded-33 {
+												height: 8%;
 								}
 				}
 
 				&.two {
 
 								height: 0;
-								right: 250px;
-
+								right: 270px;
 								&.expanded-10 {
-												height: 20%;
+												height: 11%;
 								}
+
+
+								&.expanded-50 {
+												height: 18%;
+								}
+
+
+					             &.expanded-33 {
+												height: 8%;
+								}
+
 				}
 
 				&.three {
 								height: 0;
-								right: 400px;
+								right: 420px;
+
+								&.expanded-10 {
+												height: 11%;
+								}
+
 
 								&.expanded-50 {
-												height: 30%;
+												height: 18%;
 								}
+
+
+					             &.expanded-33 {
+												height: 8%;
+								}
+
 				}
 
 
 				&.four {
 								height: 0;
-								right: 550px;
+								right: 570px;
 
 								&.expanded-50 {
 												height: 10%;
