@@ -6,9 +6,6 @@
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
-
-
-
 																												<div class="container justify-content-end">
 																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
 																																				<span class="section-title slide-in slide-in-right">overview</span>
@@ -44,13 +41,11 @@
 																								</div>
 																				</div>
 																</section>
-
 												</div>
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
 																				<div class="row grey-bg no-lr-margin">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
-
 																												<div class="container justify-content-center no-lr-pad">
 																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-1">
 																																				<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
@@ -139,38 +134,21 @@
 												</div>
 												<!-- revmoed goes here -->
 												<!-- removed goes here -->
-
-
-<!-- new version -->
-
-<div class="section fp-auto-height" data-index="2">
-	
-
+												<!-- new version -->
+												<div class="section fp-auto-height" data-index="2">
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
 																								<div class="col-xl-6 no-pad bg-sweaters-square image-bg-transition hide-image-mobile">
-
-
 																												<div class="rect-bar-2 one">.</div>
 																												<div class="rect-bar-2 two">.</div>
 																												<div class="rect-bar-2 three">.</div>
 																												<div class="rect-bar-2 four">.</div>
-
-
-
-<div class="background-slide slide-1" style="opacity:0">image</div>
-<div class="background-slide slide-2" style="opacity:0">image</div>
-<div class="background-slide slide-3" style="opacity:0">image</div>
-<div class="background-slide slide-4" style="opacity:0">image</div>
-<div class="background-slide slide-5" style="opacity:0">image</div>
-
-
-
-
-
+																												<div class="background-slide slide-1" style="opacity:0">image</div>
+																												<div class="background-slide slide-2" style="opacity:0">image</div>
+																												<div class="background-slide slide-3" style="opacity:0">image</div>
+																												<div class="background-slide slide-4" style="opacity:0">image</div>
+																												<div class="background-slide slide-5" style="opacity:0">image</div>
 																								</div>
-
-
 																								<div class="col-xl-6 no-pad">
 																												<div class="container li-stages">
 																																<div class="row no-margin justify-content-center">
@@ -225,17 +203,10 @@
 																																</div>
 																												</div>
 																								</div>
-
-																							</div>
-
-
-</section>
-
-
-</div>
-
-<!-- new versoin -->
-
+																				</div>
+																</section>
+												</div>
+												<!-- new versoin -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-3">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
@@ -279,10 +250,9 @@
 				<img src="../assets/img/square/iphone-square.jpg" />
 </div>
 <script>
-// import HeaderModule from '../components/HeaderModule.vue';
+
 import BurgerMenu from '../components/BurgerMenu.vue';
-import VueFullPage from 'vue-fullpage.js';
-import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
+
 
 export default {
 
@@ -300,14 +270,8 @@ export default {
 												},
 								}
 				},
-
-
-
-
 				name: 'App',
-
 				components: {
-								VueFullPage,
 								BurgerMenu
 				},
 				methods: {
@@ -326,13 +290,13 @@ export default {
 
 
 
-									document.querySelector('.background-slide.slide-1').style.opacity = 0;
-									document.querySelector('.background-slide.slide-2').style.opacity = 0;
-									document.querySelector('.background-slide.slide-3').style.opacity = 0;
-									document.querySelector('.background-slide.slide-4').style.opacity = 0;
-									document.querySelector('.background-slide.slide-5').style.opacity = 0;
+												document.querySelector('.background-slide.slide-1').style.opacity = 0;
+												document.querySelector('.background-slide.slide-2').style.opacity = 0;
+												document.querySelector('.background-slide.slide-3').style.opacity = 0;
+												document.querySelector('.background-slide.slide-4').style.opacity = 0;
+												document.querySelector('.background-slide.slide-5').style.opacity = 0;
 
-									document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
+												document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
 
 								},
 								landingFadeIn: function() {
@@ -349,74 +313,76 @@ export default {
 
 
 								},
-																afterLoad: function(origin, destination) {
-
-											fullpage_api.fadingEffect.turnOff();
+								afterLoad: function(origin, destination) {
 
 
+									fullpage_api.fadingEffect.turnOff();
 
-
-
-																				var landingHeader = document.querySelectorAll('.landing-element');
-																				if (landingHeader) {
-																								for (var i = 0; i < landingHeader.length; ++i) {
-																												landingHeader[i].classList.add('fade-visible');
-																								}
-																				}
-																				var slideRight = document.querySelectorAll('.slide-in');
-																				if (slideRight) {
-																								for (var i2 = 0; i2 < slideRight.length; ++i2) {
-																												slideRight[i2].classList.remove('slide-in-right');
-																								}
-																				}
-
-																				// console.log(destination.index);
-
-																				if (destination.index) {
-																								var sectionName = '.fade-opacity-' + destination.index;
-																								var opacity = document.querySelectorAll(sectionName);
-
-																								for (var i3 = 0; i3 < opacity.length; ++i3) {
-																												opacity[i3].classList.add('fade-visible-2');
-																								}
-
-
-																								var sectionName2 = '.slide-in-' + destination.index;
-																								var slideLeft = document.querySelector(sectionName2);
-																								if (slideLeft) {
-																												slideLeft.classList.remove('slide-in-left');
-																								}
-																				}
-
-
-																				if (destination.index == 2) {
-
-																								let slideIn = document.querySelector('.rect-bar-2.one');
-																								if (slideIn) {
-																												slideIn.classList.add('expanded-33');
-																								}
-
-																								let slideIn2 = document.querySelector('.rect-bar-2.two');
-																								if (slideIn2) {
-																												slideIn2.classList.add('expanded-10');
-																								}
-
-																								let slideIn3 = document.querySelector('.rect-bar-2.three');
-																								if (slideIn3) {
-																												slideIn3.classList.add('expanded-50');
-																								}
-
-																								let slideIn4 = document.querySelector('.rect-bar-2.four');
-																								if (slideIn4) {
-																												slideIn4.classList.add('expanded-50');
-																								}
-
-																				}
+// console.log(fullpage_api)
 
 
 
 
+												var landingHeader = document.querySelectorAll('.landing-element');
+												if (landingHeader) {
+																for (var i = 0; i < landingHeader.length; ++i) {
+																				landingHeader[i].classList.add('fade-visible');
 																}
+												}
+												var slideRight = document.querySelectorAll('.slide-in');
+												if (slideRight) {
+																for (var i2 = 0; i2 < slideRight.length; ++i2) {
+																				slideRight[i2].classList.remove('slide-in-right');
+																}
+												}
+
+												// console.log(destination.index);
+
+												if (destination.index) {
+																var sectionName = '.fade-opacity-' + destination.index;
+																var opacity = document.querySelectorAll(sectionName);
+
+																for (var i3 = 0; i3 < opacity.length; ++i3) {
+																				opacity[i3].classList.add('fade-visible-2');
+																}
+
+
+																var sectionName2 = '.slide-in-' + destination.index;
+																var slideLeft = document.querySelector(sectionName2);
+																if (slideLeft) {
+																				slideLeft.classList.remove('slide-in-left');
+																}
+												}
+
+
+												if (destination.index == 2) {
+
+																let slideIn = document.querySelector('.rect-bar-2.one');
+																if (slideIn) {
+																				slideIn.classList.add('expanded-33');
+																}
+
+																let slideIn2 = document.querySelector('.rect-bar-2.two');
+																if (slideIn2) {
+																				slideIn2.classList.add('expanded-10');
+																}
+
+																let slideIn3 = document.querySelector('.rect-bar-2.three');
+																if (slideIn3) {
+																				slideIn3.classList.add('expanded-50');
+																}
+
+																let slideIn4 = document.querySelector('.rect-bar-2.four');
+																if (slideIn4) {
+																				slideIn4.classList.add('expanded-50');
+																}
+
+												}
+
+
+
+
+								}
 				}
 }
 

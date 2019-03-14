@@ -243,10 +243,7 @@
 				</div>
 </template>
 <script>
-// import HeaderModule from '../components/HeaderModule.vue';
 import BurgerMenu from '../components/BurgerMenu.vue';
-import '../fullpage.fadingEffect.min'; // Optional. When using fullpage extensions
-
 
 
 
@@ -377,7 +374,6 @@ export default {
 				},
 				name: 'App',
 				components: {
-								// HeaderModule,
 								BurgerMenu
 				},
 				methods: {
