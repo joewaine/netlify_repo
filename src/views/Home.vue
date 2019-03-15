@@ -3,32 +3,11 @@
 								<div style="height:0;">
 												<div id="stage-line-container" class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 stage-container">
 																<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
-
-
-
-																		<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
-
-																		<div id="stage-line" v-bind:class="'container offset-md-1 stage-line stage-line-border no-pad relative stroke-'+count">
-
-
-
-
-
-								
-
-
-
-
-
-
-																<!-- <div class="stage-box phase--1" style=""> -->
-				
-
-
-
- <!-- v-bind:class="{ active }" -->
-
-																	<div v-bind:class="'stage-box phase-'+count">
+																<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
+																<div id="stage-line" v-bind:class="'container offset-md-1 stage-line stage-line-border no-pad relative stroke-'+count">
+																				<!-- <div class="stage-box phase--1" style=""> -->
+																				<!-- v-bind:class="{ active }" -->
+																				<div v-bind:class="'stage-box phase-'+count">
 																								<a class="stage stage-1">
 																												<div class="stage-stroke transparent">_</div>
 																												<div class="stage-name"></div>
@@ -75,74 +54,54 @@
 												<div class="section bg-iphone" data-index="0">
 																<!-- <HeaderModule /> -->
 																<div class="container green-bg relative" style="height: 90vh;">
-<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
-
-																				<div class="row justify-content-center">
-																								<div class="col-lg-10 col-md-12">
-																												<h1 class="top-pad-lg landing-element">
-																																The savvy sales leader’s guide to building profitable relationships
-																												</h1>
+																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
+																								<div class="row justify-content-center">
+																												<div class="col-lg-10 col-md-12">
+																																<h1 class="top-pad-xl landing-element">
+																																				The savvy sales leader’s guide to building profitable relationships
+																																</h1>
+																												</div>
 																								</div>
+																								<div class="row">
+																												<div class="col-xl-6 col-lg-9 col-md-12 top-pad-lg offset-lg-1 landing-element">
+																																<h3 class="">
+																																				Use relationship selling to connect with customers and accelerate sales
+																																</h3>
+																																<p class="hide-mobile">
+																																				Imagine having
+																																				a relationship
+																																				built on trust with
+																																				each of your customers.
+																																</p>
+																																<p class="hide-mobile">
+																																				If every one of your connections
+																																				turned to you for help in solving
+																																				their greatest challenges at every
+																																				stage of the sales journey, what
+																																				would that do to your bottom line?
+																																</p>
+																																<router-link id="url:overview-page" to="/overview" class="btn">LEARN MORE</router-link>
+																												</div>
+																												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
+																																<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																																				<g id="Layer_2" data-name="Layer 2">
+																																								<g id="content">
+																																												<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																								</g>
+																																				</g>
+																																</svg>
+																												</a>
+																								</div>
+																								<!-- <div class="rect-bar-10 four">.</div> -->
 																				</div>
-																				<div class="row">
-																								<div class="col-xl-6 col-lg-9 col-md-12 top-pad-lg offset-lg-1 landing-element">
-																												<h3 class="">
-																																Use relationship selling to connect with customers and accelerate sales
-																												</h3>
-																												<p class="hide-mobile">
-																																Imagine having
-																																a relationship
-																																built on trust with
-																																each of your customers.
-																												</p>
-																												<p class="hide-mobile">
-																																If every one of your connections
-																																turned to you for help in solving
-																																their greatest challenges at every
-																																stage of the sales journey, what
-																																would that do to your bottom line?
-																												</p>
-																	<router-link id="url:overview-page" to="/overview" class="btn">LEARN MORE</router-link>
-																								</div>
-																			
-																				<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
-																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																												<g id="Layer_2" data-name="Layer 2">
-																																<g id="content">
-																																				<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
-																																</g>
-																												</g>
-																								</svg>
-																				</a>
-	</div>
-
-																				<!-- <div class="rect-bar-10 four">.</div> -->
-
-	
-
-</div>
-
-
 																				<div class="rect-bar-10 one">.</div>
 																				<div class="rect-bar-10 two">.</div>
 																				<div class="rect-bar-10 three">.</div>
-
-
-
 																				<div class="rect-bar-10 four">.</div>
 																				<div class="rect-bar-10 five">.</div>
 																				<div class="rect-bar-10 six">.</div>
 																				<div class="rect-bar-10 seven">.</div>
 																				<div class="rect-bar-10 eight">.</div>
-
-
-
-
-
-
-
-
-
 																</div>
 												</div>
 												<div id="bg-image" class="section bg-iphone" data-index="1">
@@ -319,7 +278,7 @@
 																				</svg>
 																</a>
 												</div>
-								</full-page> 
+								</full-page>
 				</div>
 </template>
 <script>
@@ -331,18 +290,18 @@ export default {
 
 								return {
 												options: {
-														licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-														fadingEffect: true,
-														fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
-														scrollBar: true,
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
+																fadingEffect: true,
+																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
+																scrollBar: true,
 
-														afterLoad: this.afterLoad,
-														onLeave: this.onLeave
+																afterLoad: this.afterLoad,
+																onLeave: this.onLeave
 												},
 												count: -1
 								}
 
-			},
+				},
 				methods: {
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
@@ -362,107 +321,107 @@ export default {
 
 
 
-																onLeave: function(origin, destination) {
+								onLeave: function(origin, destination) {
 
-																				this._data.count = destination.index - 1;
+												this._data.count = destination.index - 1;
 
-																},
-																afterLoad: function(origin, destination) {
-
-
-																				// LANDING ELEMENTS
-
-																				var landingHeader = document.querySelectorAll('.landing-element');
-																				if (landingHeader) {
-																								for (var i = 0; i < landingHeader.length; ++i) {
-																												landingHeader[i].classList.add('fade-visible');
-																								}
-																				}
-																				var slideRight = document.querySelectorAll('.slide-in');
-																				if (slideRight) {
-																								for (var i6 = 0; i6 < slideRight.length; ++i6) {
-																												slideRight[i6].classList.remove('slide-in-right');
-																								}
-																				}
-
-																				let slideIn = document.querySelector('.rect-bar-10.one');
-																				if (slideIn) {
-																								slideIn.classList.add('expanded-10');
-																				}
-
-																				let slideIn2 = document.querySelector('.rect-bar-10.two');
-																				if (slideIn2) {
-																								slideIn2.classList.add('expanded-50');
-																				}
-
-																				let slideIn3 = document.querySelector('.rect-bar-10.three');
-																				if (slideIn3) {
-																								slideIn3.classList.add('expanded-33');
-																				}
+								},
+								afterLoad: function(origin, destination) {
 
 
-																				let slideIn4 = document.querySelector('.rect-bar-10.four');
-																				if (slideIn4) {
-																								slideIn4.classList.add('expanded-50');
-																				}
+												// LANDING ELEMENTS
 
-																				let slideIn5 = document.querySelector('.rect-bar-10.five');
-																				if (slideIn5) {
-																								slideIn5.classList.add('expanded-50');
-																				}
-
-																				let slideIn6 = document.querySelector('.rect-bar-10.six');
-																				if (slideIn6) {
-																								slideIn6.classList.add('expanded-50');
-																				}
-
-																				let slideIn7 = document.querySelector('.rect-bar-10.seven');
-																				if (slideIn7) {
-																								slideIn7.classList.add('expanded-50');
-																				}
-
-																				let slideIn8 = document.querySelector('.rect-bar-10.eight');
-																				if (slideIn8) {
-																								slideIn8.classList.add('expanded-50');
-																				}
-
-
-																				if (destination.index) {
-
-																								var sectionName = '.fade-opacity-' + destination.index;
-																								var opacity = document.querySelectorAll(sectionName);
-
-																								for (var i7 = 0; i7 < opacity.length; ++i7) {
-
-																												opacity[i7].classList.add('fade-visible');
-																								}
-																				}
-
-																				if (destination.index) {
-
-																								if (destination.index == 6) {
-																												document.getElementById('stage-line-container').style.pointerEvents = 'none';
-																								} else {
-																												document.getElementById('stage-line-container').style.pointerEvents = 'auto';
-																								}
-
-																				} else {
-
-																								document.getElementById('stage-line-container').style.pointerEvents = 'none';
-
-																				}
-
-
-																				let stageName = document.querySelector('.stage-name-' + destination.index);
-
-
-																				if (stageName) {
-																								// stageName.style.opacity = 1;
-																				}
-
-
-
+												var landingHeader = document.querySelectorAll('.landing-element');
+												if (landingHeader) {
+																for (var i = 0; i < landingHeader.length; ++i) {
+																				landingHeader[i].classList.add('fade-visible');
 																}
+												}
+												var slideRight = document.querySelectorAll('.slide-in');
+												if (slideRight) {
+																for (var i6 = 0; i6 < slideRight.length; ++i6) {
+																				slideRight[i6].classList.remove('slide-in-right');
+																}
+												}
+
+												let slideIn = document.querySelector('.rect-bar-10.one');
+												if (slideIn) {
+																slideIn.classList.add('expanded-10');
+												}
+
+												let slideIn2 = document.querySelector('.rect-bar-10.two');
+												if (slideIn2) {
+																slideIn2.classList.add('expanded-50');
+												}
+
+												let slideIn3 = document.querySelector('.rect-bar-10.three');
+												if (slideIn3) {
+																slideIn3.classList.add('expanded-33');
+												}
+
+
+												let slideIn4 = document.querySelector('.rect-bar-10.four');
+												if (slideIn4) {
+																slideIn4.classList.add('expanded-50');
+												}
+
+												let slideIn5 = document.querySelector('.rect-bar-10.five');
+												if (slideIn5) {
+																slideIn5.classList.add('expanded-50');
+												}
+
+												let slideIn6 = document.querySelector('.rect-bar-10.six');
+												if (slideIn6) {
+																slideIn6.classList.add('expanded-50');
+												}
+
+												let slideIn7 = document.querySelector('.rect-bar-10.seven');
+												if (slideIn7) {
+																slideIn7.classList.add('expanded-50');
+												}
+
+												let slideIn8 = document.querySelector('.rect-bar-10.eight');
+												if (slideIn8) {
+																slideIn8.classList.add('expanded-50');
+												}
+
+
+												if (destination.index) {
+
+																var sectionName = '.fade-opacity-' + destination.index;
+																var opacity = document.querySelectorAll(sectionName);
+
+																for (var i7 = 0; i7 < opacity.length; ++i7) {
+
+																				opacity[i7].classList.add('fade-visible');
+																}
+												}
+
+												if (destination.index) {
+
+																if (destination.index == 6) {
+																				document.getElementById('stage-line-container').style.pointerEvents = 'none';
+																} else {
+																				document.getElementById('stage-line-container').style.pointerEvents = 'auto';
+																}
+
+												} else {
+
+																document.getElementById('stage-line-container').style.pointerEvents = 'none';
+
+												}
+
+
+												let stageName = document.querySelector('.stage-name-' + destination.index);
+
+
+												if (stageName) {
+																// stageName.style.opacity = 1;
+												}
+
+
+
+								}
 
 
 
