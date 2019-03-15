@@ -63,7 +63,7 @@
 																												</div>
 																								</div>
 																								<div class="row">
-																												<div class="col-xl-6 col-lg-9 col-md-12 top-pad-lg offset-lg-1 landing-element">
+																												<div class="col-xl-6 col-lg-9 col-md-12 col-sm-11 top-pad-lg offset-lg-1 landing-element">
 																																<h3 class="">
 																																				Use relationship selling to connect with customers and accelerate sales
 																																</h3>
