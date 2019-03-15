@@ -288,7 +288,7 @@
 																				</svg>
 																</a>
 												</div>
-												<div class="section grey-bg relative btm-pad-footer" data-index="6">
+												<div class="section grey-bg relative" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation footer-fade-pad">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 footer-fade-pad">
 																								<h2 class="top-pad-lg btm-pad-sm">
