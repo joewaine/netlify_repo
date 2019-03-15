@@ -75,6 +75,8 @@
 												<div class="section bg-iphone" data-index="0">
 																<!-- <HeaderModule /> -->
 																<div class="container green-bg relative" style="height: 90vh;">
+<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
+
 																				<div class="row justify-content-center">
 																								<div class="col-lg-10 col-md-12">
 																												<h1 class="top-pad-lg landing-element">
@@ -113,12 +115,33 @@
 																								</svg>
 																				</a>
 	</div>
-																				<div class="rect-bar-10 one">.</div>
-																				<div class="rect-bar-10 two">.</div>
-																				<div class="rect-bar-10 three">.</div>
+
 																				<!-- <div class="rect-bar-10 four">.</div> -->
 
 	
+
+</div>
+
+
+																				<div class="rect-bar-10 one">.</div>
+																				<div class="rect-bar-10 two">.</div>
+																				<div class="rect-bar-10 three">.</div>
+
+
+
+																				<div class="rect-bar-10 four">.</div>
+																				<div class="rect-bar-10 five">.</div>
+																				<div class="rect-bar-10 six">.</div>
+																				<div class="rect-bar-10 seven">.</div>
+																				<div class="rect-bar-10 eight">.</div>
+
+
+
+
+
+
+
+
 
 																</div>
 												</div>
@@ -266,7 +289,7 @@
 																</a>
 												</div>
 												<div class="section grey-bg relative btm-pad-footer" data-index="6">
-																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6 footer-fade-pad">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation footer-fade-pad">
 																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 footer-fade-pad">
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
@@ -276,7 +299,7 @@
 																								</p>
 																				</div>
 																</div>
-																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
+																<div class="row justify-content-center no-lr-margin fadeInAnimation">
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
@@ -378,6 +401,30 @@ export default {
 																				}
 
 
+																				let slideIn4 = document.querySelector('.rect-bar-10.four');
+																				if (slideIn4) {
+																								slideIn4.classList.add('expanded-50');
+																				}
+
+																				let slideIn5 = document.querySelector('.rect-bar-10.five');
+																				if (slideIn5) {
+																								slideIn5.classList.add('expanded-50');
+																				}
+
+																				let slideIn6 = document.querySelector('.rect-bar-10.six');
+																				if (slideIn6) {
+																								slideIn6.classList.add('expanded-50');
+																				}
+
+																				let slideIn7 = document.querySelector('.rect-bar-10.seven');
+																				if (slideIn7) {
+																								slideIn7.classList.add('expanded-50');
+																				}
+
+																				let slideIn8 = document.querySelector('.rect-bar-10.eight');
+																				if (slideIn8) {
+																								slideIn8.classList.add('expanded-50');
+																				}
 
 
 																				if (destination.index) {
