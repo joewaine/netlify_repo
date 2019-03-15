@@ -115,7 +115,7 @@
 												<div class="section fp-auto-height" data-index="3">
 																<section class="justify-content-center">
 																				<div class="row light-grey-bg no-lr-margin">
-																								<div class="col-xl-5 offset-xl-1 offset-lg-1 light-grey-bg">
+																								<div class="col-xl-5 offset-xl-1 offset-lg-1 no-lr-pad light-grey-bg">
 																												<div class="container justify-content-center">
 																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-3">
 																																				<h2 class="top-pad-lg">

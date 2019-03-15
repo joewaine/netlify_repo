@@ -44,7 +44,7 @@
 												<!-- new here -->
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
-																				<div class="row grey-bg no-lr-margin">
+																				<div class="row green-bg no-lr-margin">
 																								<div class="col-xl-6 no-lr-pad green-bg btm-pad-xxl text-center relative popbox-container">
 																												<div class="rect-bar-6 one">.</div>
 																												<div class="rect-bar-6 two">.</div>

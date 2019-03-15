@@ -54,8 +54,15 @@
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
 																								</div>
-																								<div class="col-xl-7 no-lr-pad green-bg btm-pad-xxl overflow-x-hidden">
+		<!-- 																						<div class="col-xl-7 no-lr-pad green-bg btm-pad-xxl overflow-x-hidden">
+																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
+
+
+
+																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																									<div class="row justify-content-center">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+
 																																<div class="quote top-pad-sm">
 																																				“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
 																																</div>
@@ -66,6 +73,7 @@
 																																				Microsoft Business Applications MVP
 																																</div>
 																												</div>
+																											</div>
 																								</div>
 																				</div>
 																</section>
@@ -116,7 +124,56 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-lg-6 col-md-12 dk-grey-bg no-lr-pad btm-pad-xxl overflow-hidden">
+
+
+
+																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg overflow-hidden">
+																												<div class="row justify-content-end top-pad-xxl btm-pad-max no-lr-margin">
+																											<div class="skills-100">
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="dash">_</div>
+																																<div class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+																																<!-- 
+<div  class="chart__bar" style="width: 30px;height: 100%;background-color: rgb(254, 240, 0);margin-top: 140px;position: absolute;color: transparent;left: 30px;">.</div> -->
+																																<div class="charts" style="display: none;">
+																																				<div class="chart chart--dev">
+																																								<ul class="chart--horiz">
+																																												<li class="chart__bar" style="height: 360px;"></li>
+																																												<!-- <li class="chart__bar" style="height: 380px;"></li> -->
+																																								</ul>
+																																				</div>
+																																</div>
+																												</div>
+																												<div class="container">
+																																<div class="row justify-content-center no-margin">
+																																				<div class="col-lg-8 offset-lg-1 slide-in-3 slide-in-left">
+																																								<div class="mint-text-block xxl-text">
+																																												<div id="value" style="display: inline-block;width: 180px;">96%</div>
+																																								</div>
+																																								<div class="white-text-block bold">
+																																												believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
+																																								</div>
+																																								<div class="underline-text-block">
+																																												Heinz Marketing
+																																								</div>
+																																				</div>
+																																</div>
+																												</div>
+																												</div>
+																								</div>
+
+
+
+
+																								<div class="col-lg-6 col-md-12 dk-grey-bg no-lr-pad btm-pad-xxl overflow-hidden" style="display:none;">
 																												<div class="skills-100">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>

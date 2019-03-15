@@ -52,7 +52,8 @@
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
 																								</div>
-																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden no-lr-pad">
+																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																									<div class="row justify-content-center">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
 																																<div class="quote top-pad-sm">
 																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
@@ -62,6 +63,7 @@
 																																</div>
 																																<div class="title">
 																																				Global Channel Marketing Leader, Microsoft
+																																</div>
 																																</div>
 																												</div>
 																								</div>
@@ -117,7 +119,7 @@
 																												</div>
 																								</div>
 																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg no-lr-pad">
-																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin">
+																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin top-pad-4em">
 																																<div class="skills">
 																																				<div class="dash">_</div>
 																																				<div class="dash">_</div>
@@ -152,7 +154,7 @@
 																																</div>
 																																<div class="container">
 																																				<div class="row justify-content-center no-margin">
-																																								<div class="col-lg-8 slide-in-3 slide-in-left">
+																																								<div class="col-lg-8 offset-lg-1 slide-in-3 slide-in-left">
 																																												<div class="white-text-block">
 																																																Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
 																																												</div>

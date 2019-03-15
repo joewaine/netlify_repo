@@ -60,8 +60,17 @@
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
 																								</div>
+
+
+
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																									<div class="row justify-content-center">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+
+
+
+<!-- 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
+																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
 																																<div class="quote top-pad-sm">
 																												“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
 																																</div>
@@ -70,6 +79,7 @@
 																																</div>
 																																<div class="title">
 																																				President and founder of Heinz Marketing
+																																</div>
 																																</div>
 																												</div>
 																								</div>
@@ -163,7 +173,7 @@
 																												</div>
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-8 slide-in-3 slide-in-left">
+																																				<div class="col-lg-8 offset-lg-1 slide-in-3 slide-in-left">
 																																								<div class="white-text-block">
 																																												Changing buyer behaviors and attitudes create increased pressure for sales reps to deliver fast, relevant, and personalized information. 72% of sales leaders agreed that
 																																								</div>
