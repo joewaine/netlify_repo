@@ -1,6 +1,6 @@
 <template>
 				<div>
-								<header class="ms-header">
+								<header class="ms-header position-inherit">
 												<div class="container">
 																<div class="row">
 																				<div class="col-6">

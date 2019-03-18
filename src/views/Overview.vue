@@ -2,7 +2,7 @@
 				<div>
 								<full-page ref="fullpage" :options="options">
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																<!-- 																<HeaderModule /> -->
+																																<HeaderModule2 />
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -238,6 +238,7 @@
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
+																<UniversalFooter />
 												</div>
 								</full-page>
 				</div>
@@ -252,6 +253,9 @@
 </div>
 <script>
 
+
+import HeaderModule2 from '../components/HeaderModule2';
+import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'
 
@@ -280,7 +284,9 @@ export default {
 				},
 				name: 'App',
 				components: {
-								BurgerMenu
+								BurgerMenu,
+								UniversalFooter,
+								HeaderModule2
 				},
 				methods: {
 								scrollToZero: function() {

@@ -52,9 +52,11 @@
 								</div>
 								<full-page ref="fullpage" :options="options">
 												<div class="section bg-iphone" data-index="0">
-																<!-- <HeaderModule /> -->
-																<div class="container green-bg relative" style="height: 90vh;">
+																			
+																<div class="container green-bg relative" style="height: 100vh;">
+																	<HeaderModule />
 																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
+																								
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10 col-md-12">
 																																<h1 class="top-pad-xl landing-element">
@@ -277,13 +279,15 @@
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
+<UniversalFooter />
 												</div>
 								</full-page>
 				</div>
 </template>
 <script>
 import '../fullpage.fadingEffect.min'
-
+import UniversalFooter from '../components/UniversalFooter'
+import HeaderModule from '../components/HeaderModule'
 
 export default {
 				data() {
@@ -301,6 +305,10 @@ export default {
 												count: -1
 								}
 
+				},
+				components:{
+					UniversalFooter,
+					HeaderModule
 				},
 				methods: {
 								burger: function() {
@@ -324,6 +332,7 @@ export default {
 								onLeave: function(origin, destination) {
 
 												this._data.count = destination.index - 1;
+
 
 								},
 								afterLoad: function(origin, destination) {
