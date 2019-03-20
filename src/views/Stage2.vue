@@ -65,7 +65,10 @@
 
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
 																									<div class="row justify-content-center">
-																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+															<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
+
+
+																		<div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
 																																<div class="quote top-pad-sm">
 																												“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
 																																</div>

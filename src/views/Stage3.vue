@@ -61,8 +61,10 @@
 
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
 																									<div class="row justify-content-center">
-																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+																												<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
 
+
+                              <div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
 																																<div class="quote top-pad-sm">
 																																				“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
 																																</div>

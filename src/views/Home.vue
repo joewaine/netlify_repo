@@ -1,13 +1,27 @@
 <template>
 				<div>
+								<div class="background-slide slide-0 bg-iphone" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-1 bg-sunset" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-2 bg-tablet-smiling" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-3 bg-crowd-2" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-4 bg-view" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-5 bg-iphone" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-6 bg-sunset" style="opacity:1;position:fixed;">image</div>
+								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 100px;position: fixed;bottom: 0;z-index: 100;">
+												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																				<g id="Layer_2" data-name="Layer 2">
+																								<g id="content">
+																												<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1"></polygon>
+																								</g>
+																				</g>
+																</svg>
+												</a>
+								</div>
 								<div style="height:0;">
 												<div id="stage-line-container" class="col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 stage-container">
-																<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
-																<!-- <div id="stage-line" class="container offset-md-1 stage-line stage-line-border no-pad relative"> -->
 																<div id="stage-line" v-bind:class="'container offset-md-1 stage-line stage-line-border no-pad relative stroke-'+count">
-																				<!-- <div class="stage-box phase--1" style=""> -->
-																				<!-- v-bind:class="{ active }" -->
-																				<div v-bind:class="'stage-box phase-'+count">
+																				<div v-bind:class="'stage-box phase-4'">
 																								<a class="stage stage-1">
 																												<div class="stage-stroke transparent">_</div>
 																												<div class="stage-name"></div>
@@ -19,31 +33,31 @@
 																								<a id="navigation:in-page-scroll-to-section-1" class="stage stage-1" @click="$refs.fullpage.api.moveTo(2)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-1">
-																																<span>stage 1</span>
+																																<!-- <span>stage 1</span> -->
 																												</div>
 																								</a>
 																								<a id="navigation:in-page-scroll-to-section-2" class="stage stage-2" @click="$refs.fullpage.api.moveTo(3)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-2">
-																																<span>stage 2</span>
+																																<!-- <span>stage 2</span> -->
 																												</div>
 																								</a>
 																								<a id="navigation:in-page-scroll-to-section-3" class="stage stage-3" @click="$refs.fullpage.api.moveTo(4)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-3">
-																																<span>stage 3</span>
+																																<!-- <span>stage 3</span> -->
 																												</div>
 																								</a>
 																								<a id="navigation:in-page-scroll-to-section-4" class="stage stage-4" @click="$refs.fullpage.api.moveTo(5)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-4">
-																																<span>stage 4</span>
+																																<!-- <span>stage 4</span> -->
 																												</div>
 																								</a>
 																								<a id="navigation:in-page-scroll-to-section-5" class="stage stage-5" @click="$refs.fullpage.api.moveTo(6)">
 																												<div class="stage-stroke">_</div>
 																												<div class="stage-name stage-name-5">
-																																<span>sales story</span>
+																																<!-- <span>sales story</span> -->
 																												</div>
 																								</a>
 																				</div>
@@ -51,12 +65,10 @@
 												</div>
 								</div>
 								<full-page ref="fullpage" :options="options">
-												<div class="section bg-iphone" data-index="0">
-																			
-																<div class="container green-bg relative" style="height: 100vh;">
-																	<HeaderModule />
+												<div id="bg-image" class="section bg-home" data-index="0">
+																<HeaderModule />
+																<div class="container relative" style="">
 																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
-																								
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10 col-md-12">
 																																<h1 class="top-pad-xl landing-element">
@@ -64,55 +76,47 @@
 																																</h1>
 																												</div>
 																								</div>
-																								<div class="row">
-																												<div class="col-xl-6 col-lg-9 col-md-12 col-sm-11 top-pad-lg offset-lg-1 landing-element">
-																																<h3 class="">
-																																				Use relationship selling to connect with customers and accelerate sales
-																																</h3>
-																																<p class="hide-mobile">
-																																				Imagine having
-																																				a relationship
-																																				built on trust with
-																																				each of your customers.
-																																</p>
-																																<p class="hide-mobile">
-																																				If every one of your connections
-																																				turned to you for help in solving
-																																				their greatest challenges at every
-																																				stage of the sales journey, what
-																																				would that do to your bottom line?
-																																</p>
-																																<router-link id="url:overview-page" to="/overview" class="btn">LEARN MORE</router-link>
-																												</div>
-																												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()" v-on:click="openMe()">next
-																																<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																																				<g id="Layer_2" data-name="Layer 2">
-																																								<g id="content">
-																																												<polygon class="cls-1-light" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
-																																								</g>
-																																				</g>
-																																</svg>
-																												</a>
-																								</div>
-																								<!-- <div class="rect-bar-10 four">.</div> -->
 																				</div>
-																				<div class="rect-bar-10 one">.</div>
-																				<div class="rect-bar-10 two">.</div>
-																				<div class="rect-bar-10 three">.</div>
-																				<div class="rect-bar-10 four">.</div>
-																				<div class="rect-bar-10 five">.</div>
-																				<div class="rect-bar-10 six">.</div>
-																				<div class="rect-bar-10 seven">.</div>
-																				<div class="rect-bar-10 eight">.</div>
+																</div>
+																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="background: transparent;">
+																				<div class="white-transparent" style="position: absolute;bottom: 0px;height: 60vh;margin-left: -15px;">
+																								<div class="container offset-md-1 stage-line-border no-pad relative">
+																												<div class="col-md-10 col-sm-11 col-xs-12 top-pad-xl fadeInAnimation">
+
+
+
+
+																																<div class="stage-stroke mobile">_</div>
+																																<div class="section-title mobile">stage 1</div>
+																																<h2 class="green-text">
+																																Use relationship selling to connect with customers and accelerate sales
+																																</h2>
+																																<p>
+																						If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
+																																</p>
+																																<router-link id="url:stage-1-page" to="/stage1" class="btn dark-btn-border">LEARN MORE</router-link>
+																												</div>
+																								</div>
+																								<a style="display: none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																																<g id="Layer_2" data-name="Layer 2">
+																																				<g id="content">
+																																								<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																				</g>
+																																</g>
+																												</svg>
+																								</a>
+																				</div>
 																</div>
 												</div>
-												<div id="bg-image" class="section bg-iphone" data-index="1">
+												<div id="bg-image" class="section blue-bg" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-1">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110 fadeInAnimation">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
-																												<h2>
+ 																											<span>STAGE 1</span>
+																											<h2 class="top-pad-110 no-left-pad">
 																																Identify the right leads
 																												</h2>
 																												<p>
@@ -124,24 +128,25 @@
 																												<router-link id="url:stage-1-page" to="/stage1" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																				<a style="display: none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																												<g id="Layer_2" data-name="Layer 2">
+																																<g id="content">
+																																				<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																</g>
 																												</g>
-																								</g>
-																				</svg>
-																</a>
+																								</svg>
+																				</a>
+																</div>
 												</div>
-												<div id="bg-image" class="section bg-sunset" data-index="2">
+												<div id="bg-image" class="section blue-bg" data-index="2">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-2">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 2</div>
-																												<h2>
+																												<span>STAGE 2</span>
+																											<h2 class="top-pad-110 no-left-pad">
 																																Nurture leads and build relationships
 																												</h2>
 																												<p>
@@ -154,24 +159,25 @@
 																												<router-link id="url:stage-2-page" to="/stage2" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																				<a style="display:none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																												<g id="Layer_2" data-name="Layer 2">
+																																<g id="content">
+																																				<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																</g>
 																												</g>
-																								</g>
-																				</svg>
-																</a>
+																								</svg>
+																				</a>
+																</div>
 												</div>
-												<div id="bg-image" class="section bg-tablet-smiling" data-index="3">
+												<div id="bg-image" class="section blue-bg" data-index="3">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-3">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
-																												<h2>
+																												<span>STAGE 3</span>
+																											<h2 class="top-pad-110 no-left-pad">
 																																Capitalize on opportunities to convert
 																												</h2>
 																												<p>
@@ -183,24 +189,25 @@
 																												<router-link id="url:stage-3-page" to="/stage3" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																				<a style="display:none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																												<g id="Layer_2" data-name="Layer 2">
+																																<g id="content">
+																																				<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																</g>
 																												</g>
-																								</g>
-																				</svg>
-																</a>
+																								</svg>
+																				</a>
+																</div>
 												</div>
-												<div id="bg-image" class="section bg-crowd-2" data-index="4">
+												<div id="bg-image" class="section blue-bg" data-index="4">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-4">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
-																												<h2>
+																												<span>STAGE 4</span>
+																											<h2 class="top-pad-110 no-left-pad">
 																																Deliver relationship sales at scale
 																												</h2>
 																												<p>
@@ -211,25 +218,26 @@
 																												<router-link id="url:stage-4-page" to="/stage4" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																				<a style="display:none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																												<g id="Layer_2" data-name="Layer 2">
+																																<g id="content">
+																																				<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																</g>
 																												</g>
-																								</g>
-																				</svg>
-																</a>
+																								</svg>
+																				</a>
+																</div>
 												</div>
-												<div id="bg-image" class="section bg-view" data-index="5">
+												<div id="bg-image" class="section blue-bg" data-index="5">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<!-- <StageLines /> -->
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-200 fadeInAnimation fade-opacity-5">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">sales story</div>
-																												<h2>
+																												<span>SALES STORY</span>
+																											<h2 class="top-pad-110 no-left-pad">
 																																The view’s better from here
 																												</h2>
 																												<p>
@@ -238,16 +246,16 @@
 																												<router-link id="url:sales-story-page" to="/salesstory" class="btn dark-btn">LEARN MORE</router-link>
 																								</div>
 																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																				<a style="display:none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																												<g id="Layer_2" data-name="Layer 2">
+																																<g id="content">
+																																				<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																				y </g>
 																												</g>
-																								</g>
-																				</svg>
-																</a>
+																								</svg>
+																				</a>
+																</div>
 												</div>
 												<div class="section grey-bg relative" data-index="6">
 																<div class="row justify-content-center no-lr-margin fadeInAnimation footer-fade-pad">
@@ -255,7 +263,7 @@
 																								<h2 class="top-pad-lg btm-pad-sm">
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
-																									<p class="size-md">
+																								<p class="size-md">
 																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:request-demo" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">request a demo</a>.
 																								</p>
 																				</div>
@@ -279,13 +287,15 @@
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
-<UniversalFooter />
+																<UniversalFooter />
 												</div>
 								</full-page>
 				</div>
 </template>
 <script>
 import '../fullpage.fadingEffect.min'
+
+import StageLines from '../components/StageLines'
 import UniversalFooter from '../components/UniversalFooter'
 import HeaderModule from '../components/HeaderModule'
 
@@ -295,10 +305,10 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
+																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																scrollBar: true,
-
+																autoScroll: false,
 																afterLoad: this.afterLoad,
 																onLeave: this.onLeave
 												},
@@ -306,9 +316,10 @@ export default {
 								}
 
 				},
-				components:{
-					UniversalFooter,
-					HeaderModule
+				components: {
+								StageLines,
+								UniversalFooter,
+								HeaderModule
 				},
 				methods: {
 								burger: function() {
@@ -326,19 +337,47 @@ export default {
 								landingFadeIn: function() {
 
 								},
-
-
-
 								onLeave: function(origin, destination) {
 
-												this._data.count = destination.index - 1;
+
+					
 
 
+
+if(!destination.index == 1){
+						this._data.count = destination.index - 1;
+			}
+
+
+
+
+									if(destination.index == 0){
+										document.querySelector('.stage-box').style.opacity = 0;
+									}else{
+											document.querySelector('.stage-box').style.opacity = 1;
+									}
+
+												document.querySelector('.background-slide.slide-0').style.opacity = 0;
+												document.querySelector('.background-slide.slide-1').style.opacity = 0;
+												document.querySelector('.background-slide.slide-2').style.opacity = 0;
+												document.querySelector('.background-slide.slide-3').style.opacity = 0;
+												document.querySelector('.background-slide.slide-4').style.opacity = 0;
+												document.querySelector('.background-slide.slide-5').style.opacity = 0;
+												document.querySelector('.background-slide.slide-6').style.opacity = 0;
+												document.querySelector('.background-slide.slide-' + destination.index).style.opacity = 1;
+												document.querySelector('.down-arrow-global').style.opacity = 0;
 								},
+
 								afterLoad: function(origin, destination) {
 
 
-												// LANDING ELEMENTS
+
+
+						this._data.count = destination.index - 1;
+
+		
+
+												document.querySelector('.down-arrow-global').style.opacity = 1;
 
 												var landingHeader = document.querySelectorAll('.landing-element');
 												if (landingHeader) {
@@ -394,7 +433,6 @@ export default {
 																slideIn8.classList.add('expanded-50');
 												}
 
-
 												if (destination.index) {
 
 																var sectionName = '.fade-opacity-' + destination.index;
@@ -407,28 +445,16 @@ export default {
 												}
 
 												if (destination.index) {
-
 																if (destination.index == 6) {
 																				document.getElementById('stage-line-container').style.pointerEvents = 'none';
 																} else {
 																				document.getElementById('stage-line-container').style.pointerEvents = 'auto';
 																}
-
 												} else {
-
 																document.getElementById('stage-line-container').style.pointerEvents = 'none';
-
 												}
-
 
 												let stageName = document.querySelector('.stage-name-' + destination.index);
-
-
-												if (stageName) {
-																// stageName.style.opacity = 1;
-												}
-
-
 
 								}
 

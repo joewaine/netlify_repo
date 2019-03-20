@@ -262,6 +262,14 @@ export default {
 																				}
 
 
+																								var slideInOnLanding = '.slide-in-1';
+																								var slideLeftOnLanding = document.querySelector(slideInOnLanding);
+																								if (slideLeftOnLanding) {
+																												slideLeftOnLanding.classList.remove('slide-in-left');
+																								}
+
+
+
 
 																				if (destination.index) {
 

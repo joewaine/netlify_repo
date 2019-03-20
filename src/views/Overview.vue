@@ -47,7 +47,8 @@
 																				<div class="row grey-bg no-lr-margin">
 																								<div class="col-xl-5 offset-xl-1 offset-lg-1">
 																												<div class="container justify-content-center no-lr-pad">
-																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-1">
+																																<!-- <div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad fadeInAnimation fade-opacity-1"> -->
+																																<div class="col-lg-10 offset-lg-0 col-md-10 offset-md-1 btm-pad-xxl no-lr-pad landing-element">
 																																				<h2 class="top-pad-lg">A new model is emerging on the sales landscape</h2>
 																																				<p class="top-pad-lg">
 																																								The
@@ -350,6 +351,13 @@ export default {
 																				slideRight[i2].classList.remove('slide-in-right');
 																}
 												}
+
+												var slideInOnLanding = '.slide-in-1';
+												var slideLeftOnLanding = document.querySelector(slideInOnLanding);
+												if (slideLeftOnLanding) {
+																slideLeftOnLanding.classList.remove('slide-in-left');
+												}
+												
 
 												// console.log(destination.index);
 

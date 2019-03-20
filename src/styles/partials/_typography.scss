@@ -144,7 +144,7 @@ a {
                 border: 2px solid $bg--white;;
                 display: inline-block;
                 margin-top: 10px;
-                padding: 10px 25px;
+                padding: 12px 35px;
 
 
                 transition: color .5s ease, background-color .5s ease;
@@ -156,6 +156,10 @@ a {
                 background-color: rgba(255,255,255,.5);
 
                 }
+
+                             &.dark-btn-border{
+                             border: 2px solid #3c3c41;
+                        }
 
                 &.dark-btn {
                         color: $text--mint;
@@ -179,6 +183,9 @@ a {
                                                                 color: $text--mint;
                                     }
                         }
+
+
+           
                 }
         }
 }
@@ -306,4 +313,9 @@ h2 {
 
 .yellow-text{
    color: $text--yellow;
+}
+
+
+.bg-home h1{
+    color: $text--white;
 }

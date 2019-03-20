@@ -248,14 +248,12 @@ export default {
 																				}
 
 
-																				if (destination.index) {
 
-
-
-																								if (destination.index == 1) {
-
-
-																	if (destination.index == 1) {
+																								var slideInOnLanding = '.slide-in-1';
+																								var slideLeftOnLanding = document.querySelector(slideInOnLanding);
+																								if (slideLeftOnLanding) {
+																												slideLeftOnLanding.classList.remove('slide-in-left');
+																								}
 
 
 																				var popbox = document.querySelectorAll('.box');
@@ -267,8 +265,11 @@ export default {
 																														}
 																								}
 
-}
 
+
+																				if (destination.index) {
+																								if (destination.index == 1) {
+																										if (destination.index == 1) {
 
 																												let slideIn = document.querySelector('.rect-bar-6.one');
 																												if (slideIn) {
@@ -285,8 +286,11 @@ export default {
 																																slideIn3.classList.add('expanded-50');
 																												}
 
-																								}
 
+
+}
+
+															}
 
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);

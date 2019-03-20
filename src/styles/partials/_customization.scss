@@ -161,6 +161,16 @@ nav.expanded {
                 h2 {
                                 color: $text--grey;
                                 margin-bottom: 1em;
+
+
+
+
+                               
+
+                                &.green-text{
+                                         margin-bottom: .5em;
+                                        color: $text--btn-link;
+                                }
                 }
 
 }
@@ -230,6 +240,19 @@ nav.expanded {
 
 
 }
+
+
+
+.bg-home{
+                // background: url(assets/img/home-hero.jpg) no-repeat center center;
+                // -webkit-background-size: cover;
+                // -moz-background-size: cover;
+                // -o-background-size: cover;
+                // background-size: cover;
+
+
+}
+
 
 
 .bg-redmond-window {
@@ -1909,7 +1932,7 @@ ul {
                                                                 /* Safari */
                                                                 transition: top .25s ease;
 
-                                                                top: -64px;
+                                                                top: -60px;
 
                                                                 .stage-stroke {
                                                                                 width: 45px;
@@ -1947,10 +1970,11 @@ ul {
 .stage-box {
                 // height: 100vh;
                 height: 400px;
-                padding-top: 40px;
+                padding-top: 0px;
                 position: fixed;
                 // border-left: 1px solid ;
                 width: 300px;
+                pointer-events: none;
 }
 
 .top-pad-200 {
@@ -1963,6 +1987,28 @@ ul {
                 margin-left: 0;
 
 
+}
+
+.top-pad-110{
+        padding-top: 110px;   
+        padding-left: 0;
+        padding-left: 8.333333%;
+        margin-left: 0;     
+
+
+
+
+
+
+}    
+
+
+// .top-pad-110.no-left-pad{
+//         padding-left: 0;
+// }
+
+h2.top-pad-110.no-left-pad{
+    padding-left: 0;    
 }
 
 .stage-container {
@@ -2102,7 +2148,7 @@ ul {
 
 @media (max-width: 640px) {
 
-
+                .top-pad-110,
                 .top-pad-200 {
                                 padding-top: 20px;
                 }
@@ -2114,6 +2160,7 @@ ul {
                                 line-height: 1.2em;
                 }
 
+                .top-pad-110,
                 .top-pad-200 {
                                 padding-top: 10px;
                 }
@@ -2178,6 +2225,7 @@ ul {
                                 font-size: .8em;
                                 margin-bottom: .8em;
                                 margin-left: 2px;
+                                display: none;
                 }
 
                 .stage-stroke.mobile {
@@ -2192,6 +2240,7 @@ ul {
                                 left: 0;
                                 top: 20px;
                                 display: block;
+                                display: none;
 
 
                 }
@@ -2397,6 +2446,12 @@ right: 10px;
 
                 .content h2 {
                                 margin-bottom: 0em;
+
+
+                                &.green-text {
+                                    color: #008273;
+                }
+
                 }
 }
 
@@ -2508,6 +2563,36 @@ right: 10px;
                                 opacity: 0;
                                 margin-left: -40px;
                 }
+
+
+   
+
+
+
+}
+
+
+.slide-in-from-left {
+
+
+                opacity: 1;
+                                margin-left: 40px;
+                    transform: translateX(-40px);
+                transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                -webkit-transition: all .5s ease;
+
+
+
+
+                &.slide-in-left {
+
+
+                              transform: translateX(0px);
+                                opacity: 0;
+
+                }
+
 
 
 }
@@ -2622,8 +2707,10 @@ right: 10px;
 }
 
 
+
+
 .slide-1 {
-                background: url(assets/img/square/redmond-window-square.jpg) no-repeat center center;
+                background: url(assets/img/sunset.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2633,8 +2720,12 @@ right: 10px;
                 -webkit-transition: opacity .5s ease;
 }
 
+
+
 .slide-2 {
-                background: url(assets/img/square/sweaters-square.jpg) no-repeat center center;
+
+
+                background: url(assets/img/iphone.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2645,7 +2736,7 @@ right: 10px;
 }
 
 .slide-3 {
-                background: url(assets/img/square/two-women-square.jpg) no-repeat center center;
+                background: url(assets/img/sunset.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2655,8 +2746,39 @@ right: 10px;
                 -webkit-transition: opacity .5s ease;
 }
 
+
+.slide-0 {
+
+
+
+                background: url(assets/img/home-hero.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+}
+
+
+.slide-6{
+
+                background: url(assets/img/home-hero.jpg) no-repeat center center;
+                width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
+
+
+}
+
+
 .slide-4 {
-                background: url(assets/img/square/glasses-square.jpg) no-repeat center center;
+                background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2667,7 +2789,7 @@ right: 10px;
 }
 
 .slide-5 {
-                background: url(assets/img/square/view-square.jpg) no-repeat center center;
+                background: url(assets/img/view.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2677,6 +2799,9 @@ right: 10px;
                 -webkit-transition: opacity .5s ease;
 
 }
+
+
+
 
 .stage-name-1,
 .stage-name-2,
@@ -3225,7 +3350,7 @@ font-family: $segoe;
 position: absolute;
 top: 0;
 width: 100%;
-left: -15px;
+// left: -15px;
 
 
 &.position-inherit{
@@ -3284,3 +3409,34 @@ left: -15px;
 
 
 }
+
+
+.blue-bg{
+        background-color: blue;
+        background-color: transparent;
+}
+
+
+
+
+
+.down-arrow-global{
+transition: all 300ms ease-out;
+-webkit-transition: all 300ms ease-out;
+}
+
+
+.visibility-1{
+        // opacity: 1 !important;
+}
+
+.visibility5{
+        opacity: 0 !important;
+        pointer-events: none;
+}
+
+
+.white-transparent{
+    background: rgba(255, 255, 255, 0.85);
+}
+

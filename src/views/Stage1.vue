@@ -8,7 +8,11 @@
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
 																												<div class="container justify-content-end">
 																																<div class="col-lg-10 col-md-12 no-lr-pad btm-pad-xxl fadeInAnimation fade-opacity-0">
-																																				<span class="section-title slide-in slide-in-right">stage 1</span>
+															<span class="section-title slide-in slide-in-right">stage 1</span>
+
+
+
+
 																																</div>
 																												</div>
 																								</div>
@@ -54,7 +58,11 @@
 																								</div>
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
 																									<div class="row justify-content-center">
-																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1">
+																												<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
+																												<div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
+
+
+
 																																<div class="quote top-pad-sm">
 																																				“These days, sellers can’t wait for buyers to come to them. Buyers are doing their research online, getting up to speed on their options on their own. Sales professionals have to go find those informed, savvy prospects where they are, engage them in conversation, and begin building relationships with them.”
 																																</div>
