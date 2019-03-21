@@ -319,3 +319,44 @@ h2 {
 .bg-home h1{
     color: $text--white;
 }
+
+
+
+.chevron-link{
+
+     .stage-text{
+                     margin-right: 1px; 
+          border-bottom: 1px solid transparent;
+                    transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+        }
+
+    &:hover{
+    border-bottom: 1px solid $text--btn-link;
+    color: $text--btn-link;
+     
+     .stage-text{
+
+               margin-right: 3px; 
+        }
+
+
+
+    }
+}
+
+
+.inline-link{
+
+                    transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+ border-bottom: 1px solid $text--dk-grey;
+
+&:hover{
+    border-bottom: 1px solid $text--btn-link;
+    color: $text--btn-link;
+ }
+
+
+}

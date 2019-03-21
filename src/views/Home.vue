@@ -1,7 +1,7 @@
 <template>
 				<div>
 								<div class="background-slide slide-0 bg-iphone" style="opacity:1;position:fixed;">image</div>
-								<div class="background-slide slide-1 bg-sunset" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-1 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-2 bg-tablet-smiling" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-3 bg-crowd-2" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-4 bg-view" style="opacity:1;position:fixed;">image</div>
@@ -264,17 +264,24 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:request-demo" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">request a demo</a>.
+																							Watch our videos to learn more about Microsoft Relationship Sales solution.
 																								</p>
+
+
+
+					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">Watch now</a>
+
+
+																								
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation">
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
+																		<!-- 		<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
 																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Request a demo</a>
-																				</div>
+																				</div> -->
 																</div>
 																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
@@ -287,6 +294,9 @@
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
+
+
+																
 																<UniversalFooter />
 												</div>
 								</full-page>

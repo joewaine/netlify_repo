@@ -258,7 +258,10 @@
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																								</p>
-																																								<p><span class="bold">Next:	<router-link id="url:stage-4-page" to="/stage4" class=""><span style="text-decoration: underline;">Stage 4</span></router-link></span></p>
+																																								<p>
+																																									<span class="bold">Next:	<router-link id="url:stage-4-page" to="/stage4" class="chevron-link"><span class="stage-text">Stage 4</span><span class="right-chevron">&rarr;</span></router-link></span>
+																																								</p>
+
 																																				</div>
 																																</div>
 																												</div>
@@ -273,36 +276,8 @@
 
 
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
-																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
-																								<h2 class="top-pad-lg btm-pad-sm">
-																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
-																								</h2>
-																								<p class="size-md">
-																												<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:request-demo" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">request a demo</a>.
-																								</p>
-																				</div>
-																</div>
-																<div class="row justify-content-center no-lr-margin fadeInAnimation fade-opacity-6">
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
-																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
-																				</div>
-																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
-																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Request a demo</a>
-																				</div>
-																</div>
-																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
-																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
-																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
-		C-8.08,16.39-15.57,9.57-15.98,0.75z M8.57,0.99L7.16-0.43L0.7,6.03L0.74-9.85l-2.01,0l0.01,15.9l-6.4-6.4l-1.41,1.41l8.78,8.78
-		L8.57,0.99z" />
-																												<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
-																								</symbol>
-																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
-																				</svg>
-																</a>
-												
+					
+												<Footer index="fade-opacity-6" />
 																<UniversalFooter />
 
 
@@ -313,6 +288,7 @@
 </template>
 <script>
 	import HeaderModule2 from '../components/HeaderModule2';
+import Footer from '../components/Footer';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'
@@ -448,7 +424,8 @@ export default {
 				components: {
 					HeaderModule2,
 								BurgerMenu,
-								UniversalFooter
+								UniversalFooter,
+								Footer
 				},
 				methods: {
 								scrollToNext: function(element) {

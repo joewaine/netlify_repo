@@ -328,7 +328,7 @@ nav.expanded {
 }
 
 .bg-sunset {
-                background: url(assets/img/sunset.jpg) no-repeat center center;
+                background: url(assets/img/home-hero.jpg) no-repeat center center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -706,7 +706,36 @@ nav.expanded {
                 }
 
 
+
+
+                transition: all .5s ease;
+                -webkit-transition: all .5s ease;
+
+
+&:hover{
+                    // width: 42px;
 }
+
+}
+
+
+.bottom-fix {
+
+                transition: all .5s;
+                -webkit-transition: all .5s;
+
+&:hover{
+
+        bottom: 16px;
+    // left: 50%;
+    // margin-left: -21px;
+    // position: absolute;
+    // z-index: 10;
+
+}
+
+}
+
 
 .menu {
                 color: transparent;
@@ -2710,7 +2739,7 @@ right: 10px;
 
 
 .slide-1 {
-                background: url(assets/img/sunset.jpg) no-repeat center center;
+                background: url(assets/img/iphone.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2725,7 +2754,7 @@ right: 10px;
 .slide-2 {
 
 
-                background: url(assets/img/iphone.jpg) no-repeat center center;
+                background: url(assets/img/stage-2.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2764,7 +2793,9 @@ right: 10px;
 
 .slide-6{
 
-                background: url(assets/img/home-hero.jpg) no-repeat center center;
+
+background-color: $bg--grey;
+                // background: url(assets/img/home-hero.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
                 color: transparent;
@@ -2786,7 +2817,23 @@ right: 10px;
 
                 transition: opacity .5s ease;
                 -webkit-transition: opacity .5s ease;
+
+
+
+
+&.bg-view{
+             background: url(assets/img/stage-4.jpg) no-repeat center center;
+                             width: 100%;
+                height: 100%;
+                color: transparent;
+                background-size: cover;
+
+                transition: opacity .5s ease;
+                -webkit-transition: opacity .5s ease;
 }
+
+}
+
 
 .slide-5 {
                 background: url(assets/img/view.jpg) no-repeat center center;
