@@ -201,7 +201,7 @@ export default {
 																fitToSection: false,
 																afterRender(){
 
-																	// fullpage_api.fadingEffect.turnOff();
+																
 
 
 

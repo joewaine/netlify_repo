@@ -232,7 +232,7 @@
 												<div id="bg-image" class="section blue-bg" data-index="5">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<!-- <StageLines /> -->
+																						
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">sales story</div>
@@ -305,7 +305,7 @@
 <script>
 import '../fullpage.fadingEffect.min'
 
-import StageLines from '../components/StageLines'
+
 import UniversalFooter from '../components/UniversalFooter'
 import HeaderModule from '../components/HeaderModule'
 import DownloadSlider from '../components/DownloadSlider'
@@ -328,7 +328,7 @@ export default {
 
 				},
 				components: {
-								StageLines,
+
 								UniversalFooter,
 								HeaderModule,
 								DownloadSlider
@@ -466,7 +466,7 @@ if(!destination.index == 1){
 																document.getElementById('stage-line-container').style.pointerEvents = 'none';
 												}
 
-												let stageName = document.querySelector('.stage-name-' + destination.index);
+	
 
 								}
 

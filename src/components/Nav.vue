@@ -33,7 +33,7 @@
 <script>
 export default {
     methods: {
-        collapse: function(event) {
+        collapse: function() {
             var navbar = document.querySelector('.navbar');
             navbar.classList.remove('expanded');
         }

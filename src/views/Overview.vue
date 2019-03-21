@@ -249,7 +249,7 @@ export default {
 																afterLoad: this.afterLoad,
 																afterRender(){
 
-																	// fullpage_api.fadingEffect.turnOff();
+																
 
 
 
