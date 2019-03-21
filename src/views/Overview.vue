@@ -144,11 +144,11 @@
 																												<div class="rect-bar-2 two">.</div>
 																												<div class="rect-bar-2 three">.</div>
 																												<div class="rect-bar-2 four">.</div>
-																												<div class="background-slide slide-1" style="opacity:0">image</div>
-																												<div class="background-slide slide-2" style="opacity:0">image</div>
-																												<div class="background-slide slide-3" style="opacity:0">image</div>
-																												<div class="background-slide slide-4" style="opacity:0">image</div>
-																												<div class="background-slide slide-5" style="opacity:0">image</div>
+																												<div class="background-slide-square slide-1" style="opacity:0">image</div>
+																												<div class="background-slide-square slide-2" style="opacity:0">image</div>
+																												<div class="background-slide-square slide-3" style="opacity:0">image</div>
+																												<div class="background-slide-square slide-4" style="opacity:0">image</div>
+																												<div class="background-slide-square slide-5" style="opacity:0">image</div>
 																								</div>
 																								<div class="col-xl-6 no-pad">
 																												<div class="container li-stages">
@@ -241,7 +241,7 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
+																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
 																scrollBar: true,
@@ -249,7 +249,7 @@ export default {
 																afterLoad: this.afterLoad,
 																afterRender(){
 
-																	fullpage_api.fadingEffect.turnOff();
+																	// fullpage_api.fadingEffect.turnOff();
 
 
 
@@ -280,13 +280,13 @@ export default {
 
 
 
-												document.querySelector('.background-slide.slide-1').style.opacity = 0;
-												document.querySelector('.background-slide.slide-2').style.opacity = 0;
-												document.querySelector('.background-slide.slide-3').style.opacity = 0;
-												document.querySelector('.background-slide.slide-4').style.opacity = 0;
-												document.querySelector('.background-slide.slide-5').style.opacity = 0;
+												document.querySelector('.background-slide-square.slide-1').style.opacity = 0;
+												document.querySelector('.background-slide-square.slide-2').style.opacity = 0;
+												document.querySelector('.background-slide-square.slide-3').style.opacity = 0;
+												document.querySelector('.background-slide-square.slide-4').style.opacity = 0;
+												document.querySelector('.background-slide-square.slide-5').style.opacity = 0;
 
-												document.querySelector('.background-slide.slide-' + indexNumber).style.opacity = 1;
+												document.querySelector('.background-slide-square.slide-' + indexNumber).style.opacity = 1;
 
 								},
 								landingFadeIn: function() {

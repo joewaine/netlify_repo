@@ -322,6 +322,13 @@ h2 {
 
 
 
+.st0-chevron{fill:#3C3C41;
+
+                    transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+}
+
 .chevron-link{
 
      .stage-text{
@@ -340,6 +347,9 @@ h2 {
                margin-right: 3px; 
         }
 
+
+
+.st0-chevron{fill:$text--btn-link;}
 
 
     }

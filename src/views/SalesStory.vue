@@ -172,6 +172,7 @@
 												<!-- new versoin here -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
 															<Footer index="fade-opacity-3" />
+	
 															<UniversalFooter />
 												</div>
 								</full-page>
@@ -193,14 +194,14 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
+																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
 																scrollBar: true,
 																fitToSection: false,
 																afterRender(){
 
-																	fullpage_api.fadingEffect.turnOff();
+																	// fullpage_api.fadingEffect.turnOff();
 
 
 

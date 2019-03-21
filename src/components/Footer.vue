@@ -1,10 +1,6 @@
 <template>
 				<div>
 
-
-
-
-
 								<div class="row justify-content-center no-lr-margin fadeInAnimation" v-bind:class="index">
 												<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
 																<h2 class="top-pad-lg btm-pad-sm">
@@ -36,7 +32,17 @@ Watch our videos to learn more about Microsoft Relationship Sales solution.
 																<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Request a demo</a>
 												</div> -->
 								</div>
-								<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
+<!--<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top-->
+
+<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="scrollToTop(600)">return to top
+
+
+
+
+
+
+
+
 												<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
 																				<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
@@ -47,14 +53,35 @@ Watch our videos to learn more about Microsoft Relationship Sales solution.
 																<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 												</svg>
 								</a>
+
+
+
 				</div>
 </template>
 <script>
 export default {
 props: {
-index: Number
+index: String
+},
+methods:{
+scrollToTop(scrollDuration) {
+const   scrollHeight = window.scrollY,
+        scrollStep = Math.PI / ( scrollDuration / 15 ),
+        cosParameter = scrollHeight / 2;
+var     scrollCount = 0,
+        scrollMargin,
+        scrollInterval = setInterval( function() {
+            if ( window.scrollY != 0 ) {
+                scrollCount = scrollCount + 1;  
+                scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+                window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+            } 
+            else clearInterval(scrollInterval); 
+        }, 15 );
+}
 }
 	 
 }
 </script>
+
 

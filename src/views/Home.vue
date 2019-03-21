@@ -272,7 +272,7 @@
 					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">Watch now</a>
 
 
-																								
+
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation">
@@ -296,7 +296,7 @@
 																</a>
 
 
-																
+																<DownloadSlider />
 																<UniversalFooter />
 												</div>
 								</full-page>
@@ -308,6 +308,7 @@ import '../fullpage.fadingEffect.min'
 import StageLines from '../components/StageLines'
 import UniversalFooter from '../components/UniversalFooter'
 import HeaderModule from '../components/HeaderModule'
+import DownloadSlider from '../components/DownloadSlider'
 
 export default {
 				data() {
@@ -329,7 +330,8 @@ export default {
 				components: {
 								StageLines,
 								UniversalFooter,
-								HeaderModule
+								HeaderModule,
+								DownloadSlider
 				},
 				methods: {
 								burger: function() {

@@ -2731,11 +2731,89 @@ right: 10px;
 
 
 
-.background-slide {
-                position: absolute;
+.background-slide, 
+.background-slide-square{
+position: absolute;
 }
 
 
+
+
+
+
+.background-slide-square{
+
+
+                // width: 100%;
+                // height: 100%;
+                // color: transparent;
+                // background-size: cover;
+                // transition: opacity .5s ease;
+                // -webkit-transition: opacity .5s ease;
+
+
+    &.slide-1{
+
+
+    background: url(assets/img/redmond-window-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-2{
+    
+    background: url(assets/img/square/two-women-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+    }
+
+
+    &.slide-3{
+  
+     margin: 0;
+    background: url(assets/img/square/iphone-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-4{
+
+    background: url(assets/img/square/view-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-5{
+
+    background: url(assets/img/square/two-women-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+    }
+
+    &.slide-6{
+                
+      margin: 0;
+    background: url(assets/img/square/view-square.jpg) center center/cover no-repeat;
+    background-blend-mode: darken;
+    transition: .25s;
+    -webkit-transition: .25s;
+
+
+    }
+
+
+
+
+}
 
 
 .slide-1 {
@@ -2747,6 +2825,11 @@ right: 10px;
 
                 transition: opacity .5s ease;
                 -webkit-transition: opacity .5s ease;
+
+
+
+
+
 }
 
 
@@ -2885,6 +2968,7 @@ svg.svg-pop {
 
 
 .popbox {
+    pointer-events: none;
                 height: 300px;
                 width: 165px;
                 margin: 60px 100px 0px auto;
@@ -2895,7 +2979,16 @@ svg.svg-pop {
                 position: absolute;
                 margin-left: -16%;
                 top: 60px;
+ -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
 
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
 
 
 
@@ -3392,12 +3485,10 @@ font-family: $segoe;
     border-bottom: 1px solid #e9e9e9;
     height: auto;
     padding: 15px 0;
-    // margin-left: -15px;
-    // margin-right: -15px;
+
 position: absolute;
 top: 0;
 width: 100%;
-// left: -15px;
 
 
 &.position-inherit{
@@ -3486,4 +3577,8 @@ transition: all 300ms ease-out;
 .white-transparent{
     background: rgba(255, 255, 255, 0.85);
 }
+
+
+
+
 

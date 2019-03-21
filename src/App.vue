@@ -1,11 +1,13 @@
 <script>
 import Nav from './components/Nav.vue'
+import DownloadSlider from './components/DownloadSlider.vue'
 
 
 export default {
   name: 'app',
   components: {
-    Nav
+    Nav,
+    DownloadSlider
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
 </style>
 <template>
   <div id="app">
+  <DownloadSlider />
   <Nav />
   </div>
 </template>

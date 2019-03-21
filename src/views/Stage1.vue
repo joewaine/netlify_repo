@@ -223,7 +223,30 @@
 																																												When you locate the right leads, you’re halfway to your goal. Your next step is to use modern tools to make deeper connections, draw insights from data, and communicate seamlessly across any device to grow your customer relationships over time.
 																																								</p>
 																																								<p>
-																																									<span class="bold">Next:	<router-link id="url:stage-2-page" to="/stage2" class="chevron-link"><span class="stage-text">Stage 2</span><span class="right-chevron">&rarr;</span></router-link></span>
+																																									<span class="bold">Next:	<router-link id="url:stage-2-page" to="/stage2" class="chevron-link"><span class="stage-text">Stage 2</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st0-chevron" points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg></span></router-link></span>
+
+
+
+
+
+
+
+
+
+
+
+
 																																								</p>
 																																				</div>
 																																</div>
@@ -241,6 +264,7 @@
 
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 <Footer index="fade-opacity-6" />
+	
 																<UniversalFooter />
 												</div>
 								</full-page>
@@ -251,6 +275,9 @@
 import Footer from '../components/Footer';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
+
+
+
 import '../fullpage.fadingEffect.min'
 
 export default {
@@ -260,14 +287,14 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
+																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
 																scrollBar: true,
 																fitToSection: false,
 																afterRender(){
 
-																	fullpage_api.fadingEffect.turnOff();
+																	// fullpage_api.fadingEffect.turnOff();
 
 																},
 																afterLoad: function(origin, destination) {

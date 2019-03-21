@@ -250,8 +250,25 @@
 
 
 																																								<p>
-																																									<span class="bold">Next:	<router-link id="url:stage-3-page" to="/stage3" class="chevron-link"><span class="stage-text">Stage 3</span><span class="right-chevron">&rarr;</span></router-link></span>
+																																									<span class="bold">Next:	<router-link id="url:stage-3-page" to="/stage3" class="chevron-link"><span class="stage-text">Stage 3</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st0-chevron" points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg></span></router-link></span>
 																																								</p>
+
+
+
+
+
+																																								
 
 
 
@@ -267,6 +284,7 @@
 
 
 																	<Footer index="fade-opacity-6" />
+
 																	<UniversalFooter />
 												</div>
 								</full-page>
@@ -278,7 +296,6 @@ import HeaderModule2 from '../components/HeaderModule2';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import Footer from '../components/Footer.vue';
-
 
 
 
@@ -295,14 +312,14 @@ export default {
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-																fadingEffect: true,
+																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																autoScrolling: false,
 																scrollBar: true,
 																fitToSection: false,
 																afterRender(){
 
-																	fullpage_api.fadingEffect.turnOff();
+																	// fullpage_api.fadingEffect.turnOff();
 
 																},
 																afterLoad: function(origin, destination) {
@@ -403,7 +420,7 @@ export default {
 								HeaderModule2,
 								BurgerMenu,
 								Footer,
-				    UniversalFooter,
+				    UniversalFooter
 				},
 				methods: {
 								scrollToNext: function(element) {
