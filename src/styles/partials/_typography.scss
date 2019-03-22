@@ -382,6 +382,36 @@ h2 {
 }
 
 
+.grey-text {
+                color: $text--dk-grey;
+
+
+
+}
+
+
+.grey-article-link {
+                font-size: 1.2em;
+                color: $text--dk-grey;
+                font-family: $segoe;
+                font-weight: $normal;
+                border-bottom: 1px solid;
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+
+
+
+                &:hover {
+                                color: $text--btn-link;
+                }
+
+}
+
+
+
+
 .white-article-link {
                 font-size: 1.2em;
                 color: white;

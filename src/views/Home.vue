@@ -94,7 +94,14 @@
 																																<p>
 																						If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
 																																</p>
-																																<router-link id="url:stage-1-page" to="/stage1" class="btn dark-btn-border">LEARN MORE</router-link>
+
+
+
+
+																<router-link id="url:overview-page" to="/overview" class="btn dark-btn">LEARN MORE</router-link>
+
+
+																																<!-- <router-link id="url:overview-page" to="/overview" class="btn dark-btn-border">LEARN MORE</router-link> -->
 																												</div>
 																								</div>
 																								<a style="display: none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
@@ -318,7 +325,7 @@ export default {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
-																scrollBar: true,
+																scrollBar: false,
 																autoScroll: false,
 																// autoScrolling:true,
 																afterLoad: this.afterLoad,

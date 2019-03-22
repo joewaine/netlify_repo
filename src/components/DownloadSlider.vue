@@ -80,7 +80,8 @@ export default {
 .download-slider {
   position: fixed;
   right: -225px;
-  top: calc(30% + 55px);
+  // top: calc(30% + 55px);
+      bottom: calc(30%);
   width: 225px !important;
   height: 50px;
   border: 1px solid #707070;

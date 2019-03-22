@@ -114,12 +114,25 @@
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-10 slide-in-1 slide-in-left">
-																																								<div class="mint-text-block top-pad-xl col-lg-8">
+																																								<div class="mint-text-block top-pad-xxl col-lg-8">
 																																												Microsoft Dynamics 365 delivers <span class="yellow-text">$16.97</span> for every dollar spent
 																																								</div>
-																																								<div class="underline-text-block">
-																																												Nucleus Report
+
+
+
+																																								<div class="white-text lm-twelve">
+																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">
+																																																					Nucleus Report
+																																												</a>
+
+
+
+																																												
 																																								</div>
+
+
+
+																																			
 																																				</div>
 																																</div>
 																												</div>

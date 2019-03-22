@@ -182,7 +182,7 @@
 
 
 																																						<div class="white-text lm-twelve">
-																																&mdash;<a class="white-article-link" href="" id="url:external-future-of-b2b-report" target="_blank">
+																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-future-of-b2b-report" target="_blank">
 																																											The Future of B2B Is Built On Predictive Tools
 																																												</a>
 																																								</div>

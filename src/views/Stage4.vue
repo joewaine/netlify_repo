@@ -96,7 +96,7 @@
 																																												</ul>
 																																								</div>
 																																								<div class="white-text lm-twelve">
-																																&mdash;<a class="white-article-link" href="" id="url:external-forrester-consulting-article" target="_blank">
+																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">
 																																													The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
 																																												</a>
 																																								</div>

@@ -120,9 +120,18 @@
 																																																				year-over-year sales
 																																																</li>
 																																																<li>
-																																																				<div class="circle" style="opacity: 0;">
-																																																								.
-																																																				</div><span style="text-decoration: underline; font-size: 1em;">—Nucleus Report</span>
+																																																
+
+																																								<div class="grey-text lm-twelve top-pad-lg">
+																																&mdash;<a class="grey-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">
+																																																					Nucleus Report
+																																												</a>
+
+
+
+																																												
+																																								</div>
+
 																																																</li>
 																																												</ul>
 																																								</div>
