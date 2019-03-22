@@ -54,10 +54,19 @@
 																								</div>
 																								<div class="col-xl-6 dk-grey-bg btm-pad-xxl overflow-hidden">
 																												<div class="skills-4">
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
+<div class="dash">_</div>
 
 
-
-<div  class="chart__bar-4 bar-chart-gradient" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+<div  class="chart__bar-4 bar-chart-gradient" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 0;bottom: 0;">.</div>
 
 																																<div class="charts-4" style="display: none;">
 																																				<div class="chart-4 chart--dev-4">
@@ -70,24 +79,26 @@
 																												<div class="container">
 																																<div class="row justify-content-center no-margin">
 																																				<div class="col-lg-8 top-pad-xl btm-pad-xl slide-in-1 slide-in-left">
-																																								<div class="white-text-block">
-																																												What contributes most to a sales organization's success according to sales leaders?
+																																								<div class="white-text-block mint-text">
+																																												When surveyed about their technologies, 38% of sales leaders agree that sales force automation contributes the most to their sales organization’s success.
 																																								</div>
 																																								<div class="mint-text-block bold">
-																																												<ul>
-																																																<li style="text-indent: -43px;">
-																																																				<span style="width: 20px;height: 20px;background:#FEF000;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																				sales force automation</li>
-																																																<li style="text-indent: -43px;">
-																																																				<span style="width: 20px;height: 20px;background: #30efd0;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																				configure, price, and quote application</li>
-																																																<li style="text-indent: -43px;">
-																																																				<span style="width: 20px;height: 20px;background: #ebebeb;color: transparent;display: inline-block;margin-right: 10px;line-height: 10px;">.</span>
-																																																				B2B data management solutions</li>
+																																												<ul class="stat-list">
+																																																<li>
+																																																				<span style="width: 20px;height: 20px;background:#FEF000;color: transparent;display: inline-block;margin-right: 10px;line-height: 16px;">.</span>
+																																																				38% Sales force automation</li>
+																																																<li>
+																																																				<span style="width: 20px;height: 20px;background: #30efd0;color: transparent;display: inline-block;margin-right: 10px;line-height: 16px;">.</span>
+																																																				31% Configure, price, and quote applicationn</li>
+																																																<li>
+																																																				<span style="width: 20px;height: 20px;background: #ebebeb;color: transparent;display: inline-block;margin-right: 10px;line-height: 16px;">.</span>
+																																																				25% B2B data management solution</li>
 																																												</ul>
 																																								</div>
-																																								<div class="underline-text-block">
-																																												The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
+																																								<div class="white-text lm-twelve">
+																																&mdash;<a class="white-article-link" href="" id="url:external-forrester-consulting-article" target="_blank">
+																																													The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
+																																												</a>
 																																								</div>
 																																				</div>
 																																</div>

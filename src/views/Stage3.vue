@@ -131,7 +131,7 @@
 
 																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg overflow-hidden">
 																												<div class="row justify-content-end top-pad-xxl btm-pad-max no-lr-margin">
-																											<div class="skills-100">
+																											<div class="skills-100" style="display: none;">
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
 																																<div class="dash">_</div>
@@ -155,17 +155,25 @@
 																																</div>
 																												</div>
 																												<div class="container">
+
 																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-8 offset-lg-1 slide-in-3 slide-in-left">
-																																								<div class="mint-text-block xxl-text">
-																																												<div id="value" style="display: inline-block;width: 180px;">96%</div>
+																																				<div class="col-lg-11 slide-in-3 slide-in-left">
+																																								<div class="mint-text-block xxl-text text-center">
+																													<div style="width: 200px;height: 200px;background: #30EFD0;margin: 0 auto;">.</div>
 																																								</div>
-																																								<div class="white-text-block bold">
-																																												believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
+
+
+    
+
+																																								<div class="white-text-block bold md-text">
+																																												<div id="value" style="">96%</div> believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
 																																								</div>
-																																								<div class="underline-text-block">
-																																												Heinz Marketing
+																																	<div class="white-text lm-twelve">
+																																&mdash;<a class="white-article-link" href="http://results.heinzmarketing.com/rs/966-VWE-480/images/Sigstr_eBook_The_State_of_Relationship_Marketing.pdf?mkt_tok=eyJpIjoiWkdNM01UazFabVUzWWpVeSIsInQiOiJSRE1NMHBxaE9lN0pwQ1wvakFqMUh2OHNmUFlScDVDamRuQzhBbzEydjA5aWV1ZlhKR01TMGNYbnNuR2VYb0VrTXh0UEliT01RK3M5OVwvT1FnVUdNa0JOOWNFZngydys1VUM3WTdYbXJvdHJJYmxITWo4R0hZOTI2TGlrQUxUTlhiIn0%3D" id="url:external-heinz-marketing-report" target="_blank">
+																																													"The Power of Relationship Selling." Heinz Marketing and Microsoft
+																																												</a>
 																																								</div>
+
 																																				</div>
 																																</div>
 																												</div>
@@ -238,7 +246,7 @@
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
-																								<div class="col-xl-6 bg-sweaters mobile-image">
+																								<div class="col-xl-6 bg-factory-tablet mobile-image">
 																												<div class="rect-bar-5 one">.</div>
 																												<div class="rect-bar-5 two">.</div>
 																												<div class="rect-bar-5 three">.</div>

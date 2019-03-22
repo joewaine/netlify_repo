@@ -92,7 +92,7 @@
 																																</div>
 																												</div>
 																								</div>
-																								<div class="col-xl-6 offset-xl-0 no-pad bg-containers">
+																								<div class="col-xl-6 offset-xl-0 no-pad green-bg">
 																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin">
 																																<div class="col-md-10 col-sm-12 bg-white overflow-x-hidden no-pad-mobile">
 																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
@@ -139,7 +139,7 @@
 												<div class="section fp-auto-height" data-index="2">
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
-																								<div class="col-xl-6 no-pad bg-sweaters-square image-bg-transition hide-image-mobile">
+																								<div id="image-background-fades" class="col-xl-6 no-pad bg-sweaters-square image-bg-transition hide-image-mobile">
 																												<div class="rect-bar-2 one">.</div>
 																												<div class="rect-bar-2 two">.</div>
 																												<div class="rect-bar-2 three">.</div>
@@ -277,6 +277,19 @@ export default {
 								},
 
 								backgroundChange: function(indexNumber) {
+
+
+
+
+
+
+setTimeout(function(){ 
+
+
+			document.querySelector('#image-background-fades').style.background = 'transparent';
+
+ }, 1000);
+
 
 
 

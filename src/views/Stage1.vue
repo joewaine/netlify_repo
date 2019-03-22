@@ -164,16 +164,22 @@
 																																				<div class="row justify-content-center no-margin">
 																																								<div class="col-lg-8 offset-lg-1 slide-in-3 slide-in-left">
 																																												<div class="white-text-block">
-																																																Over 80% of all respondents - and nearly 90% of top-performing companies-agree that
+																																																Over 80% of all respondents &mdash; and nearly 90% of top-performing companies-agree that
 																																												</div>
-																																												<div class="mint-text-block">
+																																												<div class="mint-text-block btm-pad-lg">
 																																																developing authentic relationships is very important to revenue generation.
 																																												</div>
-																																												<div class="underline-text-block">
-																																																-"The state of Relationship Marketing."
-																																																<br>
-																																																Heinz Marketing
-																																												</div>
+
+
+																																								<div class="white-text lm-twelve">
+																																&mdash;<a class="white-article-link" href="http://results.heinzmarketing.com/rs/966-VWE-480/images/Sigstr_eBook_The_State_of_Relationship_Marketing.pdf?mkt_tok=eyJpIjoiWkdNM01UazFabVUzWWpVeSIsInQiOiJSRE1NMHBxaE9lN0pwQ1wvakFqMUh2OHNmUFlScDVDamRuQzhBbzEydjA5aWV1ZlhKR01TMGNYbnNuR2VYb0VrTXh0UEliT01RK3M5OVwvT1FnVUdNa0JOOWNFZngydys1VUM3WTdYbXJvdHJJYmxITWo4R0hZOTI2TGlrQUxUTlhiIn0%3D" id="url:external-heinz-marketing-report" target="_blank">
+																																													"The Power of Relationship Selling."<br>Heinz Marketing and Microsoft
+																																												</a>
+																																								</div>
+
+
+
+																																									
 																																								</div>
 																																				</div>
 																																</div>

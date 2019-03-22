@@ -1,265 +1,263 @@
-
-
-
 // Typography declaration
 
 body {
-        font-family: $segoe;
-        font-size: 16px;
-        line-height: 22px;
-        color: $text--default;
+                font-family: $segoe;
+                font-size: 16px;
+                line-height: 22px;
+                color: $text--default;
 }
 
 h1 {
-        color: $text--dk-grey;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 3.5em;
-        line-height: 1.2em;
-        margin: 0 0 .3em 0;
-        padding: 0;
+                color: $text--dk-grey;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 3.5em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
 }
 
 h2 {
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 2.75em;
-        line-height: 1.2em;
-        margin: 0 0 .3em 0;
-        padding: 0;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 2.75em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
 }
 
 h3 {
-        font-family: $segoe;
-        font-weight: $normal;
-        font-size: 2em;
-        line-height: 1.2em;
-        margin: 0 0 .3em 0;
-        padding: 0;
+                font-family: $segoe;
+                font-weight: $normal;
+                font-size: 2em;
+                line-height: 1.2em;
+                margin: 0 0 .3em 0;
+                padding: 0;
 }
 
 h3.dk-green {
-    font-size: 1.8em;
+                font-size: 1.8em;
 }
 
 h4 {
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1.5em;
-        line-height: 1.2em;
-        margin: 0;
-        padding: 0;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.5em;
+                line-height: 1.2em;
+                margin: 0;
+                padding: 0;
 }
 
 p {
-        color: $text--dk-grey;
-        font-family: $segoe;
-        font-weight: $normal;
-        font-size: 1em;
-        line-height: 1.8em;
-        margin: 0 0 1.5emw 0;
-        padding: 0;
+                color: $text--dk-grey;
+                font-family: $segoe;
+                font-weight: $normal;
+                font-size: 1em;
+                line-height: 1.8em;
+                margin: 0 0 1.5emw 0;
+                padding: 0;
 
-        &:last-child {
-                margin-bottom: 0;
-        }
-
-        &.size-md {
-                font-family: $segoe--semi;
-                font-weight: $semi-bold;
-                font-size: 1.2em;
-                margin-bottom: .5em;
-                margin-top: .5em;
-
-                a {
-                        color: $text--white;
+                &:last-child {
+                                margin-bottom: 0;
                 }
 
-        }
+                &.size-md {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                                font-size: 1.2em;
+                                margin-bottom: .5em;
+                                margin-top: .5em;
+
+                                a {
+                                                color: $text--white;
+                                }
+
+                }
 
 }
 
 
 .moveToTop {
 
-        bottom: 76px;
-        color: $text--white;
-        cursor: pointer;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1.2em;
-        margin-bottom: .5em;
-        margin-top: .5em;
-        position: absolute;
-        right: 50px;
-        font-size: 1em;
+                bottom: 76px;
+                color: $text--white;
+                cursor: pointer;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.2em;
+                margin-bottom: .5em;
+                margin-top: .5em;
+                position: absolute;
+                right: 50px;
+                font-size: 1em;
 
-        &:hover {
-                text-decoration: underline;
-        }
+                &:hover {
+                                text-decoration: underline;
+                }
 }
 
 strong {
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
 }
 
 a {
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1em;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1em;
 }
 
 // Custom highlight state
 ::selection {
-        background: $bg--blue;
-        /* WebKit/Blink Browsers */
-        color: #fff;
+                background: $bg--blue;
+                /* WebKit/Blink Browsers */
+                color: #fff;
 }
 
 ::-moz-selection {
-        background: $bg--blue;
-        /* Gecko Browsers */
-        color: #fff;
+                background: $bg--blue;
+                /* Gecko Browsers */
+                color: #fff;
 }
 
 
 a {
 
-        color: $text--dk-grey;
-        cursor: pointer;
-        text-decoration: none;
+                color: $text--dk-grey;
+                cursor: pointer;
+                text-decoration: none;
 
-        &.header-sign-in {
-                position: absolute;
-                width: 100px;
-                right: 10px;
-                bottom: 6px;
-        }
-
-
-        &.btn {
-                color: $text--btn-link;
-                background-color: $bg--white;
-                border: 2px solid $bg--white;;
-                display: inline-block;
-                margin-top: 10px;
-                padding: 12px 35px;
-
-
-                transition: color .5s ease, background-color .5s ease;
-                -webkit-transition: color .5s ease, background-color .5s ease;
-
-                &:hover{
-
-
-                background-color: rgba(255,255,255,.5);
-
+                &.header-sign-in {
+                                position: absolute;
+                                width: 100px;
+                                right: 10px;
+                                bottom: 6px;
                 }
 
-                             &.dark-btn-border{
-                             border: 2px solid #3c3c41;
-                        }
 
-                &.dark-btn {
-                        color: $text--mint;
-                        background-color: $bg--dk-grey;
-
-
-                        border: 2px solid #3c3c41;
-
-                                    &:hover{
-      color: #fff;
-                background-color: rgba(65,65,65,.75);
-
-                                   
-
-                                    }
-
-                        &.white-txt {
-                                color: $text--white;
-
-                                    &:hover{
-                                                                color: $text--mint;
-                                    }
-                        }
+                &.btn {
+                                color: $text--btn-link;
+                                background-color: $bg--white;
+                                border: 2px solid $bg--white;
+                                ;
+                                display: inline-block;
+                                margin-top: 10px;
+                                padding: 12px 35px;
 
 
-           
+                                transition: color .5s ease, background-color .5s ease;
+                                -webkit-transition: color .5s ease, background-color .5s ease;
+
+                                &:hover {
+
+
+                                                background-color: rgba(255, 255, 255, .5);
+
+                                }
+
+                                &.dark-btn-border {
+                                                border: 2px solid #3c3c41;
+                                }
+
+                                &.dark-btn {
+                                                color: $text--mint;
+                                                background-color: $bg--dk-grey;
+
+
+                                                border: 2px solid #3c3c41;
+
+                                                &:hover {
+                                                                color: #fff;
+                                                                background-color: rgba(65, 65, 65, .75);
+
+
+
+                                                }
+
+                                                &.white-txt {
+                                                                color: $text--white;
+
+                                                                &:hover {
+                                                                                color: $text--mint;
+                                                                }
+                                                }
+
+
+
+                                }
                 }
-        }
 }
 
 .text-right {
-        text-align: right;
+                text-align: right;
 }
 
 
 
 .green-text {
-        color: $text--btn-link;
+                color: $text--btn-link;
 }
 
 
 .quote {
-        color: $text--white;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 2.2em;
-        line-height: 1.4em;
-        margin-bottom: .8em;
+                color: $text--white;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 2.2em;
+                line-height: 1.4em;
+                margin-bottom: .8em;
 }
 
 .name,
 .title {
-        color: $text--white;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1.6em;
-        line-height: 1.4em;
+                color: $text--white;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.6em;
+                line-height: 1.4em;
 }
 
 .title {
-        font-style: italic;
+                font-style: italic;
 }
 
 
 .title-2 {
-        color: $text--white;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1.6em;
-        line-height: 1.4em;
+                color: $text--white;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+                font-size: 1.6em;
+                line-height: 1.4em;
 }
 
 
 .bold {
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
 }
 
 
 
 h2 {
-        color: $text--dk-grey;
+                color: $text--dk-grey;
 }
 
 
 
 .white-text-block {
-        color: $text--white;
-        font-family: $segoe--semi;
-        font-weight: $semi-bold;
-        font-size: 1.4em;
-        padding: 15px;
-        line-height: 1.5em;
-
-
-        &.bold {
+                color: $text--white;
                 font-family: $segoe--semi;
                 font-weight: $semi-bold;
-                font-size: 2em;
-        }
+                font-size: 1.4em;
+                padding: 15px;
+                line-height: 1.5em;
+
+
+                &.bold {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
+                                font-size: 2em;
+                }
 
 }
 
@@ -269,104 +267,200 @@ h2 {
 
 
 .mint-text-block {
-        color: $text--mint;
-        font-size: 2em;
-        line-height: 1.4em;
-        padding: 15px;
+                color: $text--mint;
+                font-size: 2em;
+                line-height: 1.4em;
+                padding: 15px;
 
-        &.bold {
-                font-family: $segoe--semi;
-                font-weight: $semi-bold;
+                &.bold {
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
 
 
-                ul{
-                        padding-left: 0;
+                                ul {
+                                                padding-left: 0;
+                                }
                 }
-        }
 
 
-        &.xxl-text {
-                font-family: $segoe--semi;
-                font-size: 10em;
-                font-weight: $semi-bold;
-        }
+                &.xxl-text {
+                                font-family: $segoe--semi;
+                                font-size: 10em;
+                                font-weight: $semi-bold;
+                }
 
 }
 
 
+.mint-text {
+                color: $text--mint;
 
+}
 
 
 .underline-text-block {
-        color: $text--white;
-        text-decoration: underline;
-        font-size: 19.2px;
-        padding: 15px;
-        line-height: 1.2em;
+                color: $text--white;
+                text-decoration: underline;
+                font-size: 19.2px;
+                padding: 15px;
+                line-height: 1.2em;
 
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+                text-align: center;
 }
 
 
-.yellow-text{
-   color: $text--yellow;
+.yellow-text {
+                color: $text--yellow;
 }
 
 
-.bg-home h1{
-    color: $text--white;
+.bg-home h1 {
+                color: $text--white;
 }
 
 
 
-.st0-chevron{fill:#3C3C41;
+.st0-chevron {
+                fill: #3C3C41;
 
-                    transition: all .25s ease;
+                transition: all .25s ease;
                 -webkit-transition: all .25s ease;
 
 }
 
-.chevron-link{
+.chevron-link {
 
-     .stage-text{
-                     margin-right: 1px; 
-          border-bottom: 1px solid transparent;
-                    transition: all .25s ease;
+                .stage-text {
+                                margin-right: 1px;
+                                border-bottom: 1px solid transparent;
+                                transition: all .25s ease;
+                                -webkit-transition: all .25s ease;
+                }
+
+                &:hover {
+                                border-bottom: 1px solid $text--btn-link;
+                                color: $text--btn-link;
+
+                                .stage-text {
+
+                                                margin-right: 3px;
+                                }
+
+
+
+                                .st0-chevron {
+                                                fill: $text--btn-link;
+                                }
+
+
+                }
+}
+
+
+.inline-link {
+
+                transition: all .25s ease;
                 -webkit-transition: all .25s ease;
-        }
 
-    &:hover{
-    border-bottom: 1px solid $text--btn-link;
-    color: $text--btn-link;
-     
-     .stage-text{
+                border-bottom: 1px solid $text--dk-grey;
 
-               margin-right: 3px; 
-        }
+                &:hover {
+                                border-bottom: 1px solid $text--btn-link;
+                                color: $text--btn-link;
+                }
 
+}
 
-
-.st0-chevron{fill:$text--btn-link;}
+.white-text {
+                color: #fff;
 
 
+
+}
+
+
+.white-article-link {
+                font-size: 1.2em;
+                color: white;
+                font-family: $segoe;
+                font-weight: $normal;
+                border-bottom: 1px solid;
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+
+
+
+                &:hover {
+                                color: $text--mint;
+                }
+
+}
+
+
+.stat-list {
+                li {
+                                font-size: .6em;
+                                color: white;
+                                font-family: $segoe;
+                                font-weight: $normal;
+
+
+                                span {
+                                                -moz-user-select: -moz-none;
+                                                -khtml-user-select: none;
+                                                -webkit-user-select: none;
+
+                                                /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+                                                -ms-user-select: none;
+                                                user-select: none;
+                                }
+
+                }
+
+}
+
+
+#value {
+                color: $text--mint;
+
+                display: inline-block;
+                width: 80px;
+                font-size: 1.6em;
+
+                font-family: $segoe--semi;
+                font-weight: $semi-bold;
+
+
+}
+
+.white-text-block.bold.md-text {
+                font-size: 1.6em;
+}
+
+
+.navbar-nav{
+
+
+li{
+    a{
+
+                transition: all .25s ease;
+                -webkit-transition: all .25s ease;
+
+        &:hover{
+    color: $text--light-grey;
+}
     }
 }
 
-
-.inline-link{
-
-                    transition: all .25s ease;
-                -webkit-transition: all .25s ease;
-
- border-bottom: 1px solid $text--dk-grey;
-
-&:hover{
-    border-bottom: 1px solid $text--btn-link;
-    color: $text--btn-link;
- }
 
 
 }

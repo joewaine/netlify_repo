@@ -269,7 +269,7 @@
 
 
 
-					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">Watch now</a>
+					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">WATCH NOW</a>
 
 
 
@@ -320,6 +320,7 @@ export default {
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
 																scrollBar: true,
 																autoScroll: false,
+																// autoScrolling:true,
 																afterLoad: this.afterLoad,
 																onLeave: this.onLeave
 												},
