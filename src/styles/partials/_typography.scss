@@ -333,26 +333,30 @@ h2 {
 
 .chevron-link {
 
+
+
+                color: $text--btn-link;
+
                 .stage-text {
-                                margin-right: 1px;
+                                margin-right: 2px;
                                 border-bottom: 1px solid transparent;
                                 transition: all .25s ease;
                                 -webkit-transition: all .25s ease;
                 }
 
                 &:hover {
-                                border-bottom: 1px solid $text--btn-link;
-                                color: $text--btn-link;
+
+                                color: $text--dk-grey;
 
                                 .stage-text {
-
-                                                margin-right: 3px;
+                                                border-bottom: 1px solid $text--dk-grey;
+                                                margin-right: 4px;
                                 }
 
 
 
                                 .st0-chevron {
-                                                fill: $text--btn-link;
+                                                // fill: $text--btn-link;
                                 }
 
 
@@ -365,7 +369,7 @@ h2 {
                 transition: all .25s ease;
                 -webkit-transition: all .25s ease;
 
-                border-bottom: 1px solid $text--dk-grey;
+                border-bottom: 1px solid transparent;
 
                 &:hover {
                                 border-bottom: 1px solid $text--btn-link;
@@ -391,10 +395,11 @@ h2 {
 
 
 .grey-article-link {
-                font-size: 1.2em;
+                // font-size: 1.2em;
+                font-size: 1em;
                 color: $text--dk-grey;
                 font-family: $segoe;
-                font-weight: $normal;
+                font-weight: 400;
                 border-bottom: 1px solid;
 
                 transition: all .25s ease;
@@ -476,21 +481,30 @@ h2 {
 }
 
 
-.navbar-nav{
+.navbar-nav {
 
 
-li{
-    a{
+                li {
+                                a {
 
-                transition: all .25s ease;
-                -webkit-transition: all .25s ease;
+                                                transition: all .25s ease;
+                                                -webkit-transition: all .25s ease;
 
-        &:hover{
-    color: $text--light-grey;
+                                                &:hover {
+                                                                color: $text--light-grey;
+                                                }
+                                }
+                }
+
+
+
 }
-    }
-}
 
 
 
+.next-stage-link {
+                display: block;
+                font-family: $segoe;
+                font-size: 1.25em;
+                margin-top: .2em;
 }

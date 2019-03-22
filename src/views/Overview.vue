@@ -96,7 +96,7 @@
 																												<div class="row justify-content-end top-pad-max btm-pad-max no-lr-margin">
 																																<div class="col-md-10 col-sm-12 bg-white overflow-x-hidden no-pad-mobile">
 																																				<div class="container justify-content-center top-pad-xxl btm-pad-xxl">
-																																								<div class="col-md-12 col-sm-12 offset-md-1 offset-sm-1 bg-white no-lr-pad slide-in-1 slide-in-left">
+																																								<div class="col-md-10 col-sm-12 offset-md-1 offset-sm-1 bg-white no-lr-pad slide-in-1 slide-in-left">
 																																												<h3 class="dk-green">
 																																																Companies that use relationship selling consistently experience:
 																																												</h3>
@@ -123,8 +123,7 @@
 																																																
 
 																																								<div class="grey-text lm-twelve top-pad-lg">
-																																&mdash;<a class="grey-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">
-																																																					Nucleus Report
+																																&mdash;&nbsp;<a class="grey-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report
 																																												</a>
 
 

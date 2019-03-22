@@ -96,8 +96,7 @@
 																																												</ul>
 																																								</div>
 																																								<div class="white-text lm-twelve">
-																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">
-																																													The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
+																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">"The Future of B2B Sales Is Built On Predictive Tools", Forrester Consulting
 																																												</a>
 																																								</div>
 																																				</div>
@@ -188,7 +187,7 @@
 																																								</p>
 
 																																								<p>
-																																									<span class="bold">Next:	<router-link id="url:sales-story-page" to="/salesstory" class="chevron-link"><span class="stage-text">Sales Story</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																																																												<span class="bold">Next:	<router-link id="url:sales-story-page" to="/salesstory" class="chevron-link next-stage-link"><span class="stage-text">Sales Story</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
 <g>
 	<g>
@@ -200,6 +199,7 @@
 	</g>
 </g>
 </svg></span></router-link></span>
+
 																																								</p>
 
 

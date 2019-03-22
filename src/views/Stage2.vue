@@ -85,13 +85,19 @@
 																</section>
 																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
 																				next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+<!-- 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
 																																<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon>
 																												</g>
 																								</g>
-																				</svg></a>
+																				</svg>
+ -->
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path></g></g></svg>
+
+																			</a>
 												</div>
 
 
@@ -181,13 +187,15 @@
 																																								</div>
 
 
-																																						<div class="white-text lm-twelve">
-																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-future-of-b2b-report" target="_blank">
-																																											The Future of B2B Is Built On Predictive Tools
+																							
+
+																																					
+
+																																	<div class="white-text lm-twelve">
+																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">"The Future of B2B Sales Is Built On Predictive Tools", Forrester Consulting
 																																												</a>
 																																								</div>
 
-																																					
 																																				</div>
 																																</div>
 																												</div>
@@ -257,7 +265,10 @@
 
 
 																																								<p>
-																																									<span class="bold">Next:	<router-link id="url:stage-3-page" to="/stage3" class="chevron-link"><span class="stage-text">Stage 3</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																																				
+
+
+																								<span class="bold">Next:	<router-link id="url:stage-3-page" to="/stage3" class="chevron-link next-stage-link"><span class="stage-text">Stage 3</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
 <g>
 	<g>
@@ -269,6 +280,10 @@
 	</g>
 </g>
 </svg></span></router-link></span>
+
+
+
+
 																																								</p>
 
 

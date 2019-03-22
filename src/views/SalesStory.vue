@@ -121,9 +121,7 @@
 
 
 																																								<div class="white-text lm-twelve">
-																																&mdash;<a class="white-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">
-																																																					Nucleus Report
-																																												</a>
+																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report</a>
 
 
 
@@ -139,16 +137,27 @@
 																								</div>
 																				</div>
 																</section>
-																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
+												
+												
+
+
+
+					<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
 																				next
-																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																	<!-- 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																								<g id="Layer_2" data-name="Layer 2">
 																												<g id="content">
 																																<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon>
 																												</g>
 																								</g>
-																				</svg></a>
+																				</svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path></g></g></svg>
+
+
+																			</a>
 												</div>
+
 												<div class="section fp-auto-height" data-index="2">
 																<section class="justify-content-center">
 																				<div class="row light-grey-bg no-lr-margin">

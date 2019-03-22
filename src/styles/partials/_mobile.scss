@@ -139,6 +139,11 @@ h3{
     padding-top: 4em;
 }
 
+
+.bg-home h1{
+	width: 90%;
+}
+
 }
 
 
@@ -176,6 +181,8 @@ h3{
         }
 }
 
+
+
 }
 
 
@@ -205,8 +212,8 @@ h3{
 }
 
 .down-arrow{
-    width: 30px;
-    margin-left: -15px;
+    width: 20px;
+    margin-left: -10px;
 }
 
 
@@ -252,6 +259,16 @@ ul.secondary-list li{
 
 .mint-text-block ul li{
 	font-size: .8em;
+}
+
+
+.bg-home h1{
+    width: 96%;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-top: .3em;
+
+
 }
 
 }
