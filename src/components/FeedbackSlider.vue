@@ -57,13 +57,13 @@ export default {
   },
   mounted() {
     // var vm = this
-    window.addEventListener("scroll", e => {
+    window.addEventListener("scroll", () => {
       var scrollPos = window.pageYOffset;
       var docHeight = document.documentElement.scrollHeight;
       var winHeight = 0;
       var perc = (100 * scrollPos) / (docHeight - winHeight);
       var isShown = false;
-      if (perc >= 70) {
+      if (perc >= 50) {
         isShown = true;
       } else {
         isShown = false;
@@ -96,7 +96,7 @@ export default {
 
    bottom: calc(30% - 110px);
 
-   
+
 
 
 

@@ -44,7 +44,7 @@ export default {
 				},
 				mounted() {
 								// var vm = this
-								window.addEventListener("scroll", e => {
+								window.addEventListener("scroll", () => {
 												var scrollPos = window.pageYOffset;
 												var docHeight = document.documentElement.scrollHeight;
 												var winHeight = 0;
