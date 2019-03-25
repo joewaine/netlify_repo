@@ -43,3 +43,4 @@ npm run lint
 
 Describe where and how the project is being deployed. If CI is used, describe where it is configured and which branch is automatically deployed.
 # netlify_repo
+# manu
