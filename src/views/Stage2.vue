@@ -68,7 +68,10 @@
 															<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
 
 
-																		<div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
+																		<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl landing-element"> -->
+
+<div class="col-lg-10 btm-pad-max top-pad-xxl slide-in-1 slide-in-left">
+
 																																<div class="quote top-pad-sm">
 																												“If you could give your salespeople 33% more active selling time, what impact would that have on your business?”
 																																</div>
@@ -346,6 +349,30 @@ export default {
 																},
 																afterLoad: function(origin, destination) {
 
+
+												var slideInOnLanding = '.slide-in-1';
+												var slideLeftOnLanding = document.querySelector(slideInOnLanding);
+												if (slideLeftOnLanding) {
+																slideLeftOnLanding.classList.remove('slide-in-left');
+												}
+
+
+
+																				let slideIn = document.querySelector('.rect-bar-1.one');
+																					if (slideIn) {
+																						slideIn.classList.add('expanded-stage21');
+																					}
+
+																				let slideIn2 = document.querySelector('.rect-bar-1.two');
+																					if (slideIn2) {
+																						slideIn2.classList.add('expanded-stage22');
+																					}
+
+																					let slideIn3 = document.querySelector('.rect-bar-1.three');
+																					if (slideIn3) {
+																						slideIn3.classList.add('expanded-stage23');
+																					}
+
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
 																								for (var i = 0; i < landingHeader.length; ++i) {
@@ -366,20 +393,7 @@ export default {
 
 																								if (destination.index == 1) {
 
-																				let slideIn = document.querySelector('.rect-bar-1.one');
-																					if (slideIn) {
-																						slideIn.classList.add('expanded-stage21');
-																					}
 
-																				let slideIn2 = document.querySelector('.rect-bar-1.two');
-																					if (slideIn2) {
-																						slideIn2.classList.add('expanded-stage22');
-																					}
-
-																					let slideIn3 = document.querySelector('.rect-bar-1.three');
-																					if (slideIn3) {
-																						slideIn3.classList.add('expanded-stage23');
-																					}
 
 																						}
 

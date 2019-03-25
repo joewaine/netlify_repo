@@ -22,13 +22,13 @@
             <div class="download-slider__content__text">
                 <a
                     title="Send Mail"
-                    href="https://info.microsoft.com/dynamics365-savvy-sales-leaders-guide-register.html"
+                    href="https://discover.microsoft.com/dynamics365-savvy-sales-leaders-guide-ebook/wp-content/uploads/sites/83/Dynamics365_SavvySeller_ebook.pdf"
                     target="_blank"
                     data-bi-bhvr="DOWNLOAD"
                     data-bi-dltype="e-book"
                     data-bi-dlnm="Manufacturing.pdf"
                     download
-                    id="Download-ebook-PDF:Manufacturing"
+                    id="Download-ebook-PDF:Dynamics365_SavvySeller_ebook"
                     @click="toggleClass"
                 >
                   <span>Download e-book</span>

@@ -15,7 +15,7 @@
 																</svg>
 												</div>
 												<div class="share-slider__content__text">
-																<a title="Send Mail" id="cta:email-link" href="mailto:johndoe@microsoft.com?subject=Planning for success with Project Online%20&body=Check out this article from Microsoft.com: https://discover.office.com/planning-for-success-with-project-online-ebook/%20" @click="toggleClass">
+																<a title="Send Mail" id="cta:email-link" href="mailto:?subject=Dynamics 365 Savvy Sales Leaders Guide&body=Check out the Dynamics 365 Savvy Sales Leaders Guide: https%3A%2F%2Fdiscover.microsoft.com%2Fdynamics365-savvy-sales-leaders-guide-ebook%2F" @click="toggleClass">
 																				<svg width="29" height="19" viewBox="0 0 29 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 																								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0182 10.1771L2 2.36619V17H27V2.47452L15.0182 10.1771ZM29 19H0V0H29V19ZM24.0396 2H5.27698L14.9818 7.82289L24.0396 2Z" fill="#3C3C41"></path>
 																				</svg>
@@ -68,7 +68,7 @@ export default {
 								},
 								copyUrl() {
 												let copyText =
-																"https://discover.office.com/planning-for-success-with-project-online-ebook/";
+																"https://discover.microsoft.com/dynamics365-savvy-sales-leaders-guide-ebook/";
 												copy(copyText)
 																.then(() => {
 																				this.copied = true;

@@ -250,6 +250,23 @@ export default {
 																},
 																afterLoad: function(origin, destination) {
 
+
+																												let slideIn = document.querySelector('.rect-bar-3.one');
+																												if (slideIn) {
+																																slideIn.classList.add('expanded-33');
+																												}
+
+																												let slideIn2 = document.querySelector('.rect-bar-3.two');
+																												if (slideIn2) {
+																																slideIn2.classList.add('expanded-10');
+																												}
+
+																												let slideIn3 = document.querySelector('.rect-bar-3.three');
+																												if (slideIn3) {
+																																slideIn3.classList.add('expanded-50');
+																												}
+																	
+
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
 																								for (var i = 0; i < landingHeader.length; ++i) {
@@ -280,20 +297,20 @@ export default {
 
 																								if (destination.index == 1) {
 
-																												let slideIn = document.querySelector('.rect-bar-3.one');
-																												if (slideIn) {
-																																slideIn.classList.add('expanded-33');
-																												}
+																												// let slideIn = document.querySelector('.rect-bar-3.one');
+																												// if (slideIn) {
+																												// 				slideIn.classList.add('expanded-33');
+																												// }
 
-																												let slideIn2 = document.querySelector('.rect-bar-3.two');
-																												if (slideIn2) {
-																																slideIn2.classList.add('expanded-10');
-																												}
+																												// let slideIn2 = document.querySelector('.rect-bar-3.two');
+																												// if (slideIn2) {
+																												// 				slideIn2.classList.add('expanded-10');
+																												// }
 
-																												let slideIn3 = document.querySelector('.rect-bar-3.three');
-																												if (slideIn3) {
-																																slideIn3.classList.add('expanded-50');
-																												}
+																												// let slideIn3 = document.querySelector('.rect-bar-3.three');
+																												// if (slideIn3) {
+																												// 				slideIn3.classList.add('expanded-50');
+																												// }
 
 																								}
 
