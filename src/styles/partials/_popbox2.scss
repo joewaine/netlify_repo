@@ -1,0 +1,364 @@
+.popbox2 {
+pointer-events: none;
+height: 300px;
+width: 165px;
+margin: 60px 100px 0px auto;
+    height: 220px;
+    width: 210px;
+margin: 0 auto;
+
+-moz-user-select: -moz-none;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+
+
+
+.box {
+width: 30px;
+background: #30EFD0;
+color: transparent;
+height: 30px;
+position: absolute;
+opacity: 0;
+
+
+&:nth-child(1) {
+                top: 180px;
+                left: 0;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0s;
+                }
+
+
+}
+
+
+&:nth-child(2) {
+                top: 135px;
+                left: 0;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .05s;
+                }
+
+
+}
+
+&:nth-child(3) {
+                top: 90px;
+                left: 0;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .1s;
+                }
+
+
+}
+
+&:nth-child(4) {
+                top: 45px;
+                left: 0;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .15s;
+                }
+
+
+}
+
+&:nth-child(5) {
+                top: 0px;
+                left: 0;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .2s;
+                }
+
+
+}
+
+&:nth-child(6) {
+                top: 180px;
+                left: 45px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .25s;
+                }
+
+
+}
+
+&:nth-child(7) {
+                top: 135px;
+                left: 45px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .3s;
+                }
+
+
+}
+
+&:nth-child(8) {
+                top: 90px;
+                left: 45px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .35s;
+                }
+
+
+}
+
+&:nth-child(9) {
+                top: 45px;
+                left: 45px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .4s;
+                }
+
+
+}
+
+&:nth-child(10) {
+                top: 0;
+                left: 45px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .45s;
+                }
+
+
+}
+
+&:nth-child(11) {
+                top: 180px;
+                left: 90px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.5s;
+                }
+
+
+}
+
+&:nth-child(12) {
+                top: 135px;
+                left: 90px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .55s;
+                }
+
+
+}
+
+&:nth-child(13) {
+                top: 90px;
+                left: 90px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.6s;
+                }
+
+
+}
+
+&:nth-child(14) {
+                top: 45px;
+                left: 90px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: .65s;
+                }
+
+
+}
+
+&:nth-child(15) {
+                top: 0;
+                left: 90px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.7s;
+                }
+
+
+}
+
+&:nth-child(16) {
+                top: 180px;
+                left: 135px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.75s;
+                }
+
+
+}
+
+&:nth-child(17) {
+                top: 135px;
+                left: 135px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.8s;
+                }
+
+
+}
+
+&:nth-child(18) {
+                top: 90px;
+                left: 135px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.85s;
+                }
+
+
+}
+
+&:nth-child(19) {
+                top: 45px;
+                left: 135px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.9s;
+                }
+
+
+}
+
+&:nth-child(20) {
+                top: 0px;
+                left: 135px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 0.95s;
+                }
+
+
+}
+
+&:nth-child(21) {
+                top: 180px;
+                left: 180px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 1.0s;
+                }
+
+
+}
+
+&:nth-child(22) {
+                top: 135px;
+                left: 180px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 1.05s;
+                }
+
+
+}
+
+&:nth-child(23) {
+                top: 90px;
+                left: 180px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 1.1s;
+                }
+
+
+}
+
+&:nth-child(24) {
+                top: 45px;
+                left: 180px;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 1.15s;
+                }
+
+
+}
+
+
+&:nth-child(25) {
+                top: 0px;
+                left: 180px;
+                background-color: white;
+
+
+                &.visible-box {
+                                animation: fade-seq .2s forwards;
+                                animation-delay: 1.2s;
+                }
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+}

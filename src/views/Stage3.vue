@@ -3,7 +3,7 @@
 								<full-page ref="fullpage" :options="options">
 												<!-- next -->
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																																<HeaderModule2 />
+																<HeaderModule2 />
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -54,46 +54,37 @@
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
 																								</div>
-		<!-- 																						<div class="col-xl-7 no-lr-pad green-bg btm-pad-xxl overflow-x-hidden">
+																								<!-- 																						<div class="col-xl-7 no-lr-pad green-bg btm-pad-xxl overflow-x-hidden">
 																												<div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
-
-
-
 																								<div class="col-xl-7 green-bg btm-pad-xxl overflow-x-hidden">
-																									<div class="row justify-content-center">
-																												<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
-
-
-                              <div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
-																																<div class="quote top-pad-sm">
-																																				“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
-																																</div>
-																																<div class="name">
-																																				Steve Mordue
-																																</div>
-																																<div class="title">
-																																				Microsoft Business Applications MVP
+																												<div class="row justify-content-center">
+																																<!-- <div class="col-lg-10 btm-pad-max top-pad-xxl fadeInAnimation fade-opacity-1"> -->
+																																<div class="col-lg-10 btm-pad-max top-pad-xxl landing-element">
+																																				<div class="quote top-pad-sm">
+																																								“Many companies allow good leads to fall through the cracks, but others lose revenue by letting their leads sit on a shelf.”
+																																				</div>
+																																				<div class="name">
+																																								Steve Mordue
+																																				</div>
+																																				<div class="title">
+																																								Microsoft Business Applications MVP
+																																				</div>
 																																</div>
 																												</div>
-																											</div>
 																								</div>
 																				</div>
 																</section>
 																<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow animated bounce" @click="$refs.fullpage.api.moveSectionDown()">
 																				next
-<!-- 																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
-																								<g id="Layer_2" data-name="Layer 2">
-																												<g id="content">
-																																<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1-light"></polygon>
+															
+																				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down">
+																								<g data-name="Layer 2">
+																												<g id="Text">
+																																<path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path>
 																												</g>
 																								</g>
-																				</svg> -->
-
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path></g></g></svg>
-
-
-																			</a>
+																				</svg>
+																</a>
 												</div>
 												<!-- next squares -->
 												<div id="nextSection" class="section light-grey-bg fp-auto-height" data-index="2">
@@ -132,62 +123,79 @@
 																																</div>
 																												</div>
 																								</div>
-
-
-
 																								<div class="col-xl-6 offset-xl-0 no-pad dk-grey-bg overflow-hidden">
 																												<div class="row justify-content-end top-pad-xxl btm-pad-max no-lr-margin">
-																											<div class="skills-100" style="display: none;">
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="dash">_</div>
-																																<div class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
-																																<!-- 
+																																<div class="skills-100" style="display: none;">
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="dash">_</div>
+																																				<div class="chart__bar" style="width: 30px;height: 96%;background-color: rgb(254, 240, 0);margin-bottom: 0;position: absolute;color: transparent;left: 30px;bottom: 0;">.</div>
+																																				<!-- 
 <div  class="chart__bar" style="width: 30px;height: 100%;background-color: rgb(254, 240, 0);margin-top: 140px;position: absolute;color: transparent;left: 30px;">.</div> -->
-																																<div class="charts" style="display: none;">
-																																				<div class="chart chart--dev">
-																																								<ul class="chart--horiz">
-																																												<li class="chart__bar" style="height: 360px;"></li>
-																																												<!-- <li class="chart__bar" style="height: 380px;"></li> -->
-																																								</ul>
+																																				<div class="charts" style="display: none;">
+																																								<div class="chart chart--dev">
+																																												<ul class="chart--horiz">
+																																																<li class="chart__bar" style="height: 360px;"></li>
+																																																<!-- <li class="chart__bar" style="height: 380px;"></li> -->
+																																												</ul>
+																																								</div>
 																																				</div>
 																																</div>
-																												</div>
-																												<div class="container">
+																																<div class="container">
+																																				<div class="row justify-content-center no-margin">
+																																								<div class="top-pad-xl col-lg-11 slide-in-3 slide-in-left">
+																																												<div class="btm-pad-lg xxl-text text-center">
+																																																<div class="popbox2">
+																																																				<div class="relative wh100-percent">
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
+<div class="box visible-box">.</div>
 
-																																<div class="row justify-content-center no-margin">
-																																				<div class="col-lg-11 slide-in-3 slide-in-left">
-																																								<div class="mint-text-block xxl-text text-center">
-																													<div style="width: 200px;height: 200px;background: #30EFD0;margin: 0 auto;">.</div>
+													
+																																																				</div>
+																																																</div>
+																																												</div>
+																																												<div class="white-text-block bold md-text">
+																																																<div id="value" style="">96%</div> believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
+																																												</div>
+																																												<div class="white-text lm-twelve">
+																																																&mdash;&nbsp;<a class="white-article-link" href="http://results.heinzmarketing.com/rs/966-VWE-480/images/Sigstr_eBook_The_State_of_Relationship_Marketing.pdf?mkt_tok=eyJpIjoiWkdNM01UazFabVUzWWpVeSIsInQiOiJSRE1NMHBxaE9lN0pwQ1wvakFqMUh2OHNmUFlScDVDamRuQzhBbzEydjA5aWV1ZlhKR01TMGNYbnNuR2VYb0VrTXh0UEliT01RK3M5OVwvT1FnVUdNa0JOOWNFZngydys1VUM3WTdYbXJvdHJJYmxITWo4R0hZOTI2TGlrQUxUTlhiIn0%3D" id="url:external-heinz-marketing-report" target="_blank">"The Power of Relationship Selling." Heinz Marketing and Microsoft
+																																																</a>
+																																												</div>
 																																								</div>
-
-
-    
-
-																																								<div class="white-text-block bold md-text">
-																																												<div id="value" style="">96%</div> believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
-																																								</div>
-																																	<div class="white-text lm-twelve">
-																																&mdash;&nbsp;<a class="white-article-link" href="http://results.heinzmarketing.com/rs/966-VWE-480/images/Sigstr_eBook_The_State_of_Relationship_Marketing.pdf?mkt_tok=eyJpIjoiWkdNM01UazFabVUzWWpVeSIsInQiOiJSRE1NMHBxaE9lN0pwQ1wvakFqMUh2OHNmUFlScDVDamRuQzhBbzEydjA5aWV1ZlhKR01TMGNYbnNuR2VYb0VrTXh0UEliT01RK3M5OVwvT1FnVUdNa0JOOWNFZngydys1VUM3WTdYbXJvdHJJYmxITWo4R0hZOTI2TGlrQUxUTlhiIn0%3D" id="url:external-heinz-marketing-report" target="_blank">"The Power of Relationship Selling." Heinz Marketing and Microsoft
-																																												</a>
-																																								</div>
-
 																																				</div>
 																																</div>
-																												</div>
 																												</div>
 																								</div>
-
-
-
-
 																								<div class="col-lg-6 col-md-12 dk-grey-bg no-lr-pad btm-pad-xxl overflow-hidden" style="display:none;">
 																												<div class="skills-100">
 																																<div class="dash">_</div>
@@ -272,20 +280,18 @@
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
 																																								</p>
 																																								<p>
-																								<span class="bold">Next:	<router-link id="url:stage-4-page" to="/stage4" class="chevron-link next-stage-link"><span class="stage-text">Stage 4</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
-<g>
-	<g>
-		<g>
-			<g>
-				<polygon class="st0-chevron" points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28"/>
-			</g>
-		</g>
-	</g>
-</g>
-</svg></span></router-link></span>
+																																												<span class="bold">Next: <router-link id="url:stage-4-page" to="/stage4" class="chevron-link next-stage-link"><span class="stage-text">Stage 4</span><span class="right-chevron"><svg width="11" height="11" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9.89 16.55" style="enable-background:new 0 0 9.89 16.55;" xml:space="preserve">
+																																																												<g>
+																																																																<g>
+																																																																				<g>
+																																																																								<g>
+																																																																												<polygon class="st0-chevron" points="1.62,16.55 0,14.94 6.64,8.28 0,1.62 1.62,0 9.89,8.28" />
+																																																																								</g>
+																																																																				</g>
+																																																																</g>
+																																																												</g>
+																																																								</svg></span></router-link></span>
 																																								</p>
-
 																																				</div>
 																																</div>
 																												</div>
@@ -294,25 +300,15 @@
 																</section>
 												</div>
 												<!-- stage five -->
-
-
-
-
-
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
-					
-												<Footer index="fade-opacity-6" />
-		
+																<Footer index="fade-opacity-6" />
 																<UniversalFooter />
-
-
 												</div>
-
 								</full-page>
 				</div>
 </template>
 <script>
-	import HeaderModule2 from '../components/HeaderModule2';
+import HeaderModule2 from '../components/HeaderModule2';
 import Footer from '../components/Footer';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
@@ -326,13 +322,13 @@ export default {
 								return {
 												options: {
 
-													licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
-													fadingEffect: false,
-													fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
-													autoScrolling: false,
-													scrollBar: true,
-													fitToSection: false,
-																afterRender(){
+																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
+																fadingEffect: false,
+																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
+																autoScrolling: false,
+																scrollBar: true,
+																fitToSection: false,
+																afterRender() {
 
 
 																},
@@ -447,7 +443,7 @@ export default {
 				},
 				name: 'App',
 				components: {
-					HeaderModule2,
+								HeaderModule2,
 								BurgerMenu,
 								UniversalFooter,
 								Footer
