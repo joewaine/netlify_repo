@@ -9,17 +9,20 @@
 								<div class="background-slide slide-6 bg-sunset" style="opacity:1;position:fixed;">image</div>
 								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 100px;position: fixed;bottom: 0;z-index: 100;">
 												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
-															<!-- 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																<!-- 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
 																				<g id="Layer_2" data-name="Layer 2">
 																								<g id="content">
 																												<polygon points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" class="cls-1"></polygon>
 																								</g>
 																				</g>
 																</svg> -->
-
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path"></path></g></g></svg>
-																
+																<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down">
+																<g data-name="Layer 2">
+																 <g id="Text">
+																	<path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path"></path>
+																	</g>
+																      </g>
+																</svg>
 												</a>
 								</div>
 								<div style="height:0;">
@@ -86,25 +89,16 @@
 																				<div class="white-transparent" style="position: absolute;bottom: 0px;height: 60vh;margin-left: -15px;">
 																								<div class="container offset-md-1 stage-line-border no-pad relative">
 																												<div class="col-md-10 col-sm-11 col-xs-12 top-pad-xl fadeInAnimation">
-
-
-
-<!-- 
+																																<!-- 
 																																<div class="stage-stroke mobile">_</div> -->
 																																<div class="section-title mobile">stage 1</div>
 																																<h2 class="green-text">
-																																Use relationship selling to connect with customers and accelerate sales
+																																				Use relationship selling to connect with customers and accelerate sales
 																																</h2>
 																																<p>
-																						If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
+																																				If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
 																																</p>
-
-
-
-
-																<router-link id="url:overview-page" to="/overview" class="btn dark-btn">LEARN MORE</router-link>
-
-
+																																<router-link id="url:overview-page" to="/overview" class="btn dark-btn">LEARN MORE</router-link>
 																																<!-- <router-link id="url:overview-page" to="/overview" class="btn dark-btn-border">LEARN MORE</router-link> -->
 																												</div>
 																								</div>
@@ -126,8 +120,8 @@
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110 fadeInAnimation">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
- 																											<span>STAGE 1</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																												<span>STAGE 1</span>
+																												<h2 class="top-pad-110 no-left-pad">
 																																Identify the right leads
 																												</h2>
 																												<p>
@@ -157,7 +151,7 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 2</div>
 																												<span>STAGE 2</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																												<h2 class="top-pad-110 no-left-pad">
 																																Nurture leads and build relationships
 																												</h2>
 																												<p>
@@ -188,7 +182,7 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
 																												<span>STAGE 3</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																												<h2 class="top-pad-110 no-left-pad">
 																																Capitalize on opportunities to convert
 																												</h2>
 																												<p>
@@ -218,7 +212,7 @@
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
 																												<span>STAGE 4</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																												<h2 class="top-pad-110 no-left-pad">
 																																Deliver relationship sales at scale
 																												</h2>
 																												<p>
@@ -243,12 +237,11 @@
 												<div id="bg-image" class="section blue-bg" data-index="5">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																						
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">sales story</div>
 																												<span>SALES STORY</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																												<h2 class="top-pad-110 no-left-pad">
 																																The view’s better from here
 																												</h2>
 																												<p>
@@ -275,19 +268,13 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																							Watch our videos to learn more about Microsoft Relationship Sales solution.
+																												Watch our videos to learn more about Microsoft Relationship Sales solution.
 																								</p>
-
-
-
-					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">WATCH NOW</a>
-
-
-
+																								<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">WATCH NOW</a>
 																				</div>
 																</div>
 																<div class="row justify-content-center no-lr-margin fadeInAnimation">
-																		<!-- 		<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
+																				<!-- 		<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-lg">
 																								<a id="url:external-learn-more" class="btn dark-btn white-txt" href="" target="_blank">Learn more</a>
 																				</div>
 																				<div class="col-lg-5 col-md-5 col-sm-12 top-pad-lg btm-pad-xls">
@@ -305,8 +292,6 @@
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
-
-
 																<DownloadSlider />
 																<UniversalFooter />
 												</div>
@@ -346,6 +331,10 @@ export default {
 								DownloadSlider
 				},
 				methods: {
+
+
+
+
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
 												navbar.classList.toggle('expanded');
@@ -364,22 +353,22 @@ export default {
 								onLeave: function(origin, destination) {
 
 
-					
-
-
-
-if(!destination.index == 1){
-						this._data.count = destination.index - 1;
-			}
 
 
 
 
-									if(destination.index == 0){
-										document.querySelector('.stage-box').style.opacity = 0;
-									}else{
-											document.querySelector('.stage-box').style.opacity = 1;
-									}
+												if (!destination.index == 1) {
+																this._data.count = destination.index - 1;
+												}
+
+
+
+
+												if (destination.index == 0) {
+																document.querySelector('.stage-box').style.opacity = 0;
+												} else {
+																document.querySelector('.stage-box').style.opacity = 1;
+												}
 
 												document.querySelector('.background-slide.slide-0').style.opacity = 0;
 												document.querySelector('.background-slide.slide-1').style.opacity = 0;
@@ -397,9 +386,11 @@ if(!destination.index == 1){
 
 
 
-						this._data.count = destination.index - 1;
 
-		
+
+												this._data.count = destination.index - 1;
+
+
 
 												document.querySelector('.down-arrow-global').style.opacity = 1;
 
@@ -478,7 +469,7 @@ if(!destination.index == 1){
 																document.getElementById('stage-line-container').style.pointerEvents = 'none';
 												}
 
-	
+
 
 								}
 
