@@ -10,7 +10,7 @@
 											<!-- 									<a id="url:external-watch-videos" href="https://dynamics.microsoft.com/en-us/sales/demo/" style="text-decoration: underline;" target="_blank">Watch our videos</a> to learn more about Relationship Sales solutions, or <a id="url:request-demo" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" style="text-decoration: underline;" target="_blank">request a demo</a>. -->
 
 
-Watch our videos to learn more about Microsoft Relationship Sales solution.
+Watch our videos to learn more about the Microsoft Relationship Sales solution.
 
 																</p>
 

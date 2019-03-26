@@ -10,7 +10,7 @@
 								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 100px;position: fixed;bottom: 0;z-index: 100;">
 												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
 														
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 17">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17">
 	<g data-name="Layer 2">
 		<g id="Text">
 			<path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path"></path>
@@ -273,7 +273,7 @@
 																												Personalizing sales relationships can lead to better opportunities—and more sales—for your business.
 																								</h2>
 																								<p class="size-md">
-																							Watch our videos to learn more about Microsoft Relationship Sales solution.
+																							Watch our videos to learn more about the Microsoft Relationship Sales solution.
 																								</p>
 
 
