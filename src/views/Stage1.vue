@@ -1,5 +1,5 @@
 <template>
-				<div v-on:scroll.passive="scrollLog()">
+				<div>
 								<full-page ref="fullpage" :options="options">
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
 																																<HeaderModule2 />
@@ -295,7 +295,6 @@ export default {
 
 				data() {
 								return {
-									scrolled: false,
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: false,
@@ -440,25 +439,6 @@ export default {
 								Footer
 				},
 				methods: {
-//     handleScroll (event) {
-			
-// 			let velocity = 0.5;
-// 			let pos = window.scrollY;
-//    let backgroundImage = document.querySelector('.bg-white-paper');
-
-
-// console.log('scroll y of element: ' + backgroundImage);
-
-// 	  let height =  backgroundImage.clientHeight;
-
-// 			backgroundImage.style.backgroundPosition = '0% ' + Math.round((height/10 - pos/10 - 100) * velocity) + 'px';
-
-
-
-
-
-//     },
-
 								scrollToNext: function(element) {
 												window.scroll({
 																behavior: 'smooth',
@@ -473,14 +453,7 @@ export default {
 																top: 0
 												});
 								}
-}
-// created () {
-//     window.addEventListener('scroll', this.handleScroll);
-//   },
-//   destroyed () {
-//     window.removeEventListener('scroll', this.handleScroll);
-//   }
 				}
-
+}
 
 </script>
