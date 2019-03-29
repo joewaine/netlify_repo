@@ -34,8 +34,11 @@
 																				</div>
 																				<div class="row justify-content-center no-lr-margin">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
+																									<p class="teal-sub-head">
+																										Customers come to you because they have problems. You solve those problems.
+																									</p>
 																												<p>
-																																Customers come to you because they have problems. You solve those problems. But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
+																																But what if you could anticipate and solve the problems they don’t yet realize they have? Relationship selling focuses on listening to your prospects and customers and recognizing opportunities.
 																												</p>
 																												<p>
 																																The challenge at this stage is identifying those opportunities and knowing when you have the best odds of being heard.

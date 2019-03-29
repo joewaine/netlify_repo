@@ -37,8 +37,11 @@
 																				</div>
 																				<div class="row justify-content-center no-lr-margin">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
+																											<p class="teal-sub-head">
+																													Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust.
+																												</p>
 																												<p>
-																																Identifying and creating natural ways to foster and maintain professional relationships leads to deeper connections, long-term loyalty, and trust. And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects. Not just any prospects, but those who are able to make purchase decisions for their company.
+																															And trust translates to healthy sales. At this first stage of the sales journey, you’re intent on identifying new prospects. Not just any prospects, but those who are able to make purchase decisions for their company.
 																												</p>
 																												<p>
 																																You certainly have more resources today than sellers did a decade ago. The internet, social platforms, and professional online groups help you cast a much wider net, but how can you best capture the right contacts? Blindly shooting for the moon and hoping you land among the stars sounds great, but it’s just not realistic. There are several challenges to finding the right leads.

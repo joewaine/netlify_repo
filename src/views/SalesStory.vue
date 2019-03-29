@@ -33,7 +33,7 @@
 																				</div>
 																				<div class="row justify-content-center no-lr-margin">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
-																												<p>Relationship selling powered by tech</p>
+																												<p class="teal-sub-head">Relationship selling powered by tech.</p>
 																												<p>
 																																Relationship selling works at every stage of the sales process—from identifying key prospects to nurturing them, building relationships, and capitalizing on opportunities to convert them to sales. And it can be done at scale, so there are no limits to where your sales career can take you.
 																												</p>
@@ -168,7 +168,7 @@
 																																								Let’s look at an example of how relationship selling drives sales.
 																																				</h2>
 																																				<p class="top-pad-xl">
-																																								Tomas is a sales rep for a lawn care equipment manufacturer. His customers include retailers, dealers, and lawn care service providers in the Midwest. To reach his quarterly quota, Tomas needs one more large order. Instead of spending hours searching for the right leads online, Tomas uses the advanced search tool on LinkedIn to quickly locate Jamie, a valuable lead at a lawn care company in Kansas City
+																																								Tomas is a sales rep for a lawn care equipment manufacturer. His customers include retailers, dealers, and lawn care service providers in the Midwest. To reach his quarterly quota, Tomas needs one more large order. Instead of spending hours searching for the right leads online, Tomas uses the advanced search tool on LinkedIn to quickly locate Jamie, a valuable lead at a lawn care company in Kansas City.
 																																				</p>
 																																				<p>
 																																								Rather than cold calling her, he receives a referral from a colleague who’s connected with Jamie. And he relies on recommendations based on predictive analytics to determine the best time and day to reach out to her.

@@ -123,7 +123,7 @@
 																																																
 
 																																								<div class="grey-text lm-twelve top-pad-lg">
-																																&mdash;&nbsp;<a class="grey-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report
+																																&mdash;&nbsp;<a class="grey-article-link in-list" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report
 																																												</a>
 
 

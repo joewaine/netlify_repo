@@ -35,8 +35,11 @@
 																				</div>
 																				<div class="row justify-content-center no-lr-margin">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
+																														<p class="teal-sub-head">
+																															Working on a relationship is a continuous cycle.
+																														</p>
 																														<p>
-																																Working on a relationship is a continuous cycle. It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for. Imagine what your end-of-the-month reports would look like if you could anticipate the needs of every connection and deliver real value—in the form of useful information that drives business forward—to every customer.
+																																 It’s not enough to connect with the ideal leads; those prospects must be wooed. In sales, that means providing the value your educated buyers are looking for. Imagine what your end-of-the-month reports would look like if you could anticipate the needs of every connection and deliver real value—in the form of useful information that drives business forward—to every customer.
 																												</p>
 																												<p>
 																																In today’s sales climate, that’s not easy to do. <span class="bold">But with the right tools, you can tackle the challenges that stand in the way of becoming a powerhouse resource for your prospects.</span>

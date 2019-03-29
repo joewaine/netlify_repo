@@ -33,8 +33,11 @@
 																				</div>
 																				<div class="row justify-content-center no-lr-margin">
 																								<div class="col-xl-5 col-lg-10 col-md-10 top-pad-lg landing-element">
+																											<p class="teal-sub-head">
+																																You have prospect data. Lots of it. And you’re collecting it every second of every day.
+																											</p>
 																												<p>
-																																You have prospect data. Lots of it. And you’re collecting it every second of every day. Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
+Your data is analog. It’s digital. It’s in people’s heads. It’s in physical Rolodexes. It’s on laptops. It’s in mobile phones. It’s in the cloud. It’s in ink. It’s in spreadsheets. It’s in water cooler conversations. It’s over lunch. It’s in texts. It’s in phone calls. It’s in email. But you can’t drive revenue with your data unless you can filter it and then organize it into stories that drive the long-term relationships that lead to sales.
 																												</p>
 																												<p>
 																																Meaningful relationships that last are those that are continually nurtured. Nurturing a few relationships is manageable, but nurturing dozens is more time-consuming. Successfully finding and engaging with the right buyers isn’t enough. <span class="bold">Your relationships also need to be sustainable and scalable, and that presents a few core challenges.</span>
