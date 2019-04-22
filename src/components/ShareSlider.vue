@@ -15,12 +15,18 @@
 																</svg>
 												</div>
 												<div class="share-slider__content__text">
-																<a title="Send Mail" id="cta:email-link" href="mailto:?subject=Dynamics 365 Savvy Sales Leaders Guide&body=Check out the Dynamics 365 Savvy Sales Leaders Guide: https%3A%2F%2Fdiscover.microsoft.com%2Fdynamics365-savvy-sales-leaders-guide-ebook%2F" @click="toggleClass">
+
+
+
+
+
+
+																<a title="Send Mail" data-bi-area="fixed-side-slider-module" data-bi-bhvr="SOCIALSHARE" data-bi-socchn="email-share​" id="social-share-email" href="mailto:?subject=Dynamics 365 Savvy Sales Leaders Guide&body=Check out the Dynamics 365 Savvy Sales Leaders Guide: https%3A%2F%2Fdiscover.microsoft.com%2Fdynamics365-savvy-sales-leaders-guide-ebook%2F" @click="toggleClass">
 																				<svg width="29" height="19" viewBox="0 0 29 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 																								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0182 10.1771L2 2.36619V17H27V2.47452L15.0182 10.1771ZM29 19H0V0H29V19ZM24.0396 2H5.27698L14.9818 7.82289L24.0396 2Z" fill="#3C3C41"></path>
 																				</svg>
 																</a>
-																<a title="Copy Link" id="cta:copy-link-to-clipboard" @click="copyUrl">
+																<a title="Copy Link" data-bi-area="fixed-side-slider-module" data-bi-bhvr="SOCIALSHARE" data-bi-socchn="copy-url-share​" id="social-share-copy-url" @click="copyUrl">
 																				<svg id="copySvg" width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																								<path :class="{'make-light-blue':copied}" class="share-slider__content__text__copy-svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M16 15V2H2V15H16ZM0 0V17H18V0H0Z" fill="#3C3C41"></path>
 																								<path :class="{'make-light-blue':copied}" class="share-slider__content__text__copy-svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M23 8H9V21H23V8ZM7 6V23H25V6H7Z" fill="#3C3C41"></path>

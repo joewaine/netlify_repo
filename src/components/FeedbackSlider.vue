@@ -1,23 +1,34 @@
 <template >
-    <div
+<!--     <div
+        :class="{
+            'feedback-slider': true,
+            active: this.active,
+            show: this.revealed
+        }"
+    > -->
+
+  <div
         :class="{
             'feedback-slider': true,
             active: this.active,
             show: this.revealed
         }"
     >
+
         <section class="feedback-slider__content">
-            <div
+<!--             <div
                 title="Download"
                 class="feedback-slider__content__icon"
                 @click="toggleClass"
-            >
-                <!-- <svg xmlns="http://www.w3.org/2000/svg"
-                     viewBox="0 0 23.8 38"
-                     width="24"
-                     height="32">
-                     <path class="st0" fill="#30752f" d="M22.8 19.8l-10.9 11L1 19.8l1.6-1.6 8.2 8.3V1H13v25.5l8.2-8.3 1.6 1.6zM1.8 37v-2.3H22V37H1.8z"/>
-                </svg> -->
+            > -->
+
+          <div
+              title="Feedback"
+              class="feedback-slider__content__icon"
+              @click="toggleClass"
+          >
+
+
                 <svg viewBox="0 0 50 50" width="50" xmlns="http://www.w3.org/2000/svg">
                   <g class="stroke-change" stroke="#008273" stroke-width="2" fill="none" fill-rule="evenodd">
                     <polygon points="19.6785714 35 11 35 11 19.6666667 19.6785714 19.6666667 19.6785714 20.9075145"></polygon>
@@ -26,21 +37,42 @@
                   </g>
                 </svg>
             </div>
-            <div class="feedback-slider__content__text">
+
+         <div class="feedback-slider__content__text" v-if="!feedbackSubmitted">
+                <span class="feedback-text">Was this content helpful?</span>
+                <a
+                    title="Yes"
+                    id="feedback-yes"
+                    v-on:click="toggleClass;feedbackFun()" data-bi-bhvr="VOTE" data-bi-fbnm="yes" data-bi-fbcat="content" data-bi-area="fixed-side-slider-module">Yes</a>
+                <a
+                    title="No"
+                    id="feedback-no"
+                    v-on:click="toggleClass;feedbackFun()" data-bi-bhvr="VOTE" data-bi-fbnm="no" data-bi-fbcat="content" data-bi-area="fixed-side-slider-module">No</a>
+            </div>
+
+            <div class="feedback-slider__content__text" v-else>
+                <span class="feedback-text">Submitted!</span>
+            </div>
+            
+<!--             <div class="feedback-slider__content__text">
                 <span class="feedback-text">Was this content helpful?</span>
                 <a
                     title="Send Mail"
                     id="cta:feedback:helpful"
-                    @click="toggleClass"
+                    @click="toggleClass;feedbackFun()"
                 >Yes
                 </a>
                 <a
                     title="Send Mail"
                     id="cta:feedback:not-helpful"
-                    @click="toggleClass"
+                    @click="toggleClass;feedbackFun()"
                 >No
                 </a>
             </div>
+    <div class="feedback-slider__content__text">
+                <span class="feedback-text">Submitted!</span>
+            </div> -->
+
         </section>
     </div>
 </template>
@@ -52,7 +84,9 @@ export default {
   data() {
     return {
       active: false,
-      revealed: false
+      revealed: false,
+      feedbackSubmitted: false,
+      disableFeedback: false
     };
   },
   mounted() {
@@ -76,6 +110,11 @@ export default {
     toggleClass() {
       this.active = !this.active;
     },
+    feedbackFun() {
+      this.feedbackSubmitted = true;
+      setTimeout(function () { this.toggleClass() }.bind(this), 1000)
+       // setTimeout(()=> {this.disableFeedback = true;}, 1000);
+    },
     isRevealed(isShown) {
       this.revealed = isShown;
     }
@@ -88,18 +127,8 @@ export default {
   position: fixed;
   right: -225px;
   // top: calc(30% + 110px);
-
-
   // top: calc(30% + 55px);
-
-
-
    bottom: calc(30% - 110px);
-
-
-
-
-
   width: 225px !important;
   height: 50px;
   border: 1px solid #707070;
@@ -158,19 +187,19 @@ export default {
       padding: 0;
       padding-right: 0;
       a {
-        text-decoration: none;
-        color: #3c3c41;
-        border-bottom: 1px solid #ffffff;
-        transition: all 250ms ease;
-        cursor: pointer;
-        font-size: 12px;
-        line-height: 16px;
-        color: rgb(0, 130, 115);
+        text-decoration: none !important;
+        color: #3c3c41 !important;
+        border-bottom: 1px solid #ffffff !important;
+        transition: all 250ms ease !important;
+        cursor: pointer !important;
+        font-size: 12px !important;
+        line-height: 16px !important;
+        color: rgb(0, 130, 115) !important;
         span {
-          color: rgb(0, 130, 115);
+          color: rgb(0, 130, 115) !important;
         }
         &:hover {
-          border-color: rgb(0, 130, 115);
+          border-color: rgb(0, 130, 115) !important;
         }
       }
       svg {

@@ -1,4 +1,8 @@
 // Typography declaration
+#app{
+
+
+
 
 body {
                 font-family: $segoe;
@@ -272,6 +276,10 @@ h2 {
                 font-size: 2em;
                 line-height: 1.4em;
                 padding: 15px;
+                font-family: $segoe--semi;
+
+
+
 
                 &.bold {
                                 font-family: $segoe--semi;
@@ -339,6 +347,10 @@ h2 {
                 color: $text--btn-link;
 
                 .stage-text {
+
+
+                                font-family: $segoe--semi;
+                                font-weight: $semi-bold;
                                 margin-right: 2px;
                                 border-bottom: 1px solid transparent;
                                 transition: all .25s ease;
@@ -515,8 +527,23 @@ h2 {
 
 
 .teal-sub-head{
+                    font-family: $segoe--semi;
+                font-weight: $semi-bold;
         font-size: 1.4em;
     color: #008273;
     line-height: 1.4em;
 }
 
+
+.top-pad-164{
+    span{
+    font-family: $segoe;
+    font-size: 16px;
+    font-weight: $normal;
+
+    line-height: 22px;
+    color: #000;
+    }
+}
+
+}

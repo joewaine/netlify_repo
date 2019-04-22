@@ -1,3 +1,7 @@
+
+
+#app{
+
 .rect-bar-10 {
 				width: 150px;
 				background: #30EFD0;
@@ -287,7 +291,7 @@ pointer-events: none;
 
 
 
-
+.image-background-fades{overflow: hidden;}
 
 
 .rect-bar-2 {
@@ -515,5 +519,6 @@ pointer-events: none;
    */
 -ms-user-select: none;
 user-select: none;
+}
 }
 

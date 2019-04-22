@@ -13,6 +13,7 @@ export default {
     DownloadSlider,
     ShareSlider,
     FeedbackSlider
+
   }
 }
 </script>
@@ -24,6 +25,8 @@ export default {
     <DownloadSlider />
     <ShareSlider />
     <FeedbackSlider />
+
+
   <Nav />
   </div>
 </template>

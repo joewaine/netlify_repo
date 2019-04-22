@@ -3,7 +3,7 @@
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 39.93" width="22" height="22">
 												<defs>
 												</defs>
-												<title>burger</title>
+												<title>menu</title>
 												<g id="Layer_2" data-name="Layer 2">
 																<g id="content">
 																				<rect class="cls-1" width="43" height="3.07" />

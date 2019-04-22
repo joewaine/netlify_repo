@@ -19,18 +19,10 @@
                      <path class="st0" fill="#008273" d="M22.8 19.8l-10.9 11L1 19.8l1.6-1.6 8.2 8.3V1H13v25.5l8.2-8.3 1.6 1.6zM1.8 37v-2.3H22V37H1.8z"/>
                 </svg>
             </div>
+
+
             <div class="download-slider__content__text">
-                <a
-                    title="Send Mail"
-                    href="https://discover.microsoft.com/dynamics365-savvy-sales-leaders-guide-ebook/wp-content/uploads/sites/83/Dynamics365_SavvySeller_ebook.pdf"
-                    target="_blank"
-                    data-bi-bhvr="DOWNLOAD"
-                    data-bi-dltype="e-book"
-                    data-bi-dlnm="Manufacturing.pdf"
-                    download
-                    id="Download-ebook-PDF:Dynamics365_SavvySeller_ebook"
-                    @click="toggleClass"
-                >
+ <a title="Download-ebook-PDF" data-bi-bhvr="DOWNLOAD" data-bi-dlnm="Dynamics365_SavvySeller_ebook" data-bi-dltype="e-book" id="Download-ebook-PDF:Dynamics365_SavvySeller_ebook" href="https://info.microsoft.com/dynamics365-savvy-sales-leaders-guide-register.html" target="_blank">
                   <span>Download e-book</span>
                 </a>
             </div>

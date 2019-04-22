@@ -1,3 +1,6 @@
+
+#app{
+
 body {
                 overflow-x: hidden !important;
 }
@@ -117,12 +120,12 @@ body {
 
 
 header {
-                height: 100px;
+                // height: 100px;
                 width: 100%;
                 background: white;
 }
 
-nav {
+nav#slideNav {
                 background: $bg--dk-grey-alt;
                 position: fixed;
                 z-index: 100;
@@ -147,7 +150,7 @@ nav {
                 }
 }
 
-nav.expanded {
+nav#slideNav.expanded {
                 right: 0;
 }
 
@@ -668,6 +671,11 @@ nav.expanded {
 
 .top-pad-xl {
                 padding-top: 3em
+}
+
+
+.landing-top-pad-xl{
+                padding-top: 2.5em
 }
 
 .top-pad-lg {
@@ -2018,6 +2026,8 @@ ul {
                 // border-left: 1px solid ;
                 width: 300px;
                 pointer-events: none;
+
+                    top: 54px;
 }
 
 .top-pad-200 {
@@ -2039,11 +2049,22 @@ ul {
         margin-left: 0;     
 
 
-
-
-
-
 }    
+
+
+.top-pad-164{
+        padding-top: 164px;   
+        padding-left: 0;
+        padding-left: 8.333333%;
+        margin-left: 0;   
+}
+
+h2.top-pad-56.no-left-pad{
+            padding-top: 56px;   
+        padding-left: 0;
+        padding-left: 0;
+        margin-left: 0;   
+}
 
 
 // .top-pad-110.no-left-pad{
@@ -2190,7 +2211,7 @@ h2.top-pad-110.no-left-pad{
 
 
 @media (max-width: 640px) {
-
+                .top-pad-164,
                 .top-pad-110,
                 .top-pad-200 {
                                 padding-top: 20px;
@@ -2202,10 +2223,17 @@ h2.top-pad-110.no-left-pad{
                                 font-size: 1.5em;
                                 line-height: 1.2em;
                 }
-
                 .top-pad-110,
                 .top-pad-200 {
                                 padding-top: 10px;
+                }
+                .top-pad-164 {
+                                padding-top: 64px;
+                }
+
+
+                h2.top-pad-56.no-left-pad{
+                    padding-top: 26px;
                 }
 
 
@@ -2281,7 +2309,7 @@ h2.top-pad-110.no-left-pad{
                                 transition: width 0.5s ease;
                                 position: absolute;
                                 left: 0;
-                                top: 20px;
+                                top: 74px;
                                 display: block;
                                 // display: none;
 
@@ -2318,7 +2346,7 @@ h2.top-pad-110.no-left-pad{
                                 padding-top: 0.05em;
                 }
 
-                nav {
+                nav#slideNav {
                                 top: 146px;
                                 padding-top: 30px;
                                 padding-bottom: 30px;
@@ -2714,8 +2742,11 @@ right: 10px;
 
                                 &:hover {
 
+
                                                 .st0 {
                                                                 fill: $bg--light-grey;
+                                                
+                                                    opacity: .8 !important;
                                                 }
 
 
@@ -2833,7 +2864,7 @@ position: absolute;
 .slide-1 {
                 background: url(assets/img/stage-2.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -2853,7 +2884,7 @@ position: absolute;
 
                 background: url(assets/img/sunset.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -2864,7 +2895,7 @@ position: absolute;
 .slide-3 {
                 background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -2879,7 +2910,7 @@ position: absolute;
 
                 background: url(assets/img/home-hero.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -2894,7 +2925,7 @@ position: absolute;
 background-color: $bg--grey;
                 // background: url(assets/img/home-hero.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -2908,7 +2939,7 @@ background-color: $bg--grey;
 .slide-4 {
                 background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
                 width: 100%;
-                height: 100%;
+                height: 102%;
                 color: transparent;
                 background-size: cover;
 
@@ -3605,4 +3636,29 @@ transition: all 300ms ease-out;
 .arrow-path-white{
     fill: #fff;
 }
+
+
+
+.moveToTop svg .st0.up-arrow{
+    
+      fill: #ffffff !important;
+
+
+}
+.moveToTop svg .st1.up-arrow{
+
+
+       fill: #008273 !important;
+
+}
+
+}
+
+
+
+
+
+
+
+
 

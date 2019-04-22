@@ -1,8 +1,8 @@
 <template>
-				<div>
+				<div class="subpage">
 								<full-page ref="fullpage" :options="options">
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																																<HeaderModule2 />
+																																<!-- <HeaderModule2 /> -->
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -123,7 +123,7 @@
 																																																
 
 																																								<div class="grey-text lm-twelve top-pad-lg">
-																																&mdash;&nbsp;<a class="grey-article-link in-list" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report
+																																&mdash;&nbsp;<a class="grey-article-link in-list" href="http://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-Whitepaper-NucleusReport.pdf" id="url:external-nucleus-report" target="_blank">Nucleus Report
 																																												</a>
 
 
@@ -148,10 +148,15 @@
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
 																								<div id="image-background-fades" class="col-xl-6 no-pad bg-sweaters-square image-bg-transition hide-image-mobile">
+																								
+
+																												<!-- <div class="rect-cover" style="width:100%;height:100%;overflow: hidden;"> -->
 																												<div class="rect-bar-2 one">.</div>
 																												<div class="rect-bar-2 two">.</div>
 																												<div class="rect-bar-2 three">.</div>
 																												<div class="rect-bar-2 four">.</div>
+																											<!-- </div> -->
+
 																												<div class="background-slide-square slide-1" style="opacity:0">image</div>
 																												<div class="background-slide-square slide-2" style="opacity:0">image</div>
 																												<div class="background-slide-square slide-3" style="opacity:0">image</div>
@@ -219,9 +224,23 @@
 
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
 								
-																<Footer index="fade-opacity-3" />
-																<UniversalFooter />
+																<Footer index="fade-opacity-2" />
+																<!-- <UniversalFooter /> -->
 												</div>
+ <div id="msFooter" class="ms-footer section" data-index="4"></div>
+						
+<!-- <div id="footerArea">
+	
+<div>
+	
+this is the footer area 
+
+</div>
+
+</div> -->
+
+ 
+
 								</full-page>
 				</div>
 </template>
@@ -234,6 +253,9 @@
 				<img src="../assets/img/square/iphone-square.jpg" />
 </div>
 <script>
+import { EventBus } from '../main.js';
+import { FooterVariable } from '../main.js';
+
 
 
 import HeaderModule2 from '../components/HeaderModule2';
@@ -272,7 +294,16 @@ export default {
 								Footer,
 								HeaderModule2
 				},
+				variables:{
+
+FooterVariable
+
+				},
+
 				methods: {
+
+
+
 								scrollToZero: function() {
 												window.scrollTo(0, 0);
 								},
@@ -361,6 +392,9 @@ setTimeout(function(){
 																var sectionName = '.fade-opacity-' + destination.index;
 																var opacity = document.querySelectorAll(sectionName);
 
+
+																console.log(sectionName);
+
 																for (var i3 = 0; i3 < opacity.length; ++i3) {
 																				opacity[i3].classList.add('fade-visible-2');
 																}
@@ -402,7 +436,24 @@ setTimeout(function(){
 
 
 								}
-				}
+							},
+			
+mounted() {
+
+if(!FooterVariable.name){
+ FooterVariable.name = document.getElementById("footerArea");
+
 }
+
+let msFooterChild = document.getElementById("msFooter").firstChild;
+msFooterChild.appendChild(FooterVariable.name);
+
+
+
+}
+
+
+}
+
 
 </script>

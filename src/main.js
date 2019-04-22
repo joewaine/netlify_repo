@@ -1,3 +1,5 @@
+
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import 'fullpage.js/vendors/scrolloverflow'
@@ -5,6 +7,12 @@ import './fullpage.fadingEffect.min'
 import VueFullPage from 'vue-fullpage.js'
 
 import App from './App.vue'
+
+export const EventBus = new Vue();
+
+
+export let FooterVariable = {}
+
 
 
 Vue.config.productionTip = false

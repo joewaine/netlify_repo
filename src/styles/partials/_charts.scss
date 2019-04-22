@@ -18,7 +18,7 @@
 
 
 // chart 1
-
+#app{
 .skills {
     width: 140px;
     height: 100%;
@@ -750,11 +750,14 @@ animation-play-state: paused;
 .bar-chart-gradient{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fef000+0,fef000+30,30efd0+31,30efd0+66,ebebeb+67,ebebeb+100 */
 background: #fef000; /* Old browsers */
-background: -moz-linear-gradient(top, #fef000 0%, #fef000 38%, #30efd0 38.1%, #30efd0 66%, #ebebeb 75%, #ebebeb 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #fef000 0%,#fef000 38%,#30efd0 38.1%,#30efd0 66%,#ebebeb 75%,#ebebeb 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #fef000 0%,#fef000 38%,#30efd0 38.1%,#30efd0 66%,#ebebeb 75%,#ebebeb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top, #fef000 0%, #fef000 38%, #30efd0 38.1%, #30efd0 74.9%, #ebebeb 75%, #ebebeb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fef000 0%,#fef000 38%,#30efd0 38.1%,#30efd0 74.9%,#ebebeb 75%,#ebebeb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fef000 0%,#fef000 38%,#30efd0 38.1%,#30efd0 74.9%,#ebebeb 75%,#ebebeb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef000', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
 }
+
+
+
 
 // chart
 
@@ -1142,3 +1145,4 @@ margin-left: 24px;
 
 // chart 1
 
+}

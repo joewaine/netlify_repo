@@ -1,5 +1,7 @@
 <template>
 				<div>
+
+
 								<div class="background-slide slide-0 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-1 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-2 bg-tablet-smiling" style="opacity:1;position:fixed;">image</div>
@@ -7,7 +9,7 @@
 								<div class="background-slide slide-4 bg-view" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-5 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-6 bg-sunset" style="opacity:1;position:fixed;">image</div>
-								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 100px;position: fixed;bottom: 0;z-index: 100;">
+								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 0px;position: fixed;bottom: 0;z-index: 100;">
 												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
 														
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17">
@@ -68,12 +70,12 @@
 								</div>
 								<full-page ref="fullpage" :options="options">
 												<div id="bg-image" class="section bg-home" data-index="0">
-																<HeaderModule />
+																<!-- <HeaderModule /> -->
 																<div class="container relative" style="">
 																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
 																								<div class="row justify-content-center">
 																												<div class="col-lg-10 col-md-12">
-																																<h1 class="top-pad-xl landing-element">
+																																<h1 class="landing-top-pad-xl landing-element">
 																																				The savvy sales leader’s guide to building profitable relationships
 																																</h1>
 																												</div>
@@ -121,11 +123,11 @@
 												<div id="bg-image" class="section blue-bg" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110 fadeInAnimation">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164 fadeInAnimation">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 1</div>
  																											<span>STAGE 1</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																											<h2 class="top-pad-56 no-left-pad">
 																																Identify the right leads
 																												</h2>
 																												<p>
@@ -151,11 +153,11 @@
 												<div id="bg-image" class="section blue-bg" data-index="2">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 2</div>
 																												<span>STAGE 2</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																											<h2 class="top-pad-56 no-left-pad">
 																																Nurture leads and build relationships
 																												</h2>
 																												<p>
@@ -182,11 +184,11 @@
 												<div id="bg-image" class="section blue-bg" data-index="3">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 3</div>
 																												<span>STAGE 3</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																											<h2 class="top-pad-56 no-left-pad">
 																																Capitalize on opportunities to convert
 																												</h2>
 																												<p>
@@ -212,11 +214,11 @@
 												<div id="bg-image" class="section blue-bg" data-index="4">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">stage 4</div>
 																												<span>STAGE 4</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																											<h2 class="top-pad-56 no-left-pad">
 																																Deliver relationship sales at scale
 																												</h2>
 																												<p>
@@ -242,11 +244,11 @@
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																						
-																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-110">
+																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164">
 																												<div class="stage-stroke mobile">_</div>
 																												<div class="section-title mobile">sales story</div>
 																												<span>SALES STORY</span>
-																											<h2 class="top-pad-110 no-left-pad">
+																											<h2 class="top-pad-56 no-left-pad">
 																																The view’s better from here
 																												</h2>
 																												<p>
@@ -278,7 +280,7 @@
 
 
 
-					<a id="url:external-watch-videos-now" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">WATCH NOW</a>
+<a id="watch-videos-now-footer" data-bi-bhvr="CLICK" data-bi-area="footer-module" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/sales/demo/" target="_blank">WATCH NOW</a>
 
 
 
@@ -295,29 +297,57 @@
 																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
-																												<path class="st0" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
+																												<path fill="#FFFFFF" class="st0 up-arrow" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
 		C-8.08,16.39-15.57,9.57-15.98,0.75z M8.57,0.99L7.16-0.43L0.7,6.03L0.74-9.85l-2.01,0l0.01,15.9l-6.4-6.4l-1.41,1.41l8.78,8.78
 		L8.57,0.99z" />
-																												<polygon class="st1" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
+
+
+
+																												<polygon fill="#008273" class="st1 up-arrow" points="-7.66,-0.35 -1.26,6.05 -1.27,-9.85 0.74,-9.85 0.7,6.03 7.16,-0.43 8.57,0.99 -0.29,9.85 -9.07,1.07" />
 																								</symbol>
 																								<use xlink:href="#Arrow-Circle-Up" width="32" height="32" id="XMLID_1_" x="-16" y="-16" transform="matrix(1 0 0 -1 16.0003 16.0003)" style="overflow:visible;" />
 																				</svg>
 																</a>
 
 
-																<DownloadSlider />
-																<UniversalFooter />
+																<!-- <DownloadSlider /> -->
+																<!-- <UniversalFooter /> -->
 												</div>
+<div id="msFooter" class="ms-footer section" data-index="7"></div>
+
+<!-- <div id="footerArea">
+	
+<div>
+	
+this is the footer area 
+
+</div>
+
+</div> -->
+
+
+
 								</full-page>
 				</div>
 </template>
 <script>
+
+
+
 import '../fullpage.fadingEffect.min'
 
 
 import UniversalFooter from '../components/UniversalFooter'
 import HeaderModule from '../components/HeaderModule'
 import DownloadSlider from '../components/DownloadSlider'
+
+
+
+
+
+import { EventBus } from '../main.js';
+
+import { FooterVariable } from '../main.js';
 
 export default {
 				data() {
@@ -331,9 +361,12 @@ export default {
 																autoScroll: false,
 																// autoScrolling:true,
 																afterLoad: this.afterLoad,
-																onLeave: this.onLeave
+																onLeave: this.onLeave,
+																 scrollOverflow: true
+
 												},
-												count: -1
+												count: -1,
+												 clickCount: 0
 								}
 
 				},
@@ -342,8 +375,16 @@ export default {
 								UniversalFooter,
 								HeaderModule,
 								DownloadSlider
+
 				},
+				variables:{
+
+FooterVariable
+
+				},
+
 				methods: {
+
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
 												navbar.classList.toggle('expanded');
@@ -362,8 +403,12 @@ export default {
 								onLeave: function(origin, destination) {
 
 
-					
+// 
+												// document.querySelector('.feedback-slider').classList.add('show');
 
+
+// let optom = document.querySelector('.feedback-slider');
+// optom.classList.add('fade-visible');
 
 
 if(!destination.index == 1){
@@ -373,8 +418,10 @@ if(!destination.index == 1){
 
 
 
-									if(destination.index == 0){
+									if(destination.index == 0 || destination.index == 7){
 										document.querySelector('.stage-box').style.opacity = 0;
+
+										// console.log('zero or seven')
 									}else{
 											document.querySelector('.stage-box').style.opacity = 1;
 									}
@@ -386,20 +433,32 @@ if(!destination.index == 1){
 												document.querySelector('.background-slide.slide-4').style.opacity = 0;
 												document.querySelector('.background-slide.slide-5').style.opacity = 0;
 												document.querySelector('.background-slide.slide-6').style.opacity = 0;
+
+
+												if(document.querySelector('.background-slide.slide-' + destination.index)){
 												document.querySelector('.background-slide.slide-' + destination.index).style.opacity = 1;
+												}
+
 												document.querySelector('.down-arrow-global').style.opacity = 0;
 								},
 
 								afterLoad: function(origin, destination) {
 
 
-
+						// console.log(destination);
 
 						this._data.count = destination.index - 1;
 
 		
+									if( destination.index == 7){
 
-												document.querySelector('.down-arrow-global').style.opacity = 1;
+												document.querySelector('.down-arrow-global').style.opacity = 0;		
+
+									}else{
+
+												document.querySelector('.down-arrow-global').style.opacity = 1;										
+									}
+
 
 												var landingHeader = document.querySelectorAll('.landing-element');
 												if (landingHeader) {
@@ -414,46 +473,7 @@ if(!destination.index == 1){
 																}
 												}
 
-												let slideIn = document.querySelector('.rect-bar-10.one');
-												if (slideIn) {
-																slideIn.classList.add('expanded-10');
-												}
 
-												let slideIn2 = document.querySelector('.rect-bar-10.two');
-												if (slideIn2) {
-																slideIn2.classList.add('expanded-50');
-												}
-
-												let slideIn3 = document.querySelector('.rect-bar-10.three');
-												if (slideIn3) {
-																slideIn3.classList.add('expanded-33');
-												}
-
-
-												let slideIn4 = document.querySelector('.rect-bar-10.four');
-												if (slideIn4) {
-																slideIn4.classList.add('expanded-50');
-												}
-
-												let slideIn5 = document.querySelector('.rect-bar-10.five');
-												if (slideIn5) {
-																slideIn5.classList.add('expanded-50');
-												}
-
-												let slideIn6 = document.querySelector('.rect-bar-10.six');
-												if (slideIn6) {
-																slideIn6.classList.add('expanded-50');
-												}
-
-												let slideIn7 = document.querySelector('.rect-bar-10.seven');
-												if (slideIn7) {
-																slideIn7.classList.add('expanded-50');
-												}
-
-												let slideIn8 = document.querySelector('.rect-bar-10.eight');
-												if (slideIn8) {
-																slideIn8.classList.add('expanded-50');
-												}
 
 												if (destination.index) {
 
@@ -481,8 +501,20 @@ if(!destination.index == 1){
 								}
 
 
+				},
+mounted() {
 
-				}
+if(!FooterVariable.name){
+ FooterVariable.name = document.getElementById("footerArea");
+
+}
+
+let msFooterChild = document.getElementById("msFooter").firstChild;
+msFooterChild.appendChild(FooterVariable.name);
+
+
+
+}
 
 }
 

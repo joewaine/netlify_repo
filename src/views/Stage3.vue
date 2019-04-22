@@ -1,9 +1,9 @@
 <template>
-				<div>
+				<div class="subpage">
 								<full-page ref="fullpage" :options="options">
 												<!-- next -->
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																<HeaderModule2 />
+																<!-- <HeaderModule2 /> -->
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -192,7 +192,7 @@
 																																																<div id="value" style="">96%</div> believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
 																																												</div>
 																																												<div class="white-text lm-twelve">
-																																																&mdash;&nbsp;<a class="white-article-link" href="http://results.heinzmarketing.com/rs/966-VWE-480/images/Sigstr_eBook_The_State_of_Relationship_Marketing.pdf?mkt_tok=eyJpIjoiWkdNM01UazFabVUzWWpVeSIsInQiOiJSRE1NMHBxaE9lN0pwQ1wvakFqMUh2OHNmUFlScDVDamRuQzhBbzEydjA5aWV1ZlhKR01TMGNYbnNuR2VYb0VrTXh0UEliT01RK3M5OVwvT1FnVUdNa0JOOWNFZngydys1VUM3WTdYbXJvdHJJYmxITWo4R0hZOTI2TGlrQUxUTlhiIn0%3D" id="url:external-heinz-marketing-report" target="_blank">"The Power of Relationship Selling." Heinz Marketing and Microsoft
+																																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-Heinz-report-The-power-of-relationship-selling.pdf" target="_blank">"The Power of Relationship Selling." Heinz Marketing and Microsoft
 																																																</a>
 																																												</div>
 																																								</div>
@@ -278,7 +278,7 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-lg">
-																																												Evaluate each customer relationship. Build a health profile from data based on transactions, customer sentiment, emails and content exchanges, and frequency and level of customer interactions from CRM, email, and social networks. Predictive analytics doesn’t just allow you to determine where new business opportunities lie. It also uncovers potential risks for each account—like reaching out during a prospect’s busiest week—so you know which contacts to reach out to, and how. With a clear picture of each sales relationship, you can proactively focus on those who need your attention and give space to those who don’t.
+																																												Evaluate each customer relationship. Build a health profile from data based on transactions, customer sentiment, emails, and content exchanges, as well as frequency and level of interactions from CRM, email, and social networks. Predictive analytics doesn’t just allow you to determine where new business opportunities lie. It also uncovers potential risks for each account—like reaching out during a prospect’s busiest week—so you know which contacts to reach out to, and how. With a clear picture of each sales relationship, you can proactively focus on those who need your attention and give space to those who don’t.
 																																								</p>
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
@@ -305,9 +305,22 @@
 												</div>
 												<!-- stage five -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
-																<Footer index="fade-opacity-6" />
-																<UniversalFooter />
+																<Footer index="fade-opacity-5" />
+																<!-- <UniversalFooter /> -->
 												</div>
+
+ <div id="msFooter" class="ms-footer section" data-index="7"></div>
+
+
+<!-- <div id="footerArea">
+	
+<div>
+	
+this is the footer area 
+
+</div>
+
+</div> -->
 								</full-page>
 				</div>
 </template>
@@ -316,6 +329,9 @@ import HeaderModule2 from '../components/HeaderModule2';
 import Footer from '../components/Footer';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
+
+
+import { FooterVariable } from '../main.js';
 
 import '../fullpage.fadingEffect.min'
 
@@ -476,6 +492,9 @@ export default {
 								BurgerMenu,
 								UniversalFooter,
 								Footer
+			},
+			variables: {
+					FooterVariable
 				},
 				methods: {
 								scrollToNext: function(element) {
@@ -494,7 +513,22 @@ export default {
 																top: 0
 												});
 								}
-				}
+				},
+
+mounted() {
+
+if(!FooterVariable.name){
+ FooterVariable.name = document.getElementById("footerArea");
+
+}
+
+let msFooterChild = document.getElementById("msFooter").firstChild;
+msFooterChild.appendChild(FooterVariable.name);
+
+
+
+}
+
 }
 
 </script>

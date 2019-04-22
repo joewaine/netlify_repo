@@ -1,10 +1,10 @@
 <template>
-				<div>
+				<div class="subpage">
 								<full-page ref="fullpage" :options="options">
 
 
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-																																<HeaderModule2 />
+																																<!-- <HeaderModule2 /> -->
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -311,10 +311,22 @@
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="6">
 
 
-																	<Footer index="fade-opacity-6" />
+																	<Footer index="fade-opacity-5" />
 
-																	<UniversalFooter />
+																	<!-- <UniversalFooter /> -->
 												</div>
+ <div id="msFooter" class="ms-footer section" data-index="7"></div>
+
+
+<!-- <div id="footerArea">
+	
+<div>
+	
+this is the footer area 
+
+</div>
+
+</div> -->
 								</full-page>
 				</div>
 </template>
@@ -325,7 +337,7 @@ import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import Footer from '../components/Footer.vue';
 
-
+import { FooterVariable } from '../main.js';
 
 	
 
@@ -461,6 +473,9 @@ export default {
 								Footer,
 				    UniversalFooter
 				},
+				variables: {
+					FooterVariable
+				},
 				methods: {
 								scrollToNext: function(element) {
 												window.scroll({
@@ -480,7 +495,20 @@ export default {
 																top: 0
 												});
 								}
-				}
+				},
+mounted() {
+
+if(!FooterVariable.name){
+ FooterVariable.name = document.getElementById("footerArea");
+
 }
 
+let msFooterChild = document.getElementById("msFooter").firstChild;
+msFooterChild.appendChild(FooterVariable.name);
+
+
+
+}
+
+}
 </script>

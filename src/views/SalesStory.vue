@@ -1,8 +1,8 @@
 <template>
-				<div>
+				<div class="subpage">
 								<full-page ref="fullpage" :options="options">
 												<div class="section stage-section btm-pad-xxl fp-auto-height" data-index="0">
-															<HeaderModule2 />
+															<!-- <HeaderModule2 /> -->
 																<section class="justify-content-center top-pad-xl">
 																				<div class="row no-lr-margin" style="">
 																								<div class="col-xl-5 col-6 offset-xl-1 no-lr-pad">
@@ -121,7 +121,7 @@
 
 
 																																								<div class="white-text lm-twelve">
-																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/dynamics365-nucleus-report-register.html" id="url:external-nucleus-report" target="_blank">Nucleus Report</a>
+																																&mdash;&nbsp;<a class="white-article-link" href="http://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-Whitepaper-NucleusReport.pdf" id="url:external-nucleus-report" target="_blank">Nucleus Report</a>
 
 
 
@@ -193,11 +193,28 @@
 												</div>
 												<!-- new versoin here -->
 												<div class="section fp-auto-height grey-bg relative btm-pad-footer" data-index="3">
-															<Footer index="fade-opacity-3" />
+															<Footer index="fade-opacity-2" />
 	
-															<UniversalFooter />
+															<!-- <UniversalFooter /> -->
 												</div>
+ <div id="msFooter" class="ms-footer section" data-index="4" style="height: auto !important"></div>
+						
+
 								</full-page>
+
+
+<!-- <div id="footerArea">
+	
+<div>
+	
+this is the footer area 
+
+</div>
+
+</div>
+ -->
+
+
 				</div>
 </template>
 
@@ -207,7 +224,7 @@ import UniversalFooter from '../components/UniversalFooter';
 import Footer from '../components/Footer';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'
-
+import { FooterVariable } from '../main.js';
 
 export default {
 
@@ -285,20 +302,20 @@ export default {
 																								if (destination.index == 1) {
 																										if (destination.index == 1) {
 
-																												// let slideIn = document.querySelector('.rect-bar-6.one');
-																												// if (slideIn) {
-																												// 				slideIn.classList.add('expanded-33');
-																												// }
+																												let slideIn = document.querySelector('.rect-bar-6.one');
+																												if (slideIn) {
+																																slideIn.classList.add('expanded-33');
+																												}
 
-																												// let slideIn2 = document.querySelector('.rect-bar-6.two');
-																												// if (slideIn2) {
-																												// 				slideIn2.classList.add('expanded-10');
-																												// }
+																												let slideIn2 = document.querySelector('.rect-bar-6.two');
+																												if (slideIn2) {
+																																slideIn2.classList.add('expanded-10');
+																												}
 
-																												// let slideIn3 = document.querySelector('.rect-bar-6.three');
-																												// if (slideIn3) {
-																												// 				slideIn3.classList.add('expanded-50');
-																												// }
+																												let slideIn3 = document.querySelector('.rect-bar-6.three');
+																												if (slideIn3) {
+																																slideIn3.classList.add('expanded-50');
+																												}
 
 
 
@@ -308,6 +325,9 @@ export default {
 
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
+
+
+																									console.log(sectionName);
 
 																								if (opacity) {
 																												for (var xi = 0; xi < opacity.length; ++xi) {
@@ -336,6 +356,9 @@ export default {
 								UniversalFooter,
 								Footer,
 								BurgerMenu
+				},
+				variables: {
+				FooterVariable
 				},
 				methods: {
 								scrollToNext: function(element) {
@@ -367,7 +390,22 @@ export default {
 
 
 								}
-				}
+				},
+
+mounted() {
+
+if(!FooterVariable.name){
+ FooterVariable.name = document.getElementById("footerArea");
+
+}
+
+let msFooterChild = document.getElementById("msFooter").firstChild;
+msFooterChild.appendChild(FooterVariable.name);
+
+
+
+}
+
 }
 
 </script>
