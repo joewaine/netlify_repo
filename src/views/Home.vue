@@ -4,7 +4,7 @@
 
 						
 								
-
+<div class="background-slide base-slide" style="opacity: 1;position: fixed;width: 100%;height: 102%;color: transparent;background-size: cover;">image</div>
 								<div class="background-slide slide-2 bg-tablet-smiling" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-3 bg-crowd-2" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-4 bg-view" style="opacity:1;position:fixed;">image</div>
@@ -434,7 +434,10 @@ FooterVariable
 								},
 								onLeave: function(origin, destination) {
 								
-						
+					
+
+
+
 
 if(!destination.index == 1){
 						this._data.count = destination.index - 1;
@@ -453,7 +456,7 @@ if(!destination.index == 1){
 
 								}else{
 
-
+document.querySelector('.background-slide.base-slide').style.opacity = 0;
 	document.querySelector('.background-slide.slide-0').style.opacity = 0;
 												document.querySelector('.background-slide.slide-1').style.opacity = 0;
 												document.querySelector('.background-slide.slide-2').style.opacity = 0;
@@ -467,6 +470,7 @@ if(!destination.index == 1){
 												document.querySelector('.background-slide.slide-' + destination.index).style.opacity = 1;
 													}else{
 														
+														document.querySelector('.background-slide.base-slide').style.opacity = 1;
 														document.querySelector('.background-slide.slide-0').style.opacity = 1;
 													}
 												}
@@ -483,6 +487,13 @@ if(!destination.index == 1){
 								},
 								afterLoad: function(origin, destination) {
 
+
+if(window.innerWidth > 992){
+									if(destination.index == 0){
+										console.log(destination.index)
+										fullpage_api.moveTo(2)
+									}
+}
 						this._data.count = destination.index - 1;
 		
 									if( destination.index == 7){
