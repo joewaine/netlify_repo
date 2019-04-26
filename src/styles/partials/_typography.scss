@@ -430,6 +430,30 @@ h2 {
 
 }
 
+.green-article-link {
+    // font-size: 1.2em;
+    font-size: 1em;
+    
+    font-family: $segoe;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    color: $text--btn-link;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+
+
+&.in-list{
+        font-size: 17.6px;
+
+}
+
+    &:hover {
+                    
+                    color: $text--dk-grey;
+    }
+
+}
+
 
 
 
@@ -546,4 +570,19 @@ h2 {
     }
 }
 
+
+
+.font-size-with-link-adjust{
+    font-family: $segoe;
+    font-size: 17.6px;
+    font-weight: 400;
+
+a.white-article-link{
+    font-size: 17.6px;
 }
+
+}
+
+}
+
+

@@ -270,7 +270,7 @@ nav#slideNav.expanded {
 }
 
 .bg-small-table {
-                background: url(assets/img/small-table.jpg) no-repeat center center;
+                background: url(assets/img/small-table.jpg) no-repeat top center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -326,7 +326,7 @@ nav#slideNav.expanded {
 }
 
 .bg-silhouette {
-                background: url(assets/img/silhouette.jpg) no-repeat center center;
+                background: url(assets/img/couch-vertical.jpg) no-repeat center center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -351,15 +351,24 @@ nav#slideNav.expanded {
 
 
 
-.bg-factory-tablet{
-                background: url(assets/img/bg-factory-tablet.jpg) no-repeat center center;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
+
+
+.bg-screen-shot{
+    background: url(assets/img/screenshot.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
+.bg-factory-tablet{
+    background: url(assets/img/bg-factory-tablet.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .bg-sweaters-square {
                 // background: url(assets/img/square/sweaters-square.jpg) no-repeat center center;
@@ -2228,7 +2237,7 @@ h2.top-pad-110.no-left-pad{
                                 padding-top: 10px;
                 }
                 .top-pad-164 {
-                                padding-top: 64px;
+                    padding-top: 114px;
                 }
 
 
@@ -2309,7 +2318,7 @@ h2.top-pad-110.no-left-pad{
                                 transition: width 0.5s ease;
                                 position: absolute;
                                 left: 0;
-                                top: 74px;
+                                top: 124px;
                                 display: block;
                                 // display: none;
 
@@ -2473,7 +2482,7 @@ h2.top-pad-110.no-left-pad{
 
 
                 .mobile-image {
-                                height: 500px;
+                                height: 460px;
                 }
 
 }
@@ -2511,6 +2520,10 @@ h2.top-pad-110.no-left-pad{
 
 bottom: 80px;
 right: 10px;
+
+&.landing{
+    bottom: 20px;
+}
 
 
                 }
@@ -2861,7 +2874,25 @@ position: absolute;
 }
 
 
+.slide-0,
 .slide-1 {
+
+
+
+    background: url(assets/img/home-hero.jpg) no-repeat center center;
+    width: 100%;
+    height: 102%;
+    color: transparent;
+    background-size: cover;
+    transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+
+}
+
+
+
+
+.slide-2 {
                 background: url(assets/img/stage-2.jpg) no-repeat center center;
                 width: 100%;
                 height: 102%;
@@ -2879,7 +2910,7 @@ position: absolute;
 
 
 
-.slide-2 {
+.slide-3 {
 
 
                 background: url(assets/img/sunset.jpg) no-repeat center center;
@@ -2892,50 +2923,6 @@ position: absolute;
                 -webkit-transition: opacity .5s ease;
 }
 
-.slide-3 {
-                background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
-                width: 100%;
-                height: 102%;
-                color: transparent;
-                background-size: cover;
-
-                transition: opacity .5s ease;
-                -webkit-transition: opacity .5s ease;
-}
-
-
-.slide-0 {
-
-
-
-                background: url(assets/img/home-hero.jpg) no-repeat center center;
-                width: 100%;
-                height: 102%;
-                color: transparent;
-                background-size: cover;
-
-                transition: opacity .5s ease;
-                -webkit-transition: opacity .5s ease;
-}
-
-
-.slide-6{
-
-
-background-color: $bg--grey;
-                // background: url(assets/img/home-hero.jpg) no-repeat center center;
-                width: 100%;
-                height: 102%;
-                color: transparent;
-                background-size: cover;
-
-                transition: opacity .5s ease;
-                -webkit-transition: opacity .5s ease;
-
-
-}
-
-
 .slide-4 {
                 background: url(assets/img/tablet-smiling.jpg) no-repeat center center;
                 width: 100%;
@@ -2945,25 +2932,34 @@ background-color: $bg--grey;
 
                 transition: opacity .5s ease;
                 -webkit-transition: opacity .5s ease;
-
-
-
-
-&.bg-view{
-             background: url(assets/img/stage-4.jpg) no-repeat center center;
-                             width: 100%;
-                height: 100%;
-                color: transparent;
-                background-size: cover;
-
-                transition: opacity .5s ease;
-                -webkit-transition: opacity .5s ease;
 }
 
-}
 
 
 .slide-5 {
+    background: url(assets/img/stage-4.jpg) no-repeat center center;
+    width: 100%;
+    height: 102%;
+    color: transparent;
+    background-size: cover;
+
+    transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.slide-6 {
                 background: url(assets/img/view.jpg) no-repeat center center;
                 width: 100%;
                 height: 100%;
@@ -2975,7 +2971,22 @@ background-color: $bg--grey;
 
 }
 
+.slide-7{
 
+
+    background-color: $bg--grey;
+                    // background: url(assets/img/home-hero.jpg) no-repeat center center;
+                    width: 100%;
+                    height: 102%;
+                    color: transparent;
+                    background-size: cover;
+    
+                    transition: opacity .5s ease;
+                    -webkit-transition: opacity .5s ease;
+    
+    
+    }
+    
 
 
 .stage-name-1,

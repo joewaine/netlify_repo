@@ -2,13 +2,16 @@
 				<div>
 
 
-								<div class="background-slide slide-0 bg-iphone" style="opacity:1;position:fixed;">image</div>
-								<div class="background-slide slide-1 bg-iphone" style="opacity:1;position:fixed;">image</div>
+						
+								
+
 								<div class="background-slide slide-2 bg-tablet-smiling" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-3 bg-crowd-2" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-4 bg-view" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-5 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div class="background-slide slide-6 bg-sunset" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-1 bg-iphone" style="opacity:1;position:fixed;">image</div>
+								<div class="background-slide slide-0 bg-iphone" style="opacity:1;position:fixed;">image</div>
 								<div v-bind:class="'content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0 down-arrow-global visibility'+count" style="background:transparent;width: 100%;height: 0px;position: fixed;bottom: 0;z-index: 100;">
 												<a id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark animated bounce" @click="$refs.fullpage.api.moveSectionDown()">next
 														
@@ -68,8 +71,10 @@
 																</div>
 												</div>
 								</div>
+
 								<full-page ref="fullpage" :options="options">
-												<div id="bg-image" class="section bg-home" data-index="0">
+
+												<div id="bg-image" class="section bg-home hide-on-desktop">
 																<!-- <HeaderModule /> -->
 																<div class="container relative" style="">
 																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
@@ -82,7 +87,7 @@
 																								</div>
 																				</div>
 																</div>
-																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="background: transparent;">
+																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="display:none;background: transparent;">
 																				<div class="white-transparent" style="position: absolute;bottom: 0px;height: 60vh;margin-left: -15px;">
 																								<div class="container offset-md-1 stage-line-border no-pad relative">
 																												<div class="col-md-10 col-sm-11 col-xs-12 top-pad-xl fadeInAnimation">
@@ -120,7 +125,60 @@
 																				</div>
 																</div>
 												</div>
-												<div id="bg-image" class="section blue-bg" data-index="1">
+
+
+												<div id="bg-image" class="section bg-home" data-index="0">
+																<!-- <HeaderModule /> -->
+																<div class="container relative" style="">
+																				<div style="position: absolute;width: 100%;height: 100%;z-index: 1;">
+																								<div class="row justify-content-center">
+																												<div class="col-lg-10 col-md-12">
+																																<h1 class="landing-top-pad-xl landing-element mobile-hide-subhead">
+																																				The savvy sales leader’s guide to building profitable relationships
+																																</h1>
+																												</div>
+																								</div>
+																				</div>
+																</div>
+																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0" style="background: transparent;">
+																				<div class="white-transparent white-transparent-block" style="position: absolute;bottom: 0px;margin-left: -15px;">
+																								<div class="container offset-md-1 stage-line-border no-pad relative">
+																												<div class="col-md-10 col-sm-11 col-xs-12 top-pad-xl fadeInAnimation">
+
+
+
+<!-- 
+																																<div class="stage-stroke mobile">_</div> -->
+																																<div class="section-title mobile">stage 1</div>
+																																<h2 class="green-text">
+																																Use relationship selling to connect with customers and accelerate sales
+																																</h2>
+																																<p>
+																						If every one of your connections turned to you for help in solving their greatest challenges at every stage of the sales journey, what would that do to your bottom line?
+																																</p>
+
+
+
+
+																<router-link id="url:overview-page" to="/overview" class="btn dark-btn">LEARN MORE</router-link>
+
+
+																																<!-- <router-link id="url:overview-page" to="/overview" class="btn dark-btn-border">LEARN MORE</router-link> -->
+																												</div>
+																								</div>
+																								<a style="display: none;" id="navigation:in-page-scroll-to-next-section" class="bottom-fix next down-arrow dark" @click="$refs.fullpage.api.moveSectionDown()">next
+																												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.54 19.8">
+																																<g id="Layer_2" data-name="Layer 2">
+																																				<g id="content">
+																																								<polygon class="cls-1" points="16.27 19.8 0 3.54 3.54 0 16.27 12.73 29 0 32.54 3.54 16.27 19.8" />
+																																				</g>
+																																</g>
+																												</svg>
+																								</a>
+																				</div>
+																</div>
+												</div>
+												<div id="bg-image" class="section fp-auto-height-responsive blue-bg" data-index="1">
 																<div class="content col-xl-5 col-md-12 offset-xl-2 col-lg-8 offset-lg-0">
 																				<div class="container offset-md-1 stage-line stage-line-border no-pad relative">
 																								<div class="col-md-9 col-sm-11 col-xs-12 offset-sm-1 no-left-pad top-pad-164 fadeInAnimation">
@@ -294,7 +352,7 @@
 																								<a id="url:external-try-it-out" class="btn dark-btn white-txt" href="https://dynamics.microsoft.com/en-us/get-started/?appname=sales" target="_blank">Request a demo</a>
 																				</div> -->
 																</div>
-																<a id="navigation:in-page-scroll-to-top" class="moveToTop" @click="$refs.fullpage.api.moveTo(1)">return to top
+																<a id="navigation:in-page-scroll-to-top" class="moveToTop landing" @click="$refs.fullpage.api.moveTo(1)">return to top
 																				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 																								<symbol id="Arrow-Circle-Up" viewBox="-16 -16 32 32">
 																												<path fill="#FFFFFF" class="st0 up-arrow" d="M-15.98,0.75c-0.41-8.83,6.41-16.32,15.24-16.73S15.57-9.57,15.98-0.75S9.57,15.57,0.75,15.98
@@ -320,9 +378,7 @@
 <div>
 	
 this is the footer area 
-
 </div>
-
 </div> -->
 
 
@@ -331,27 +387,14 @@ this is the footer area
 				</div>
 </template>
 <script>
-
-
-
 import '../fullpage.fadingEffect.min'
-
-
 import UniversalFooter from '../components/UniversalFooter'
 import HeaderModule from '../components/HeaderModule'
 import DownloadSlider from '../components/DownloadSlider'
-
-
-
-
-
 import { EventBus } from '../main.js';
-
 import { FooterVariable } from '../main.js';
-
 export default {
 				data() {
-
 								return {
 												options: {
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
@@ -362,104 +405,91 @@ export default {
 																// autoScrolling:true,
 																afterLoad: this.afterLoad,
 																onLeave: this.onLeave,
-																 scrollOverflow: true
+																 scrollOverflow: true
+																//  responsiveWidth: 960
 
 												},
 												count: -1,
 												 clickCount: 0
 								}
-
 				},
 				components: {
-
 								UniversalFooter,
 								HeaderModule,
 								DownloadSlider
-
 				},
 				variables:{
-
 FooterVariable
-
 				},
-
 				methods: {
-
 								burger: function() {
 												var navbar = document.querySelector('.navbar');
 												navbar.classList.toggle('expanded');
 								},
 								openMe: function() {
-
 												var downArrrow = document.querySelector('.down-arrow');
 												downArrrow.classList.add('paused');
-
-
-
 								},
 								landingFadeIn: function() {
-
 								},
 								onLeave: function(origin, destination) {
-
-
-// 
-												// document.querySelector('.feedback-slider').classList.add('show');
-
-
-// let optom = document.querySelector('.feedback-slider');
-// optom.classList.add('fade-visible');
-
+								
+						
 
 if(!destination.index == 1){
 						this._data.count = destination.index - 1;
 			}
-
-
-
-
-									if(destination.index == 0 || destination.index == 7){
+									if(destination.index == 1 || destination.index == 8){
 										document.querySelector('.stage-box').style.opacity = 0;
-
-										// console.log('zero or seven')
+								
 									}else{
 											document.querySelector('.stage-box').style.opacity = 1;
 									}
 
-												document.querySelector('.background-slide.slide-0').style.opacity = 0;
+
+								if(origin.index == 0){
+											
+										
+
+								}else{
+
+
+	document.querySelector('.background-slide.slide-0').style.opacity = 0;
 												document.querySelector('.background-slide.slide-1').style.opacity = 0;
 												document.querySelector('.background-slide.slide-2').style.opacity = 0;
 												document.querySelector('.background-slide.slide-3').style.opacity = 0;
 												document.querySelector('.background-slide.slide-4').style.opacity = 0;
 												document.querySelector('.background-slide.slide-5').style.opacity = 0;
 												document.querySelector('.background-slide.slide-6').style.opacity = 0;
-
-
 												if(document.querySelector('.background-slide.slide-' + destination.index)){
+													if(destination.index != 0 ){
+												
 												document.querySelector('.background-slide.slide-' + destination.index).style.opacity = 1;
+													}else{
+														
+														document.querySelector('.background-slide.slide-0').style.opacity = 1;
+													}
 												}
+
+
+								}
+
+											
+								
+
+
 
 												document.querySelector('.down-arrow-global').style.opacity = 0;
 								},
-
 								afterLoad: function(origin, destination) {
 
-
-						// console.log(destination);
-
 						this._data.count = destination.index - 1;
-
 		
 									if( destination.index == 7){
-
 												document.querySelector('.down-arrow-global').style.opacity = 0;		
-
 									}else{
-
 												document.querySelector('.down-arrow-global').style.opacity = 1;										
 									}
-
-
 												var landingHeader = document.querySelectorAll('.landing-element');
 												if (landingHeader) {
 																for (var i = 0; i < landingHeader.length; ++i) {
@@ -472,20 +502,13 @@ if(!destination.index == 1){
 																				slideRight[i6].classList.remove('slide-in-right');
 																}
 												}
-
-
-
 												if (destination.index) {
-
 																var sectionName = '.fade-opacity-' + destination.index;
 																var opacity = document.querySelectorAll(sectionName);
-
 																for (var i7 = 0; i7 < opacity.length; ++i7) {
-
 																				opacity[i7].classList.add('fade-visible');
 																}
 												}
-
 												if (destination.index) {
 																if (destination.index == 6) {
 																				document.getElementById('stage-line-container').style.pointerEvents = 'none';
@@ -495,27 +518,15 @@ if(!destination.index == 1){
 												} else {
 																document.getElementById('stage-line-container').style.pointerEvents = 'none';
 												}
-
 	
-
 								}
-
-
 				},
-mounted() {
-
+mounted() {
 if(!FooterVariable.name){
  FooterVariable.name = document.getElementById("footerArea");
-
 }
-
 let msFooterChild = document.getElementById("msFooter").firstChild;
 msFooterChild.appendChild(FooterVariable.name);
-
-
-
 }
-
 }
-
 </script>

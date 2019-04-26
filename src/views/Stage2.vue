@@ -101,7 +101,7 @@
  -->
 
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17" class="gep-ed-arrow arrow-direction--down"><g data-name="Layer 2"><g id="Text"><path d="M.36,2.05l14.8,14.6a1.2,1.2,0,0,0,1.68,0l14.8-14.6A1.2,1.2,0,0,0,30,.35L16,14.11,2,.35A1.19,1.19,0,0,0,.35.36a1.18,1.18,0,0,0,0,1.69Z" class="arrow-variant--white arrow-path arrow-path-white"></path></g></g></svg>
 
 																			</a>
 												</div>
@@ -198,7 +198,7 @@
 																																					
 
 																																	<div class="white-text lm-twelve">
-																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">"The Future of B2B Sales Is Built On Predictive Tools", Forrester Consulting
+																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%20Dynamics%20Future%20of%20B2B%20Sales%20Is%20Built%20on%20Predictive%20Tools.pdf" id="url:external-forrester-consulting-article" target="_blank">The Future of B2B Sales Is Built On Predictive Tools, Forrester Consulting
 																																												</a>
 																																								</div>
 
@@ -315,7 +315,7 @@
 
 																	<!-- <UniversalFooter /> -->
 												</div>
- <div id="msFooter" class="ms-footer section" data-index="7"></div>
+ <div id="msFooter" class="ms-footer section" data-index="7"></div>
 
 
 <!-- <div id="footerArea">
@@ -323,31 +323,20 @@
 <div>
 	
 this is the footer area 
-
 </div>
-
 </div> -->
 								</full-page>
 				</div>
 </template>
 <script>
-
 import HeaderModule2 from '../components/HeaderModule2';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import Footer from '../components/Footer.vue';
-
 import { FooterVariable } from '../main.js';
-
 	
-
 import '../fullpage.fadingEffect.min'
-
-
-
 export default {
-
-
 				data() {
 								return {
 												options: {
@@ -358,36 +347,26 @@ export default {
 																scrollBar: true,
 																fitToSection: false,
 																afterRender(){
-
 													
-
 																},
 																afterLoad: function(origin, destination) {
-
-
 												var slideInOnLanding = '.slide-in-1';
 												var slideLeftOnLanding = document.querySelector(slideInOnLanding);
 												if (slideLeftOnLanding) {
 																slideLeftOnLanding.classList.remove('slide-in-left');
 												}
-
-
-
 																				let slideIn = document.querySelector('.rect-bar-1.one');
 																					if (slideIn) {
 																						slideIn.classList.add('expanded-stage21');
 																					}
-
 																				let slideIn2 = document.querySelector('.rect-bar-1.two');
 																					if (slideIn2) {
 																						slideIn2.classList.add('expanded-stage22');
 																					}
-
 																					let slideIn3 = document.querySelector('.rect-bar-1.three');
 																					if (slideIn3) {
 																						slideIn3.classList.add('expanded-stage23');
 																					}
-
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
 																								for (var i = 0; i < landingHeader.length; ++i) {
@@ -400,40 +379,24 @@ export default {
 																												slideRight[ix].classList.remove('slide-in-right');
 																								}
 																				}
-
-
 																				if (destination.index) {
-
-
-
 																								if (destination.index == 1) {
-
-
-
 																						}
-
 																								if (destination.index == 4) {
-
 																				let slideIn = document.querySelector('.rect-bar-5.one');
 																					if (slideIn) {
 																						slideIn.classList.add('expanded-33');
 																					}
-
 																				let slideIn2 = document.querySelector('.rect-bar-5.two');
 																					if (slideIn2) {
 																						slideIn2.classList.add('expanded-10');
 																					}
-
 																					let slideIn3 = document.querySelector('.rect-bar-5.three');
 																					if (slideIn3) {
 																						slideIn3.classList.add('expanded-50');
 																					}
-
 																						}
 																						
-
-
-
 																								if (destination.index == 3) {
 																												var chartBar2 = document.querySelectorAll('.chart__bar');
 																												if (chartBar2) {
@@ -442,9 +405,6 @@ export default {
 																																}
 																												}
 																								}
-
-
-
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 																								if (opacity) {
@@ -458,10 +418,6 @@ export default {
 																												slideLeft.classList.remove('slide-in-left');
 																								}
 																				}
-
-
-
-
 																}
 												}
 								}
@@ -483,10 +439,8 @@ export default {
 																left: 0,
 																top: document.getElementById(element).offsetTop
 												});
-
 												var downArrrow = document.querySelectorAll('.down-arrow');
 												downArrrow.classList.add('paused');
-
 								},
 								scrollToTop: function() {
 												window.scroll({
@@ -496,19 +450,12 @@ export default {
 												});
 								}
 				},
-mounted() {
-
+mounted() {
 if(!FooterVariable.name){
  FooterVariable.name = document.getElementById("footerArea");
-
 }
-
 let msFooterChild = document.getElementById("msFooter").firstChild;
 msFooterChild.appendChild(FooterVariable.name);
-
-
-
 }
-
 }
 </script>

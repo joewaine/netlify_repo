@@ -64,11 +64,21 @@
 
 
 
-.slide-1, .slide-2, .slide-3, .slide-4, .slide-5{
-display: none;
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6{
+// display: none;
+background-position: 78% 50%;
 
 }
 
+}
+
+
+.hide-on-desktop{
+	display: none;
+}
+
+.white-transparent-block{
+	height: 60vh;
 }
 
 
@@ -144,6 +154,23 @@ h3{
 
 .bg-home h1{
 	width: 90%;
+}
+
+
+.hide-on-desktop{
+	display: block;
+}
+
+.slide-0,
+.slide-1{
+    background-position: 87% 50%;
+}
+.mobile-hide-subhead{
+	display: none;
+}
+
+.white-transparent-block{
+	height: 100vh;
 }
 
 }
@@ -272,6 +299,13 @@ ul.secondary-list li{
 
 
 }
+
+
+.top-pad-xl,
+.landing-top-pad-xl{
+    padding-top: 3em;
+}
+
 
 }
 

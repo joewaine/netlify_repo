@@ -1,4 +1,4 @@
-												<!-- <section class="container-fluid">
+<!-- <section class="container-fluid">
     <div class="row">
     <div class="col p-0 d-flex justify-content-end" style="background: red;">
         <h1 class="w-100" style="background: black; max-width: 500px;">Something</h1>
@@ -8,7 +8,7 @@
         </div>
     </div>
 </section> -->
-												<div class="section fp-auto-height" data-index="1" style="display: none;">
+<div class="section fp-auto-height" data-index="1" style="display: none;">
 																<div class="container no-pad">
 																				<div class="row justify-content-center no-margin grey-bg">
 																								<div class="col-lg-6 col-md-10 grey-bg btm-pad-xxl grey-bg btm-pad-xxl">

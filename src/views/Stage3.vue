@@ -52,7 +52,7 @@
 												<div class="section fp-auto-height" data-index="1">
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
-																								<div class="col-xl-5 no-lr-pad bg-surface btm-pad-xxl text-center mobile-image">
+																								<div class="col-xl-5 no-lr-pad bg-factory-tablet btm-pad-xxl text-center mobile-image">
 																												<div class="rect-bar-1 one">.</div>
 																												<div class="rect-bar-1 two">.</div>
 																												<div class="rect-bar-1 three">.</div>
@@ -192,7 +192,7 @@
 																																																<div id="value" style="">96%</div> believe their relationship with a target account’s stakeholder or champion played a major role in the outcome of a sale.
 																																												</div>
 																																												<div class="white-text lm-twelve">
-																																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-Heinz-report-The-power-of-relationship-selling.pdf" target="_blank">"The Power of Relationship Selling." Heinz Marketing and Microsoft
+																																																&mdash;&nbsp;<a class="white-article-link" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-Heinz-report-The-power-of-relationship-selling.pdf" target="_blank">The Power of Relationship Selling, Heinz Marketing and Microsoft
 																																																</a>
 																																												</div>
 																																								</div>
@@ -263,10 +263,8 @@
 												<div class="section fp-auto-height overflowed-section-bottom" data-index="5">
 																<section class="justify-content-center">
 																				<div class="row no-lr-margin">
-																								<div class="col-xl-6 bg-factory-tablet mobile-image">
-																												<div class="rect-bar-5 one">.</div>
-																												<div class="rect-bar-5 two">.</div>
-																												<div class="rect-bar-5 three">.</div>
+																								<div class="col-xl-6 bg-screen-shot mobile-image">
+																											
 																								</div>
 																								<div class="col-xl-6 offset-xl-0 no-pad">
 																												<div class="container no-lr-pad top-pad-xxl btm-pad-xxl">
@@ -278,7 +276,7 @@
 																																												</span>
 																																								</h2>
 																																								<p class="top-pad-lg">
-																																												Evaluate each customer relationship. Build a health profile from data based on transactions, customer sentiment, emails, and content exchanges, as well as frequency and level of interactions from CRM, email, and social networks. Predictive analytics doesn’t just allow you to determine where new business opportunities lie. It also uncovers potential risks for each account—like reaching out during a prospect’s busiest week—so you know which contacts to reach out to, and how. With a clear picture of each sales relationship, you can proactively focus on those who need your attention and give space to those who don’t.
+																																												Evaluate each customer relationship. Build a health profile from data based on transactions, customer sentiment, emails, and content exchanges, as well as frequency and level of interactions from CRM, email, and social networks. Predictive analytics doesn’t just allow you to determine where new business opportunities lie. It also uncovers potential risks for each account—like reaching out during a prospect’s busiest week—so you know which contacts to reach out to, and how. With a clear picture of each sales relationship, you can proactively focus on those who need your attention and give space to those who don’t.
 																																								</p>
 																																								<p>
 																																												Machine learning lets you know exactly when to re-engage an inactive buyer and helps you determine which customer emails are the most critical. Artificial intelligence–driven insights can deliver recommended next actions that enhance the experience for you and your customers.
@@ -309,7 +307,7 @@
 																<!-- <UniversalFooter /> -->
 												</div>
 
- <div id="msFooter" class="ms-footer section" data-index="7"></div>
+ <div id="msFooter" class="ms-footer section" data-index="7"></div>
 
 
 <!-- <div id="footerArea">
@@ -317,9 +315,7 @@
 <div>
 	
 this is the footer area 
-
 </div>
-
 </div> -->
 								</full-page>
 				</div>
@@ -329,19 +325,12 @@ import HeaderModule2 from '../components/HeaderModule2';
 import Footer from '../components/Footer';
 import UniversalFooter from '../components/UniversalFooter';
 import BurgerMenu from '../components/BurgerMenu.vue';
-
-
 import { FooterVariable } from '../main.js';
-
 import '../fullpage.fadingEffect.min'
-
-
-
 export default {
 				data() {
 								return {
 												options: {
-
 																licenseKey: 'F747FF40-5C8F4AA6-90091DEC-9F6B7E17',
 																fadingEffect: false,
 																fadingEffectKey: 'bmV0bGlmeS5jb21fem5XWm1Ga2FXNW5SV1ptWldOMDB2OA==',
@@ -349,36 +338,25 @@ export default {
 																scrollBar: true,
 																fitToSection: false,
 																afterRender() {
-
-
 																},
 																afterLoad: function(origin, destination) {
-
-
 												var slideInOnLanding = '.slide-in-1';
 												var slideLeftOnLanding = document.querySelector(slideInOnLanding);
 												if (slideLeftOnLanding) {
 																slideLeftOnLanding.classList.remove('slide-in-left');
 												}
-
-
 																												let slideIn = document.querySelector('.rect-bar-1.one');
 																												if (slideIn) {
 																																slideIn.classList.add('expanded-33');
 																												}
-
 																												let slideIn2 = document.querySelector('.rect-bar-1.two');
 																												if (slideIn2) {
 																																slideIn2.classList.add('expanded-10');
 																												}
-
 																												let slideIn3 = document.querySelector('.rect-bar-1.three');
 																												if (slideIn3) {
 																																slideIn3.classList.add('expanded-50');
 																												}
-
-
-
 																				var landingHeader = document.querySelectorAll('.landing-element');
 																				if (landingHeader) {
 																								for (var i = 0; i < landingHeader.length; ++i) {
@@ -391,52 +369,35 @@ export default {
 																												slideRight[it].classList.remove('slide-in-right');
 																								}
 																				}
-
 																				if (destination.index) {
-
 																								if (destination.index == 1) {
-
 																												// let slideIn = document.querySelector('.rect-bar-1.one');
 																												// if (slideIn) {
 																												// 				slideIn.classList.add('expanded-33');
 																												// }
-
 																												// let slideIn2 = document.querySelector('.rect-bar-1.two');
 																												// if (slideIn2) {
 																												// 				slideIn2.classList.add('expanded-10');
 																												// }
-
 																												// let slideIn3 = document.querySelector('.rect-bar-1.three');
 																												// if (slideIn3) {
 																												// 				slideIn3.classList.add('expanded-50');
 																												// }
-
 																								}
-
 																								if (destination.index == 4) {
-
 																												let slideIn = document.querySelector('.rect-bar-5.one');
 																												if (slideIn) {
 																																slideIn.classList.add('expanded-33');
 																												}
-
 																												let slideIn2 = document.querySelector('.rect-bar-5.two');
 																												if (slideIn2) {
 																																slideIn2.classList.add('expanded-10');
 																												}
-
 																												let slideIn3 = document.querySelector('.rect-bar-5.three');
 																												if (slideIn3) {
 																																slideIn3.classList.add('expanded-50');
 																												}
-
 																								}
-
-
-
-
-
-
 																								if (destination.index == 3) {
 																												var chartBar2 = document.querySelectorAll('.chart__bar');
 																												if (chartBar2) {
@@ -445,8 +406,6 @@ export default {
 																																}
 																												}
 																								}
-
-
 																								// if (destination.index == 3) {
 																								// 				function animateValue(id, start, end, duration) {
 																								// 								var range = end - start;
@@ -462,10 +421,8 @@ export default {
 																								// 												}
 																								// 								}, stepTime);
 																								// 				}
-
 																								// 				animateValue("value", 50, 96, 1000);
 																								// }
-
 																								var sectionName = '.fade-opacity-' + destination.index;
 																								var opacity = document.querySelectorAll(sectionName);
 																								if (opacity) {
@@ -479,9 +436,6 @@ export default {
 																												slideLeft.classList.remove('slide-in-left');
 																								}
 																				}
-
-
-
 																}
 												}
 								}
@@ -514,21 +468,12 @@ export default {
 												});
 								}
 				},
-
-mounted() {
-
+mounted() {
 if(!FooterVariable.name){
  FooterVariable.name = document.getElementById("footerArea");
-
 }
-
 let msFooterChild = document.getElementById("msFooter").firstChild;
 msFooterChild.appendChild(FooterVariable.name);
-
-
-
 }
-
 }
-
 </script>

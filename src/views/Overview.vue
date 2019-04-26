@@ -122,8 +122,8 @@
 																																																<li>
 																																																
 
-																																								<div class="grey-text lm-twelve top-pad-lg">
-																																&mdash;&nbsp;<a class="grey-article-link in-list" href="http://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-Whitepaper-NucleusReport.pdf" id="url:external-nucleus-report" target="_blank">Nucleus Report
+																																								<div class="grey-text lm-twelve top-pad-lg font-size-with-link-adjust">
+																																&mdash;&nbsp;<a class="green-article-link in-list" href="http://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-Whitepaper-NucleusReport.pdf" id="url:external-nucleus-report" target="_blank">Nucleus Report
 																																												</a>
 
 
@@ -227,16 +227,14 @@
 																<Footer index="fade-opacity-2" />
 																<!-- <UniversalFooter /> -->
 												</div>
- <div id="msFooter" class="ms-footer section" data-index="4"></div>
+ <div id="msFooter" class="ms-footer section" data-index="4"></div>
 						
 <!-- <div id="footerArea">
 	
 <div>
 	
 this is the footer area 
-
 </div>
-
 </div> -->
 
  
@@ -255,18 +253,12 @@ this is the footer area
 <script>
 import { EventBus } from '../main.js';
 import { FooterVariable } from '../main.js';
-
-
-
 import HeaderModule2 from '../components/HeaderModule2';
 import UniversalFooter from '../components/UniversalFooter';
 import Footer from '../components/Footer';
 import BurgerMenu from '../components/BurgerMenu.vue';
 import '../fullpage.fadingEffect.min'
-
 export default {
-
-
 				data() {
 								return {
 												options: {
@@ -278,11 +270,7 @@ export default {
 																fitToSection: false,
 																afterLoad: this.afterLoad,
 																afterRender(){
-
 																
-
-
-
 																}
 												},
 								}
@@ -295,15 +283,9 @@ export default {
 								HeaderModule2
 				},
 				variables:{
-
 FooterVariable
-
 				},
-
 				methods: {
-
-
-
 								scrollToZero: function() {
 												window.scrollTo(0, 0);
 								},
@@ -314,58 +296,30 @@ FooterVariable
 																top: 0
 												});
 								},
-
 								backgroundChange: function(indexNumber) {
-
-
-
-
-
-
 setTimeout(function(){ 
-
-
 			document.querySelector('#image-background-fades').style.background = 'transparent';
-
  }, 1000);
-
-
-
-
 												document.querySelector('.background-slide-square.slide-1').style.opacity = 0;
 												document.querySelector('.background-slide-square.slide-2').style.opacity = 0;
 												document.querySelector('.background-slide-square.slide-3').style.opacity = 0;
 												document.querySelector('.background-slide-square.slide-4').style.opacity = 0;
 												document.querySelector('.background-slide-square.slide-5').style.opacity = 0;
-
 												document.querySelector('.background-slide-square.slide-' + indexNumber).style.opacity = 1;
-
 								},
 								landingFadeIn: function() {
-
 												var landingHeader = document.querySelectorAll('.landing-element');
 												for (var i = 0; i < landingHeader.length; ++i) {
 																landingHeader[i].classList.add('fade-visible');
 												}
-
 												var slideRight = document.querySelectorAll('.slide-in');
 												for (var i2 = 0; i2 < slideRight.length; ++i2) {
 																slideRight[i2].classList.remove('slide-in-right');
 												}
-
-
 								},
 		
 								afterLoad: function(origin, destination) {
-
-
 								
-
-
-
-
-
-
 												var landingHeader = document.querySelectorAll('.landing-element');
 												if (landingHeader) {
 																for (var i = 0; i < landingHeader.length; ++i) {
@@ -378,82 +332,53 @@ setTimeout(function(){
 																				slideRight[i2].classList.remove('slide-in-right');
 																}
 												}
-
 												var slideInOnLanding = '.slide-in-1';
 												var slideLeftOnLanding = document.querySelector(slideInOnLanding);
 												if (slideLeftOnLanding) {
 																slideLeftOnLanding.classList.remove('slide-in-left');
 												}
 												
-
 												// console.log(destination.index);
-
 												if (destination.index) {
 																var sectionName = '.fade-opacity-' + destination.index;
 																var opacity = document.querySelectorAll(sectionName);
-
-
 																console.log(sectionName);
-
 																for (var i3 = 0; i3 < opacity.length; ++i3) {
 																				opacity[i3].classList.add('fade-visible-2');
 																}
-
-
 																var sectionName2 = '.slide-in-' + destination.index;
 																var slideLeft = document.querySelector(sectionName2);
 																if (slideLeft) {
 																				slideLeft.classList.remove('slide-in-left');
 																}
 												}
-
-
 												if (destination.index == 2) {
-
 																let slideIn = document.querySelector('.rect-bar-2.one');
 																if (slideIn) {
 																				slideIn.classList.add('expanded-33');
 																}
-
 																let slideIn2 = document.querySelector('.rect-bar-2.two');
 																if (slideIn2) {
 																				slideIn2.classList.add('expanded-10');
 																}
-
 																let slideIn3 = document.querySelector('.rect-bar-2.three');
 																if (slideIn3) {
 																				slideIn3.classList.add('expanded-50');
 																}
-
 																let slideIn4 = document.querySelector('.rect-bar-2.four');
 																if (slideIn4) {
 																				slideIn4.classList.add('expanded-50');
 																}
-
 												}
-
-
-
-
 								}
 							},
 			
-mounted() {
-
+mounted() {
 if(!FooterVariable.name){
  FooterVariable.name = document.getElementById("footerArea");
-
 }
-
 let msFooterChild = document.getElementById("msFooter").firstChild;
 msFooterChild.appendChild(FooterVariable.name);
-
-
-
 }
-
-
 }
-
-
 </script>
